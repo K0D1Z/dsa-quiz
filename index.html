@@ -563,6 +563,7 @@ function startStudyMode(fresh) {
 }
 
 function renderStudyPage() {
+  window.scrollTo(0, 0);
   const indices = currentStudyIndices();
   document.getElementById('study-batch-result').classList.add('hidden');
   document.getElementById('study-next-btn').classList.add('hidden');
