@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algorytmy i Struktury Danych — Quiz</title>
+<style>
+  :root {
+    --accent: #3498db;
+    --accent-dark: #2980b9;
+    --correct: #27ae60;
+    --correct-bg: #eafaf1;
+    --wrong: #c0392b;
+    --wrong-bg: #fdf2f0;
+    --missed: #e67e22;
+    --text: #2c3e50;
+    --muted: #7f8c8d;
+    --border: #ddd;
+    --bg: #f4f4f9;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 24px 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  }
+
+  h1 { text-align: center; color: var(--text); margin-top: 0; font-size: 1.6em; }
+  .subtitle { text-align: center; color: var(--muted); margin-top: -6px; margin-bottom: 24px; font-size: 0.95em; }
+
+  .hidden { display: none !important; }
+
+  /* ---------- Menu ---------- */
+  .mode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  @media (max-width: 600px) { .mode-grid { grid-template-columns: 1fr; } }
+
+  .mode-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px;
+    background: #fafbfc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .mode-card h2 { margin: 0; font-size: 1.15em; color: var(--text); }
+  .mode-card p { margin: 0; color: var(--muted); font-size: 0.92em; flex-grow: 1; }
+  .mode-card .info-line { font-size: 0.85em; color: var(--accent-dark); min-height: 1.2em; }
+
+  button.primary-btn {
+    padding: 11px 16px; background: var(--accent); color: #fff; border: none;
+    border-radius: 5px; font-size: 15px; cursor: pointer; font-weight: 600;
+  }
+  button.primary-btn:hover { background: var(--accent-dark); }
+  button.primary-btn:disabled { background: #a9c8de; cursor: not-allowed; }
+
+  button.secondary-btn {
+    padding: 9px 14px; background: #fff; color: var(--accent-dark); border: 1px solid var(--accent);
+    border-radius: 5px; cursor: pointer; font-size: 14px;
+  }
+  button.secondary-btn:hover { background: #eaf4fb; }
+
+  button.link-btn {
+    background: none; border: none; color: var(--accent-dark); cursor: pointer;
+    font-size: 14px; padding: 4px 0; text-decoration: underline;
+  }
+
+  .btn-block { width: 100%; margin-top: 12px; }
+
+  .resume-banner {
+    border: 1px solid var(--accent); background: #eaf4fb; border-radius: 6px;
+    padding: 14px 16px; margin-bottom: 20px; display: flex; flex-wrap: wrap;
+    align-items: center; justify-content: space-between; gap: 10px;
+  }
+  .resume-banner .resume-actions { display: flex; gap: 8px; }
+
+  /* ---------- Progress / timer ---------- */
+  .top-bar {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 14px; flex-wrap: wrap; gap: 8px;
+  }
+  .progress-text { font-size: 0.9em; color: var(--muted); }
+  .progress-bar-track {
+    width: 100%; height: 8px; background: #e6e9ec; border-radius: 4px; overflow: hidden; margin-bottom: 18px;
+  }
+  .progress-bar-fill { height: 100%; background: var(--accent); transition: width 0.3s ease; }
+
+  .timer-bar {
+    position: sticky; top: 0; background: #fff; z-index: 10;
+    padding: 10px 0 14px; margin-bottom: 8px;
+    display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 2px solid var(--accent);
+  }
+  .timer-display { font-size: 1.3em; font-weight: bold; color: var(--text); font-variant-numeric: tabular-nums; }
+  .timer-display.timer-warning { color: var(--wrong); animation: pulse 1s infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+  /* ---------- Pytania ---------- */
+  .question-block {
+    margin-bottom: 18px; padding: 16px; border: 1px solid var(--border);
+    border-radius: 6px; background-color: #fafafa; transition: background-color .2s, border-color .2s;
+  }
+  .question-block.block-correct { border-color: var(--correct); background: var(--correct-bg); }
+  .question-block.block-wrong { border-color: var(--wrong); background: var(--wrong-bg); }
+
+  .question-category {
+    font-size: 0.78em; color: var(--muted); text-transform: uppercase;
+    letter-spacing: 0.03em; margin-bottom: 6px;
+  }
+  .question-text { font-weight: bold; margin-bottom: 10px; overflow-wrap: break-word; }
+
+  .options-list { list-style: none; padding: 0; margin: 0; }
+  .options-list li { margin-bottom: 4px; }
+  .options-list label {
+    cursor: pointer; display: flex; align-items: flex-start; gap: 10px;
+    padding: 6px 8px; border-radius: 5px;
+  }
+  .options-list label:hover { background: rgba(52, 152, 219, 0.07); }
+  .options-list input[type="checkbox"] {
+    margin-top: 4px; flex-shrink: 0; width: 17px; height: 17px; cursor: pointer;
+  }
+  .options-list input[type="checkbox"]:disabled { cursor: default; }
+
+  /* KLUCZOWA POPRAWKA: tekst opcji jako kurczliwy element flex, żeby długie
+     wzory (mjx-container) nie rozpychały wiersza poza kartę pytania */
+  .option-text { flex: 1 1 auto; min-width: 0; overflow-wrap: break-word; }
+
+  /* KLUCZOWA POPRAWKA: MathJax nie może być szerszy niż jego kontener */
+  mjx-container { overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+  mjx-container[display="true"] { margin: 0.3em 0 !important; }
+
+  .correct-answer { color: var(--correct); font-weight: bold; }
+  .wrong-answer { color: var(--wrong); font-weight: bold; text-decoration: line-through; }
+  .missed-correct {
+    color: var(--missed); font-weight: bold; border: 1px dashed var(--missed);
+    border-radius: 4px; padding: 1px 4px;
+  }
+
+  .batch-result {
+    margin: 14px 0; padding: 12px 14px; background: #eef6fc; border-left: 4px solid var(--accent);
+    border-radius: 4px; font-size: 1.05em;
+  }
+
+  /* ---------- Podsumowanie ---------- */
+  .summary-box { text-align: center; padding: 10px 0 6px; }
+  .summary-score { font-size: 2em; font-weight: bold; margin: 10px 0 20px; }
+  .summary-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 10px; }
+
+  @media (max-width: 600px) {
+    body { padding: 10px; }
+    .container { padding: 16px; }
+    h1 { font-size: 1.3em; }
+  }
+</style>
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Algorytmy i Struktury Danych — Quiz</h1>
+  <p class="subtitle"><span id="db-count-badge"></span></p>
+
+  <!-- ===================== MENU ===================== -->
+  <div id="menu-screen" class="screen">
+    <div id="resume-banner" class="resume-banner hidden">
+      <span id="resume-text"></span>
+      <div class="resume-actions">
+        <button type="button" class="primary-btn" id="resume-continue-btn">Kontynuuj</button>
+        <button type="button" class="secondary-btn" id="resume-discard-btn">Zacznij od nowa</button>
+      </div>
+    </div>
+
+    <div class="mode-grid">
+      <div class="mode-card">
+        <h2>Tryb Nauki</h2>
+        <p>Przechodzisz przez całą bazę pytań w turach po 20. Po każdej turze widzisz wynik i poprawne odpowiedzi, zanim przejdziesz dalej. Postęp zapisuje się automatycznie.</p>
+        <div class="info-line" id="study-resume-info"></div>
+        <button type="button" class="primary-btn" id="start-study-btn">Rozpocznij naukę</button>
+      </div>
+      <div class="mode-card">
+        <h2>Tryb Egzaminacyjny</h2>
+        <p>50 losowych pytań z całej bazy, 75 minut na rozwiązanie. Wynik i poprawne odpowiedzi zobaczysz dopiero po zakończeniu lub gdy czas się skończy.</p>
+        <div class="info-line" id="exam-resume-info"></div>
+        <button type="button" class="primary-btn" id="start-exam-btn">Rozpocznij egzamin</button>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:10px;">
+      <button type="button" class="link-btn" id="reset-progress-btn">Wyczyść cały zapisany postęp</button>
+    </div>
+  </div>
+
+  <!-- ===================== NAUKA ===================== -->
+  <div id="study-screen" class="screen hidden">
+    <div class="top-bar">
+      <button type="button" class="link-btn" id="study-menu-btn">← Powrót do menu</button>
+      <span class="progress-text" id="study-progress-text"></span>
+    </div>
+    <div class="progress-bar-track"><div class="progress-bar-fill" id="study-progress-fill" style="width:0%"></div></div>
+
+    <div id="study-quiz-container"></div>
+    <div id="study-batch-result" class="batch-result hidden"></div>
+    <button type="button" class="primary-btn btn-block" id="study-submit-btn">Sprawdź te pytania</button>
+    <button type="button" class="primary-btn btn-block hidden" id="study-next-btn"></button>
+  </div>
+
+  <!-- ===================== EGZAMIN ===================== -->
+  <div id="exam-screen" class="screen hidden">
+    <div class="timer-bar">
+      <button type="button" class="link-btn" id="exam-menu-btn">← Powrót do menu</button>
+      <div>Pozostały czas: <span class="timer-display" id="exam-timer">75:00</span></div>
+    </div>
+    <div id="exam-quiz-container"></div>
+    <button type="button" class="primary-btn btn-block" id="exam-submit-btn">Zakończ egzamin i sprawdź wynik</button>
+  </div>
+
+  <!-- ===================== POWTÓRKA BŁĘDÓW ===================== -->
+  <div id="review-screen" class="screen hidden">
+    <div class="top-bar">
+      <button type="button" class="link-btn" id="review-menu-btn">← Powrót do menu</button>
+      <span class="progress-text" id="review-progress-text"></span>
+    </div>
+    <div id="review-quiz-container"></div>
+    <div id="review-batch-result" class="batch-result hidden"></div>
+    <button type="button" class="primary-btn btn-block" id="review-submit-btn">Sprawdź</button>
+    <button type="button" class="primary-btn btn-block hidden" id="review-next-btn"></button>
+  </div>
+
+  <!-- ===================== PODSUMOWANIE ===================== -->
+  <div id="summary-screen" class="screen hidden">
+    <div class="summary-box">
+      <h2 id="summary-title">Podsumowanie</h2>
+      <div class="summary-score" id="summary-score">0 / 0</div>
+      <div class="summary-actions">
+        <button type="button" class="primary-btn hidden" id="summary-review-btn"></button>
+        <button type="button" class="secondary-btn hidden" id="summary-restart-btn"></button>
+        <button type="button" class="secondary-btn" id="summary-menu-btn">Powrót do menu</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <!-- ===================== BAZA PYTAŃ ===================== -->
+<script src="questions.js"></script>
+
+<script>
+/* =========================================================
+   MATHJAX — bezpieczne typesetowanie po każdej zmianie strony
+   ========================================================= */
+const mathJaxReady = new Promise(resolve => {
+  (function check() {
+    if (window.MathJax && window.MathJax.typesetPromise) resolve();
+    else setTimeout(check, 50);
+  })();
+});
+
+function clearMathIfPossible(container) {
+  if (window.MathJax && MathJax.typesetClear) {
+    try { MathJax.typesetClear([container]); } catch (e) { /* ignoruj */ }
+  }
+}
+
+function typesetMath(container) {
+  return mathJaxReady
+    .then(() => MathJax.typesetPromise([container]))
+    .catch(err => console.error('Błąd renderowania MathJax:', err));
+}
+
+/* =========================================================
+   NARZĘDZIA
+   ========================================================= */
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function formatTime(ms) {
+  const totalSec = Math.max(0, Math.ceil(ms / 1000));
+  const m = Math.floor(totalSec / 60);
+  const s = totalSec % 60;
+  return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+}
+
+function colorForPercent(pct) {
+  if (pct >= 80) return '#27ae60';
+  if (pct >= 50) return '#f39c12';
+  return '#c0392b';
+}
+
+// Pula pytań bez duplikatów treści — używana TYLKO do losowania w trybie
+// egzaminacyjnym, żeby to samo pytanie nie trafiło dwa razy do jednego testu.
+// Nie modyfikuje bazy danych ani trybu nauki (ten idzie po całej bazie 1:1).
+function getUniqueQuestionPool() {
+  const seen = new Set();
+  const pool = [];
+  questionDatabase.forEach((q, i) => {
+    if (!seen.has(q.text)) { seen.add(q.text); pool.push(i); }
+  });
+  return pool;
+}
+
+/* =========================================================
+   ZAPIS POSTĘPU (localStorage)
+   ========================================================= */
+const STORAGE_KEY = 'aisd_quiz_progress_v1';
+
+function defaultState() {
+  return {
+    study: { pageIndex: 0, totalScore: 0, wrongIndices: [], finished: false },
+    exam: {
+      active: false, finished: false, questionIndices: [], answers: {},
+      startTs: null, endTs: null, wrongIndices: [], lastScore: null
+    }
+  };
+}
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return defaultState();
+    const parsed = JSON.parse(raw);
+    const base = defaultState();
+    return {
+      study: Object.assign(base.study, parsed.study),
+      exam: Object.assign(base.exam, parsed.exam)
+    };
+  } catch (e) {
+    console.warn('Nie udało się odczytać zapisanego postępu:', e);
+    return defaultState();
+  }
+}
+
+function saveState() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(appState)); }
+  catch (e) { console.warn('Nie udało się zapisać postępu:', e); }
+}
+
+let appState = loadState();
+
+/* =========================================================
+   EKRANY
+   ========================================================= */
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  window.scrollTo(0, 0);
+}
+
+function goToMenu() {
+  if (examTimerHandle) clearInterval(examTimerHandle);
+  renderMenu();
+  showScreen('menu-screen');
+}
+
+/* =========================================================
+   BUDOWANIE I OCENIANIE PYTAŃ (wspólne dla wszystkich trybów)
+   ========================================================= */
+/**
+ * Builds a DOM element for a single question, randomizing the display order of options.
+ * * @param {number} qIndex - The index of the question in the global questionDatabase.
+ * @param {number} displayNumber - The sequential number to display next to the question text.
+ * @returns {HTMLDivElement} The constructed question block DOM element containing the text and randomized options.
+ */
+function buildQuestionElement(qIndex, displayNumber) {
+  const q = questionDatabase[qIndex];
+  const block = document.createElement('div');
+  block.className = 'question-block';
+  block.dataset.qindex = qIndex;
+
+  const category = document.createElement('div');
+  category.className = 'question-category';
+  category.textContent = q.category;
+
+  const questionText = document.createElement('div');
+  questionText.className = 'question-text';
+  questionText.innerHTML = displayNumber + '. ' + q.text;
+
+  const optionsList = document.createElement('ul');
+  optionsList.className = 'options-list';
+
+  // Map options to keep track of their original indices before shuffling
+  const optionsWithOriginalIndices = q.options.map((opt, index) => {
+    return { option: opt, originalIndex: index };
+  });
+
+  // Shuffle the mapped array to randomize option display order
+  const shuffledOptions = shuffleArray(optionsWithOriginalIndices);
+
+  shuffledOptions.forEach((item) => {
+    const opt = item.option;
+    const optIndex = item.originalIndex;
+
+    const li = document.createElement('li');
+    const label = document.createElement('label');
+    
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.dataset.qindex = qIndex;
+    // Store the original index so grading and state restoration work correctly
+    checkbox.dataset.optindex = optIndex; 
+
+    const span = document.createElement('span');
+    span.className = 'option-text';
+    span.textContent = opt.text;
+
+    label.appendChild(checkbox);
+    label.appendChild(span);
+    li.appendChild(label);
+    optionsList.appendChild(li);
+  });
+
+  block.appendChild(category);
+  block.appendChild(questionText);
+  block.appendChild(optionsList);
+  
+  return block;
+}
+
+function renderQuestionsInto(container, qIndices, startNumber) {
+  clearMathIfPossible(container);
+  container.innerHTML = '';
+  qIndices.forEach((qIndex, i) => container.appendChild(buildQuestionElement(qIndex, startNumber + i)));
+  return typesetMath(container);
+}
+
+function gradeQuestionsInContainer(container, qIndices) {
+  let score = 0;
+  const wrong = [];
+  qIndices.forEach(qIndex => {
+    const q = questionDatabase[qIndex];
+    const block = container.querySelector('.question-block[data-qindex="' + qIndex + '"]');
+    if (!block) return;
+    const checkboxes = block.querySelectorAll('input[type="checkbox"]');
+    let allCorrect = true;
+    checkboxes.forEach(cb => {
+      const optIndex = +cb.dataset.optindex;
+      const isChecked = cb.checked;
+      const isActuallyCorrect = q.options[optIndex].isCorrect;
+      const label = cb.parentElement;
+      if (isActuallyCorrect && isChecked) label.classList.add('correct-answer');
+      else if (isActuallyCorrect && !isChecked) label.classList.add('missed-correct');
+      else if (!isActuallyCorrect && isChecked) label.classList.add('wrong-answer');
+      if (isChecked !== isActuallyCorrect) allCorrect = false;
+      cb.disabled = true;
+    });
+    if (allCorrect) { score++; block.classList.add('block-correct'); }
+    else { wrong.push(qIndex); block.classList.add('block-wrong'); }
+  });
+  return { score, total: qIndices.length, wrong };
+}
+
+function applyStoredAnswers(container, answersMap) {
+  Object.keys(answersMap || {}).forEach(key => {
+    const block = container.querySelector('.question-block[data-qindex="' + (+key) + '"]');
+    if (!block) return;
+    (answersMap[key] || []).forEach(optIndex => {
+      const cb = block.querySelector('input[data-optindex="' + optIndex + '"]');
+      if (cb) cb.checked = true;
+    });
+  });
+}
+
+/* =========================================================
+   MENU
+   ========================================================= */
+function renderMenu() {
+  const dbBadge = document.getElementById('db-count-badge');
+  if (questionDatabase.length === 0) {
+    dbBadge.textContent = 'Uwaga: baza pytań jest pusta — wklej swoje pytania do zmiennej questionDatabase w kodzie.';
+    dbBadge.style.color = '#c0392b';
+  } else {
+    dbBadge.textContent = 'Baza zawiera obecnie ' + questionDatabase.length + ' pytań.';
+    dbBadge.style.color = '';
+  }
+
+  document.getElementById('study-resume-info').textContent =
+    (appState.study.pageIndex > 0 && !appState.study.finished)
+      ? 'Zapisany postęp: pytanie ' + (appState.study.pageIndex * STUDY_PAGE_SIZE + 1) + ' z ' + questionDatabase.length + '.'
+      : '';
+
+  document.getElementById('exam-resume-info').textContent =
+    (appState.exam.active && !appState.exam.finished) ? 'Masz egzamin w trakcie rozwiązywania.'
+    : (appState.exam.lastScore ? 'Ostatni wynik: ' + appState.exam.lastScore.score + ' / ' + appState.exam.lastScore.total + '.' : '');
+
+  const resumeBanner = document.getElementById('resume-banner');
+  resumeBanner.classList.add('hidden');
+
+  if (appState.exam.active && !appState.exam.finished) {
+    resumeBanner.classList.remove('hidden');
+    document.getElementById('resume-text').textContent = 'Masz nieukończony egzamin w toku.';
+    document.getElementById('resume-continue-btn').onclick = () => startExamMode(false);
+    document.getElementById('resume-discard-btn').onclick = () => {
+      appState.exam = defaultState().exam; saveState(); renderMenu();
+    };
+  } else if (appState.study.pageIndex > 0 && !appState.study.finished) {
+    resumeBanner.classList.remove('hidden');
+    document.getElementById('resume-text').textContent =
+      'Masz zapisany postęp w nauce (pytanie ' + (appState.study.pageIndex * STUDY_PAGE_SIZE + 1) + ' z ' + questionDatabase.length + ').';
+    document.getElementById('resume-continue-btn').onclick = () => startStudyMode(false);
+    document.getElementById('resume-discard-btn').onclick = () => {
+      appState.study = defaultState().study; saveState(); renderMenu();
+    };
+  }
+}
+
+function ensureDatabase() {
+  if (!Array.isArray(questionDatabase) || questionDatabase.length === 0) {
+    alert('Najpierw wklej swoją bazę pytań do zmiennej questionDatabase w kodzie.');
+    return false;
+  }
+  return true;
+}
+
+/* =========================================================
+   TRYB NAUKI
+   ========================================================= */
+const STUDY_PAGE_SIZE = 20;
+
+function studyTotalPages() { return Math.ceil(questionDatabase.length / STUDY_PAGE_SIZE); }
+
+function currentStudyIndices() {
+  const start = appState.study.pageIndex * STUDY_PAGE_SIZE;
+  const end = Math.min(start + STUDY_PAGE_SIZE, questionDatabase.length);
+  const out = [];
+  for (let i = start; i < end; i++) out.push(i);
+  return out;
+}
+
+function startStudyMode(fresh) {
+  if (!ensureDatabase()) return;
+  if (fresh) appState.study = defaultState().study;
+  saveState();
+  showScreen('study-screen');
+  renderStudyPage();
+}
+
+function renderStudyPage() {
+  const indices = currentStudyIndices();
+  document.getElementById('study-batch-result').classList.add('hidden');
+  document.getElementById('study-next-btn').classList.add('hidden');
+  document.getElementById('study-submit-btn').classList.remove('hidden');
+
+  const total = questionDatabase.length;
+  document.getElementById('study-progress-text').textContent =
+    'Strona ' + (appState.study.pageIndex + 1) + ' z ' + studyTotalPages() +
+    ' — pytania ' + (indices[0] + 1) + '–' + (indices[indices.length - 1] + 1) + ' z ' + total;
+  const pct = Math.round((appState.study.pageIndex * STUDY_PAGE_SIZE) / total * 100);
+  document.getElementById('study-progress-fill').style.width = pct + '%';
+
+  renderQuestionsInto(document.getElementById('study-quiz-container'), indices, indices[0] + 1);
+}
+
+function submitStudyPage() {
+  const indices = currentStudyIndices();
+  const container = document.getElementById('study-quiz-container');
+  const result = gradeQuestionsInContainer(container, indices);
+
+  appState.study.totalScore += result.score;
+  result.wrong.forEach(i => { if (!appState.study.wrongIndices.includes(i)) appState.study.wrongIndices.push(i); });
+
+  const isLastPage = (appState.study.pageIndex + 1) >= studyTotalPages();
+
+  document.getElementById('study-submit-btn').classList.add('hidden');
+  const resultBox = document.getElementById('study-batch-result');
+  resultBox.classList.remove('hidden');
+  const pct = Math.round(result.score / result.total * 100);
+  resultBox.style.borderLeftColor = colorForPercent(pct);
+  resultBox.innerHTML = 'Wynik na tej stronie: <strong>' + result.score + ' / ' + result.total + '</strong> (' + pct + '%)';
+
+  const nextBtn = document.getElementById('study-next-btn');
+  const remainingInNext = Math.min(STUDY_PAGE_SIZE, questionDatabase.length - (appState.study.pageIndex + 1) * STUDY_PAGE_SIZE);
+  nextBtn.textContent = isLastPage ? 'Zobacz podsumowanie' : 'Następne ' + remainingInNext + ' pytań →';
+  nextBtn.classList.remove('hidden');
+  nextBtn.onclick = () => {
+    if (isLastPage) { appState.study.finished = true; saveState(); showStudySummary(); }
+    else { appState.study.pageIndex++; saveState(); renderStudyPage(); }
+  };
+
+  saveState();
+  resultBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function showStudySummary() {
+  showScreen('summary-screen');
+  resetSummaryButtons();
+  const total = questionDatabase.length;
+  const score = appState.study.totalScore;
+  const pct = total ? Math.round(score / total * 100) : 0;
+  document.getElementById('summary-title').textContent = 'Podsumowanie nauki';
+  const scoreEl = document.getElementById('summary-score');
+  scoreEl.textContent = score + ' / ' + total + ' (' + pct + '%)';
+  scoreEl.style.color = colorForPercent(pct);
+
+  const wrongCount = appState.study.wrongIndices.length;
+  const reviewBtn = document.getElementById('summary-review-btn');
+  if (wrongCount > 0) {
+    reviewBtn.classList.remove('hidden');
+    reviewBtn.textContent = 'Powtórz pytania z błędami (' + wrongCount + ')';
+    reviewBtn.onclick = () => startReviewMode('study');
+  }
+  const restartBtn = document.getElementById('summary-restart-btn');
+  restartBtn.classList.remove('hidden');
+  restartBtn.textContent = 'Zacznij naukę od nowa';
+  restartBtn.onclick = () => startStudyMode(true);
+}
+
+/* =========================================================
+   TRYB EGZAMINACYJNY
+   ========================================================= */
+const EXAM_QUESTION_COUNT = 50;
+const EXAM_DURATION_MS = 75 * 60 * 1000;
+let examTimerHandle = null;
+
+function startExamMode(fresh) {
+  if (!ensureDatabase()) return;
+  if (fresh || !appState.exam.active) {
+    const pool = getUniqueQuestionPool();
+    const count = Math.min(EXAM_QUESTION_COUNT, pool.length);
+    const now = Date.now();
+    appState.exam = {
+      active: true, finished: false,
+      questionIndices: shuffleArray(pool).slice(0, count),
+      answers: {}, startTs: now, endTs: now + EXAM_DURATION_MS,
+      wrongIndices: [], lastScore: null
+    };
+    saveState();
+  }
+  showScreen('exam-screen');
+
+  if (appState.exam.endTs - Date.now() <= 0) {
+    renderExamQuestions().then(() => finishExam(true));
+    return;
+  }
+  renderExamQuestions();
+  startExamTimer();
+}
+
+function renderExamQuestions() {
+  const container = document.getElementById('exam-quiz-container');
+  document.getElementById('exam-submit-btn').classList.remove('hidden');
+  return renderQuestionsInto(container, appState.exam.questionIndices, 1)
+    .then(() => applyStoredAnswers(container, appState.exam.answers));
+}
+
+function startExamTimer() {
+  if (examTimerHandle) clearInterval(examTimerHandle);
+  tickExamTimer();
+  examTimerHandle = setInterval(tickExamTimer, 1000);
+}
+
+function tickExamTimer() {
+  const remaining = appState.exam.endTs - Date.now();
+  const timerEl = document.getElementById('exam-timer');
+  if (remaining <= 0) {
+    timerEl.textContent = '00:00';
+    clearInterval(examTimerHandle);
+    finishExam(true);
+    return;
+  }
+  timerEl.textContent = formatTime(remaining);
+  timerEl.classList.toggle('timer-warning', remaining < 5 * 60 * 1000);
+}
+
+function finishExam(timeUp) {
+  if (examTimerHandle) clearInterval(examTimerHandle);
+  const container = document.getElementById('exam-quiz-container');
+  const result = gradeQuestionsInContainer(container, appState.exam.questionIndices);
+  appState.exam.finished = true;
+  appState.exam.active = false;
+  appState.exam.wrongIndices = result.wrong;
+  appState.exam.lastScore = { score: result.score, total: result.total };
+  document.getElementById('exam-submit-btn').classList.add('hidden');
+  saveState();
+  showExamSummary(timeUp);
+}
+
+function showExamSummary(timeUp) {
+  showScreen('summary-screen');
+  resetSummaryButtons();
+  const score = appState.exam.lastScore.score;
+  const total = appState.exam.lastScore.total;
+  const pct = total ? Math.round(score / total * 100) : 0;
+  document.getElementById('summary-title').textContent = timeUp ? 'Czas się skończył — wynik egzaminu' : 'Podsumowanie egzaminu';
+  const scoreEl = document.getElementById('summary-score');
+  scoreEl.textContent = score + ' / ' + total + ' (' + pct + '%)';
+  scoreEl.style.color = colorForPercent(pct);
+
+  const wrongCount = appState.exam.wrongIndices.length;
+  const reviewBtn = document.getElementById('summary-review-btn');
+  if (wrongCount > 0) {
+    reviewBtn.classList.remove('hidden');
+    reviewBtn.textContent = 'Powtórz pytania z błędami (' + wrongCount + ')';
+    reviewBtn.onclick = () => startReviewMode('exam');
+  }
+  const restartBtn = document.getElementById('summary-restart-btn');
+  restartBtn.classList.remove('hidden');
+  restartBtn.textContent = 'Nowy egzamin';
+  restartBtn.onclick = () => startExamMode(true);
+}
+
+/* =========================================================
+   POWTÓRKA BŁĘDÓW (wspólna dla nauki i egzaminu)
+   ========================================================= */
+let reviewState = { source: null, indices: [], pageIndex: 0, score: 0 };
+
+function startReviewMode(source) {
+  const indices = (source === 'study' ? appState.study.wrongIndices : appState.exam.wrongIndices).slice();
+  if (indices.length === 0) return;
+  reviewState = { source, indices, pageIndex: 0, score: 0 };
+  showScreen('review-screen');
+  renderReviewPage();
+}
+
+function reviewTotalPages() { return Math.ceil(reviewState.indices.length / STUDY_PAGE_SIZE); }
+
+function currentReviewIndices() {
+  const start = reviewState.pageIndex * STUDY_PAGE_SIZE;
+  return reviewState.indices.slice(start, start + STUDY_PAGE_SIZE);
+}
+
+function renderReviewPage() {
+  const indices = currentReviewIndices();
+  document.getElementById('review-batch-result').classList.add('hidden');
+  document.getElementById('review-next-btn').classList.add('hidden');
+  document.getElementById('review-submit-btn').classList.remove('hidden');
+
+  document.getElementById('review-progress-text').textContent =
+    'Powtórka błędów — strona ' + (reviewState.pageIndex + 1) + ' z ' + reviewTotalPages() +
+    ' (łącznie ' + reviewState.indices.length + ' pytań)';
+
+  renderQuestionsInto(document.getElementById('review-quiz-container'), indices, reviewState.pageIndex * STUDY_PAGE_SIZE + 1);
+}
+
+function submitReviewPage() {
+  const indices = currentReviewIndices();
+  const container = document.getElementById('review-quiz-container');
+  const result = gradeQuestionsInContainer(container, indices);
+  reviewState.score += result.score;
+
+  const targetList = reviewState.source === 'study' ? appState.study.wrongIndices : appState.exam.wrongIndices;
+  indices.forEach(qIndex => {
+    if (!result.wrong.includes(qIndex)) {
+      const pos = targetList.indexOf(qIndex);
+      if (pos !== -1) targetList.splice(pos, 1);
+    }
+  });
+  saveState();
+
+  const isLastPage = (reviewState.pageIndex + 1) >= reviewTotalPages();
+  document.getElementById('review-submit-btn').classList.add('hidden');
+  const resultBox = document.getElementById('review-batch-result');
+  resultBox.classList.remove('hidden');
+  const pct = Math.round(result.score / result.total * 100);
+  resultBox.style.borderLeftColor = colorForPercent(pct);
+  resultBox.innerHTML = 'Wynik: <strong>' + result.score + ' / ' + result.total + '</strong> (' + pct + '%)';
+
+  const nextBtn = document.getElementById('review-next-btn');
+  nextBtn.textContent = isLastPage ? 'Zakończ powtórkę' : 'Następne pytania →';
+  nextBtn.classList.remove('hidden');
+  nextBtn.onclick = () => {
+    if (isLastPage) showReviewSummary();
+    else { reviewState.pageIndex++; renderReviewPage(); }
+  };
+
+  resultBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function showReviewSummary() {
+  showScreen('summary-screen');
+  resetSummaryButtons();
+  const total = reviewState.indices.length;
+  const score = reviewState.score;
+  const pct = total ? Math.round(score / total * 100) : 0;
+  document.getElementById('summary-title').textContent = 'Podsumowanie powtórki błędów';
+  const scoreEl = document.getElementById('summary-score');
+  scoreEl.textContent = score + ' / ' + total + ' (' + pct + '%)';
+  scoreEl.style.color = colorForPercent(pct);
+
+  const remaining = reviewState.source === 'study' ? appState.study.wrongIndices.length : appState.exam.wrongIndices.length;
+  const reviewBtn = document.getElementById('summary-review-btn');
+  if (remaining > 0) {
+    reviewBtn.classList.remove('hidden');
+    reviewBtn.textContent = 'Powtórz ponownie pozostałe błędy (' + remaining + ')';
+    reviewBtn.onclick = () => startReviewMode(reviewState.source);
+  }
+}
+
+function resetSummaryButtons() {
+  document.getElementById('summary-review-btn').classList.add('hidden');
+  document.getElementById('summary-restart-btn').classList.add('hidden');
+}
+
+/* =========================================================
+   INICJALIZACJA
+   ========================================================= */
+function attachEventListeners() {
+  document.getElementById('start-study-btn').addEventListener('click', () => {
+    if (!ensureDatabase()) return;
+    if (appState.study.pageIndex > 0 && !appState.study.finished) {
+      startStudyMode(!confirm('Masz zapisany postęp w nauce. Kontynuować od miejsca, w którym skończyłeś/aś?'));
+    } else startStudyMode(true);
+  });
+
+  document.getElementById('start-exam-btn').addEventListener('click', () => {
+    if (!ensureDatabase()) return;
+    if (appState.exam.active && !appState.exam.finished) {
+      startExamMode(!confirm('Masz egzamin w trakcie. Kontynuować?'));
+    } else startExamMode(true);
+  });
+
+  document.getElementById('reset-progress-btn').addEventListener('click', () => {
+    if (confirm('Czy na pewno chcesz usunąć cały zapisany postęp (naukę i egzaminy)?')) {
+      appState = defaultState(); saveState(); renderMenu();
+    }
+  });
+
+  document.getElementById('study-submit-btn').addEventListener('click', submitStudyPage);
+  document.getElementById('review-submit-btn').addEventListener('click', submitReviewPage);
+
+  document.getElementById('exam-submit-btn').addEventListener('click', () => {
+    if (confirm('Czy na pewno chcesz zakończyć egzamin i zobaczyć wynik?')) finishExam(false);
+  });
+
+  document.getElementById('exam-quiz-container').addEventListener('change', e => {
+    if (!e.target.matches('input[type="checkbox"]')) return;
+    const block = e.target.closest('.question-block');
+    const qIndex = block.dataset.qindex;
+    appState.exam.answers[qIndex] = Array.from(block.querySelectorAll('input:checked')).map(cb => +cb.dataset.optindex);
+    saveState();
+  });
+
+  document.getElementById('study-menu-btn').addEventListener('click', () => {
+    if (confirm('Niezapisane odpowiedzi na tej stronie zostaną utracone (wcześniejszy postęp jest zapisany). Wrócić do menu?')) goToMenu();
+  });
+  document.getElementById('review-menu-btn').addEventListener('click', () => {
+    if (confirm('Niezapisane odpowiedzi na tej stronie zostaną utracone. Wrócić do menu?')) goToMenu();
+  });
+  document.getElementById('exam-menu-btn').addEventListener('click', () => {
+    if (confirm('Wrócisz do menu, ale czas egzaminu nadal będzie upływał w tle — tak jak na prawdziwym egzaminie. Kontynuować?')) goToMenu();
+  });
+
+  document.getElementById('summary-menu-btn').addEventListener('click', goToMenu);
+}
+
+function init() {
+  attachEventListeners();
+  renderMenu();
+  showScreen('menu-screen');
+}
+
+init();
+</script>
+</body>
+</html>
