@@ -754,39 +754,6 @@ const questionDatabase = [
             { text: "$D_k(i,j) = \\sum D_{k-1}(i,k)$", isCorrect: false }
         ]
     },
-    {
-        id: 69,
-        category: "Grafy: Sieci Przepływowe",
-        text: "Czym skutkuje warunek skośnej symetrii podczas wyliczania nowego przepływu dla krawędzi antyrównoległej w metodzie Forda-Fulkersona?",
-        options: [
-            { text: "Przepływ na krawędzi powrotnej jest przypisywany jako zanegowana wartość nowo dodanego przepływu: `f[v,u] = -f[u,v]`.", isCorrect: true },
-            { text: "Odcięciem (cut) drogi rezydualnej w grafie.", isCorrect: false },
-            { text: "Podwojeniem wartości wagi ujemnej przepustowości.", isCorrect: false },
-            { text: "Ignorowaniem przepływów zerowych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 70,
-        category: "Algorytmy Tekstowe",
-        text: "W algorytmie Rabina-Karpa wyliczana jest suma kontrolna w tzw. rolling hash (ruchomym oknie). Jak usuwany jest wpływ znaku wypadającego z okna?",
-        options: [
-            { text: "Odjęciem w pętli wielkości `T[s+1]*h`, gdzie `h = d^{m-1} \\bmod q`.", isCorrect: true },
-            { text: "Podzieleniem reszty w module przez skrót `P[i]`.", isCorrect: false },
-            { text: "Stosując operację bitowego przesunięcia (shift) do tablicy przejść.", isCorrect: false },
-            { text: "Sprawdzaniem wyrazu naiwnie bez przeliczania całości i inkrementowania o $k$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 71,
-        category: "Algorytmy Tekstowe",
-        text: "W jaki sposób algorytm KMP (Knuth-Morris-Pratt) zarządza niezgodnością przyrównywanego wzorca na pozycji `q+1`?",
-        options: [
-            { text: "Modyfikuje wskaźnik zgodności na bieżącą długość największego przedrostka: `q = \\pi[q]`.", isCorrect: true },
-            { text: "Podejmuje pełne sprawdzenie do tyłu cofając iterację na `i=0`.", isCorrect: false },
-            { text: "Generuje wartość z procedury 'złego znaku' (bad character shift).", isCorrect: false },
-            { text: "Pomija całą ramkę przesuwając indeks badany o długość `m`.", isCorrect: false }
-        ]
-    },
 
     {
         id: 72,
@@ -840,7 +807,6 @@ const questionDatabase = [
             { text: "`FLOOR(n * A[i])`", isCorrect: true },
             { text: "`A[i] mod n`", isCorrect: false },
             { text: "`CEILING(A[i] / n)`", isCorrect: false },
-            { text: "`FLOOR(A[i] * k)`", isCorrect: false }
         ]
     },
     {
@@ -855,28 +821,6 @@ const questionDatabase = [
         ]
     },
     {
-        id: 78,
-        category: "7. Struktury danych: Kolejki Priorytetowe",
-        text: "W zoptymalizowanym wstawianiu elementu `HeapInsert(A, key)`, zamiast klasycznego zamieniania miejscami (`Swap`), co robi kod przy wędrowaniu w górę gałęzi kopca?",
-        options: [
-            { text: "Kopiuje wartość rodzica bezpośrednio do obecnego węzła: `A[i] = A[Parent(i)]`, oszczędzając operacje zapisu.", isCorrect: true },
-            { text: "Przesuwa wskaźnik rekurencyjnie bez nadpisywania danych.", isCorrect: false },
-            { text: "Używa XOR-swap na bitach kluczy, by nie alokować dodatkowej zmiennej.", isCorrect: false },
-            { text: "Czeka do końca pętli, aby wykonać pełne wywołanie `BuildHeap`.", isCorrect: false }
-        ]
-    },
-    {
-        id: 79,
-        category: "8. Struktury danych: Listy Wiązane",
-        text: "W procedurze usuwania węzła `ListDelete(L, x)` z listy dwukierunkowej, jak sprawdzane jest czy węzeł `x` jest głową listy?",
-        options: [
-            { text: "Przez warunek sprawdzający, czy wskaźnik poprzednika to NIL: `if (prev[x] == NIL)`.", isCorrect: true },
-            { text: "Sprawdzając flagę `isHead(x)` zapisaną w metadanych węzła.", isCorrect: false },
-            { text: "Porównując indeks węzła z wartością 1.", isCorrect: false },
-            { text: "Wykonując `while (next[x] != NIL)`.", isCorrect: false }
-        ]
-    },
-    {
         id: 80,
         category: "9. Struktury danych: Kolejka FIFO",
         text: "W tablicowej implementacji kolejki cyklicznej, co dzieje się ze wskaźnikiem usunięcia (`head[Q]`) w procedurze `Dequeue(Q)`, gdy osiągnie on koniec tablicy `length[Q]`?",
@@ -885,17 +829,6 @@ const questionDatabase = [
             { text: "Ustawiany jest na wartość `NIL`, blokując kolejne operacje.", isCorrect: false },
             { text: "Tablica jest realokowana, a `head[Q]` wskazuje na jej środek.", isCorrect: false },
             { text: "Zgłaszany jest wyjątek `overflow`.", isCorrect: false }
-        ]
-    },
-    {
-        id: 81,
-        category: "10. Struktury danych: Drzewa AVL",
-        text: "W procedurze `rotateLeft(x)`, jaki węzeł przejmuje rolę lewego dziecka dla dawnego prawego dziecka `y`?",
-        options: [
-            { text: "Obecny korzeń poddrzewa (węzeł `x`).", isCorrect: true },
-            { text: "Dotychczasowe lewe dziecko `x` (`x.left`).", isCorrect: false },
-            { text: "Rodzic węzła `x` (`x.parent`).", isCorrect: false },
-            { text: "Węzeł o najmniejszym kluczu w poddrzewie `y`.", isCorrect: false }
         ]
     },
     {
@@ -921,72 +854,6 @@ const questionDatabase = [
         ]
     },
     {
-        id: 84,
-        category: "13. Struktury danych: Skip Lists",
-        text: "W procedurze `Insert(List, searchKey, newValue)` w liście z przeskokami, do czego służy lokalna tablica `update[MaxLevel]`?",
-        options: [
-            { text: "Przechowuje wskaźniki na węzły z każdego poziomu, tuż przed miejscem wstawienia nowego elementu, by móc poprawić ich referencje.", isCorrect: true },
-            { text: "Zapisuje historię losowań algorytmu `randomLevel()`, aby zachować entropię drzewa.", isCorrect: false },
-            { text: "Buforuje wartości zmiennych usuwanych z listy do czasu wezwania garbage collectora.", isCorrect: false },
-            { text: "Monitoruje maksymalną liczbę przeskoków w dotychczasowych zapytaniach `Search`.", isCorrect: false }
-        ]
-    },
-    {
-        id: 85,
-        category: "14. Struktury danych: Tablice Haszujące",
-        text: "W metodzie `HASH-INSERT(T, k)` dla adresowania otwartego, jaki jest warunek pętli głównej `while` przeszukującej komórki?",
-        options: [
-            { text: "Ogranicza się do liczby iteracji `i <> m`, aby nie działać w nieskończoność.", isCorrect: true },
-            { text: "Działa póki funkcja haszująca nie wygeneruje kolizji: `while (T[j] == NIL)`.", isCorrect: false },
-            { text: "Opiera się na sprawdzeniu, czy hash jest wartością pierwszą.", isCorrect: false },
-            { text: "Działa aż osiągnie początek tablicy poprzez wskaźnik cykliczny: `j != 0`.", isCorrect: false }
-        ]
-    },
-    {
-        id: 86,
-        category: "15. Statystyki Pozycyjne",
-        text: "W metodzie iteracyjnej szukania minimum `MINIMUM(A)`, dla optymalizacji jak przebiega iteracja pętli po ustaleniu początkowego przypisania `min = A[1]`?",
-        options: [
-            { text: "Rozpoczyna się od indeksu `i = 2` do długości tablicy, co daje $n-1$ porównań.", isCorrect: true },
-            { text: "Dzieli tablicę na pół i szuka w czasie $\\log n$.", isCorrect: false },
-            { text: "Przebiega od końca tablicy do `i = 1`, stosując wartownika.", isCorrect: false },
-            { text: "Losowo wybiera $k$ elementów i zwraca najmniejszy z nich jako przybliżenie.", isCorrect: false }
-        ]
-    },
-    {
-        id: 87,
-        category: "16. Statystyki Pozycyjne",
-        text: "W procedurze wyboru `OS-Select(x, i)` (drzewa ze statystykami pozycyjnymi), na jakiej podstawie ustalany jest powrót samego węzła (`return x`)?",
-        options: [
-            { text: "Gdy ranga bieżącego węzła `r` jest równa szukanemu indeksowi `i` (`if i == r`).", isCorrect: true },
-            { text: "Gdy wielkość lewego i prawego poddrzewa jest idealnie zbalansowana.", isCorrect: false },
-            { text: "Gdy licznik rekurencji zrówna się z wysokością drzewa.", isCorrect: false },
-            { text: "Gdy węzeł `x` ma wartość klucza zgodną z poszukiwaną `k`.", isCorrect: false }
-        ]
-    },
-    {
-        id: 88,
-        category: "17. Algorytmy grafowe: Przeszukiwanie DFS",
-        text: "W algorytmie DFS, po przetworzeniu wierzchołka `u` oraz wywołaniu na wszystkich jego sąsiadach `DFS_Visit(v)`, jaki kolor otrzymuje wierzchołek `u` oraz jaka wartość czasu jest w nim zapisywana?",
-        options: [
-            { text: "Kolor zostaje zmieniony na `BLACK`, a w węźle zapisywany jest czas wyjścia (zakończenia) `u->f = time`.", isCorrect: true },
-            { text: "Kolor zostaje zmieniony na `WHITE`, co oznacza, że węzeł może zostać dodany do drzewa MST.", isCorrect: false },
-            { text: "Kolor zostaje zmieniony na `GRAY`, a operacja `ExtractMin` usuwa węzeł ze stosu.", isCorrect: false },
-            { text: "Węzeł staje się `RED`, odznaczając występowanie cyklu w krawędziach powrotnych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 89,
-        category: "18. Algorytmy grafowe: Bellman-Ford",
-        text: "Jakie działanie jest wykonywane po głównej pętli $V-1$ relaksacji w pseudokodzie algorytmu Bellmana-Forda?",
-        options: [
-            { text: "Wykonywane jest jeszcze jedno przejście przez wszystkie krawędzie w celu wykrycia ujemnych cykli (`if d[v] > d[u] + w(u,v)`).", isCorrect: true },
-            { text: "Tablica wyników jest sortowana topologicznie celem znalezienia drogi krytycznej.", isCorrect: false },
-            { text: "Graf jest odwracany i algorytm wywołuje sam siebie, tworząc silnie spójne składowe.", isCorrect: false },
-            { text: "Zwracana jest macierz długości wszystkich krawędzi $D_{N}$.", isCorrect: false }
-        ]
-    },
-    {
         id: 90,
         category: "19. Algorytmy grafowe: Kruskal",
         text: "W algorytmie Kruskala `MST-Kruskal(G, w)`, jaki warunek jest warunkiem dodania badanej krawędzi `(u,v)` do lasu drzew rozpinających `A`?",
@@ -995,17 +862,6 @@ const questionDatabase = [
             { text: "Waga krawędzi `w(u,v)` jest ujemna, by spełnić zasady relaksacji.", isCorrect: false },
             { text: "Przynajmniej jeden z wierzchołków jest zabarwiony na `WHITE`.", isCorrect: false },
             { text: "Liczba krawędzi w `A` nie przekroczyła $|V|$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 91,
-        category: "20. Algorytmy grafowe: Dijkstra",
-        text: "Co charakteryzuje instrukcję relaksacyjną w algorytmie Dijkstry podczas przechodzenia przez sąsiadów wierzchołka `u`?",
-        options: [
-            { text: "Jeśli znaleziona zostanie krótsza ścieżka do wierzchołka `v`, następuje zaktualizowanie wartości klucza `d[v]` oraz wykonanie `Decrease-Key` na kolejce priorytetowej.", isCorrect: true },
-            { text: "Algorytm aktualizuje koszt tylko wtedy, gdy poprzednia krawędź uległa ujemnej zmianie na stosie.", isCorrect: false },
-            { text: "Wykonuje się dodawanie po zliczeniu dróg niezależnych (metoda ścieżek powiększających).", isCorrect: false },
-            { text: "Zawsze modyfikuje `v->color = GRAY`, bez względu na koszt odległości.", isCorrect: false }
         ]
     },
     {

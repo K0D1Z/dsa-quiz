@@ -143,6 +143,15 @@
   mjx-container { overflow-x: auto; overflow-y: hidden; max-width: 100%; }
   mjx-container[display="true"] { margin: 0.3em 0 !important; }
 
+  code.pseudo {
+    background: #eef2f6;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.92em;
+    color: #1a1a2e;
+  }
+
   .correct-answer { color: var(--correct); font-weight: bold; }
   .wrong-answer { color: var(--wrong); font-weight: bold; text-decoration: line-through; }
   .missed-correct {
@@ -401,7 +410,7 @@ function buildQuestionElement(qIndex, displayNumber) {
 
   const questionText = document.createElement('div');
   questionText.className = 'question-text';
-  questionText.innerHTML = displayNumber + '. ' + q.text;
+  questionText.innerHTML = displayNumber + '. ' + q.text.replace(/`([^`]+)`/g, '<code class="pseudo">$1</code>');
 
   const optionsList = document.createElement('ul');
   optionsList.className = 'options-list';
@@ -429,7 +438,7 @@ function buildQuestionElement(qIndex, displayNumber) {
 
     const span = document.createElement('span');
     span.className = 'option-text';
-    span.textContent = opt.text;
+    span.innerHTML = opt.text.replace(/`([^`]+)`/g, '<code class="pseudo">$1</code>');
 
     label.appendChild(checkbox);
     label.appendChild(span);
