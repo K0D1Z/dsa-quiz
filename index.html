@@ -585,13 +585,15 @@ function renderStudyPage() {
   document.getElementById('study-submit-btn').classList.remove('hidden');
 
   const total = questionDatabase.length;
+  const firstDisplay = appState.study.pageIndex * STUDY_PAGE_SIZE + 1;
+  const lastDisplay = Math.min((appState.study.pageIndex + 1) * STUDY_PAGE_SIZE, total);
   document.getElementById('study-progress-text').textContent =
     'Strona ' + (appState.study.pageIndex + 1) + ' z ' + studyTotalPages() +
-    ' — pytania ' + (indices[0] + 1) + '–' + (indices[indices.length - 1] + 1) + ' z ' + total;
+    ' — pytania ' + firstDisplay + '–' + lastDisplay + ' z ' + total;
   const pct = Math.round((appState.study.pageIndex * STUDY_PAGE_SIZE) / total * 100);
   document.getElementById('study-progress-fill').style.width = pct + '%';
 
-  renderQuestionsInto(document.getElementById('study-quiz-container'), indices, indices[0] + 1);
+  renderQuestionsInto(document.getElementById('study-quiz-container'), indices, appState.study.pageIndex * STUDY_PAGE_SIZE + 1);
 }
 
 function submitStudyPage() {
