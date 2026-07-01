@@ -1,6 +1,6 @@
 const questionDatabase = [
         {
-            id: 12,
+            id: 1,
             category: "1. Złożoność obliczeniowa i analiza algorytmów",
             text: "Jakie jest rozwiązanie równania $T(n) = 2T(n/2) + n$ według twierdzenia o rekurencji uniwersalnej (master theorem)?",
             options: [
@@ -11,7 +11,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 25,
+            id: 2,
             category: "1. Złożoność obliczeniowa i analiza algorytmów",
             text: "Co dokładnie bada analiza zamortyzowana?",
             options: [
@@ -22,7 +22,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 30,
+            id: 3,
             category: "1. Złożoność obliczeniowa i analiza algorytmów",
             text: "Jak poprawnie uporządkować rosnąco złożoności czasowe: $n \\log n, n^2, n^3, 2^n$?",
             options: [
@@ -34,7 +34,7 @@ const questionDatabase = [
         },
 
         {
-            id: 9,
+            id: 4,
             category: "2. Algorytmy sortowania i wyszukiwania elementu",
             text: "Jaka jest złożoność sortowania przez wstawianie (insertion sort) w najgorszym przypadku?",
             options: [
@@ -45,7 +45,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 11,
+            id: 5,
             category: "2. Algorytmy sortowania i wyszukiwania elementu",
             text: "Czego używa zrandomizowany quicksort do wyboru elementu osiowego (pivot)?",
             options: [
@@ -56,7 +56,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 14,
+            id: 6,
             category: "2. Algorytmy sortowania i wyszukiwania elementu",
             text: "Czy sortowanie przez scalanie (merge sort) jest algorytmem deterministycznym?",
             options: [
@@ -65,7 +65,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 27,
+            id: 7,
             category: "2. Algorytmy sortowania i wyszukiwania elementu",
             text: "Jaka jest złożoność wyszukiwania binarnego?",
             options: [
@@ -76,7 +76,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 31,
+            id: 8,
             category: "2. Algorytmy sortowania i wyszukiwania elementu",
             text: "Który algorytm sortowania jest przykładem metody \"dziel i zwyciężaj\"?",
             options: [
@@ -87,7 +87,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 39,
+            id: 9,
             category: "2. Algorytmy sortowania i wyszukiwania elementu",
             text: "Za pomocą jakiej struktury/algorytmu można znaleźć k-ty najmniejszy element w oczekiwanym czasie liniowym?",
             options: [
@@ -98,7 +98,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 40,
+            id: 10,
             category: "2. Algorytmy sortowania i wyszukiwania elementu",
             text: "Czy sortowanie przez wstawianie (insertion sort) jest algorytmem stabilnym?",
             options: [
@@ -108,7 +108,7 @@ const questionDatabase = [
         },
 
         {
-            id: 5,
+            id: 11,
             category: "3. Struktury danych: Drzewa (BST, AVL, Czerwono-Czarne)",
             text: "W jakiej kolejności przegląd inorder w drzewie BST odwiedza węzły?",
             options: [
@@ -119,7 +119,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 18,
+            id: 12,
             category: "3. Struktury danych: Drzewa (BST, AVL, Czerwono-Czarne)",
             text: "Jaka jest w najgorszym przypadku wysokość drzewa BST złożonego z n węzłów?",
             options: [
@@ -130,7 +130,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 29,
+            id: 13,
             category: "3. Struktury danych: Drzewa (BST, AVL, Czerwono-Czarne)",
             text: "Jaki jest koszt wyszukiwania w zrównoważonym drzewie BST (np. AVL)?",
             options: [
@@ -141,7 +141,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 36,
+            id: 14,
             category: "3. Struktury danych: Drzewa (BST, AVL, Czerwono-Czarne)",
             text: "Jaka jest maksymalna wysokość drzewa AVL składającego się z $n$ węzłów?",
             options: [
@@ -152,7 +152,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 41,
+            id: 15,
             category: "3. Struktury danych: Drzewa (BST, AVL, Czerwono-Czarne)",
             text: "Jakiego koloru zawsze musi być korzeń i liście (węzły NIL) w drzewie czerwono-czarnym?",
             options: [
@@ -164,7 +164,7 @@ const questionDatabase = [
         },
 
         {
-            id: 10,
+            id: 16,
             category: "4. Struktury danych: Kopce",
             text: "Jaki jest koszt operacji decrease-key w kopcu Fibonacciego?",
             options: [
@@ -175,7 +175,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 24,
+            id: 17,
             category: "4. Struktury danych: Kopce",
             text: "Z jaką złożonością buduje się kopiec (Build-Max-Heap) z $n$ elementów z wykorzystaniem metody bottom-up?",
             options: [
@@ -187,7 +187,7 @@ const questionDatabase = [
         },
 
         {
-            id: 3,
+            id: 18,
             category: "5. Struktury danych: Tablice mieszające (Hashing)",
             text: "Czym jest kolizja w tablicy mieszającej?",
             options: [
@@ -198,7 +198,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 22,
+            id: 19,
             category: "5. Struktury danych: Tablice mieszające (Hashing)",
             text: "Czego przykładem jest próbkowanie kwadratowe (quadratic probing) w tablicach mieszających?",
             options: [
@@ -209,7 +209,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 33,
+            id: 20,
             category: "5. Struktury danych: Tablice mieszające (Hashing)",
             text: "Jaki jest koszt wyszukiwania przy użyciu doskonałej funkcji mieszającej (perfect hash function)?",
             options: [
@@ -221,7 +221,7 @@ const questionDatabase = [
         },
 
         {
-            id: 8,
+            id: 21,
             category: "6. Struktury danych: Listy z przeskokami i tablice dynamiczne",
             text: "Ile wynosi w najgorszym przypadku wysokość nowego węzła w liście z przeskokami (skip list)?",
             options: [
@@ -232,7 +232,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 21,
+            id: 22,
             category: "6. Struktury danych: Listy z przeskokami i tablice dynamiczne",
             text: "Jaka jest złożoność wyszukiwania w strukturze skip list?",
             options: [
@@ -243,7 +243,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 26,
+            id: 23,
             category: "6. Struktury danych: Listy z przeskokami i tablice dynamiczne",
             text: "Jaki jest zamortyzowany czas wstawiania na koniec dla tablicy dynamicznej podwajającej swój rozmiar?",
             options: [
@@ -254,7 +254,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 35,
+            id: 24,
             category: "6. Struktury danych: Listy z przeskokami i tablice dynamiczne",
             text: "Czym różnią się wskaźniki w liście z przeskokami od wskaźników w standardowej liście jednokierunkowej?",
             options: [
@@ -266,7 +266,7 @@ const questionDatabase = [
         },
 
         {
-            id: 1,
+            id: 25,
             category: "7. Algorytmy grafowe: Najkrótsze ścieżki",
             text: "Jaka jest złożoność algorytmu Dijkstry ze znalezieniem wierzchołka poprzez liniowe przeszukiwanie tablicy (bez kolejki priorytetowej)?",
             options: [
@@ -277,7 +277,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 2,
+            id: 26,
             category: "7. Algorytmy grafowe: Najkrótsze ścieżki",
             text: "Jaki problem rozwiązuje algorytm Floyda-Warshalla?",
             options: [
@@ -288,7 +288,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 4,
+            id: 27,
             category: "7. Algorytmy grafowe: Najkrótsze ścieżki",
             text: "W jakim grafie algorytm BFS znajduje najkrótsze ścieżki od źródła?",
             options: [
@@ -299,7 +299,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 7,
+            id: 28,
             category: "7. Algorytmy grafowe: Najkrótsze ścieżki",
             text: "Jakich wag krawędzi wymaga algorytm Dijkstry do poprawnego działania?",
             options: [
@@ -310,7 +310,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 17,
+            id: 29,
             category: "7. Algorytmy grafowe: Najkrótsze ścieżki",
             text: "Jaka jest złożoność algorytmu Dijkstry przy użyciu kopca Fibonacciego?",
             options: [
@@ -321,7 +321,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 28,
+            id: 30,
             category: "7. Algorytmy grafowe: Najkrótsze ścieżki",
             text: "Do jakiego algorytmu (szukającego minimalnego drzewa rozpinającego) algorytm Dijkstry jest strukturalnie podobny?",
             options: [
@@ -332,7 +332,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 37,
+            id: 31,
             category: "7. Algorytmy grafowe: Najkrótsze ścieżki",
             text: "Jaka jest złożoność algorytmu Dijkstry z użyciem standardowego kopca binarnego?",
             options: [
@@ -344,7 +344,7 @@ const questionDatabase = [
         },
 
         {
-            id: 6,
+            id: 32,
             category: "8. Algorytmy grafowe: Przeszukiwanie i MST",
             text: "Do czego wykorzystuje się algorytm DFS (Przeszukiwanie w głąb)?",
             options: [
@@ -355,7 +355,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 16,
+            id: 33,
             category: "8. Algorytmy grafowe: Przeszukiwanie i MST",
             text: "Za pomocą jakich algorytmów można znaleźć minimalne drzewo rozpinające (MST)?",
             options: [
@@ -366,7 +366,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 23,
+            id: 34,
             category: "8. Algorytmy grafowe: Przeszukiwanie i MST",
             text: "Jakich podstawowych operacji na strukturze zbiorów rozłącznych używa algorytm Kruskala?",
             options: [
@@ -377,7 +377,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 32,
+            id: 35,
             category: "8. Algorytmy grafowe: Przeszukiwanie i MST",
             text: "Jaka zależność matematyczna między liczbą krawędzi ($|E|$) a liczbą wierzchołków ($|V|$) zachodzi w drzewie?",
             options: [
@@ -389,7 +389,7 @@ const questionDatabase = [
         },
 
         {
-            id: 15,
+            id: 36,
             category: "9. Algorytmy grafowe: Sieci przepływowe",
             text: "Co dzieje się z przepustowością krawędzi w sieci przepływowej po znalezieniu ścieżki powiększającej?",
             options: [
@@ -400,7 +400,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 34,
+            id: 37,
             category: "9. Algorytmy grafowe: Sieci przepływowe",
             text: "Do czego służy algorytm Forda-Fulkersona?",
             options: [
@@ -412,7 +412,7 @@ const questionDatabase = [
         },
 
         {
-            id: 19,
+            id: 38,
             category: "10. Algorytmy tekstowe (dopasowywanie wzorców)",
             text: "Który algorytm dopasowywania wzorców opiera się na schemacie Hornera (rolling hash)?",
             options: [
@@ -423,7 +423,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 20,
+            id: 39,
             category: "10. Algorytmy tekstowe (dopasowywanie wzorców)",
             text: "W jakim algorytmie może wystąpić \"fałszywe trafienie\" (spurious hit)?",
             options: [
@@ -435,7 +435,7 @@ const questionDatabase = [
         },
 
         {
-            id: 13,
+            id: 40,
             category: "11. Algorytmy zrandomizowane (teoria)",
             text: "Jaki rodzaj czasu działania najczęściej bada się w przypadku algorytmów zrandomizowanych?",
             options: [
@@ -446,7 +446,7 @@ const questionDatabase = [
             ]
         },
         {
-            id: 38,
+            id: 41,
             category: "11. Algorytmy zrandomizowane (teoria)",
             text: "W jakim celu najczęściej stosuje się randomizację w algorytmach (np. w Randomized Quicksort)?",
             options: [
@@ -458,7 +458,7 @@ const questionDatabase = [
         },
 
         {
-        id: 101,
+        id: 42,
         category: "Sortowanie: Merge Sort",
         text: "Jakie jest kryterium zakończenia rekurencji w procedurze MergeSort(A, left, right) zgodnie z podanym pseudokodem?",
         options: [
@@ -469,7 +469,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 102,
+        id: 43,
         category: "Sortowanie: Heap Sort",
         text: "W algorytmie Heapsort, jaki jest zakres pętli iterującej przy budowaniu początkowego kopca (procedura BuildHeap)?",
         options: [
@@ -480,7 +480,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 103,
+        id: 44,
         category: "Sortowanie: Quick Sort",
         text: "Co zwraca wywołanie operacji Partition w algorytmie Quicksort?",
         options: [
@@ -491,7 +491,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 104,
+        id: 45,
         category: "Sortowanie: Bucket Sort",
         text: "W sortowaniu kubełkowym (Bucket Sort), jakim algorytmem sortowana jest domyślnie zawartość pojedynczego kubełka (listy `B[i]`)?",
         options: [
@@ -502,7 +502,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 105,
+        id: 46,
         category: "Sortowanie: Counting Sort",
         text: "Jaką operację wykonuje pętla `C[i] = C[i] + C[i-1]` w algorytmie sortowania przez zliczanie (Counting Sort)?",
         options: [
@@ -513,7 +513,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 106,
+        id: 47,
         category: "Sortowanie: Radix Sort",
         text: "Jakiego wymagania względem procedury pomocniczej `StableSort` przestrzega algorytm Radix Sort?",
         options: [
@@ -524,7 +524,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 107,
+        id: 48,
         category: "Struktury Danych: Listy",
         text: "Co następuje w pierwszym kroku podczas wstawiania elementu `x` na początek listy jednokierunkowej w funkcji `ListInsert(L, x)`?",
         options: [
@@ -535,7 +535,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 108,
+        id: 49,
         category: "Struktury Danych: Kolejki",
         text: "W jaki sposób rozwiązany jest problem dotarcia wskaźnika dopisywania do końca tablicy podczas wywoływania operacji `Enqueue(Q, x)` (tablica cykliczna)?",
         options: [
@@ -546,7 +546,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 109,
+        id: 50,
         category: "Struktury Danych: Kopce",
         text: "Jaki warunek sprawdza pętla `while` podczas operacji `HeapInsert(A, key)`, aby nowy klucz wędrował w górę kopca?",
         options: [
@@ -557,7 +557,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 110,
+        id: 51,
         category: "Struktury Danych: Kopce",
         text: "Jakie jest pierwsze przesunięcie węzłów wykonywane na początku procedury `HeapExtractMax(A)` tuż po zapamiętaniu zwracanego maksimum?",
         options: [
@@ -568,7 +568,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 111,
+        id: 52,
         category: "Struktury Danych: Drzewa BST",
         text: "W jakim przypadku procedura wstawiania elementu do drzewa poszukiwań binarnych `TreeInsert(x, k)` przekaże element rekurencyjnie do lewego poddrzewa?",
         options: [
@@ -579,7 +579,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 112,
+        id: 53,
         category: "Struktury Danych: Drzewa BST",
         text: "Jaką operację zakłada algorytm usuwania węzła z drzewa binarnego (zarys algorytmu), jeśli węzeł posiada dwoje dzieci?",
         options: [
@@ -590,7 +590,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 113,
+        id: 54,
         category: "Struktury Danych: Drzewa AVL",
         text: "W jaki sposób procedura `balanceFactor(Node x)` oblicza współczynnik wyważenia w zbalansowanym drzewie AVL?",
         options: [
@@ -601,7 +601,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 114,
+        id: 55,
         category: "Struktury Danych: Drzewa AVL",
         text: "Gdzie podpina się dotychczasowe lewe poddrzewo prawego dziecka (`y.left`) podczas pojedynczej rotacji w lewo (`rotateLeft(x)`)?",
         options: [
@@ -612,7 +612,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 115,
+        id: 56,
         category: "Struktury Danych: Drzewa Czerwono-Czarne",
         text: "Jaki kolor otrzymuje każdy nowy węzeł wstawiany do drzewa czerwono-czarnego na samym początku metody `rbInsert(x)`?",
         options: [
@@ -623,7 +623,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 116,
+        id: 57,
         category: "Struktury Danych: Skip Lists",
         text: "Podczas przeszukiwania list z przeskokami (Search w Skip Lists), w jaki sposób iterujemy po kolejnych poziomach w głównej pętli algorytmu?",
         options: [
@@ -634,7 +634,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 117,
+        id: 58,
         category: "Struktury Danych: Skip Lists",
         text: "Skąd pobierana jest wysokość dodawanego węzła (ilość nadanych wskaźników) podczas wstawiania w algorytmie Skip Lists?",
         options: [
@@ -645,7 +645,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 118,
+        id: 59,
         category: "Struktury Danych: Tablice Haszujące",
         text: "Co wymusza wyjście z pętli sprawdzania konfliktów w metodzie `HASH-INSERT` w adresowaniu otwartym, jeżeli nie odnajdziemy wolnego miejsca?",
         options: [
@@ -656,7 +656,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 119,
+        id: 60,
         category: "Statystyki Pozycyjne",
         text: "W jaki sposób drzewa ze statystykami pozycyjnymi wyznaczają relatywną rangę `r` bieżącego węzła podczas wywołania `OS-Select(x, i)`?",
         options: [
@@ -667,7 +667,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 120,
+        id: 61,
         category: "Wyszukiwanie Elementów",
         text: "Z jaką złożonością czasową operacja iteracyjnego szukania minimum (`MINIMUM(A)`) znajduje optymalny wierzchołek?",
         options: [
@@ -678,7 +678,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 121,
+        id: 62,
         category: "Grafy: Przeszukiwanie (BFS / DFS)",
         text: "Jakiego koloru jest wierzchołek, który znajduje się obecnie wewnątrz kolejki operacyjnej podczas wykonywania algorytmu Przeszukiwania Wszerz (BFS)?",
         options: [
@@ -689,7 +689,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 122,
+        id: 63,
         category: "Grafy: Przeszukiwanie (BFS / DFS)",
         text: "Jak oznaczany jest czas rozpoczęcia i zakończenia przetwarzania węzła w operacji przeszukiwania w głąb `DFS-Visit(u)`?",
         options: [
@@ -700,7 +700,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 123,
+        id: 64,
         category: "Grafy: Minimalne Drzewo Rozpinające (MST)",
         text: "Jakie wartości startowe nadaje się tablicy kluczy (`key[v]`) w procedurze algorytmu Prima `MST-Prim` dla wszystkich wierzchołków?",
         options: [
@@ -711,7 +711,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 124,
+        id: 65,
         category: "Grafy: Najkrótsze Ścieżki",
         text: "Który fragment decyduje o aktualizacji wagi d[v] w procedurze `Relax(u, v, w)` używanej w algorytmach Bellmana-Forda i Dijkstry?",
         options: [
@@ -722,7 +722,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 125,
+        id: 66,
         category: "Grafy: Najkrótsze Ścieżki",
         text: "Co udowadnia operacja iterowania po krawędziach i warunek `if (d[v] > d[u] + w(u,v))` w ostatniej fazie w pseudokodzie algorytmu Bellmana-Forda?",
         options: [
@@ -733,7 +733,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 126,
+        id: 67,
         category: "Grafy: Minimalne Drzewo Rozpinające (MST)",
         text: "Co dokładnie robi algorytm Kruskala zaraz po umieszczeniu każdego wierzchołka w osobnej strukturze `MakeSet(v)`?",
         options: [
@@ -744,7 +744,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 127,
+        id: 68,
         category: "Grafy: Najkrótsze Ścieżki (wszystkie pary)",
         text: "Z jakiej równości rekurencyjnej korzysta klasyczny algorytm Floyda-Warshalla zawarty w potrójnej pętli iteracyjnej?",
         options: [
@@ -755,7 +755,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 128,
+        id: 69,
         category: "Grafy: Sieci Przepływowe",
         text: "Czym skutkuje warunek skośnej symetrii podczas wyliczania nowego przepływu dla krawędzi antyrównoległej w metodzie Forda-Fulkersona?",
         options: [
@@ -766,7 +766,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 129,
+        id: 70,
         category: "Algorytmy Tekstowe",
         text: "W algorytmie Rabina-Karpa wyliczana jest suma kontrolna w tzw. rolling hash (ruchomym oknie). Jak usuwany jest wpływ znaku wypadającego z okna?",
         options: [
@@ -777,7 +777,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 130,
+        id: 71,
         category: "Algorytmy Tekstowe",
         text: "W jaki sposób algorytm KMP (Knuth-Morris-Pratt) zarządza niezgodnością przyrównywanego wzorca na pozycji `q+1`?",
         options: [
@@ -789,7 +789,7 @@ const questionDatabase = [
     },
 
     {
-        id: 131,
+        id: 72,
         category: "1. Sortowanie: Merge Sort",
         text: "W procedurze scalania `Merge(A, left, mid, right)` zapisanej w pseudokodzie, jaki warunek sprawdzany jest w głównej pętli `while`, by decydować o pobieraniu elementów z podtablic?",
         options: [
@@ -800,7 +800,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 132,
+        id: 73,
         category: "2. Sortowanie: Heap Sort",
         text: "Dlaczego główna pętla w procedurze `Heapsort(A)` iteruje w dół aż do wartości 2 (`downto 2`), a nie do 1?",
         options: [
@@ -811,7 +811,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 133,
+        id: 74,
         category: "3. Sortowanie: Quick Sort",
         text: "W procedurze `Partition(A, p, r)` w wariancie Hoare'a, jakie są początkowe wartości wskaźników `i` oraz `j` przed wejściem w nieskończoną pętlę `while (true)`?",
         options: [
@@ -822,7 +822,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 134,
+        id: 75,
         category: "4. Sortowanie: Counting Sort",
         text: "Dlaczego w ostatniej fazie procedury `Counting Sort`, przepisującej elementy do tablicy wynikowej `B`, pętla iteruje od `n` w dół do 1 (`downto 1`)?",
         options: [
@@ -833,7 +833,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 135,
+        id: 76,
         category: "5. Sortowanie: Bucket Sort",
         text: "W algorytmie `Bucket-Sort(A)`, jaka formuła matematyczna jest używana do przypisania elementu wejściowego `A[i]` do odpowiedniego kubełka w tablicy `B`?",
         options: [
@@ -844,7 +844,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 136,
+        id: 77,
         category: "6. Struktury danych: Kopce",
         text: "Co zakłada prewarunek procedury `Heapify(A, i)` dotyczący lewego i prawego dziecka węzła `i`?",
         options: [
@@ -855,7 +855,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 137,
+        id: 78,
         category: "7. Struktury danych: Kolejki Priorytetowe",
         text: "W zoptymalizowanym wstawianiu elementu `HeapInsert(A, key)`, zamiast klasycznego zamieniania miejscami (`Swap`), co robi kod przy wędrowaniu w górę gałęzi kopca?",
         options: [
@@ -866,7 +866,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 138,
+        id: 79,
         category: "8. Struktury danych: Listy Wiązane",
         text: "W procedurze usuwania węzła `ListDelete(L, x)` z listy dwukierunkowej, jak sprawdzane jest czy węzeł `x` jest głową listy?",
         options: [
@@ -877,7 +877,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 139,
+        id: 80,
         category: "9. Struktury danych: Kolejka FIFO",
         text: "W tablicowej implementacji kolejki cyklicznej, co dzieje się ze wskaźnikiem usunięcia (`head[Q]`) w procedurze `Dequeue(Q)`, gdy osiągnie on koniec tablicy `length[Q]`?",
         options: [
@@ -888,7 +888,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 140,
+        id: 81,
         category: "10. Struktury danych: Drzewa AVL",
         text: "W procedurze `rotateLeft(x)`, jaki węzeł przejmuje rolę lewego dziecka dla dawnego prawego dziecka `y`?",
         options: [
@@ -899,7 +899,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 141,
+        id: 82,
         category: "11. Struktury danych: Drzewa Czerwono-Czarne",
         text: "Co wyzwala naprawę w pętli `while` podczas wstawiania w procedurze `rbInsert(x)`?",
         options: [
@@ -910,7 +910,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 142,
+        id: 83,
         category: "12. Struktury danych: Drzewa Czerwono-Czarne",
         text: "W \"Przypadku 1\" procedury `rbInsert(x)` w drzewie czerwono-czarnym (gdy rodzic i wujek są CZERWONI), jakie operacje zmiany kolorów zachodzą?",
         options: [
@@ -921,7 +921,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 143,
+        id: 84,
         category: "13. Struktury danych: Skip Lists",
         text: "W procedurze `Insert(List, searchKey, newValue)` w liście z przeskokami, do czego służy lokalna tablica `update[MaxLevel]`?",
         options: [
@@ -932,7 +932,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 144,
+        id: 85,
         category: "14. Struktury danych: Tablice Haszujące",
         text: "W metodzie `HASH-INSERT(T, k)` dla adresowania otwartego, jaki jest warunek pętli głównej `while` przeszukującej komórki?",
         options: [
@@ -943,7 +943,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 145,
+        id: 86,
         category: "15. Statystyki Pozycyjne",
         text: "W metodzie iteracyjnej szukania minimum `MINIMUM(A)`, dla optymalizacji jak przebiega iteracja pętli po ustaleniu początkowego przypisania `min = A[1]`?",
         options: [
@@ -954,7 +954,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 146,
+        id: 87,
         category: "16. Statystyki Pozycyjne",
         text: "W procedurze wyboru `OS-Select(x, i)` (drzewa ze statystykami pozycyjnymi), na jakiej podstawie ustalany jest powrót samego węzła (`return x`)?",
         options: [
@@ -965,7 +965,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 147,
+        id: 88,
         category: "17. Algorytmy grafowe: Przeszukiwanie DFS",
         text: "W algorytmie DFS, po przetworzeniu wierzchołka `u` oraz wywołaniu na wszystkich jego sąsiadach `DFS_Visit(v)`, jaki kolor otrzymuje wierzchołek `u` oraz jaka wartość czasu jest w nim zapisywana?",
         options: [
@@ -976,7 +976,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 148,
+        id: 89,
         category: "18. Algorytmy grafowe: Bellman-Ford",
         text: "Jakie działanie jest wykonywane po głównej pętli $V-1$ relaksacji w pseudokodzie algorytmu Bellmana-Forda?",
         options: [
@@ -987,7 +987,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 149,
+        id: 90,
         category: "19. Algorytmy grafowe: Kruskal",
         text: "W algorytmie Kruskala `MST-Kruskal(G, w)`, jaki warunek jest warunkiem dodania badanej krawędzi `(u,v)` do lasu drzew rozpinających `A`?",
         options: [
@@ -998,7 +998,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 150,
+        id: 91,
         category: "20. Algorytmy grafowe: Dijkstra",
         text: "Co charakteryzuje instrukcję relaksacyjną w algorytmie Dijkstry podczas przechodzenia przez sąsiadów wierzchołka `u`?",
         options: [
@@ -1009,7 +1009,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 151,
+        id: 92,
         category: "21. Algorytmy grafowe: Floyd-Warshall",
         text: "Czym jest macierz startowa $D_0$ używana do inicjalizacji algorytmu Floyda-Warshalla?",
         options: [
@@ -1020,7 +1020,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 152,
+        id: 93,
         category: "22. Algorytmy grafowe: Floyd-Warshall",
         text: "Co oznacza wewnętrzne odwołanie $D_{k}(i, j) = \\min(D_{k-1}(i, j), D_{k-1}(i, k) + D_{k-1}(k, j))$ w algorytmie Floyda-Warshalla?",
         options: [
@@ -1031,7 +1031,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 153,
+        id: 94,
         category: "23. Algorytmy grafowe: Ford-Fulkerson",
         text: "Jak zdefiniowana jest przepustowość nowej ścieżki powiększającej $c_f(p)$ znalezionej w sieci rezydualnej wewnątrz `FORD-FULKERSON(G,s,t)`?",
         options: [
@@ -1042,7 +1042,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 154,
+        id: 95,
         category: "24. Algorytmy Tekstowe: Rabin-Karp",
         text: "Jak przebiega inicjalizacja zmiennej wzorca `p` (hash wzorca) oraz pierwszego okna tekstu `t_0` w algorytmie Rabina-Karpa?",
         options: [
@@ -1053,7 +1053,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 155,
+        id: 96,
         category: "25. Algorytmy Tekstowe: Rabin-Karp",
         text: "W głównej pętli wyszukującej algorytmu Rabina-Karpa, co dzieje się, gdy sumy kontrolne się zgadzają (`p == t_s`)?",
         options: [
@@ -1064,7 +1064,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 156,
+        id: 97,
         category: "26. Algorytmy Tekstowe: KMP",
         text: "W jaki sposób procedura budowania automatu `Compute-Prefix-Function(P)` reaguje na niezgodność znaku podczas zliczania (`k > 0 and P[k+1] != P[q]`)?",
         options: [
@@ -1075,7 +1075,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 157,
+        id: 98,
         category: "27. Algorytmy Tekstowe: KMP",
         text: "W głównej procedurze dopasowującej `KMP-Matcher(T, P)`, jeśli długość aktualnie dopasowanego wzorca zrówna się z jego całkowitą długością (`q == m`), jaka komenda jest wykonywana?",
         options: [
@@ -1086,7 +1086,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 158,
+        id: 99,
         category: "28. Algorytmy Tekstowe: Boyer-Moore",
         text: "Jakie jest główne równanie na przesunięcie okna na tekście `$s$` w przypadku wystąpienia niezgodności we wzorcu w algorytmie Boyer-Moore-Matcher?",
         options: [
@@ -1097,7 +1097,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 159,
+        id: 100,
         category: "29. Algorytmy Kompresji: Kodowanie Huffmana",
         text: "Na początku kodowania Huffmana, pętla wewnętrzna procedury `HUFFMAN(C)` jest wywoływana $n-1$ razy. Co dokładnie realizuje się w jej pierwszym kroku `z = ALLOCATE_NODE()`?",
         options: [
@@ -1108,7 +1108,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 160,
+        id: 101,
         category: "30. Algorytmy Kompresji: Kodowanie Huffmana",
         text: "W algorytmie `HUFFMAN(C)`, jaka operacja jest wykonywana tuż po tym jak przypiszemy łączną częstość `f[z] = f[z->left] + f[z->right]`?",
         options: [
@@ -1118,53 +1118,8 @@ const questionDatabase = [
             { text: "Kolejka dokonuje kompresji wymuszonej, zwalniając pamięć po nieużywanych znakach.", isCorrect: false }
         ]
     },
-    
     {
-        id: 161,
-        category: "Algorytmy Geometryczne",
-        text: "W jaki sposób algorytm Grahama (znajdowania otoczki wypukłej) wybiera punkt początkowy $P_0$?",
-        options: [
-            { text: "Wybiera punkt o najmniejszej współrzędnej Y, a w przypadku remisów - o najmniejszej współrzędnej X.", isCorrect: true },
-            { text: "Wybiera losowy punkt ze zbioru w celu uniknięcia pesymistycznej złożoności $O(n^2)$.", isCorrect: false },
-            { text: "Oblicza środek ciężkości (centroid) wszystkich punktów i wybiera punkt leżący najbliżej niego.", isCorrect: false },
-            { text: "Wybiera punkt o największej współrzędnej X i Y jednocześnie.", isCorrect: false }
-        ]
-    },
-    {
-        id: 162,
-        category: "Algorytmy Geometryczne",
-        text: "Na czym opiera się sortowanie punktów w głównym etapie algorytmu Grahama?",
-        options: [
-            { text: "Na kącie biegunowym, jaki tworzy wektor $\\vec{P_0P_i}$ z dodatnią półosią OX.", isCorrect: true },
-            { text: "Na odległości euklidesowej punktów od punktu startowego $P_0$.", isCorrect: false },
-            { text: "Na współrzędnej X, od lewej do prawej.", isCorrect: false },
-            { text: "Na iloczynie skalarnym względem środka ciężkości.", isCorrect: false }
-        ]
-    },
-    {
-        id: 163,
-        category: "Algorytmy Geometryczne",
-        text: "Jaką technikę wykorzystuje optymalny algorytm znajdowania wszystkich przecięć w zbiorze odcinków (algorytm Shamosa-Hoeya / Bentleya-Ottmanna)?",
-        options: [
-            { text: "Metodę zamiatania (sweep-line algorithm) przy użyciu miotły poruszającej się wzdłuż osi X i struktury drzewa BST.", isCorrect: true },
-            { text: "Algorytm siłowy (brute-force) sprawdzający każdą parę w czasie $O(n^2)$.", isCorrect: false },
-            { text: "Programowanie dynamiczne z tablicowaniem wyników wyznaczników.", isCorrect: false },
-            { text: "Algorytm \"Dziel i Zwyciężaj\" na osi Y.", isCorrect: false }
-        ]
-    },
-    {
-        id: 164,
-        category: "Algorytmy Geometryczne",
-        text: "Jaka jest złożoność algorytmu szukania najmniej odległej pary punktów wykorzystującego metodę \"Dziel i Zwyciężaj\"?",
-        options: [
-            { text: "$O(n \\log n)$", isCorrect: true },
-            { text: "$O(n)$", isCorrect: false },
-            { text: "$O(n^2)$", isCorrect: false },
-            { text: "$O(n \\log^2 n)$", isCorrect: false }
-        ]
-    },
-    {
-        id: 165,
+        id: 102,
         category: "Analiza Algorytmów: Koszt Zamortyzowany",
         text: "W analizie kosztu zamortyzowanego (metoda księgowania / accounting method) dla tablic dynamicznych, ile kredytów (jednostek kosztu) standardowo przypisuje się operacji wstawienia, by pokryć przyszłą realokację?",
         options: [
@@ -1175,7 +1130,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 166,
+        id: 103,
         category: "Analiza Algorytmów: Koszt Zamortyzowany",
         text: "Czym charakteryzuje się analiza zamortyzowana metodą kosztu sumarycznego (aggregate method)?",
         options: [
@@ -1186,7 +1141,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 167,
+        id: 104,
         category: "Struktury Danych: Drzewa Czerwono-Czarne (RB)",
         text: "Które z poniższych są ZAWSZE spełnionymi własnościami drzewa Czerwono-Czarnego (zgodnie z definicją z wykładu/Cormena)?",
         options: [
@@ -1197,7 +1152,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 168,
+        id: 105,
         category: "Struktury Danych: Drzewa Czerwono-Czarne (RB)",
         text: "Czym jest 'czarna wysokość' (black-height) węzła w drzewie Czerwono-Czarnym?",
         options: [
@@ -1208,7 +1163,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 169,
+        id: 106,
         category: "Struktury Danych: Drzewa Przedziałowe",
         text: "Jakie dodatkowe informacje (poza standardowymi atrybutami drzewa BST) muszą być przechowywane w każdym węźle drzewa przedziałowego (Interval Tree), aby wyszukiwanie przecięć zajmowało $O(\\log n)$?",
         options: [
@@ -1219,7 +1174,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 170,
+        id: 107,
         category: "Algorytmy Tekstowe: Wyszukiwanie Wzorca",
         text: "Na czym polega działanie wyszukiwarki wzorca opartej na Automacie Skończenie Stanowym (FSA)?",
         options: [
@@ -1230,7 +1185,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 171,
+        id: 108,
         category: "Algorytmy Tekstowe: Boyer-Moore",
         text: "Z jakich heurystyk korzysta oryginalny algorytm Boyera-Moore'a do optymalizacji przesunięć wzorca względem tekstu?",
         options: [
@@ -1241,7 +1196,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 172,
+        id: 109,
         category: "Algorytmy Tekstowe: KMP",
         text: "Czego dokładnie dotyczy wartość $\\pi[q]$ w tablicy (funkcji) przejść w algorytmie Knutha-Morrisa-Pratta?",
         options: [
@@ -1252,7 +1207,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 173,
+        id: 110,
         category: "Kompresja Danych",
         text: "Zgodnie z Teorią Informacji Shannona, jeśli litera 'e' występuje w tekście bardzo często, a litera 'q' bardzo rzadko, to jak w optymalnym kodzie (np. Huffmana) będą wyglądały ich reprezentacje bitowe?",
         options: [
@@ -1263,7 +1218,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 174,
+        id: 111,
         category: "Kompresja Danych",
         text: "Jakie jest główne założenie i sposób działania kompresji LZW w stosunku do kodowania Huffmana?",
         options: [
@@ -1274,7 +1229,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 175,
+        id: 112,
         category: "Algorytmy Równoległe: Taksonomia Flynna",
         text: "Co charakteryzuje architekturę SIMD (Single Instruction, Multiple Data) w taksonomii Flynna?",
         options: [
@@ -1285,7 +1240,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 176,
+        id: 113,
         category: "Algorytmy Równoległe: PRAM",
         text: "Co oznacza skrót CREW w kontekście modeli równoległej maszyny RAM (PRAM)?",
         options: [
@@ -1296,7 +1251,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 177,
+        id: 114,
         category: "Algorytmy Równoległe",
         text: "Jaka technika (algorytm) pozwala efektywnie w trybie równoległym wyznaczyć rangę (odległość od końca) każdego elementu w liście jednokierunkowej, skracając czas do $O(\\log n)$?",
         options: [
@@ -1307,7 +1262,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 178,
+        id: 115,
         category: "Algorytmy Sortowania: Teoria",
         text: "Z modelu Drzewa Decyzyjnego dla algorytmów sortowania wynikają ważne ograniczenia matematyczne. Co reprezentują liście takiego drzewa przy sortowaniu tablicy n-elementowej?",
         options: [
@@ -1318,7 +1273,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 179,
+        id: 116,
         category: "Sieci Przepływowe: Skojarzenia",
         text: "Jak należy zmodyfikować graf dwudzielny $G=(V, E)$, aby problem znalezienia maksymalnego skojarzenia w nim można było rozwiązać za pomocą algorytmu Forda-Fulkersona?",
         options: [
@@ -1329,7 +1284,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 180,
+        id: 117,
         category: "Grafy: Przeszukiwanie (DFS)",
         text: "Krawędzie \"w przód\" (forward edges) w lesie przeszukiwania w głąb (DFS) to:",
         options: [
@@ -1340,7 +1295,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 181,
+        id: 118,
         category: "Struktury Danych: Tablice Haszujące",
         text: "Na czym polega zjawisko \"pierwotnego grupowania\" (primary clustering), występujące przy rozwiązywaniu kolizji w tablicach haszujących?",
         options: [
@@ -1351,7 +1306,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 182,
+        id: 119,
         category: "Struktury Danych: Tablice Haszujące",
         text: "Przy haszowaniu otwartym (open addressing), jaką wartość należy wpisać w miejscu po usuniętym elemencie, aby procedura `HASH-SEARCH` mogła nadal działać poprawnie?",
         options: [
@@ -1362,7 +1317,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 183,
+        id: 120,
         category: "Grafy: Najkrótsze Ścieżki na DAG",
         text: "Jaki jest pierwszy krok przy poszukiwaniu najkrótszych ścieżek z jednego źródła w Skierowanym Grafie Acyklicznym (DAG), zanim zaczniemy dokonywać relaksacji?",
         options: [
@@ -1373,7 +1328,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 184,
+        id: 121,
         category: "Dowody Algorytmów: Niezmiennik",
         text: "Czym jest niezmiennik pętli (loop invariant) w analizie poprawności algorytmów na podstawie podręcznika Cormena?",
         options: [
@@ -1384,7 +1339,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 185,
+        id: 122,
         category: "Dynamiczne Struktury Danych",
         text: "Do czego służą struktury Zbiorów Rozłącznych (Disjoint Sets) reprezentowane jako lasy (Disjoint-set forests)?",
         options: [
@@ -1395,7 +1350,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 186,
+        id: 123,
         category: "Grafy: Sieci Przepływowe",
         text: "Czym charakteryzuje się Przekrój (Cut) sieci przepływowej $(S, T)$ z punktu widzenia problemu max-flow?",
         options: [
@@ -1406,7 +1361,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 187,
+        id: 124,
         category: "Struktury Danych: BST i AVL",
         text: "Podczas usuwania węzła $z$ z drzewa poszukiwań binarnych, gdy ten posiada dwoje dzieci, algorytm wykorzystuje element $y$. Czym on jest?",
         options: [
@@ -1417,7 +1372,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 188,
+        id: 125,
         category: "Dowodzenie Matematyczne: Indukcja",
         text: "W metodzie dowodzenia poprawności algorytmów rekurencyjnych przez indukcję matematyczną, jaki jest pierwszy niezbędny krok po sformułowaniu tezy $T(n)$?",
         options: [
@@ -1428,18 +1383,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 189,
-        category: "Algorytmy Geometryczne",
-        text: "Jakie jest najczęstsze zastosowanie obliczania wyznacznika (iloczynu wektorowego) dwóch wektorów $\\vec{P_1P_2}$ i $\\vec{P_1P_3}$ w 2D?",
-        options: [
-            { text: "Sprawdzanie orientacji punktów (np. czy $P_3$ leży po lewej czy prawej stronie wektora kierunkowego z $P_1$ do $P_2$).", isCorrect: true },
-            { text: "Do wyznaczania najmniejszego drzewa rozpinającego tych punktów (MST) na płaszczyźnie.", isCorrect: false },
-            { text: "Do symulowania operacji przesunięć okna w algorytmach wyszukiwania wzorca.", isCorrect: false },
-            { text: "Wyznacznik jest używany w celu znalezienia sumy rzutów wektorów co odpowiada wielkości bazy otoczki.", isCorrect: false }
-        ]
-    },
-    {
-        id: 190,
+        id: 126,
         category: "Algorytmy Sortowania: Model Drzewa Decyzyjnego",
         text: "Dlaczego drzewo decyzyjne dla sortowania przez porównania opartego o $n$ elementów musi mieć co najmniej $n!$ liści?",
         options: [
@@ -1451,7 +1395,7 @@ const questionDatabase = [
     },
 
     {
-        id: 191,
+        id: 127,
         category: "1. Analiza Algorytmów: Rekurencja",
         text: "Zgodnie z Twierdzeniem o Rekurencji Uniwersalnej (Master Theorem), co zachodzi w Przypadku 2, gdy funkcja $f(n) = \\Theta(n^{\\log_b a})$?",
         options: [
@@ -1462,7 +1406,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 192,
+        id: 128,
         category: "1. Analiza Algorytmów: Koszt Zamortyzowany",
         text: "W analizie kosztu zamortyzowanego (metoda księgowania) dla inkrementacji $k$-bitowego licznika binarnego, ile wynosi standardowy koszt zamortyzowany pojedynczej operacji dodania 1?",
         options: [
@@ -1473,7 +1417,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 193,
+        id: 129,
         category: "2. Algorytmy Sortowania: Merge Sort",
         text: "W której dokładnie linii pseudokodu procedury `Merge` (scalania) zagwarantowana jest stabilność sortowania przez scalanie?",
         options: [
@@ -1484,7 +1428,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 194,
+        id: 130,
         category: "2. Algorytmy Sortowania: Quicksort",
         text: "Dlaczego zrandomizowany Quicksort (z losowym wyborem pivota) chroni przed złośliwymi danymi wejściowymi?",
         options: [
@@ -1495,7 +1439,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 195,
+        id: 131,
         category: "3. Struktury Danych: Kopce",
         text: "W tablicowej reprezentacji kopca binarnego indeksowanego od $1$, w jaki sposób ustala się pozycje potomków oraz rodzica węzła $i$?",
         options: [
@@ -1506,7 +1450,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 196,
+        id: 132,
         category: "3. Struktury Danych: Kopce",
         text: "Co charakteryzuje procedurę `Build-Max-Heap(A)`?",
         options: [
@@ -1517,7 +1461,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 197,
+        id: 133,
         category: "4. Struktury Danych: Drzewa BST",
         text: "Zgodnie z procedurą `Tree-Delete(T, z)`, co robi algorytm, gdy węzeł $z$ do usunięcia ma dwoje dzieci?",
         options: [
@@ -1528,7 +1472,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 198,
+        id: 134,
         category: "4. Struktury Danych: Drzewa AVL i RB",
         text: "Ile maksymalnie rotacji (nie licząc zmiany kolorów) może wymagać procedura wstawiania elementu do drzewa Czerwono-Czarnego w celu przywrócenia jego właściwości?",
         options: [
@@ -1539,7 +1483,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 199,
+        id: 135,
         category: "4. Struktury Danych: Tablice Haszujące",
         text: "Jakie jest główne ograniczenie i problem metody adresowania liniowego (linear probing) w tablicach haszujących?",
         options: [
@@ -1550,7 +1494,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 200,
+        id: 136,
         category: "5. Algorytmy Grafowe: BFS i DFS",
         text: "Na czym polega klasyfikacja krawędzi poprzecznych (cross edges) w algorytmie DFS?",
         options: [
@@ -1561,7 +1505,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 201,
+        id: 137,
         category: "5. Algorytmy Grafowe: Topologiczne Sortowanie",
         text: "Jaki jest główny warunek strukturalny, aby graf mógł zostać posortowany topologicznie?",
         options: [
@@ -1572,7 +1516,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 202,
+        id: 138,
         category: "6. Algorytmy Grafowe: Najkrótsze Ścieżki",
         text: "W algorytmie Bellmana-Forda wierzchołki są początkowo inicjalizowane wartościami $d[v] = \\infty$. Ile dokładnie iteracji głównej pętli relaksacji wykonuje ten algorytm (przed sprawdzeniem ujemnych cykli)?",
         options: [
@@ -1583,7 +1527,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 203,
+        id: 139,
         category: "6. Algorytmy Grafowe: Najkrótsze Ścieżki",
         text: "Która z poniższych właściwości dotyczy algorytmu Floyda-Warshalla?",
         options: [
@@ -1594,7 +1538,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 204,
+        id: 140,
         category: "7. Algorytmy Grafowe: Minimalne Drzewo Rozpinające",
         text: "Jakie jest kluczowe założenie tzw. cięcia w kontekście Minimalnego Drzewa Rozpinającego (MST)?",
         options: [
@@ -1605,7 +1549,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 205,
+        id: 141,
         category: "7. Algorytmy Grafowe: Minimalne Drzewo Rozpinające",
         text: "Z jaką złożonością czasową operuje algorytm Kruskala z optymalnie zaimplementowaną strukturą zbiorów rozłącznych?",
         options: [
@@ -1616,7 +1560,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 206,
+        id: 142,
         category: "8. Sieci Przepływowe",
         text: "W algorytmie Forda-Fulkersona wprowadzono pojęcie sieci residualnej. Co oznacza pojemność residualna $c_f(u, v)$ krawędzi w przód (zgodnej z grafem pierwotnym)?",
         options: [
@@ -1627,7 +1571,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 207,
+        id: 143,
         category: "8. Sieci Przepływowe",
         text: "W jaki sposób rozwiązuje się problem maksymalnego skojarzenia w grafach dwudzielnych (Bipartite Matching)?",
         options: [
@@ -1638,7 +1582,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 208,
+        id: 144,
         category: "9. Wyszukiwanie Wzorca: Automaty Stanowe",
         text: "Na czym opiera się algorytm wyszukiwania wzorca za pomocą automatów skończenie stanowych (FSA)?",
         options: [
@@ -1649,7 +1593,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 209,
+        id: 145,
         category: "9. Wyszukiwanie Wzorca: Boyer-Moore",
         text: "Na czym polega heurystyka \"złego znaku\" w algorytmie Boyera-Moore'a?",
         options: [
@@ -1660,7 +1604,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 210,
+        id: 146,
         category: "10. Kompresja Tekstów: LZW",
         text: "W jaki sposób odbywa się inicjalizacja słownika w algorytmie kompresji LZW?",
         options: [
@@ -1671,7 +1615,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 211,
+        id: 147,
         category: "10. Kompresja Tekstów: Teoria",
         text: "Zgodnie z Teorią Informacji, co wyznacza miara entropii Shannona w kontekście tekstu?",
         options: [
@@ -1682,29 +1626,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 212,
-        category: "11. Algorytmy Geometryczne",
-        text: "Jak matematycznie najefektywniej rozstrzygnąć problem czy dwa odcinki $P_1P_2$ oraz $P_3P_4$ przecinają się wzajemnie?",
-        options: [
-            { text: "Sprawdzając, czy punkty $P_1$ i $P_2$ leżą po przeciwnych stronach prostej przechodzącej przez $P_3$ i $P_4$ (i na odwrót), z wykorzystaniem iloczynów wektorowych (wyznaczników).", isCorrect: true },
-            { text: "Obliczając ich kąty biegunowe względem osi OX i zrównując moduły.", isCorrect: false },
-            { text: "Korzystając z miary euklidesowej względem środka ciężkości całego układu.", isCorrect: false },
-            { text: "Rysując równania parametryczne prostych i szukając pierwiastków całkowitych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 213,
-        category: "11. Algorytmy Geometryczne",
-        text: "Jakie jest główne zastosowanie algorytmu zamiatania (Sweep Line Algorithm) w kontekście geometrii obliczeniowej?",
-        options: [
-            { text: "Efektywne poszukiwanie przecięć w zbiorze $n$ odcinków (złożoność rzędu $O(n \\log n)$) w zastępstwie naiwnego sprawdzania każdej pary $O(n^2)$.", isCorrect: true },
-            { text: "Wyznaczanie otoczki wypukłej poprzez miotłę kątową względem punktu startowego.", isCorrect: false },
-            { text: "Generowanie najkrótszych dróg w algorytmach robotyki na planie wielokątów.", isCorrect: false },
-            { text: "Kompresja figur geometrycznych przez redukcję gęstych punktów.", isCorrect: false }
-        ]
-    },
-    {
-        id: 214,
+        id: 148,
         category: "12. Algorytmy Równoległe (PRAM)",
         text: "W modelu PRAM, co definiuje klasę architektury CRCW?",
         options: [
@@ -1715,7 +1637,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 215,
+        id: 149,
         category: "12. Algorytmy Równoległe",
         text: "W jaki sposób w systemach równoległych optymalizuje się wyznaczenie sumy prefiksowej w tablicy?",
         options: [
@@ -1726,7 +1648,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 216,
+        id: 150,
         category: "2. Algorytmy Sortowania: Counting Sort",
         text: "Gdzie w algorytmie Counting Sort występuje ograniczenie wymagające by dane wejściowe $A[j]$ miały typ całkowitoliczbowy (lub dały się na niego zmapować)?",
         options: [
@@ -1737,7 +1659,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 217,
+        id: 151,
         category: "3. Struktury Danych: Analiza",
         text: "Gdy wstawiamy sekwencję rosnących liczb do pustego, klasycznego drzewa BST (nie AVL ani RB), jak będzie wyglądała jego struktura i jaka będzie pesymistyczna złożoność wyszukiwania?",
         options: [
@@ -1748,7 +1670,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 218,
+        id: 152,
         category: "7. Algorytmy Grafowe: Kruskal vs Prim",
         text: "Czym strukturalnie i procesowo różni się budowanie MST w algorytmie Prima od budowy w algorytmie Kruskala?",
         options: [
@@ -1759,7 +1681,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 219,
+        id: 153,
         category: "1. Analiza Algorytmów: Rekurencja",
         text: "Czego w kontekście algorytmów 'Dziel i Zwyciężaj' dotyczy symbol 'c' w uogólnionym koszcie $C(n)$ rekurencji?",
         options: [
@@ -1770,7 +1692,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 220,
+        id: 154,
         category: "5. Algorytmy Grafowe: Sortowanie Topologiczne",
         text: "Sortowanie topologiczne to w praktyce:",
         options: [
@@ -1782,7 +1704,7 @@ const questionDatabase = [
     },
 
     {
-        id: 221,
+        id: 155,
         category: "Wprowadzenie: Dowód Algorytmu",
         text: "W rozumowaniu indukcyjnym (dowodzie indukcyjnym) poprawności niezmiennika pętli, czemu odpowiada 'krok indukcyjny' (inductive step)?",
         options: [
@@ -1793,7 +1715,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 222,
+        id: 156,
         category: "Algorytmy Sortowania: Radix Sort",
         text: "Jaka jest dokładna złożoność czasowa algorytmu Radix Sort dla $n$ słów/liczb o długości $d$ cyfr, jeśli do stabilnego sortowania użyjemy sortowania przez zliczanie z zakresem wartości $0..k$ dla każdej cyfry?",
         options: [
@@ -1804,7 +1726,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 223,
+        id: 157,
         category: "Algorytmy Sortowania: Bucket Sort",
         text: "Zgodnie z procedurą `Bucket-Sort(A)` dla danych wpadających w rozkład jednostajny na przedziale $[0, 1)$, co robi operacja przyporządkowania elementu do kubełka dla tablicy o rozmiarze $n$?",
         options: [
@@ -1815,7 +1737,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 224,
+        id: 158,
         category: "Struktury Danych: Tablice Haszujące",
         text: "Jak zdefiniowany jest ciąg próbkowania dla haszowania dwukrotnego (double hashing) przy adresowaniu otwartym?",
         options: [
@@ -1826,7 +1748,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 225,
+        id: 159,
         category: "Struktury Danych: Tablice Haszujące",
         text: "W haszowaniu dwukrotnym wartość funkcji pomocniczej $h_2(k)$ musi spełniać pewien matematyczny warunek względem wielkości tablicy $m$. Jaki?",
         options: [
@@ -1837,7 +1759,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 226,
+        id: 160,
         category: "Dynamiczne Statystyki Pozycyjne (OS-Tree)",
         text: "Podczas wykonywania rotacji w lewo (Left-Rotate) na węźle $x$, którego prawym dzieckiem jest $y$, w jaki sposób aktualizowane jest pole `size` (rozmiar poddrzewa) utrzymywane przez OS-Tree?",
         options: [
@@ -1848,7 +1770,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 227,
+        id: 161,
         category: "Struktury Danych: Drzewa Przedziałowe",
         text: "W operacji `Interval-Search(T, i)` w drzewie przedziałowym (Interval Tree), jaki jest warunek gwarantujący poprawność decyzji o zejściu do lewego poddrzewa?",
         options: [
@@ -1859,7 +1781,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 228,
+        id: 162,
         category: "Struktury Danych: Drzewa Czerwono-Czarne (RB)",
         text: "Kiedy dołączasz nowy element (zawsze czerwony) do drzewa Czerwono-Czarnego, jakie działania są podejmowane, gdy wujek wstawianego węzła jest CZARNY, a sam węzeł z rodzicem tworzą 'Kształt L' (np. węzeł jest prawym dzieckiem, a rodzic lewym dzieckiem)?",
         options: [
@@ -1870,7 +1792,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 229,
+        id: 163,
         category: "Algorytmy Grafowe: Skierowane Grafy Acykliczne (DAG)",
         text: "Na jakiej właściwości topologicznej z DFS opiera się poszukiwanie najkrótszych ścieżek w grafach DAG algorytmem Bellmana-Forda w czasie liniowym $O(V+E)$?",
         options: [
@@ -1881,7 +1803,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 230,
+        id: 164,
         category: "Algorytmy Grafowe: Minimalne Drzewo Rozpinające (MST)",
         text: "W algorytmie Prima `MST-Prim(G, w, r)`, wartość `key[v]` przechowuje:",
         options: [
@@ -1892,7 +1814,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 231,
+        id: 165,
         category: "Sieci Przepływowe: Teoria",
         text: "Zgodnie z definicją przepustowości przekroju (Cut capacity) w sieci przepływowej $(S, T)$:",
         options: [
@@ -1903,1325 +1825,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 232,
-        category: "Sieci Przepływowe: Złożoność",
-        text: "Dlaczego algorytm Edmondsa-Karpa gwarantuje złożoność wielomianową $O(V \\cdot E^2)$ niezależnie od pojemności krawędzi (w przeciwieństwie do naiwnego Forda-Fulkersona)?",
-        options: [
-            { text: "Ponieważ do znajdowania ścieżek powiększających wykorzystuje algorytm BFS, dobierając ścieżkę o najmniejszej liczbie krawędzi.", isCorrect: true },
-            { text: "Ponieważ wywołuje algorytm Dijkstry wykorzystujący kopiec Fibonacciego w sieci residualnej.", isCorrect: false },
-            { text: "Ponieważ sortuje krawędzie w sieci przepływowej malejąco przed każdym cięciem $O(E \\log V)$.", isCorrect: false },
-            { text: "Ponieważ wprowadza wagi losowe zrandomizowane w celu oszukania cykli.", isCorrect: false }
-        ]
-    },
-    {
-        id: 233,
-        category: "Algorytmy Tekstowe: Wyszukiwanie Wzorca",
-        text: "Jak zbudowana jest funkcja przejścia (tablica) w wyszukiwaniu wzorca przy pomocy Automatu Skończenie Stanowego?",
-        options: [
-            { text: "Dla każdego stanu $q$ i znaku $a$, funkcja przejścia $\\delta(q, a)$ zapisuje długość najdłuższego prefiksu wzorca $P$, który jest równocześnie sufiksem ciągu $P_q a$.", isCorrect: true },
-            { text: "Oblicza hash (sumę algebraiczną) dla wszystkich liter alfabetu $a$, w oparciu o regułę Hornera.", isCorrect: false },
-            { text: "Korzysta z heurystyki 'złego znaku', by skoczyć o największą liczbę różnic we wzorcu.", isCorrect: false },
-            { text: "Tworzy tablicę zliczeń ASCII dla każdego okna tekstowego by uzyskać $O(n)$ pesymistycznie.", isCorrect: false }
-        ]
-    },
-    {
-        id: 234,
-        category: "Algorytmy Tekstowe: KMP",
-        text: "Procedura `Compute-Prefix-Function(P)` w algorytmie KMP buduje tablicę $\\pi$. Jaka jest asymptotyczna złożoność tej procedury i z jakiego powodu?",
-        options: [
-            { text: "Wynosi $\\Theta(m)$, co wynika z analizy zamortyzowanej (wartość zmiennej $k$ rośnie łącznie o max $m$ w pętli zewnętrznej i zmniejsza się wyłącznie, co ogranicza iteracje pętli wewnętrznej `while`).", isCorrect: true },
-            { text: "Wynosi $\\Theta(m^2)$, ponieważ pętla `while` w każdym kroku pętli `for` sprawdza z powrotem od zera cały dotychczasowy wzorzec.", isCorrect: false },
-            { text: "Wynosi $\\Theta(m \\log m)$, ponieważ tablica jest trzymana na strukturze kopca do szybkiego indeksowania.", isCorrect: false },
-            { text: "Wynosi $\\Theta(|\\Sigma| \\cdot m)$, ponieważ sprawdza dopasowania dla całego alfabetu przy każdej literze.", isCorrect: false }
-        ]
-    },
-    {
-        id: 235,
-        category: "Algorytmy Tekstowe: Boyer-Moore",
-        text: "Czym jest heurystyka 'dobrego sufiksu' (Good Suffix Heuristic) w algorytmie Boyera-Moore'a?",
-        options: [
-            { text: "Kiedy wystąpi niezgodność, pozwala na przesunięcie wzorca tak, aby pasujący już fragment (sufiks) wyrównał się z jego innym wystąpieniem we wzorcu (lub by maksymalny prefiks wyrównał się z sufiksem tego fragmentu).", isCorrect: true },
-            { text: "Kiedy wystąpi niezgodność, przesuwa pozycję wzorca za znak tekstu, z którym wystąpiła, ponieważ 'dobry sufiks' wymusza czytanie od prawej.", isCorrect: false },
-            { text: "Oblicza hasz ostatniego sprawdzanego znaku i zrównuje go ze stosem wartości w pamięci L1.", isCorrect: false },
-            { text: "Optymalizuje pamięć kosztem zmniejszenia tablicy o te same litery zebrane na końcu wektora.", isCorrect: false }
-        ]
-    },
-    {
-        id: 236,
-        category: "Kompresja: Algorytm LZW",
-        text: "W jaki sposób odbywa się inicjalizacja w kompresji słownikowej LZW?",
-        options: [
-            { text: "Słownik przed rozpoczęciem kompresji jest inicjowany zestawem podstawowych znaków alfabetu (np. pełną tabelą ASCII długości 256).", isCorrect: true },
-            { text: "Słownik na początku zawsze zawiera dokładnie jeden pusty symbol reprezentujący korzeń drzewa.", isCorrect: false },
-            { text: "Program wylicza najpierw entropię dla wszystkich słów i ładuje 10 najczęstszych.", isCorrect: false },
-            { text: "Wykorzystuje się kopiec priorytetowy inicjowany od wewnątrz algorytmem 'Build-Heap'.", isCorrect: false }
-        ]
-    },
-    {
-        id: 237,
-        category: "Kompresja: Algorytm Huffmana",
-        text: "Który z poniższych argumentów uzasadnia optymalność kodowania Huffmana względem Teorematu o Kodzie Bezstratnym?",
-        options: [
-            { text: "Kodowanie to wykorzystuje właściwość zachłannego wyboru: dwa elementy z najmniejszą częstością występowania otrzymują zawsze najdłuższe (i różniące się o bit) ścieżki w drzewie kodu prefiksowego.", isCorrect: true },
-            { text: "Zapewnia on stałą długość kodu dla każdego symbolu, minimalizując błędy wejścia/wyjścia.", isCorrect: false },
-            { text: "Optymalizuje entropię przypisując rzadkim znakom najkrótsze możliwe ścieżki w lewym poddrzewie.", isCorrect: false },
-            { text: "Jest równoważny poszukiwaniom cyklu Eulera, redukując problem dekodowania do czasu $O(1)$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 238,
-        category: "Algorytmy Równoległe: Taksonomia Flynna",
-        text: "System wykorzystujący architekturę MIMD z pamięcią współdzieloną charakteryzuje się tym, że:",
-        options: [
-            { text: "Wiele procesorów wykonuje niezależne od siebie strumienie instrukcji na różnych zbiorach danych, komunikując się poprzez jedną wspólną pamięć.", isCorrect: true },
-            { text: "Jeden główny procesor dystrybuuje te same instrukcje na wiele lokalnych jednostek ALU.", isCorrect: false },
-            { text: "Pamięć jest całkowicie odcięta, a maszyny komunikują się jedynie siecią komunikatów UDP.", isCorrect: false },
-            { text: "Wiele strumieni instrukcji przechodzi potokowo na jeden rdzeń (superskalarność w SISD).", isCorrect: false }
-        ]
-    },
-    {
-        id: 239,
-        category: "Algorytmy Równoległe: Modele PRAM",
-        text: "Który z modeli Parallel Random Access Machine (PRAM) jest najbardziej obostrzony (najtrudniejszy do programowania, lecz sprzętowo najłatwiejszy do realizacji)?",
-        options: [
-            { text: "EREW (Exclusive Read, Exclusive Write) – żaden węzeł nie może jednocześnie czytać ani pisać pod ten sam adres co inny.", isCorrect: true },
-            { text: "CRCW (Concurrent Read, Concurrent Write) – brak ograniczeń synchronizacji na szynie.", isCorrect: false },
-            { text: "CREW (Concurrent Read, Exclusive Write) – można jednocześnie czytać, ale pisać po kolei.", isCorrect: false },
-            { text: "ERCW (Exclusive Read, Concurrent Write) – zakaz równoczesnego odczytu przy dopuszczeniu zapisu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 240,
-        category: "Algorytmy Równoległe",
-        text: "W jaki sposób w algorytmach równoległych optymalizuje się wyznaczenie min/max na tablicy z użyciem procesorów?",
-        options: [
-            { text: "Używając techniki zrównoważonego drzewa redukcji, w której w każdym kroku połowa dostępnych procesorów wylicza min z pary, schodząc do czasu $O(\\log n)$.", isCorrect: true },
-            { text: "Przekazując tablicę każdemu z n procesorów w formacie CREW do sekwencyjnego wyszukania z $O(n^2)$.", isCorrect: false },
-            { text: "Wdrażając protokół priorytetów CRCW, w którym procesor z największą wartością pisze wynik do wspólnego adresu w czasie $O(1)$.", isCorrect: true },
-            { text: "Poprzez spłaszczenie i użycie sortowania bąbelkowego na blokach $P_i$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 241,
-        category: "Algorytmy Geometryczne",
-        text: "Na czym opiera się fundamentalny test w geometrii obliczeniowej: sprawdzenie czy dwa odcinki $p_1p_2$ oraz $p_3p_4$ się przecinają (tzw. test przecięcia odcinków)?",
-        options: [
-            { text: "Sprawdza się za pomocą iloczynów wektorowych, czy dla obu prostych zawierających odcinki końce drugiego odcinka leżą po jej przeciwnych stronach (rozkraczają prostą).", isCorrect: true },
-            { text: "Przyrównuje się wartości funkcji cosinus z twierdzenia Snelliusa na podstawie odległości.", isCorrect: false },
-            { text: "Zakłada obrysowanie obu odcinków prostokątami (bounding box) jako test absolutny i ostateczny.", isCorrect: false },
-            { text: "Sortuje się je metodą kątową wokół wspólnego środka ciężkości.", isCorrect: false }
-        ]
-    },
-    {
-        id: 242,
-        category: "Algorytmy Geometryczne: Otoczka Wypukła",
-        text: "W algorytmie Grahama budowania otoczki wypukłej używany jest stos $S$. Jaki jest warunek wycofania z niego wierzchołka (operacja POP) przy weryfikacji nowego punktu $p_i$?",
-        options: [
-            { text: "Jeśli wektory utworzone przez przedostatni punkt ze stosu, top stosu i punkt $p_i$ NIE tworzą 'skrętu w lewo' (np. tworzą skręt w prawo, iloczyn wektorowy $\\le 0$).", isCorrect: true },
-            { text: "Jeśli współrzędna y punktu $p_i$ staje się mniejsza niż top ze stosu.", isCorrect: false },
-            { text: "Gdy wektor zderza się ze ścianą zamiatania (sweep line intersection).", isCorrect: false },
-            { text: "Kiedy stos zapełni się $n-1$ elementami, aby oczyścić pamięć rezydualną.", isCorrect: false }
-        ]
-    },
-    {
-        id: 243,
-        category: "Algorytmy Geometryczne: Algorytm Zamiatania",
-        text: "W algorytmie sprawdzania czy występuje przecięcie w zbiorze odcinków (zamiatanie / Sweep-line), jakie struktury danych są wymagane do uzyskania czasu $O(n \\log n)$?",
-        options: [
-            { text: "Kolejka priorytetowa dla 'Kolejki Zdarzeń' na osi X oraz zrównoważone drzewo (np. Red-Black) do przechowywania statusu relacji ułożenia na osi Y (tzw. stanu zamiatania).", isCorrect: true },
-            { text: "Dwie sprzężone ze sobą tablice haszujące oraz stos podwójny.", isCorrect: false },
-            { text: "Las struktur zbiorów rozłącznych z Union-Find oraz Macierz Rzadka.", isCorrect: false },
-            { text: "Graf reprezentowany przez listy sąsiedztwa połączony z procedurą Tarjana.", isCorrect: false }
-        ]
-    },
-    {
-        id: 244,
-        category: "Algorytmy Geometryczne: Najbliższa para punktów",
-        text: "W fazie scalania (Conquer) dla algorytmu wyszukiwania najbliższej pary punktów Dziel i Zwyciężaj na płaszczyźnie, dla danego punktu z wyznaczonego pasa granicznego sprawdzamy najwyżej:",
-        options: [
-            { text: "7 (lub 8, zależnie od założeń krawędziowych) punktów z drugiej strony granicy, które mieszczą się w wyznaczonym oknie czasowym $\\delta \\times 2\\delta$.", isCorrect: true },
-            { text: "Wszystkie punkty w podtablicy, ponieważ problem zredukowany z osi X powraca do 2D ($O(n)$ dla każdego elementu).", isCorrect: false },
-            { text: "Punkty tylko z jednej, posortowanej osi X używając prostej tablicy jednoelementowej.", isCorrect: false },
-            { text: "Wykonywane jest rekurencyjne sprawdzenie promienia koła opisanego na pozostałych punktach.", isCorrect: false }
-        ]
-    },
-    {
-        id: 245,
-        category: "Analiza Zamortyzowana: Tablice",
-        text: "Zgodnie z metodą Potencjału w analizie zamortyzowanej tablicy dynamicznej, która powiększa i zmniejsza rozmiar, potencjał $\\Phi$ gdy tablica ma status ponad półpełny często definiowany jest jako:",
-        options: [
-            { text: "$\\Phi(D) = 2 \\cdot num - size$, gdzie 'num' to ilość elementów, a 'size' rozmiar tablicy, co daje nam $size$ odłożonych kredytów w momencie pełnego wypełnienia.", isCorrect: true },
-            { text: "$\\Phi(D) = num - 2 \\cdot size$, przez co funkcja zawsze jest ujemna, dopóki tablica nie zostanie zrekompensowana ucinaniem rozmiaru.", isCorrect: false },
-            { text: "$\\Phi(D) = \\log(num)$, jako podstawa drzewa kosztów rozszerzających.", isCorrect: false },
-            { text: "$\\Phi(D)$ musi być zawsze równe 0 dla optymalnego algorytmu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 246,
-        category: "Algorytmy Sortowania: Analiza Modelu Drzewa",
-        text: "Na czym opiera się dowód, że algorytmy sortowania wykorzystujące porównania mają dolne ograniczenie na poziomie $\\Omega(n \\log n)$?",
-        options: [
-            { text: "Drzewo decyzyjne dla $n$ elementów musi mieć przynajmniej $n!$ (n silnia) liści, co z własności wysokości drzewa binarnego $h \\ge \\log_2(n!)$ daje przybliżenie Stirlinga $\\Omega(n \\log n)$.", isCorrect: true },
-            { text: "Na zastosowaniu Twierdzenia o Rekurencji Uniwersalnej do ułamków potęg z równania Quicksort.", isCorrect: false },
-            { text: "Na faktu, że czas dostępu do każdej tablicy to z definicji logarytm jej indeksu głównego.", isCorrect: false },
-            { text: "Na nieuchronności kolizji wartości stałych co obciąża pętle bąbelkową o czynnik kwadratowy, o ile nie ułamkowy.", isCorrect: false }
-        ]
-    },
-    {
-        id: 247,
-        category: "Struktury Danych: Analiza",
-        text: "W jakich sytuacjach należy zrezygnować z naiwnego drzewa BST i zdecydować się na implementację drzewa Czerwono-Czarnego lub AVL?",
-        options: [
-            { text: "Kiedy dane wprowadzane są do drzewa powoli i w sposób uporządkowany (posortowany), co u zwykłego BST generuje najgorszy przypadek w postaci wydłużonej listy i daje operacje w czasie $O(n)$.", isCorrect: true },
-            { text: "Kiedy brakuje nam miejsca w pamięci z powodu braku wskaźników do przodka (ojca).", isCorrect: false },
-            { text: "Tylko w zastosowaniach w systemach wielordzeniowych gdzie kolor stanowi flagę dostępu LOCK dla wątku.", isCorrect: false },
-            { text: "Drzewo BST powinno być wykorzystywane zamiast nich zawsze, by unikać nakładu obliczeniowego.", isCorrect: false }
-        ]
-    },
-    {
-        id: 248,
-        category: "Struktury Danych: Kopce Priorytetowe",
-        text: "W operacji podwyższania priorytetu elementu w kopcu typu Max, `Heap-Increase-Key(A, i, key)`, jak zachowuje się algorytm gdy zmieniono wartość klucza w węźle `i`?",
-        options: [
-            { text: "Iteracyjnie porównuje węzeł $i$ z jego rodzicem i wywołuje na nich zamianę (swap) dotąd, aż rodzic będzie większy/równy, lub dotrze do korzenia $A[1]$.", isCorrect: true },
-            { text: "Przebudowuje cały kopiec wywołaniem `Build-Heap` celem potwierdzenia zbalansowania położeń.", isCorrect: false },
-            { text: "Zanurza element do liści korzystając z operacji `Max-Heapify(A, i)` w dół.", isCorrect: false },
-            { text: "Dzieli kopiec na dwa drzewa fibonacciego przy użyciu zrzutu 'decrease'.", isCorrect: false }
-        ]
-    },
-    {
-        id: 249,
-        category: "Grafy: Twierdzenia Grafowe",
-        text: "Lemat dotyczący wyznaczania Minimalnego Drzewa Rozpinającego zakłada pojęcie krawędzi 'bezpiecznej' (safe edge). Krawędź ta:",
-        options: [
-            { text: "Gdy zostanie dodana do częściowo zbudowanego już MST (zgodnego z jakimś pełnym MST), otrzymany zbiór krawędzi nadal jest podzbiorem pewnego pełnego optymalnego MST.", isCorrect: true },
-            { text: "Jej waga musi wynosić dokładnie 0 lub 1.", isCorrect: false },
-            { text: "Odpowiada najdroższej krawędzi tworzącej cykl na zadanym wykresie dwudzielnym.", isCorrect: false },
-            { text: "To krawędź dodawana przez algorytm relaksacji przy ścieżkach skierowanych i negatywnych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 250,
-        category: "Struktury Danych: Kopce",
-        text: "Gdzie musi znajdować się węzeł przechowujący najmniejszą wartość w strukturze Kopca Binamego typu Max (Max-Heap)?",
-        options: [
-            { text: "Musi on być jednym z liści (elementy tablicy na indeksach od $\\lfloor n/2 \\rfloor + 1$ do $n$).", isCorrect: true },
-            { text: "Zawsze na lewym końcu poddrzewa (jak w standardowym BST).", isCorrect: false },
-            { text: "Znajduje się on dokładnie na miejscu $n$ (zawsze na samym końcu tablicy).", isCorrect: false },
-            { text: "Kopiec typu Max trzyma tylko element maksymalny, mniejsze są ignorowane na etapie tworzenia wskaźników.", isCorrect: false }
-        ]
-    },
-    {
-        id: 221,
-        category: "Wprowadzenie: Dowód Algorytmu",
-        text: "W rozumowaniu indukcyjnym (dowodzie indukcyjnym) poprawności niezmiennika pętli, czemu odpowiada 'krok indukcyjny' (inductive step)?",
-        options: [
-            { text: "Wyraża się poprzez pokazanie, że jeśli niezmiennik jest prawdziwy przed iteracją pętli, to pozostaje prawdziwy również przed następną iteracją.", isCorrect: true },
-            { text: "Polega na udowodnieniu poprawności bazy, tj. faktu, że algorytm w ogóle wchodzi w główną pętlę.", isCorrect: false },
-            { text: "To faza zakończenia, w której udowadniamy, że po wyjściu z pętli algorytm zwraca optymalny wynik.", isCorrect: false },
-            { text: "Jest to matematyczne udowodnienie, że złożoność pętli wynosi $O(n)$ dla dowolnego $n$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 222,
-        category: "Algorytmy Sortowania: Radix Sort",
-        text: "Jaka jest dokładna złożoność czasowa algorytmu Radix Sort dla $n$ słów/liczb o długości $d$ cyfr, jeśli do stabilnego sortowania użyjemy sortowania przez zliczanie z zakresem wartości $0..k$ dla każdej cyfry?",
-        options: [
-            { text: "$\\Theta(d(n + k))$", isCorrect: true },
-            { text: "$\\Theta(n \\cdot d^k)$", isCorrect: false },
-            { text: "$O(n \\log_k d)$", isCorrect: false },
-            { text: "$\\Theta(n + d \\cdot k)$", isCorrect: false }
-        ]
-    },
-    {
-        id: 223,
-        category: "Algorytmy Sortowania: Bucket Sort",
-        text: "Zgodnie z procedurą `Bucket-Sort(A)` dla danych wpadających w rozkład jednostajny na przedziale $[0, 1)$, co robi operacja przyporządkowania elementu do kubełka dla tablicy o rozmiarze $n$?",
-        options: [
-            { text: "Wstawia element $A[i]$ do listy dowiązaniowej znajdującej się pod indeksem $B[\\lfloor n \\cdot A[i] \\rfloor]$.", isCorrect: true },
-            { text: "Dzieli wartość $A[i]$ przez $n$ i wyciąga z tego sufit (CEILING).", isCorrect: false },
-            { text: "Wykonuje operację $A[i] \\bmod n$ i mapuje do lokalnej tablicy haszującej.", isCorrect: false },
-            { text: "Wykorzystuje strukturę Union-Find do pogrupowania kubełków w bloki wielkości $k$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 224,
-        category: "Struktury Danych: Tablice Haszujące",
-        text: "Jak zdefiniowany jest ciąg próbkowania dla haszowania dwukrotnego (double hashing) przy adresowaniu otwartym?",
-        options: [
-            { text: "$h(k, i) = (h_1(k) + i \\cdot h_2(k)) \\bmod m$", isCorrect: true },
-            { text: "$h(k, i) = (h_1(k) + c_1 \\cdot i + c_2 \\cdot i^2) \\bmod m$", isCorrect: false },
-            { text: "$h(k, i) = (h_1(k) \\cdot h_2(i)) \\bmod m$", isCorrect: false },
-            { text: "$h(k, i) = (h_1(k) + i) \\bmod m$", isCorrect: false }
-        ]
-    },
-    {
-        id: 225,
-        category: "Struktury Danych: Tablice Haszujące",
-        text: "W haszowaniu dwukrotnym wartość funkcji pomocniczej $h_2(k)$ musi spełniać pewien matematyczny warunek względem wielkości tablicy $m$. Jaki?",
-        options: [
-            { text: "Wartość $h_2(k)$ i rozmiar tablicy $m$ muszą być względnie pierwsze (ich największy wspólny dzielnik NWD wynosi 1), aby próbkowanie przeszło przez całą tablicę.", isCorrect: true },
-            { text: "Rozmiar tablicy $m$ musi być zawsze podzielny przez $h_2(k)$, by zjawisko primary clusteringu zostało wyeliminowane.", isCorrect: false },
-            { text: "Wartość $h_2(k)$ musi wynosić dokładnie $\\log m$.", isCorrect: false },
-            { text: "NWD($h_2(k)$, $m$) musi być parzyste, jeśli $m$ jest potęgą dwójki.", isCorrect: false }
-        ]
-    },
-    {
-        id: 226,
-        category: "Dynamiczne Statystyki Pozycyjne (OS-Tree)",
-        text: "Podczas wykonywania rotacji w lewo (Left-Rotate) na węźle $x$, którego prawym dzieckiem jest $y$, w jaki sposób aktualizowane jest pole `size` (rozmiar poddrzewa) utrzymywane przez OS-Tree?",
-        options: [
-            { text: "`y.size = x.size` oraz `x.size = x.left.size + x.right.size + 1`", isCorrect: true },
-            { text: "`x.size = y.size` oraz `y.size = y.left.size + y.right.size + 1`", isCorrect: false },
-            { text: "`x.size = y.size - 1`", isCorrect: false },
-            { text: "Pole `size` inkrementowane jest o 1 tylko w korzeniu głównym drzewa.", isCorrect: false }
-        ]
-    },
-    {
-        id: 227,
-        category: "Struktury Danych: Drzewa Przedziałowe",
-        text: "W operacji `Interval-Search(T, i)` w drzewie przedziałowym (Interval Tree), jaki jest warunek gwarantujący poprawność decyzji o zejściu do lewego poddrzewa?",
-        options: [
-            { text: "Jeśli lewe dziecko węzła $x$ istnieje (`x.left != NIL`) oraz maksymalny koniec w jego poddrzewie jest większy lub równy początkowi szukanego przedziału (`x.left.max >= i.low`).", isCorrect: true },
-            { text: "Jeśli pole `x.left.max` jest równe wartości szukanego `i.high`.", isCorrect: false },
-            { text: "Jeśli interwał $i$ mieści się w całości we wskaźniku lewego brata `x.left.low < i.high`.", isCorrect: false },
-            { text: "Jeśli drzewo przedziałowe posiada kolor czerwony na lewym potomku.", isCorrect: false }
-        ]
-    },
-    {
-        id: 228,
-        category: "Struktury Danych: Drzewa Czerwono-Czarne (RB)",
-        text: "Kiedy dołączasz nowy element (zawsze czerwony) do drzewa Czerwono-Czarnego, jakie działania są podejmowane, gdy wujek wstawianego węzła jest CZARNY, a sam węzeł z rodzicem tworzą 'Kształt L' (np. węzeł jest prawym dzieckiem, a rodzic lewym dzieckiem)?",
-        options: [
-            { text: "Sytuacja jest redukowana do 'Kształtu Linii' poprzez pojedynczą rotację na rodzicu, co sprowadza problem do kolejnego przypadku (Case 3 z Cormena).", isCorrect: true },
-            { text: "Wujek oraz rodzic stają się czarni, a dziadek zostaje przemalowany na czerwono.", isCorrect: false },
-            { text: "Węzeł zostaje usunięty i przekazany z powrotem do funkcji `Tree-Insert` na poziomie wyżej.", isCorrect: false },
-            { text: "Wykonywane są dwie rotacje: bezpośrednio na wujku oraz podwójna rotacja w lewo na korzeniu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 229,
-        category: "Algorytmy Grafowe: Skierowane Grafy Acykliczne (DAG)",
-        text: "Na jakiej właściwości topologicznej z DFS opiera się poszukiwanie najkrótszych ścieżek w grafach DAG algorytmem Bellmana-Forda w czasie liniowym $O(V+E)$?",
-        options: [
-            { text: "W grafie DAG (bez cykli), krawędzie można relaksować dokładnie jeden raz, pod warunkiem robienia tego w kolejności topologicznej wierzchołków.", isCorrect: true },
-            { text: "Dla grafu DAG macierz wag jest symetryczna, co redukuje algorytm z $V^3$ do $V+E$.", isCorrect: false },
-            { text: "Grafy DAG z definicji nie mogą posiadać krawędzi o wagach ujemnych, więc redukują się do BFS.", isCorrect: false },
-            { text: "Wystarczy zbudować Las Rozpinający wykorzystując technikę Find-Set Kruskala.", isCorrect: false }
-        ]
-    },
-    {
-        id: 230,
-        category: "Algorytmy Grafowe: Minimalne Drzewo Rozpinające (MST)",
-        text: "W algorytmie Prima `MST-Prim(G, w, r)`, wartość `key[v]` przechowuje:",
-        options: [
-            { text: "Najmniejszą wagę spośród krawędzi łączących wierzchołek $v$ z dowolnym wierzchołkiem należącym już do budowanego drzewa.", isCorrect: true },
-            { text: "Suma wag wszystkich krawędzi od korzenia początkowego $r$ do $v$.", isCorrect: false },
-            { text: "Indeks wierzchołka $v$ z tablicy sąsiedztwa po procesie haszowania.", isCorrect: false },
-            { text: "Liczbę krawędzi incydentnych do $v$, które jeszcze nie znalazły się w kolejce priorytetowej.", isCorrect: false }
-        ]
-    },
-    {
-        id: 231,
-        category: "Sieci Przepływowe: Teoria",
-        text: "Zgodnie z definicją przepustowości przekroju (Cut capacity) w sieci przepływowej $(S, T)$:",
-        options: [
-            { text: "Przepustowość przekroju uwzględnia sumę wag wyłącznie krawędzi wychodzących ze zbioru $S$ i wchodzących do $T$.", isCorrect: true },
-            { text: "Przepustowość przekroju to suma wag krawędzi w obu kierunkach ($S$ do $T$ oraz $T$ do $S$).", isCorrect: false },
-            { text: "Przepustowość ta jest zawsze mniejsza niż jakikolwiek legalny przepływ w sieci.", isCorrect: false },
-            { text: "Uwzględnia ona wyłącznie ścieżki powiększające o wartości residualnej większej od zera.", isCorrect: false }
-        ]
-    },
-    {
-        id: 232,
-        category: "Sieci Przepływowe: Złożoność",
-        text: "Dlaczego algorytm Edmondsa-Karpa gwarantuje złożoność wielomianową $O(V \\cdot E^2)$ niezależnie od pojemności krawędzi (w przeciwieństwie do naiwnego Forda-Fulkersona)?",
-        options: [
-            { text: "Ponieważ do znajdowania ścieżek powiększających wykorzystuje algorytm BFS, dobierając ścieżkę o najmniejszej liczbie krawędzi.", isCorrect: true },
-            { text: "Ponieważ wywołuje algorytm Dijkstry wykorzystujący kopiec Fibonacciego w sieci residualnej.", isCorrect: false },
-            { text: "Ponieważ sortuje krawędzie w sieci przepływowej malejąco przed każdym cięciem $O(E \\log V)$.", isCorrect: false },
-            { text: "Ponieważ wprowadza wagi losowe zrandomizowane w celu oszukania cykli.", isCorrect: false }
-        ]
-    },
-    {
-        id: 233,
-        category: "Algorytmy Tekstowe: Wyszukiwanie Wzorca",
-        text: "Jak zbudowana jest funkcja przejścia (tablica) w wyszukiwaniu wzorca przy pomocy Automatu Skończenie Stanowego?",
-        options: [
-            { text: "Dla każdego stanu $q$ i znaku $a$, funkcja przejścia $\\delta(q, a)$ zapisuje długość najdłuższego prefiksu wzorca $P$, który jest równocześnie sufiksem ciągu $P_q a$.", isCorrect: true },
-            { text: "Oblicza hash (sumę algebraiczną) dla wszystkich liter alfabetu $a$, w oparciu o regułę Hornera.", isCorrect: false },
-            { text: "Korzysta z heurystyki 'złego znaku', by skoczyć o największą liczbę różnic we wzorcu.", isCorrect: false },
-            { text: "Tworzy tablicę zliczeń ASCII dla każdego okna tekstowego by uzyskać $O(n)$ pesymistycznie.", isCorrect: false }
-        ]
-    },
-    {
-        id: 234,
-        category: "Algorytmy Tekstowe: KMP",
-        text: "Procedura `Compute-Prefix-Function(P)` w algorytmie KMP buduje tablicę $\\pi$. Jaka jest asymptotyczna złożoność tej procedury i z jakiego powodu?",
-        options: [
-            { text: "Wynosi $\\Theta(m)$, co wynika z analizy zamortyzowanej (wartość zmiennej $k$ rośnie łącznie o max $m$ w pętli zewnętrznej i zmniejsza się wyłącznie, co ogranicza iteracje pętli wewnętrznej `while`).", isCorrect: true },
-            { text: "Wynosi $\\Theta(m^2)$, ponieważ pętla `while` w każdym kroku pętli `for` sprawdza z powrotem od zera cały dotychczasowy wzorzec.", isCorrect: false },
-            { text: "Wynosi $\\Theta(m \\log m)$, ponieważ tablica jest trzymana na strukturze kopca do szybkiego indeksowania.", isCorrect: false },
-            { text: "Wynosi $\\Theta(|\\Sigma| \\cdot m)$, ponieważ sprawdza dopasowania dla całego alfabetu przy każdej literze.", isCorrect: false }
-        ]
-    },
-    {
-        id: 235,
-        category: "Algorytmy Tekstowe: Boyer-Moore",
-        text: "Czym jest heurystyka 'dobrego sufiksu' (Good Suffix Heuristic) w algorytmie Boyera-Moore'a?",
-        options: [
-            { text: "Kiedy wystąpi niezgodność, pozwala na przesunięcie wzorca tak, aby pasujący już fragment (sufiks) wyrównał się z jego innym wystąpieniem we wzorcu (lub by maksymalny prefiks wyrównał się z sufiksem tego fragmentu).", isCorrect: true },
-            { text: "Kiedy wystąpi niezgodność, przesuwa pozycję wzorca za znak tekstu, z którym wystąpiła, ponieważ 'dobry sufiks' wymusza czytanie od prawej.", isCorrect: false },
-            { text: "Oblicza hasz ostatniego sprawdzanego znaku i zrównuje go ze stosem wartości w pamięci L1.", isCorrect: false },
-            { text: "Optymalizuje pamięć kosztem zmniejszenia tablicy o te same litery zebrane na końcu wektora.", isCorrect: false }
-        ]
-    },
-    {
-        id: 236,
-        category: "Kompresja: Algorytm LZW",
-        text: "W jaki sposób odbywa się inicjalizacja w kompresji słownikowej LZW?",
-        options: [
-            { text: "Słownik przed rozpoczęciem kompresji jest inicjowany zestawem podstawowych znaków alfabetu (np. pełną tabelą ASCII długości 256).", isCorrect: true },
-            { text: "Słownik na początku zawsze zawiera dokładnie jeden pusty symbol reprezentujący korzeń drzewa.", isCorrect: false },
-            { text: "Program wylicza najpierw entropię dla wszystkich słów i ładuje 10 najczęstszych.", isCorrect: false },
-            { text: "Wykorzystuje się kopiec priorytetowy inicjowany od wewnątrz algorytmem 'Build-Heap'.", isCorrect: false }
-        ]
-    },
-    {
-        id: 237,
-        category: "Kompresja: Algorytm Huffmana",
-        text: "Który z poniższych argumentów uzasadnia optymalność kodowania Huffmana względem Teorematu o Kodzie Bezstratnym?",
-        options: [
-            { text: "Kodowanie to wykorzystuje właściwość zachłannego wyboru: dwa elementy z najmniejszą częstością występowania otrzymują zawsze najdłuższe (i różniące się o bit) ścieżki w drzewie kodu prefiksowego.", isCorrect: true },
-            { text: "Zapewnia on stałą długość kodu dla każdego symbolu, minimalizując błędy wejścia/wyjścia.", isCorrect: false },
-            { text: "Optymalizuje entropię przypisując rzadkim znakom najkrótsze możliwe ścieżki w lewym poddrzewie.", isCorrect: false },
-            { text: "Jest równoważny poszukiwaniom cyklu Eulera, redukując problem dekodowania do czasu $O(1)$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 238,
-        category: "Algorytmy Równoległe: Taksonomia Flynna",
-        text: "System wykorzystujący architekturę MIMD z pamięcią współdzieloną charakteryzuje się tym, że:",
-        options: [
-            { text: "Wiele procesorów wykonuje niezależne od siebie strumienie instrukcji na różnych zbiorach danych, komunikując się poprzez jedną wspólną pamięć.", isCorrect: true },
-            { text: "Jeden główny procesor dystrybuuje te same instrukcje na wiele lokalnych jednostek ALU.", isCorrect: false },
-            { text: "Pamięć jest całkowicie odcięta, a maszyny komunikują się jedynie siecią komunikatów UDP.", isCorrect: false },
-            { text: "Wiele strumieni instrukcji przechodzi potokowo na jeden rdzeń (superskalarność w SISD).", isCorrect: false }
-        ]
-    },
-    {
-        id: 239,
-        category: "Algorytmy Równoległe: Modele PRAM",
-        text: "Który z modeli Parallel Random Access Machine (PRAM) jest najbardziej obostrzony (najtrudniejszy do programowania, lecz sprzętowo najłatwiejszy do realizacji)?",
-        options: [
-            { text: "EREW (Exclusive Read, Exclusive Write) – żaden węzeł nie może jednocześnie czytać ani pisać pod ten sam adres co inny.", isCorrect: true },
-            { text: "CRCW (Concurrent Read, Concurrent Write) – brak ograniczeń synchronizacji na szynie.", isCorrect: false },
-            { text: "CREW (Concurrent Read, Exclusive Write) – można jednocześnie czytać, ale pisać po kolei.", isCorrect: false },
-            { text: "ERCW (Exclusive Read, Concurrent Write) – zakaz równoczesnego odczytu przy dopuszczeniu zapisu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 240,
-        category: "Algorytmy Równoległe",
-        text: "W jaki sposób w algorytmach równoległych optymalizuje się wyznaczenie min/max na tablicy z użyciem procesorów?",
-        options: [
-            { text: "Używając techniki zrównoważonego drzewa redukcji, w której w każdym kroku połowa dostępnych procesorów wylicza min z pary, schodząc do czasu $O(\\log n)$.", isCorrect: true },
-            { text: "Przekazując tablicę każdemu z n procesorów w formacie CREW do sekwencyjnego wyszukania z $O(n^2)$.", isCorrect: false },
-            { text: "Wdrażając protokół priorytetów CRCW, w którym procesor z największą wartością pisze wynik do wspólnego adresu w czasie $O(1)$.", isCorrect: true },
-            { text: "Poprzez spłaszczenie i użycie sortowania bąbelkowego na blokach $P_i$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 241,
-        category: "Algorytmy Geometryczne",
-        text: "Na czym opiera się fundamentalny test w geometrii obliczeniowej: sprawdzenie czy dwa odcinki $p_1p_2$ oraz $p_3p_4$ się przecinają (tzw. test przecięcia odcinków)?",
-        options: [
-            { text: "Sprawdza się za pomocą iloczynów wektorowych, czy dla obu prostych zawierających odcinki końce drugiego odcinka leżą po jej przeciwnych stronach (rozkraczają prostą).", isCorrect: true },
-            { text: "Przyrównuje się wartości funkcji cosinus z twierdzenia Snelliusa na podstawie odległości.", isCorrect: false },
-            { text: "Zakłada obrysowanie obu odcinków prostokątami (bounding box) jako test absolutny i ostateczny.", isCorrect: false },
-            { text: "Sortuje się je metodą kątową wokół wspólnego środka ciężkości.", isCorrect: false }
-        ]
-    },
-    {
-        id: 242,
-        category: "Algorytmy Geometryczne: Otoczka Wypukła",
-        text: "W algorytmie Grahama budowania otoczki wypukłej używany jest stos $S$. Jaki jest warunek wycofania z niego wierzchołka (operacja POP) przy weryfikacji nowego punktu $p_i$?",
-        options: [
-            { text: "Jeśli wektory utworzone przez przedostatni punkt ze stosu, top stosu i punkt $p_i$ NIE tworzą 'skrętu w lewo' (np. tworzą skręt w prawo, iloczyn wektorowy $\\le 0$).", isCorrect: true },
-            { text: "Jeśli współrzędna y punktu $p_i$ staje się mniejsza niż top ze stosu.", isCorrect: false },
-            { text: "Gdy wektor zderza się ze ścianą zamiatania (sweep line intersection).", isCorrect: false },
-            { text: "Kiedy stos zapełni się $n-1$ elementami, aby oczyścić pamięć rezydualną.", isCorrect: false }
-        ]
-    },
-    {
-        id: 243,
-        category: "Algorytmy Geometryczne: Algorytm Zamiatania",
-        text: "W algorytmie sprawdzania czy występuje przecięcie w zbiorze odcinków (zamiatanie / Sweep-line), jakie struktury danych są wymagane do uzyskania czasu $O(n \\log n)$?",
-        options: [
-            { text: "Kolejka priorytetowa dla 'Kolejki Zdarzeń' na osi X oraz zrównoważone drzewo (np. Red-Black) do przechowywania statusu relacji ułożenia na osi Y (tzw. stanu zamiatania).", isCorrect: true },
-            { text: "Dwie sprzężone ze sobą tablice haszujące oraz stos podwójny.", isCorrect: false },
-            { text: "Las struktur zbiorów rozłącznych z Union-Find oraz Macierz Rzadka.", isCorrect: false },
-            { text: "Graf reprezentowany przez listy sąsiedztwa połączony z procedurą Tarjana.", isCorrect: false }
-        ]
-    },
-    {
-        id: 244,
-        category: "Algorytmy Geometryczne: Najbliższa para punktów",
-        text: "W fazie scalania (Conquer) dla algorytmu wyszukiwania najbliższej pary punktów Dziel i Zwyciężaj na płaszczyźnie, dla danego punktu z wyznaczonego pasa granicznego sprawdzamy najwyżej:",
-        options: [
-            { text: "7 (lub 8, zależnie od założeń krawędziowych) punktów z drugiej strony granicy, które mieszczą się w wyznaczonym oknie czasowym $\\delta \\times 2\\delta$.", isCorrect: true },
-            { text: "Wszystkie punkty w podtablicy, ponieważ problem zredukowany z osi X powraca do 2D ($O(n)$ dla każdego elementu).", isCorrect: false },
-            { text: "Punkty tylko z jednej, posortowanej osi X używając prostej tablicy jednoelementowej.", isCorrect: false },
-            { text: "Wykonywane jest rekurencyjne sprawdzenie promienia koła opisanego na pozostałych punktach.", isCorrect: false }
-        ]
-    },
-    {
-        id: 245,
-        category: "Analiza Zamortyzowana: Tablice",
-        text: "Zgodnie z metodą Potencjału w analizie zamortyzowanej tablicy dynamicznej, która powiększa i zmniejsza rozmiar, potencjał $\\Phi$ gdy tablica ma status ponad półpełny często definiowany jest jako:",
-        options: [
-            { text: "$\\Phi(D) = 2 \\cdot num - size$, gdzie 'num' to ilość elementów, a 'size' rozmiar tablicy, co daje nam $size$ odłożonych kredytów w momencie pełnego wypełnienia.", isCorrect: true },
-            { text: "$\\Phi(D) = num - 2 \\cdot size$, przez co funkcja zawsze jest ujemna, dopóki tablica nie zostanie zrekompensowana ucinaniem rozmiaru.", isCorrect: false },
-            { text: "$\\Phi(D) = \\log(num)$, jako podstawa drzewa kosztów rozszerzających.", isCorrect: false },
-            { text: "$\\Phi(D)$ musi być zawsze równe 0 dla optymalnego algorytmu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 246,
-        category: "Algorytmy Sortowania: Analiza Modelu Drzewa",
-        text: "Na czym opiera się dowód, że algorytmy sortowania wykorzystujące porównania mają dolne ograniczenie na poziomie $\\Omega(n \\log n)$?",
-        options: [
-            { text: "Drzewo decyzyjne dla $n$ elementów musi mieć przynajmniej $n!$ (n silnia) liści, co z własności wysokości drzewa binarnego $h \\ge \\log_2(n!)$ daje przybliżenie Stirlinga $\\Omega(n \\log n)$.", isCorrect: true },
-            { text: "Na zastosowaniu Twierdzenia o Rekurencji Uniwersalnej do ułamków potęg z równania Quicksort.", isCorrect: false },
-            { text: "Na faktu, że czas dostępu do każdej tablicy to z definicji logarytm jej indeksu głównego.", isCorrect: false },
-            { text: "Na nieuchronności kolizji wartości stałych co obciąża pętle bąbelkową o czynnik kwadratowy, o ile nie ułamkowy.", isCorrect: false }
-        ]
-    },
-    {
-        id: 247,
-        category: "Struktury Danych: Analiza",
-        text: "W jakich sytuacjach należy zrezygnować z naiwnego drzewa BST i zdecydować się na implementację drzewa Czerwono-Czarnego lub AVL?",
-        options: [
-            { text: "Kiedy dane wprowadzane są do drzewa powoli i w sposób uporządkowany (posortowany), co u zwykłego BST generuje najgorszy przypadek w postaci wydłużonej listy i daje operacje w czasie $O(n)$.", isCorrect: true },
-            { text: "Kiedy brakuje nam miejsca w pamięci z powodu braku wskaźników do przodka (ojca).", isCorrect: false },
-            { text: "Tylko w zastosowaniach w systemach wielordzeniowych gdzie kolor stanowi flagę dostępu LOCK dla wątku.", isCorrect: false },
-            { text: "Drzewo BST powinno być wykorzystywane zamiast nich zawsze, by unikać nakładu obliczeniowego.", isCorrect: false }
-        ]
-    },
-    {
-        id: 248,
-        category: "Struktury Danych: Kopce Priorytetowe",
-        text: "W operacji podwyższania priorytetu elementu w kopcu typu Max, `Heap-Increase-Key(A, i, key)`, jak zachowuje się algorytm gdy zmieniono wartość klucza w węźle `i`?",
-        options: [
-            { text: "Iteracyjnie porównuje węzeł $i$ z jego rodzicem i wywołuje na nich zamianę (swap) dotąd, aż rodzic będzie większy/równy, lub dotrze do korzenia $A[1]$.", isCorrect: true },
-            { text: "Przebudowuje cały kopiec wywołaniem `Build-Heap` celem potwierdzenia zbalansowania położeń.", isCorrect: false },
-            { text: "Zanurza element do liści korzystając z operacji `Max-Heapify(A, i)` w dół.", isCorrect: false },
-            { text: "Dzieli kopiec na dwa drzewa fibonacciego przy użyciu zrzutu 'decrease'.", isCorrect: false }
-        ]
-    },
-    {
-        id: 249,
-        category: "Grafy: Twierdzenia Grafowe",
-        text: "Lemat dotyczący wyznaczania Minimalnego Drzewa Rozpinającego zakłada pojęcie krawędzi 'bezpiecznej' (safe edge). Krawędź ta:",
-        options: [
-            { text: "Gdy zostanie dodana do częściowo zbudowanego już MST (zgodnego z jakimś pełnym MST), otrzymany zbiór krawędzi nadal jest podzbiorem pewnego pełnego optymalnego MST.", isCorrect: true },
-            { text: "Jej waga musi wynosić dokładnie 0 lub 1.", isCorrect: false },
-            { text: "Odpowiada najdroższej krawędzi tworzącej cykl na zadanym wykresie dwudzielnym.", isCorrect: false },
-            { text: "To krawędź dodawana przez algorytm relaksacji przy ścieżkach skierowanych i negatywnych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 250,
-        category: "Struktury Danych: Kopce",
-        text: "Gdzie musi znajdować się węzeł przechowujący najmniejszą wartość w strukturze Kopca Binamego typu Max (Max-Heap)?",
-        options: [
-            { text: "Musi on być jednym z liści (elementy tablicy na indeksach od $\\lfloor n/2 \\rfloor + 1$ do $n$).", isCorrect: true },
-            { text: "Zawsze na lewym końcu poddrzewa (jak w standardowym BST).", isCorrect: false },
-            { text: "Znajduje się on dokładnie na miejscu $n$ (zawsze na samym końcu tablicy).", isCorrect: false },
-            { text: "Kopiec typu Max trzyma tylko element maksymalny, mniejsze są ignorowane na etapie tworzenia wskaźników.", isCorrect: false }
-        ]
-    },
-    
-    {
-        id: 251,
-        category: "Struktury Danych: Drzewa AVL",
-        text: "W drzewie AVL, po wstawieniu nowego węzła, wykryto zaburzenie równowagi w węźle $x$ (współczynnik balansu $BF = -2$, gdzie $BF = height(left) - height(right)$). Prawe dziecko tego węzła, $y$, ma $BF = 1$. Jaką operację naprawczą należy wykonać?",
-        options: [
-            { text: "Rotację Right-Left: najpierw pojedynczą rotację w prawo na węźle $y$, a następnie pojedynczą rotację w lewo na węźle $x$.", isCorrect: true },
-            { text: "Podwójną rotację Left-Right: najpierw w lewo na $y$, potem w prawo na $x$.", isCorrect: false },
-            { text: "Pojedynczą rotację w lewo na węźle $x$.", isCorrect: false },
-            { text: "Przekolorowanie węzłów i przerzucenie problemu wyżej w kierunku korzenia.", isCorrect: false }
-        ]
-    },
-    {
-        id: 252,
-        category: "Struktury Danych: Drzewa AVL vs Czerwono-Czarne",
-        text: "Które z poniższych stwierdzeń rzetelnie porównują drzewa AVL z drzewami Czerwono-Czarnymi (RB)?",
-        options: [
-            { text: "Drzewa AVL są bardziej rygorystycznie zbalansowane (mniejsza wysokość), co zapewnia nieco szybsze wyszukiwanie niż w typowych drzewach RB.", isCorrect: true },
-            { text: "Drzewa RB gwarantują mniejszą maksymalną liczbę rotacji potrzebnych do przywrócenia balansu po operacji usunięcia (maksymalnie 3 rotacje).", isCorrect: true },
-            { text: "Drzewa RB przechowują wartości kluczy wyłącznie w czarnych liściach, a AVL w każdym węźle.", isCorrect: false },
-            { text: "Wstawienie węzła do drzewa AVL w najgorszym przypadku wymaga kaskady $O(\\log n)$ rotacji, podczas gdy w RB wymaga tylko jednej.", isCorrect: false }
-        ]
-    },
-    {
-        id: 253,
-        category: "Struktury Danych: Drzewa AVL",
-        text: "W jakich sytuacjach w drzewie AVL, proces aktualizacji współczynników balansu w górę (w kierunku korzenia) zatrzymuje się na wczesnym etapie po dodaniu węzła (Insert)?",
-        options: [
-            { text: "Gdy w wyniku aktualizacji od dołu, współczynnik balansu (BF) bieżącego przodka zmieni się na 0.", isCorrect: true },
-            { text: "Gdy wykonana zostanie choćby jedna rotacja wyrównująca (ponieważ jedna rotacja wystarczy do zbalansowania przy operacji Insert).", isCorrect: true },
-            { text: "Gdy drzewo początkowo posiadało status kopca zupełnego.", isCorrect: false },
-            { text: "Gdy wysokość przodka przed i po aktualizacji różni się o dokładnie 2.", isCorrect: false }
-        ]
-    },
-    {
-        id: 254,
-        category: "Analiza Algorytmów: Koszt Zamortyzowany",
-        text: "Jakie poprawne wnioski płyną z analizy zamortyzowanej operacji na dynamicznych tablicach (np. operacji dodawania)?",
-        options: [
-            { text: "Pesymistyczny koszt samej operacji dodania na koniec wynosi $O(n)$, gdy tablica jest pełna i ulega realokacji.", isCorrect: true },
-            { text: "Zamortyzowany koszt jednej operacji dodania, obliczony metodą sumaryczną dla długiej sekwencji, wynosi $O(1)$.", isCorrect: true },
-            { text: "W metodzie potencjału, wartość potencjału $\\Phi(D_i)$ zaraz po powiększeniu tablicy powinna być ujemna, aby odbudować dług.", isCorrect: false },
-            { text: "W metodzie księgowania każda operacja otrzymuje $n^2$ kredytów, aby zasponsorować sortowanie Merge.", isCorrect: false }
-        ]
-    },
-    {
-        id: 255,
-        category: "Algorytmy Grafowe: BFS",
-        text: "Jakie właściwości prezentuje algorytm BFS i jego struktury pochodne (drzewo BFS) dla grafu G(V,E)?",
-        options: [
-            { text: "Czas wykonania algorytmu dla reprezentacji w postaci list sąsiedztwa to $\\Theta(|V| + |E|)$.", isCorrect: true },
-            { text: "Gwarantuje on odnalezienie najkrótszych ścieżek od źródła (z najmniejszą liczbą krawędzi) dla grafów nieważonych.", isCorrect: true },
-            { text: "W drzewie BFS mogą występować krawędzie skierowane w przód z pominięciem poziomu.", isCorrect: false },
-            { text: "Kolejka (Queue) w trakcie działania przechowuje węzły zabarwione na CZARNO.", isCorrect: false }
-        ]
-    },
-    {
-        id: 256,
-        category: "Algorytmy Grafowe: DFS",
-        text: "Które twierdzenia charakteryzują relacje pomiędzy czasem odwiedzin (discovery time, $d$) a czasem zakończenia (finish time, $f$) w przeszukiwaniu w głąb (DFS)?",
-        options: [
-            { text: "Zawsze zachodzi ostra nierówność $d[u] < f[u]$.", isCorrect: true },
-            { text: "Zgodnie z tzw. twierdzeniem o nawiasowaniu, przedziały $[d[u], f[u]]$ oraz $[d[v], f[v]]$ są albo rozłączne, albo jeden zawiera się w drugim.", isCorrect: true },
-            { text: "Jeśli $v$ jest właściwym potomkiem $u$ w lesie przeszukiwania w głąb, to $d[u] < d[v] < f[v] < f[u]$.", isCorrect: true },
-            { text: "Różnica czasu $f[u] - d[u]$ ściśle odzwierciedla liczbę sąsiadów stopnia pierwszego wierzchołka $u$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 257,
-        category: "Algorytmy Grafowe: Topologiczne Sortowanie",
-        text: "Z jakich zasadniczych kroków oraz właściwości składa się procedura sortowania topologicznego zdefiniowana na wykładach?",
-        options: [
-            { text: "Wywołuje standardowy algorytm DFS dla grafu G w celu ustalenia czasu zakończenia $f[v]$ każdego z wierzchołków.", isCorrect: true },
-            { text: "Po przetworzeniu wierzchołka (pokolorowaniu na czarno), wstawia go na przód listy łączonej. Elementy na ostatecznej liście dają porządek topologiczny.", isCorrect: true },
-            { text: "Algorytm musi zostać wymuszony na strukturze Grafu Skierowanego Acyklicznego (DAG).", isCorrect: true },
-            { text: "Algorytm sprawdza wszystkie krawędzie powrotne relaksując ich najdłuższe wagi na $\\infty$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 258,
-        category: "Algorytmy Sortowania: Merge Sort",
-        text: "Równanie $T(n) = 2T(n/2) + \\Theta(n)$ modeluje sortowanie przez scalanie. Które ze stwierdzeń są prawdziwe odnośnie tej metody i powiązanych z nią kosztów?",
-        options: [
-            { text: "Według Twierdzenia o Rekurencji Uniwersalnej jej złożoność asymptotyczna wynosi $\\Theta(n \\log n)$.", isCorrect: true },
-            { text: "Pomocnicza procedura scalania wymaga dodatkowej pamięci proporcjonalnej do sumarycznej długości scalanych tablic, co daje $\\Theta(n)$ w najgorszym przypadku.", isCorrect: true },
-            { text: "Sortowanie przez scalanie jako jedyne posiada logarytmiczną barierę dolną dla algorytmów bez użycia rekursji.", isCorrect: false },
-            { text: "W procedurze scalania wstawianie wartownika (sentinel) równego nieskończoności na koniec tablic pomocniczych zapobiega wyjściu indeksów poza ich zakres.", isCorrect: true }
-        ]
-    },
-    {
-        id: 259,
-        category: "Algorytmy Sortowania: Quicksort",
-        text: "Procedura podziału Lomuto i ogólne zachowanie algorytmu Quicksort charakteryzują się tym, że:",
-        options: [
-            { text: "Procedura ta standardowo dobiera ostatni element rozpatrywanego przedziału $A[r]$ na element rozdzielający (pivot).", isCorrect: true },
-            { text: "Czas działania Quicksortu w przypadku optymistycznym, polegającym na ciągłym podziale tablic na bardzo wyrównane połówki wynosi $\\Theta(n \\log n)$.", isCorrect: true },
-            { text: "Przypadek pesymistyczny zachodzi m.in., gdy na wejście podawana jest tablica już posortowana malejąco (lub rosnąco), generując czasy rzędu $\\Theta(n^2)$.", isCorrect: true },
-            { text: "Algorytm korzysta z buforów w czasie liniowym, eliminując wymóg zapamiętywania danych na stosie.", isCorrect: false }
-        ]
-    },
-    {
-        id: 260,
-        category: "Statystyki Pozycyjne: Randomized Select",
-        text: "Czym charakteryzuje się algorytm `Randomized-Select`, poszukujący $i$-tej statystyki pozycyjnej w oparciu o ideę Quicksortu?",
-        options: [
-            { text: "Zamiast wywoływać się rekurencyjnie dwukrotnie (dla obu połów), algorytm analizuje tylko tę połowę, do której ranga indeksu przynależy.", isCorrect: true },
-            { text: "Średni czas działania algorytmu wyznaczony w rachunku prawdopodobieństwa to $\\Theta(n)$.", isCorrect: true },
-            { text: "W najgorszym przypadku algorytm może trwać $O(n^2)$ (zły przypadek ciągłego wyboru skrajnych pivotów).", isCorrect: true },
-            { text: "Wykorzystuje wbudowane funkcje relaksacji wektorów, przez co nie może być użyty bez struktur grafowych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 261,
-        category: "Statystyki Pozycyjne: Algorytm Deterministyczny (Magiczne Piątki)",
-        text: "Z jakich podstawowych kroków składa się algorytm wyznaczania selekcji w najgorszym, pesymistycznym czasie liniowym $O(n)$?",
-        options: [
-            { text: "Podział wszystkich z $n$ elementów na grupy po 5 elementów.", isCorrect: true },
-            { text: "Znalezienie median każdej podgrupy i następnie, poprzez uogólnienie rekurencyjne, wybranie 'mediany ze wszystkich wyznaczonych median'.", isCorrect: true },
-            { text: "Gwarantuje, że podział tablicy będzie proporcjonalny, przynajmniej dla $\\approx \\frac{3}{10}n$ z jednej ze stron, wymuszając skracanie.", isCorrect: true },
-            { text: "Zignorowanie pierwszych i ostatnich pięciu elementów w celu wyeliminowania wartości skrajnych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 262,
-        category: "Algorytmy Grafowe: Kruskal vs Prim",
-        text: "Obserwacje strukturalne i implementacyjne dla algorytmów szukających MST ujawniają, że:",
-        options: [
-            { text: "Algorytm Kruskala zachłannie buduje tzw. las poprzez dokładanie nie-cyklicznych krawędzi, wykorzystując kolejkę i strukturę Zbiorów Rozłącznych (Disjoint-Sets).", isCorrect: true },
-            { text: "Algorytm Prima w swej strukturze i logice bardzo przypomina Algorytm Dijkstry; relaksując wagi łączące nieodwiedzone węzły z powiększającym się drzewem.", isCorrect: true },
-            { text: "Kruskal jest dużo szybszy asymptotycznie od Prima dla niezwykle gęstych grafów reprezentowanych w postaci macierzy.", isCorrect: false },
-            { text: "Oba algorytmy ulegają bezpowrotnej awarii jeśli wagi krawędzi w grafie powtarzają się.", isCorrect: false }
-        ]
-    },
-    {
-        id: 263,
-        category: "Algorytmy Grafowe: Bellman-Ford",
-        text: "Jakie główne cechy wyróżniają algorytm Bellmana-Forda na tle pozostałych metod znajdowania najkrótszej ścieżki (Dijkstry i DAG Shortest Paths)?",
-        options: [
-            { text: "Może obsłużyć grafy o dowolnych (także ujemnych) wagach, tak długo, dopóki z docelowego źródła nie jest osiągalny jakikolwiek cykl ujemny.", isCorrect: true },
-            { text: "Oparty jest na $|V|-1$ iteracyjnym relaksowaniu całego dostępnego w sieci zestawu krawędzi.", isCorrect: true },
-            { text: "Ostatnia nadmiarowa pętla pozwala na programistyczne zgłoszenie wartości `False` wykrywając cykl ujemny.", isCorrect: true },
-            { text: "Bazuje on ściśle na przeszukiwaniu A* oraz heurystyce ujemnego logarytmu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 264,
-        category: "Algorytmy Grafowe: Dijkstra",
-        text: "W oparciu o wykłady z sylabusa, co stanowi fundament budowy i działania algorytmu Dijkstry?",
-        options: [
-            { text: "Wymaga istnienia grafu, którego wagi krawędzi nie są ujemne, ponieważ w przypadku ściągania wartości minimalnej ze zbioru, decyduje, iż absolutnie już krótsza droga do pobranego wierzchołka znaleziona nie będzie.", isCorrect: true },
-            { text: "Najlepszy teoretyczny czas wykonania algorytmu dla reprezentacji w listach i przy użyciu kopca Fibonacciego wynosi $O(|E| + |V| \\log |V|)$.", isCorrect: true },
-            { text: "Stosuje on heurystykę i analizę przepustowości rezydualnej w celu przyśpieszenia decyzji o cięciu minimalnym.", isCorrect: false },
-            { text: "Algorytm musi wykorzystywać strukturę Union-Find w każdym wywołaniu `Relax(u,v,w)`.", isCorrect: false }
-        ]
-    },
-    {
-        id: 265,
-        category: "Algorytmy Grafowe: Floyd-Warshall",
-        text: "Jakie są strukturalne założenia w implementacji algorytmu Floyda-Warshalla?",
-        options: [
-            { text: "Działa dzięki procedurze Programowania Dynamicznego z trójwymiarową zależnością wyliczającą macierze dla coraz szerszych zbiorów wierzchołków pośrednich od $\\{1\\}$ do $\\{1..k\\}$.", isCorrect: true },
-            { text: "W złożoności $\\Theta(V^3)$ wylicza minimalne drogi między każdą parą wierzchołków i wykrywa ujemne cykle z pomocą ujemnych symboli pozostawionych na przekątnej.", isCorrect: true },
-            { text: "Składa się z wywołań wewnątrz pętli $V$-krotnej odpalającej algorytm BFS.", isCorrect: false },
-            { text: "Znajduje rozwiązanie dla optymalizacji komiwojażera przy narzuconym czasie wielomianowym.", isCorrect: false }
-        ]
-    },
-    {
-        id: 266,
-        category: "Sieci Przepływowe: Maksymalny przepływ i zjawiska",
-        text: "Co wynika z definicji na temat przepływu i sieci residualnej wejściowego grafu z jednym źródłem $s$ i ujściem $t$?",
-        options: [
-            { text: "W sieci residualnej $G_f$ pojemność na dowolnej krawędzi skierowanej z przepływem zostaje zmniejszona $c_f(u, v) = c(u, v) - f(u, v)$.", isCorrect: true },
-            { text: "Sieć residualna tworzy dodatkowe krawędzie o przeciwnym zwrocie (anti-parallel edges) nadając im wagę proporcjonalną do zepchniętego prądu wejściowego: $c_f(v, u) = f(u, v)$.", isCorrect: true },
-            { text: "Twierdzenie o maksymalnym przepływie ustala ostateczną tezę o jego równości do minimalnego wymaganego przekroju tnącego sieć.", isCorrect: true },
-            { text: "Przepustowości w grafie dopuszczają w każdym przypadku wejście z ujemnym przepływem początkowym do źródła.", isCorrect: false }
-        ]
-    },
-    {
-        id: 267,
-        category: "Maksymalne skojarzenia (Bipartite Matching)",
-        text: "Problem minimalnego pokrycia oraz wyznaczania maksymalnych skojarzeń na nieskierowanych grafach dwudzielnych można łatwo mapować do jakiego mechanizmu?",
-        options: [
-            { text: "Do mechanizmu sprowadzanego pod sieć przepływową Forda-Fulkersona, po uprzednim sztucznym doklejeniu wierzchołków 'super-źródła' i 'super-ujścia'.", isCorrect: true },
-            { text: "Gwarancja optymalnego rozwiązania w takim przypadku wynika z faktu integracyjnego powiązanego z pojemnościami krawędzi opartymi wyłącznie na wartości logicznej 1.", isCorrect: true },
-            { text: "Dopasowania realizuje się wymuszając zliczanie wierzchołków bez wskaźników przez algorytm Floyda-Warshalla.", isCorrect: false },
-            { text: "Wykorzystywania tylko struktury skip list z randomizowanymi podwójnymi szansami zablokowania.", isCorrect: false }
-        ]
-    },
-    {
-        id: 268,
-        category: "Struktury Danych: Budowanie Kopca",
-        text: "Biorąc pod uwagę operację `Build-Max-Heap(A)` i rygor asymptotyczny:",
-        options: [
-            { text: "Złożoność zmontowania kopca od dołu do góry w pętli od $\\lfloor n/2 \\rfloor$ do $1$ wynosi zaledwie $\\Theta(n)$.", isCorrect: true },
-            { text: "Spowodowane jest to ujęciem w szeregu matematycznym dla sumy kosztów węzłów (większość z nich znajduje się przy dnie, a pchnięcia `Heapify` trwają bardzo krótko).", isCorrect: true },
-            { text: "Oprócz procedury oddolnej dozwolone jest utworzenie kopca wrzucając n razy procedurę węzła w czasie $O(n^2)$.", isCorrect: false },
-            { text: "Budowa kopca wymusza w czasie O(1) stałą inicjalizację przy użyciu tablic wielowymiarowych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 269,
-        category: "Struktury Danych: Hash Tables",
-        text: "Jakie właściwości i negatywne efekty są znane podczas implementacji klasycznej Tablicy Haszującej w trybie adresowania otwartego (open addressing)?",
-        options: [
-            { text: "Adresowanie liniowe skutkuje drastycznie obniżeniem wydajności poprzez indukcję tzw. pierwotnego grupowania (primary clustering), scalających kolizje w pojedyncze, ciągłe bloki zapytań.", isCorrect: true },
-            { text: "W celu minimalizacji tych skutków preferuje się użycie tzw. 'double hashing' z dwiema asynchronicznymi i silnie zrelaksowanymi funkcjami bazowymi.", isCorrect: true },
-            { text: "Operacja kasowania $HASH-DELETE$ wymaga podstawienia specjalnego markera 'DELETED', bez którego następne szukanie mogłoby fałszywie stwierdzić pustość komórki.", isCorrect: true },
-            { text: "Adresowanie otwarte wymusza budowanie i scalanie list łączonych z wykorzystaniem tablic list.", isCorrect: false }
-        ]
-    },
-    {
-        id: 270,
-        category: "Algorytmy Tekstowe: KMP i Automaty",
-        text: "Czym objawia się praca algorytmu KMP i optymalizacja Automatem?",
-        options: [
-            { text: "Skupia się on na wygenerowaniu uprzedniej tablicy funkcji przejść (tablicy prefikso-sufiksowej $\\pi$).", isCorrect: true },
-            { text: "Jego bezwzględny, liniowy czas $\\Theta(m+n)$ na tle rzędu $O(mn)$ to efekt wykorzystania analizy zamortyzowanej przy zapamiętywaniu poprawnie ocenionych wskaźników tekstowych.", isCorrect: true },
-            { text: "Wyraźnie pomija wymóg skanowania z wykorzystaniem zduplikowanego wzorca poprzez heurystyki z prawostronnego sufitu.", isCorrect: false },
-            { text: "Funkcja modyfikacji podciągu zwraca cykle Eulera jako czas poszukiwań i odczytu dla stanów.", isCorrect: false }
-        ]
-    },
-    {
-        id: 271,
-        category: "Algorytmy Tekstowe: Boyer-Moore",
-        text: "W jaki sposób Boyer-Moore odgrywa szczególną zaletę implementacyjną względem naiwnego algorytmu i metody KMP?",
-        options: [
-            { text: "Zestawia on znaki począwszy od ostatniej, prawej krawędzi wzorca przemieszczając się prosto ku części lewej.", isCorrect: true },
-            { text: "Pozwala na drastycznie długie skoki w tekście opierając się o wylosowaną tablicę dla heurystyk złego znaku oraz dla heurystyki zgodności poprawnego sufiksu.", isCorrect: true },
-            { text: "Algorytm opiera się o sprawdzanie tzw. Rolling Hash korzystającego z formuły algebraicznej Hornera i potęg wymiernych.", isCorrect: false },
-            { text: "Nie ma w nim opcji wystąpienia pesymistycznego przypadku $O(n^2)$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 272,
-        category: "Struktury Danych: Drzewa Przedziałowe i Dynamiczne Statystyki",
-        text: "Co wynika z zasady utrzymania atrybutów dynamicznych na operacjach drzew czerowno-czarnych i AVL w rozszerzonych strukturach danych?",
-        options: [
-            { text: "Podczas rotacji lewej bądź prawej re-wyliczenie parametrów specyficznych `size` czy `max` na węzłach obracanych zamyka się wyłącznie w weryfikacji $\\Theta(1)$.", isCorrect: true },
-            { text: "Dla zapytań o przecięcia `Interval-Search(T, i)` używa się informacji zakodowanej na samej górze poddrzew – jeśli lewy brat kryje węzły z `max` mniejszym niż `low` szukanego przedziału ignoruje on wchodzenie głębiej.", isCorrect: true },
-            { text: "Węzeł ulega wymazaniu do wartości początkowej, dopóki stos nie wejdzie z danymi do wbudowanej listy wiązanej.", isCorrect: false },
-            { text: "Każda dynamiczna statystyka wymaga ponownego przechodzenia po korzeniu in-order z każdym przetasowaniem w drzewie.", isCorrect: false }
-        ]
-    },
-    {
-        id: 273,
-        category: "Drzewo Czerwono-Czarne (RB): Kolory i zasady",
-        text: "Właściwości RB-Tree zgodnie z podręcznikiem narzucają bezwzględnie:",
-        options: [
-            { text: "Zarówno liście typu `NIL`, jak i strukturalny korzeń drzewa są klasyfikowane jako zabarwione na czarno.", isCorrect: true },
-            { text: "Czerwone węzły nie mogą mieć jakiegokolwiek sąsiadującego pionowo (ojciec lub bezpośredni potomek) czerwonego powiązania.", isCorrect: true },
-            { text: "Liczba pokonywanych czarnych wierzchołków na wszystkich zbiegających drogach w dół od węzła do skrajnych liści `NIL` musi zliczać tę samą ich ilość, dając tzw. Czarną Wysokość (black-height).", isCorrect: true },
-            { text: "Długość najdłuższej drogi z korzenia będzie dokładnie wyższa niź dwukrotność sumy wysokości najmniejszej z nich.", isCorrect: false }
-        ]
-    },
-    {
-        id: 274,
-        category: "Listy Przeskakiwania (Skip Lists)",
-        text: "Idea, parametry i działanie list z przeskokami:",
-        options: [
-            { text: "Oparte są na układaniu warstwowym z wykorzystaniem rzutowania monet (lub pseudolosowości) dając poszczególnym węzłom mniejszą frakcję referencji docierającej coraz to wyżej.", isCorrect: true },
-            { text: "Ich spodziewany asymptotyczny czas poszukiwania dla węzła równoważy zapytaniom i rygorowi z drzew silnie balansowanych dając średnie zyski poziomu $O(\\log n)$.", isCorrect: true },
-            { text: "Element z najwyższą referencją zajmuje najwyższy poziom do góry i nie pojawia się w niższych poziomach.", isCorrect: false },
-            { text: "Używane do graficznego modelowania z wykorzystaniem zderzeń zamiatania metodą Sweep Line.", isCorrect: false }
-        ]
-    },
-    {
-        id: 275,
-        category: "Sortowanie: Klasa w czasie liniowym",
-        text: "Wymienione algorytmy sortowań nie wykorzystujące logiki porównania ze sobą danych element po elemencie, podlegają regułom:",
-        options: [
-            { text: "Counting Sort opiera procedurę o stałe i skończone uniwersum kluczy o długości $k$, licząc liczbę elementów na pozycji mniejszych/równych od bieżącego wpisu.", isCorrect: true },
-            { text: "W sortowaniu Radix wymusza się z racji na rzędowość użycia po drodze innego wewnętrznego algorytmu - a sam sort musi obowiązkowo spełniać rolę zachowania oryginalnej stabilności dla kluczy dubli.", isCorrect: true },
-            { text: "Sortowanie Kubełkowe rozczłonkowuje wartości wedle założenia o dystrybucji na proste interwały dziesiątkowe zachowując stabilność poprzez zrobienie sortowań najczęściej z wstawianiem z osobna na listach wewnątrzkubełkowych.", isCorrect: true },
-            { text: "Bucket sort działa ekstremalnie szybko w przypadku gęstym po skomasowaniu całej partii do wyłącznie najniższego z interwałów kubełkowych z pominięciem reszty.", isCorrect: false }
-        ]
-    },
-    {
-        id: 276,
-        category: "Kompresja Danych: Entropia",
-        text: "Miara Entropii i związane z nią procedury algorytmiczne w teorii informacji ujawniają, że:",
-        options: [
-            { text: "Zgodnie z ujęciem Shannona, entropia rygorystycznie oszacowuje bezwzględną dolną granicę dla oczekiwanej ilości bitów na jeden spakowany symbol.", isCorrect: true },
-            { text: "Metoda drzew i kodu Huffmana realizuje zadanie budując zachłannie kopiec (często priorytetowy typ min) na podstawie podanych rozkładów gęstości/częstotliwości występowania elementu w bloku tekstu.", isCorrect: true },
-            { text: "Algorytm Huffmana produkuje zdekodowanie kodów prefiksowych blokując przypadek, że dowolny krótszy ciąg z mapy dekodera będzie dublował i przerywał interpretację na sufiksy innych wyrazów.", isCorrect: true },
-            { text: "Algorytm słownikowy LZW zakłada brak zapamiętywania wcześniej czytanych stanów w celach uniknięcia przepełnienia tablic dynamicznych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 277,
-        category: "Algorytmy Równoległe (PRAM): Taksonomia Flynn’a i systemy wielordzeniowe",
-        text: "Podstawy architektury układów równoległych ujawniają, że modele te funkcjonują z zastrzeżeniami typu:",
-        options: [
-            { text: "Architektura SIMD działa na wielu oddzielnych układach czytając ten sam i jednolity strumień danych wysyłający instrukcje na równoległe rzesze w czasie stałym.", isCorrect: true },
-            { text: "Model PRAM nakreślony jako `EREW` jest wyjątkowo powściągliwy pod względem udostępnień, zakazując ubiegania się zarówno do zbieżnego czytania jak i pisanina w komórkę.", isCorrect: true },
-            { text: "Algorytm z wykorzystaniem tablic po przedziałach na redukcji potęgi z pary ułatwia zbilansowanie i logarytmiczne obliczenie chociażby wyników poszukiwań maksimum.", isCorrect: true },
-            { text: "Klasa modelu ERCW dopuszcza zawsze na wyłączny jednorodny rygor w pisaniu bez zwracania błędu kolizji w buforach na linii szynowej.", isCorrect: false }
-        ]
-    },
-    {
-        id: 278,
-        category: "Algorytmy Równoległe: O(n) do logarytmów",
-        text: "Ustalanie równoległych wskaźników i rangi za pomocą modelu PRAM:",
-        options: [
-            { text: "Mechanika skracania lub 'przeskakiwania wskaźników' na rozłożonych listach działa w czasach logarytmicznych pozwalając ustalić w odseparowanych i niezależnych operacjach sumaryczną rangę z końcem układu na powrót.", isCorrect: true },
-            { text: "Struktury te silnie korzystają z rozwijalnych sum prefiksowych z drzew binarnych używając zagnieżdżonych sum od liści pnąc się po gałęzi do roota.", isCorrect: true },
-            { text: "Ograniczeniem sprzętowym wymuszającym odrębne ujęcia jest zakaz asocjacji modelu CREW z rzutowaniami równoległymi do zapisu dla wielocyklicznych wektorów instrukcji.", isCorrect: true },
-            { text: "Model CRCW zawsze generuje wyjątek blokujący i niszczący stany jeżeli użyje mechanizmu COMMON dla uzgodnienia zapisów do wyłącznego dostępu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 279,
-        category: "Algorytmy Geometryczne: Przecinanie Odcinków",
-        text: "Które składowe algorytmów z domeny analizy na wektorach i zbiorach punktów stosuje się przy detekcji przecięć i szukania ich położeń na płaszczyznach?",
-        options: [
-            { text: "Obliczanie ujemnego bądź dodatniego iloczynu wektorowego (cross-product/wyznacznik) na pozycjach wektorów tworzonych z trzech testowanych punktów ułatwia rozstrzygnięcie, z której strony osi prostej na skręcie leży wierzchołek docelowy.", isCorrect: true },
-            { text: "Test wzajemnego przyrównywania i szukania przecięć redukuje się poprzez analizę dla dwóch rozpatrywanych odcinków polegającą na udowodnieniu ich rozciągłości i leżenia po stronach obustronnie naprzemiennych względem przedłużonych linii zawierających te ucięcia.", isCorrect: true },
-            { text: "Metoda Sweep-line pozwala na przyspieszone, operacyjne zebranie incydencji opierając wirtualną i podążającą po zdarzeniach Miotłę o zbiór na Kolejce Priorytetowej względem zmian położenia na osi poziomej X.", isCorrect: true },
-            { text: "Metoda \"Zamiatania Miotłą\" jest nieskończenie dokładna przez co nie stwarza potrzeby obsługi zdarzeń dla drzew BST pod osie Y i redukuje do sortowania z czasem zaledwie logarytmicznym całego bloku w $O(\\log n)$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 280,
-        category: "Algorytmy Geometryczne: Otoczki i Najbliższe Punkty",
-        text: "Koncepcje przy ustalaniu bliskich par na płaskim układzie oraz ich obrysach otoczki charakteryzują się takimi zagadnieniami jak:",
-        options: [
-            { text: "Zastosowanie procedury i podejścia z algorytmu o podziale i zwyciężaniu na zredukowanych pionowych połówkach okna pozwala na obniżenie czasu pesymistycznego z gęstego algorytmu siłowego ($O(n^2)$) pod kątem znalezienia najbliższych dwóch ze zbioru pod $O(n \\log n)$.", isCorrect: true },
-            { text: "W procedurze wyboru pod szukanie par, wystarczy przeanalizowanie do $O(7)$ punktów okalających blok testowy za wylaną połową dla krawędzi dzielącej.", isCorrect: true },
-            { text: "Proces wyszukiwania algorytmu Grahama na otoczce wymusza w celu inicjalizacyjnym zlokalizowania najpierw najmniejszej współrzędnej względem dołu i ewentualnych krawędzi bocznych jako niezmiennika układu dla $P_0$.", isCorrect: true },
-            { text: "Sortowanie dla osi kątowej w systemie biegunowym przebiega najszybciej na zablokowaniu testów dla iloczynu skalarnego.", isCorrect: false }
-        ]
-    },
-
-    {
-        id: 321,
-        category: "Drzewa AVL: Rotacje",
-        text: "Przy rotacji RL (Right-Left) na węźle $z$, którego prawym dzieckiem jest $y$, a lewym dzieckiem $y$ jest $x$. Jak wygląda struktura po wykonaniu tej podwójnej rotacji?",
-        options: [
-            { text: "Węzeł $x$ staje się nowym korzeniem tego poddrzewa. Węzeł $z$ staje się jego lewym dzieckiem, a węzeł $y$ prawym.", isCorrect: true },
-            { text: "Węzeł $y$ wchodzi na miejsce $z$, $x$ pozostaje na swoim miejscu, a $z$ ląduje jako lewy liść w $y$.", isCorrect: false },
-            { text: "Drzewo AVL dokonuje przekolorowania bez zmian strukturalnych.", isCorrect: false },
-            { text: "Wszystkie trzy węzły łączą się w węzeł potrójny (B-Tree) w celu zachowania balansu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 322,
-        category: "Drzewa AVL: Złożoność Delete",
-        text: "Dlaczego w operacji usunięcia (Delete) z drzewa AVL w najgorszym przypadku liczba wykonanych rotacji w górę drogi do korzenia wynosi $O(\\log n)$, a nie stałą?",
-        options: [
-            { text: "Ponieważ rotacja naprawiająca jedno poddrzewo może zmniejszyć całkowitą wysokość tego poddrzewa, co z kolei może zaburzyć współczynnik balansu w węźle nadrzędnym wyżej.", isCorrect: true },
-            { text: "Z uwagi na konieczność przeliczania mediany drzewa na każdym z węzłów.", isCorrect: false },
-            { text: "W drzewach AVL nigdy nie wykonuje się więcej niż 2 rotacji nawet przy usuwaniu, to mit.", isCorrect: false },
-            { text: "Ponieważ po usunięciu trzeba wywołać procedurę Heapify na całej lewej gałęzi.", isCorrect: false }
-        ]
-    },
-    {
-        id: 323,
-        category: "Drzewa AVL: Minimalna Liczba Węzłów",
-        text: "Jeśli drzewo AVL ma wysokość $h=4$ (przyjmując korzeń jako poziom 1 i $h=1$ dla 1 węzła; wzór $N_h = N_{h-1} + N_{h-2} + 1$), to ile wynosi absolutne minimum węzłów dla takiego drzewa?",
-        options: [
-            { text: "7 węzłów.", isCorrect: true },
-            { text: "4 węzły.", isCorrect: false },
-            { text: "15 węzłów.", isCorrect: false },
-            { text: "16 węzłów.", isCorrect: false }
-        ]
-    },
-    {
-        id: 324,
-        category: "Drzewa AVL: Rotacja Pojedyncza a Podwójna",
-        text: "Jakie warunki w drzewie AVL decydują o użyciu rotacji pojedynczej LL zamiast rotacji podwójnej LR przy zaburzeniu BF=2 w węźle A?",
-        options: [
-            { text: "Jeśli lewe dziecko węzła A ma współczynnik balansu $\\ge 0$ (wysokość jego lewego poddrzewa jest $\\ge$ wysokości prawego), stosujemy rotację pojedynczą LL.", isCorrect: true },
-            { text: "O rodzaju rotacji decyduje wyłącznie losowy czynnik, obie przywracają poprawny stan.", isCorrect: false },
-            { text: "Rotację podwójną stosuje się wyłącznie podczas operacji kasowania, LL do wstawiania.", isCorrect: false },
-            { text: "Jeśli lewe dziecko węzła A ma kolor Czerwony.", isCorrect: false }
-        ]
-    },
-    {
-        id: 325,
-        category: "Drzewa Czerwono-Czarne: Redukcja RB do AVL",
-        text: "Czy z perspektywy definicji matematycznej każde poprawne drzewo AVL o pewnej ilości elementów może zostać poprawnie pokolorowane, by spełniać warunki drzewa Czerwono-Czarnego?",
-        options: [
-            { text: "Tak, struktura AVL wymusza większy (bardziej surowy) stopień zbalansowania, więc zawsze istnieje poprawne przypisanie kolorów robiące z niego drzewo RB.", isCorrect: true },
-            { text: "Nie, drzewa RB wymagają by pewne konkretne ścieżki były dwukrotnie dłuższe, co AVL zawsze uniemożliwia.", isCorrect: false },
-            { text: "Tak, pod warunkiem, że wszystkie węzły zabarwimy na czerwono.", isCorrect: false },
-            { text: "Nie, AVL nie wspiera koncepcji NIL jako dodatkowych liści.", isCorrect: false }
-        ]
-    },
-    {
-        id: 326,
-        category: "Drzewa Czerwono-Czarne: Insert",
-        text: "Podczas wstawiania elementu do drzewa RB (czerwony $z$), co dzieje się, gdy jego rodzic jest czerwony, a wujek jest CZARNY, a wstawiony element tworzy z rodzicem i dziadkiem 'prostą linię' (np. jest lewym dzieckiem lewego dziecka)?",
-        options: [
-            { text: "Rodzic staje się CZARNY, dziadek CZERWONY i wykonuje się pojedynczą rotację w prawo na dziadku (Przypadek 3).", isCorrect: true },
-            { text: "Rodzic i wujek stają się CZARNI, dziadek CZERWONY i przesuwa się sprawdzanie na dziadka.", isCorrect: false },
-            { text: "Obywa się podwójna rotacja w lewo z udziałem wujka.", isCorrect: false },
-            { text: "Algorytm musi wykasować węzeł, bo wstawienie zagraża integralności czarnej wysokości.", isCorrect: false }
-        ]
-    },
-    {
-        id: 327,
-        category: "Drzewa Przedziałowe (Interval Trees)",
-        text: "Gdy operacja `Interval-Search` przechodzi w prawe poddrzewo podczas szukania pokrywającego się przedziału $i$, jaki matematyczny powód zmusza ją do tej decyzji?",
-        options: [
-            { text: "Węzeł ma puste lewe poddrzewo LUB maksymalna wartość $max$ w lewym poddrzewie jest ściśle mniejsza niż dolny kraniec szukanego przedziału ($left.max < i.low$).", isCorrect: true },
-            { text: "Pole `max` dla całego poddrzewa przekroczyło limit pamięci dla typu Int.", isCorrect: false },
-            { text: "Algorytm musi odwiedzić wszystkie prawe krawędzie w celu zliczenia Rangi (OS-Rank).", isCorrect: false },
-            { text: "Lewe poddrzewo zostało zajęte przez algorytm rotacji.", isCorrect: false }
-        ]
-    },
-
-    {
-        id: 328,
-        category: "Insertion Sort (Pseudokod)",
-        text: "W klasycznym pseudokodzie Cormena dla Insertion Sort (dla tablicy 1-indeksowanej), jaki warunek w pętli `while` kontroluje przesuwanie elementów w posortowanej już części?",
-        options: [
-            { text: "`while i > 0 and A[i] > key`", isCorrect: true },
-            { text: "`while i >= 0 and A[i] == key`", isCorrect: false },
-            { text: "`while i < n and A[i] < key`", isCorrect: false },
-            { text: "`while i > 1 and A[i] <= key`", isCorrect: false }
-        ]
-    },
-    {
-        id: 329,
-        category: "Merge Sort (Złożoność)",
-        text: "Dlaczego procedura `Merge` w Merge Sort uchodzi za nie dającą się łatwo zaadaptować do optymalnego i szybkiego działania w miejscu ($O(1)$ dodatkowej pamięci)?",
-        options: [
-            { text: "Ponieważ przesuwanie bloków danych podczas przeplatania elementów powodowałoby liczne wstawiania na środku tablicy, drastycznie podnosząc czas działania do $O(n^2)$ w najgorszym scenariuszu.", isCorrect: true },
-            { text: "Ponieważ wymaga ona użycia kolejek priorytetowych do utrzymywania kopca w czasie działania.", isCorrect: false },
-            { text: "Dlatego, że dzielenie wektora na pół generuje zawsze liczby nieparzyste.", isCorrect: false },
-            { text: "Nie jest to prawda; procedura w miejscu ma udowodniony pesymistyczny czas działania $\\Theta(n)$ w wariancie Hoare'a.", isCorrect: false }
-        ]
-    },
-    {
-        id: 330,
-        category: "Quicksort (Lomuto vs Hoare)",
-        text: "Jaka jest zasadnicza różnica w punkcie podziału zwracanym przez procedurę Partition w wersji Lomuto względem wersji Hoare'a?",
-        options: [
-            { text: "W wersji Lomuto element osiowy (pivot) trafia dokładnie na swoje ostateczne miejsce i rzadko dołącza do dalszych rekurencji. W Hoare'a dzieli tablicę z gwarancją `A[p..j] <= A[j+1..r]`, ale sam pivot nie musi być na ostatecznej pozycji.", isCorrect: true },
-            { text: "Lomuto jest znacznie szybsze asymptotycznie i ma barierę $\\Theta(n \\log n)$, a Hoare to algorytm wolny z barierą $O(n^2)$.", isCorrect: false },
-            { text: "Obie wersje są identyczne matematycznie pod kątem przypisywania indeksów.", isCorrect: false },
-            { text: "Hoare wymaga zewnętrznej tablicy do zbuforowania obu list wyników (jak Counting Sort).", isCorrect: false }
-        ]
-    },
-    {
-        id: 331,
-        category: "Twierdzenie o Rekurencji (Master Theorem)",
-        text: "Jeśli równanie rekurencyjne wynosi $T(n) = 3T(n/3) + n \\log n$, w jaki z przypadków z Master Theorem się wpisuje?",
-        options: [
-            { text: "Nie wpisuje się gładko w standardowe trzy proste przypadki, ale rozszerzenie do Przypadku 2 z polilogarytmicznym mnożnikiem mówi, że wynik to $\\Theta(n \\log^2 n)$.", isCorrect: true },
-            { text: "To przypadek 1: funkcja dominuje w podziale na liściach z wynikiem $\\Theta(n^3)$.", isCorrect: false },
-            { text: "To przypadek 3: wynik to $\\Theta(n \\log n)$ z uwagi na warunek regularności.", isCorrect: false },
-            { text: "Algorytm ulegnie błędom dzielenia przez zera logarytmu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 332,
-        category: "Heapsort i procedura BuildHeap",
-        text: "Dlaczego główna pętla w `Build-Max-Heap` iteruje od $\\lfloor length/2 \\rfloor$ w dół do 1?",
-        options: [
-            { text: "Ponieważ wszystkie elementy z indeksami powyżej $\\lfloor length/2 \\rfloor$ to liście, a liść z definicji jest już poprawnym 1-elementowym kopcem. Zatem naprawę można zacząć dopiero od pierwszych rodziców na spodzie.", isCorrect: true },
-            { text: "Z uwagi na stabilność sortowania odwróconego.", isCorrect: false },
-            { text: "Gdyż `Heapify` psuje korzenie wyższe, więc naprawa od góry zepsułaby logarytm na dole.", isCorrect: false },
-            { text: "Z uwagi na wskaźnik do pierwszego wolnego miejsca tablicy dla węzła ucieczkowego.", isCorrect: false }
-        ]
-    },
-
-    {
-        id: 333,
-        category: "Haszowanie Otwarte: Adresowanie Kwadratowe",
-        text: "Które zdanie opisuje wadę adresowania kwadratowego $h(k,i) = (h'(k) + c_1 i + c_2 i^2) \\bmod m$?",
-        options: [
-            { text: "Generuje ono tzw. wtórne grupowanie (secondary clustering) – jeśli dwa klucze mają ten sam hash początkowy, wygenerują identyczny ciąg próbkowania i wejdą ze sobą w powtarzające się kolizje.", isCorrect: true },
-            { text: "Współczynniki $c_1$ i $c_2$ wymagają ogromnej pojemności obliczeniowej z użyciem jednostki FPU.", isCorrect: false },
-            { text: "Działa dobrze tylko z użyciem wielkich liter w stringach.", isCorrect: false },
-            { text: "Gwarantuje, że przeglądnięte zostanie zawsze mniej niż $10\\%$ pustych slotów tablicy.", isCorrect: false }
-        ]
-    },
-    {
-        id: 334,
-        category: "Haszowanie Uniwersalne",
-        text: "Czym jest 'Haszowanie Uniwersalne' zdefiniowane na wykładach z AiSD?",
-        options: [
-            { text: "Sposobem na unikanie złośliwych danych polegającym na losowym wyborze samej funkcji haszującej ze specjalnej rodziny funkcji $\\mathcal{H}$ podczas inicjalizacji, wymuszającym oczekiwaną niską kolizję bez względu na atak.", isCorrect: true },
-            { text: "Funkcją haszującą generującą ten sam układ dla każdego węzła na każdym systemie PRAM.", isCorrect: false },
-            { text: "Cykliczną zmianą wielkości $m$ tablicy za pomocą złotego podziału.", isCorrect: false },
-            { text: "Kluczem kryptograficznym używanym podczas drzew decyzyjnych w LZW.", isCorrect: false }
-        ]
-    },
-
-    {
-        id: 335,
-        category: "Grafy: DFS (Klasyfikacja Krawędzi)",
-        text: "Jeśli podczas przeszukiwania w głąb (DFS) przetwarzając wierzchołek $u$ natrafimy na krawędź $(u,v)$, gdzie $v$ ma aktualnie kolor SZARY (GRAY), co to oznacza i jak nazywa się ta krawędź?",
-        options: [
-            { text: "Oznacza to, że $v$ to przodek $u$, a $(u,v)$ to krawędź powrotna (back edge), co dowodzi istnienia cyklu w grafie skierowanym.", isCorrect: true },
-            { text: "Jest to krawędź w przód (forward edge) idąca do potomka wyznaczonego już w innej odnodze.", isCorrect: false },
-            { text: "Jest to krawędź poprzeczna (cross edge) uciekająca między drzewami w lesie DFS.", isCorrect: false },
-            { text: "Oznacza to błąd w algorytmie, szare krawędzie muszą być odłożone na stos FIFO.", isCorrect: false }
-        ]
-    },
-    {
-        id: 336,
-        category: "Grafy: BFS i Poprawność",
-        text: "Dlaczego dowód na odnajdowanie najkrótszych dróg przez algorytm BFS w grafie nieważonym opiera się mocno na strukturze Kolejki (Queue FIFO)?",
-        options: [
-            { text: "Ponieważ kolejka FIFO gwarantuje, że najpierw całkowicie odkryte i dodane zostaną wierzchołki w odległości $k$ od źródła, a dopiero po wyczerpaniu ich z kolejki przetworzone będą wierzchołki w odległości $k+1$.", isCorrect: true },
-            { text: "Ponieważ LIFO i pop z końca przyspieszają zbijanie wierzchołków na stertę priorytetową.", isCorrect: false },
-            { text: "Struktura kolejki automatycznie przypisuje krawędziom wagi ujemne w przypadku wykrycia cyklu.", isCorrect: false },
-            { text: "Dowód nie opiera się na FIFO; można go zrealizować także używając Stosu (DFS) do znalezienia najkrótszej ścieżki.", isCorrect: false }
-        ]
-    },
-    {
-        id: 337,
-        category: "Grafy: Dijkstry Własności i Czas",
-        text: "Jeśli algorytm Dijkstry byłby wprawiony w ruch na grafie o samej gęstej macierzy, z czasem wyciągania minimum realizowanym naiwnym przeszukaniem nieuporządkowanej tablicy (czas $O(V)$), jaka wyniosłaby sumaryczna złożoność i z czym by konkurowała?",
-        options: [
-            { text: "Wyniosłaby $O(V^2)$ i dla niezwykle gęstych grafów (gdzie $E \\approx V^2$) stanowi bardzo wydajne, często lepsze podejście ze względu na małe stałe i brak narzutu zarządzania strukturami kopca.", isCorrect: true },
-            { text: "Wyniosłaby $O(V \\log V)$ ale przegrała z użyciem drzew AVL.", isCorrect: false },
-            { text: "Odrzuciłaby wektor, działając w czasie $\\Theta(n^3)$ jak algorytm Floyda.", isCorrect: false },
-            { text: "Z uwagi na procedurę BFS zapętliłaby relaksację i wyniosłaby $O(\\infty)$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 338,
-        category: "Grafy: Bellman-Ford po wyczerpaniu",
-        text: "Dlaczego po $V-1$ iteracjach w algorytmie Bellmana-Forda, ewentualne kolejne udane relaksacje potwierdzają, że od źródła osiągalny jest ujemny cykl?",
-        options: [
-            { text: "Ponieważ każda ścieżka prosta (bez cykli) w grafie o $V$ wierzchołkach może mieć co najwyżej $V-1$ krawędzi. Więc jeśli odległości spadają na $V$-tym kroku, proces kręci się w ujemnym cyklu w nieskończoność.", isCorrect: true },
-            { text: "Ponieważ wartość wierzchołka źródłowego ulega dekrementacji w wirtualnej tablicy priorytetów.", isCorrect: false },
-            { text: "Wynika to ze schematu algorytmu, w którym każda iteracja przypisuje ujemną wagę do drzewa MST.", isCorrect: false },
-            { text: "Gdyż w grafie DAG dopuszczalne są ścieżki składające się z nieskończoności ujemnych powrotów.", isCorrect: false }
-        ]
-    },
-    {
-        id: 339,
-        category: "Grafy: Kruskal (Analiza Złożoności)",
-        text: "Jakie dwa pod-procesy z definicji składają się na wiodący składnik kosztu obliczeniowego w wyznaczaniu Drzewa MST Kruskala dla $O(E \\log V)$?",
-        options: [
-            { text: "Posortowanie krawędzi w $O(E \\log E)$ (co w grafie asymiluje do $O(E \\log V)$) oraz użycie do $|V|$ komend `Make-Set`, oraz do $2|E|$ zapytań `Find-Set` z funkcjami `Union`.", isCorrect: true },
-            { text: "Wybudowanie zrównoważonego drzewa BSP $O(V \\log E)$ na wagach dróg poszczególnych pętli ujemnych.", isCorrect: false },
-            { text: "Zastosowanie haszowania otwartego ze złym zagrupowaniem ($O(E^2)$).", isCorrect: false },
-            { text: "Rotacja cykli w modelu BFS dająca asymetryczny rzut na podwójny logarytm krawędzi wektorów.", isCorrect: false }
-        ]
-    },
-
-    {
-        id: 340,
-        category: "Sieci Przepływowe: Wycofanie przepływu",
-        text: "W jaki sposób struktura grafu residualnego wspiera 'cofanie' przepływu za pomocą krawędzi powrotnych po nieoptymalnej decyzji dokonanej w poprzedniej iteracji przez algorytm Forda-Fulkersona?",
-        options: [
-            { text: "Algorytm w grafie residualnym przypisuje cofanej krawędzi wartość pojemności residualnej na anti-parallel-edge. Spychając przepływ tą wsteczną drogą matematycznie kasujemy pomyłkę z poprzedniego wyboru i wypychamy prąd inną ścieżką.", isCorrect: true },
-            { text: "Zastępuje wagi krawędzi na zero stosując logikę Dijkstry ucinając węzły czarne z użyciem kolejki $Q$.", isCorrect: false },
-            { text: "Generuje ona rotacje drzewa MST co usuwa fizycznie połączenie z ujemnej bazy pamięciowej.", isCorrect: false },
-            { text: "Wcale tak się nie dzieje, decyzja algorytmu FFT uchodzi za natychmiastowo poprawną we wszystkich pętlach po wykreśleniu cyklu i nie dopuszcza do cofania prądu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 341,
-        category: "Sieci Przepływowe: Edmondsa-Karpa gwarancje",
-        text: "Twierdzenie używane przy dowodach algorytmu Edmondsa-Karpa stanowi, że:",
-        options: [
-            { text: "Wraz z każdą odnalezioną ścieżką w grafie residualnym, minimalna odległość (liczba krawędzi) dowolnego wierzchołka od źródła rośnie lub pozostaje bez zmian (monotoniczność odległości).", isCorrect: true },
-            { text: "Ilość krawędzi z negatywnymi sumami będzie się mnożyć po przejściu ścieżki relaksacyjnej z użyciem Dijkstry.", isCorrect: false },
-            { text: "Cięcie w grafie staje się idealnie symetryczne z każdą nową pętlą.", isCorrect: false },
-            { text: "Czas trwania rośnie liniowo niezależnie od grafu i sprowadza sie do Radix Sortu w pętli wielomianowej.", isCorrect: false }
-        ]
-    },
-
-    {
-        id: 342,
-        category: "Wyszukiwanie Wzorca: Algorytm Rabina-Karpa",
-        text: "Z jakiego mechanizmu matematycznego z modułami korzysta 'rolling hash' dla usunięcia najstarszego znaku we wzorcu i przesunięcia okna?",
-        options: [
-            { text: "Używa tożsamości kongruencyjnej, aby odjąć od sumy stary znak (pomnożony przez $d^{m-1} \\bmod q$), pomnożyć resztę przez $d$, dodać wartość liczbową nowego znaku na końcu i całość poddać modulo $q$.", isCorrect: true },
-            { text: "Podnosi na bitach (shift operation) znaki tekstu wykluczając lewy skraj bez zapamiętywania tablicy rzutowania modułu binarnego.", isCorrect: false },
-            { text: "Zgaduje skróty za pomocą uniwersalnego algorytmu Double Hashingu redukując kolizje pod zbiorem potęg liczby 2.", isCorrect: false },
-            { text: "W algorytmie Rabina-Karpa nigdy nie usuwa się wektora wyrazu; wszystkie litery przelicza od nowa na wejście.", isCorrect: false }
-        ]
-    },
-    {
-        id: 343,
-        category: "Wyszukiwanie Wzorca: KMP (Tablica \u03C0)",
-        text: "Jakie jest zachowanie amortyzowane w czasie procedury `Compute-Prefix-Function(P)` podczas liczenia tabeli przesunięć w pętli?",
-        options: [
-            { text: "Pętla wewnętrzna `while` (dekrementująca indeks po niedopasowaniu) może wykonywać się wielokrotnie, ale w obrębie całej zewnętrznej pętli licznik cofania nie może spaść więcej razy niż łącznie narósł, co ogranicza sumaryczny koszt do $\\Theta(m)$.", isCorrect: true },
-            { text: "W najgorszym scenariuszu wyliczenie tablicy przeskakującej rośnie z postępem geometrycznym dając czas $\\Theta(m \\log m)$.", isCorrect: false },
-            { text: "Zawsze wykonuje dokładnie i sztywno jedną pętle `while` wewnątrz, robiąc krok stały.", isCorrect: false },
-            { text: "Pętla działa asynchronicznie obciążając algorytm wyliczający po czasie wykonania i nie wlicza się jej do głównego zestawienia wcale.", isCorrect: false }
-        ]
-    },
-    {
-        id: 344,
-        category: "Wyszukiwanie Wzorca: Boyera-Moore",
-        text: "Z czym powiązana jest heurystyka złego znaku w implementacji Boyera-Moore'a na poziomie operacyjnym?",
-        options: [
-            { text: "Wymaga tablicy, która zapamiętuje ostatnią prawostronną pozycję wystąpienia każdego znaku z dostępnego wielkiego alfabetu (np. z tablicy 256 znaków ASCII), aby na jej podstawie podjąć decyzję o skoku.", isCorrect: true },
-            { text: "Na budowie rekursywnego drzewa Trie ułożonego od tyłu jako maszyny o stanach do przesuwania o prefiksy w liściach.", isCorrect: false },
-            { text: "Korzysta z kompresji LZW, aby pominąć całe spakowane wyrazy i podwajać prędkość szukania wzoru w archiwum.", isCorrect: false },
-            { text: "Sprowadza się do znalezienia rzadko używanej samogłoski na krańcu wektora wyrazowego.", isCorrect: false }
-        ]
-    },
-
-    {
-        id: 345,
-        category: "Analiza Algorytmów: Koszt Zamortyzowany (Metoda Potencjału)",
-        text: "Jak sformułowany jest związek między kosztem amortyzowanym $\\hat{c_i}$, kosztem faktycznym $c_i$, a zmianą funkcji potencjału $\\Phi$ z $D_{i-1}$ na $D_i$?",
-        options: [
-            { text: "$\\hat{c_i} = c_i + \\Phi(D_i) - \\Phi(D_{i-1})$. Koszt zamortyzowany odpowiada kosztowi rzeczywistemu oraz zmianie ujętego potencjału struktury danych po tej operacji.", isCorrect: true },
-            { text: "$\\hat{c_i} = \\log(c_i) + \\Phi(D_i)$. Funkcja ta musi być zawsze stała lub stało-malejąca.", isCorrect: false },
-            { text: "$\\hat{c_i} = c_i \\cdot (\\Phi(D_i) / \\Phi(D_{i-1}))$. Stosunek zmian określa przyśpieszenie algorytmu odniesione na podział dynamiczny bazy.", isCorrect: false },
-            { text: "Jest to różnica pojęć między czasem O(1) a kwadratami błędów wyrazu sumarycznego z PRAM.", isCorrect: false }
-        ]
-    },
-    {
-        id: 346,
-        category: "Struktury Danych: Dynamiczna Tablica",
-        text: "Jak wygląda standardowa strategia powiększania dynamicznej tablicy i jaki wynik w ujęciu zamortyzowanym to daje?",
-        options: [
-            { text: "Gdy wstawienie na pozycję przekracza rezerwację, alokuje nową tablicę o dwukrotnie większym rozmiarze ($2 \\times length$) i przepisuje tam rekordy, dzięki czemu wstawienie pojedynczego elementu na koniec kosztuje amortyzowane $\\Theta(1)$.", isCorrect: true },
-            { text: "Co iterację przydziela tylko pamięć pod następny element powiększając się o 1; działa w czasie kwadratowym pesymistycznie ograniczonym przez stałe.", isCorrect: false },
-            { text: "Powiększa się o 100 komórek po zapotrzebowaniu i daje nam czas logarytmiczny O(log n).", isCorrect: false },
-            { text: "Jest to niemożliwe dla tradycyjnego zapisu tablicy by rosła, tablica rosnąca to w istocie zapakowana Skip Lista o podziałach na wskaźnik.", isCorrect: false }
-        ]
-    },
-    {
-        id: 347,
-        category: "Drzewo Czerwono-Czarne: Dowody matematyczne",
-        text: "Jednym z fundamentalnych dowodów rzutujących na strukturę operacji wyszukiwania RB-Tree jest granica jej wysokości wynikająca z zasady pokolorowania, a brzmiąca:",
-        options: [
-            { text: "Drzewo czerwono-czarne z $n$ węzłami wewnętrznymi ma zawsze wysokość co najwyżej $2 \\log_2(n+1)$.", isCorrect: true },
-            { text: "Liczba elementów po prawej flance RB-Tree przekracza logarytmicznie węzły w lewym synostwie, dając maksymalnie sztywne ograniczenie mniejsze niż $1.44 \\log n$.", isCorrect: false },
-            { text: "Z uwagi na naprzemienne i zakazane malowanie (Czerwony nie ma Czerwonego dziecka), drzewo ulega skracaniu z predykatem równym asymptotycznemu limitowi Fibonacciego w grafach Eulerowskich.", isCorrect: false },
-            { text: "Maksymalna wysokość czarnego poddrzewa równa się węzłom od samej głębokości do minimum pod warunkiem potęgowania z dwójką.", isCorrect: false }
-        ]
-    },
-    {
-        id: 348,
-        category: "Algorytmy Geometryczne: Płaszczyzna Zamiatania",
-        text: "Kolejka Zdarzeń i Stan Zamiatania - jak się układają pozycje algorytmu poszukującego punktu cięć w odcinkach płaszczyzny Sweep Line?",
-        options: [
-            { text: "Punkty początkowe i końcowe wszystkich odcinków układane i przetrzymywane są posortowane na Kolejce Priorytetowej pod pozycjami osi X, a samo ułożenie po Y i sąsiedzi wirtualnej Miotły leżą i reagują na drzewie BST utrzymującym relacje.", isCorrect: true },
-            { text: "Poszukiwanie zachodzi poprzez uderzenia i rotacje po osi wektora z dodawanym iloczynem i z wrzuceniem wszystkich wektorów pod stos po LIFO.", isCorrect: false },
-            { text: "Zamiatanie usuwa mniejsze struktury ze zbalansowania pod postacią binarnego kopca i przesuwa wektory ku pozycjom zerowym.", isCorrect: false },
-            { text: "Nie trzeba ich sortować, algorytm wykorzystuje metodę Hoare'a na samej macierzy w trybie dynamicznym w locie.", isCorrect: false }
-        ]
-    },
-    {
-        id: 349,
-        category: "Kompresja: Huffmana pseudo-kod",
-        text: "Z proceduralnego punktu widzenia na zaimplementowanym Kolejkowym Kodowaniu Huffmana, czym będzie element korzenia po zwinięciu kolejki i zapętleń w $n-1$ przejściach?",
-        options: [
-            { text: "Korzeń wyjęty na końcu z kolejki priorytetowej reprezentować będzie główny wierzchołek drzewa o zsumowanej i łącznej częstości dla całego podanego alfabetu ze zbioru C.", isCorrect: true },
-            { text: "Korzeń na zawsze będzie punktował jako literę najrzadziej użytą by zagwarantować najdłuższy prefix binarnej sekwencji bitów.", isCorrect: false },
-            { text: "Będzie wskaźnikiem na wektor tablicy dla kodu LZW kompresji słownikowej.", isCorrect: false },
-            { text: "Z racji wskaźników z Union-Find utworzy w lesie element reprezentatywny dla ścieżki i powrotów dróg eulerowskich.", isCorrect: false }
-        ]
-    },
-    {
-        id: 350,
-        category: "Algorytmy Równoległe",
-        text: "Architektury z rodziny PRAM oraz koncepcje rozwiązań równoległych w przypadku modelu wyznaczania maksymalnego elementu dają nam możliwość:",
-        options: [
-            { text: "Korzystając z bardzo asertywnego i silnie uzbrojonego modelu zapisu jednoczesnego CRCW odnaleźć maksymalny ułamek ze zbioru z ekstremalnym skokiem przyspieszenia z pomocą kwadratowej liczby procesorów nawet w stałym wymiarze i ułamku $O(1)$.", isCorrect: true },
-            { text: "Znalezienia we wszystkich maszynach PRAM sum prefiksów w zaledwie zammortyzowanym koszcie 1 taktu sprzętowego opartym na operacjach MMX bez tablic.", isCorrect: false },
-            { text: "Usunięcie kolizji na operacjach wektorowych w architekturze SISD z pominięciem kompilacji i ograniczenia na cykl.", isCorrect: false },
-            { text: "Tylko EREW ma predyspozycje obliczeniowe dla skomplikowanych macierzy wektorowych przy mnożeniach.", isCorrect: false }
-        ]
-    },
-    {
-        id: 351,
-        category: "Sortowanie: Statystyki na Radix",
-        text: "Aby uzyskać gwarantowany czas liniowy w sortowaniu d-znakowych słów z wykorzystaniem radix-sort, jaki wariant algorytmu powinien stać we wnętrzu pętli i od jakiej litery układ jest poddawany analizie?",
-        options: [
-            { text: "Musimy stabilnie przesiać słowa (np. Counting-Sort'em) idąc od Ostatniej i prawej Litery (Least Significant Digit - LSB) pnąc się po pozycjach aż do Litery Pierwszej z lewej.", isCorrect: true },
-            { text: "Algorytm musi startować od Litery Pierwszej z lewej układając wyraz na zasadzie Drzewa Prefixowego by skrócić węzły ułożenia na wektorze w Czerwono-Czarne węzły.", isCorrect: false },
-            { text: "Wykorzystuje on zmienną tablicy dla Heapsort'a i iteruje dla każdej litery w $O(n \\log n)$.", isCorrect: false },
-            { text: "To błąd, stabilność w algorytmach ciągów słownych nakazuje odrzucenie metody radix i postawienie na złośliwe zbiory Quicksort'a ze środkowym rozdzialaniem znaków z ułamków liter.", isCorrect: false }
-        ]
-    },
-    {
-        id: 352,
-        category: "Drzewa AVL: Detale z wykładów",
-        text: "Złożenie rotacji podwójnej w AVL (np. LR, Left-Right) składa się z połączonych działań. Czy w czasie takiej rotacji podwójnej następuje fizyczna zmiana wysokości poszczególnych poddrzew od samej dolej korony z rotowanego węzła?",
-        options: [
-            { text: "Rotacja podwójna u swych podnóży fizycznie 'wyciąga' wyżej węzeł wnuka zaangażowany w zakręt z podniesieniem go ponad jego ojca i dziadka z zachowaniem warunków przeszukiwania BST.", isCorrect: true },
-            { text: "Obydwie rotacje dokonują inwersji i przekolorowania i sprowadzają go do najniższych partii kopcowych.", isCorrect: false },
-            { text: "Tak, i powoduje zawsze zmianę na mniejszą głębokość do wartości ujemnej $-1$.", isCorrect: false },
-            { text: "W ogóle nie ma ingerencji na najniższych koronach, dotyczy to węzłów z podczepieniami pośrodku tablic na korzeniach odwróconych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 353,
-        category: "Drzewa Czerwono-Czarne",
-        text: "Ile dzieci posiada węzeł-liść zwany NIL'em w prawidłowo zbudowanym Drzewie Czerwono Czarnym?",
-        options: [
-            { text: "Ani jednego - liście NIL ze względów logicznych, operacyjnych oraz warunkowych są absolutnymi, pustymi zatyczkami czarnego koloru na drogach powstrzymującymi zejścia głębiej.", isCorrect: true },
-            { text: "Posiadają zawsze lewe i prawe puste wskaźniki.", isCorrect: false },
-            { text: "Mają wskaźnik przypisany tylko ze zwrotem w górę o kolorze obróconym do barwy szarej.", isCorrect: false },
-            { text: "Równy rozmiarowi tablic Dowiązań o wielkości skompensowanej ze zmienną w tablicy powrotów do węzłów szczytowych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 354,
-        category: "Algorytmy Geometryczne: Iloczyn Wektorowy (Cross Product)",
-        text: "Co charakteryzuje i rozstrzyga o znaku (+, -, 0) przy weryfikacji kierunku skrętu przez iloczyn wektorowy wyliczany wg punktów $p_1, p_2, p_3$ dla funkcji $\\text{det}(p_1, p_2, p_3) = (x_2-x_1)(y_3-y_1) - (x_3-x_1)(y_2-y_1)$?",
-        options: [
-            { text: "Jeżeli znak iloczynu będzie dodatni ($>0$), ścieżka od $p_1 \\rightarrow p_2 \\rightarrow p_3$ tworzy zakręt lub skręt lewy (przeciwnie do wskazówek zegara).", isCorrect: true },
-            { text: "Dla zera stwierdzamy obecność zakrętu ułamkowego w wektorach równoległych dających znak lewy.", isCorrect: false },
-            { text: "Wartość ujemna determinuje występowanie błędu oznaczającego wyjście z systemu w układzie prawoskrętnym kartezjusza.", isCorrect: false },
-            { text: "Znak nie ma znaczenia bo funkcja wypluwa zawsze przedział wartości ze średnią z promienia punktów i ułożeniem kąta radiana na okręgu.", isCorrect: false }
-        ]
-    },
-    {
-        id: 355,
-        category: "Struktury Danych: Analiza Złożoności i Stos",
-        text: "Dlaczego ciąg $n$ operacji `Multipop(S, k)` zdejmujących $k$ elementów na raz z pustniejącego w czasie stosu ma w modelu sumarycznej analizy amortyzowanej złożoność na poziomie $O(n)$ i kosztem operacji $O(1)$?",
-        options: [
-            { text: "Ponieważ przez cały czas trwania algorytmu element może wejść na stos poprzez `Push` zaledwie 1 raz oraz zejść poprzez ściągnięcie w `Multipop` rygorystycznie 1 raz. Łączna i całkowita suma limitów nie może przerodzić się dla stosu powyżej wkładanych na początku $n$.", isCorrect: true },
-            { text: "Z powodu redukcji funkcji i obcięcia wkładów i wejść do zera na elementach ze statusem powielonym.", isCorrect: false },
-            { text: "Algorytm musi mieć narzucony warunek w urojonym długu równym $\\Phi(D_i) < 0$.", isCorrect: false },
-            { text: "Nie wynosi $O(n)$. Ze względu na wywołania w wektorach kwadratowych ma sumaryczny koszt kwadratowy ze średnią $O(n)$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 356,
-        category: "Grafy: Przeszukiwanie Wszerz (Kruczki w drzewach BFS)",
-        text: "Krawędzie Grafowe ze skierowaniami w podziale BFS zachowują jedną stałą w budowie. Jakie typy odgałęzień nigdy nie mogą pojawić się po rzetelnym podzieleniu wierzchołków grafów drzewem dla BFS?",
-        options: [
-            { text: "Drzewo rozpinające Przeszukiwania Wszerz w żadnym stopniu nie zrodzi ani nie utrzyma krawędzi skierowanych na odległość i 'w przód' (forward edges) dających ucieczkę dalej na przód w gałęzi (wskazują do innych lub tego samego poziomu w cross-ach ale ominąć poziomu skokiem by tak się nazywały nie mogą).", isCorrect: true },
-            { text: "Występowanie Back edges jest w nim całkowicie niemożliwe dla dowolnego grafu pod żadnym z pozoru.", isCorrect: false },
-            { text: "Krawędzie w leśnych rozgałęzieniach BFS wchodzą na siebie z przesunięciami kwadratowymi krzyżując się w ujemnych z wagami.", isCorrect: false },
-            { text: "Drzewa BFS dopuszczają rzadko ułożenie poprzeczne ale w przód są absolutnie zawsze obecnymi do tworzenia wierzchołków bez ścieżek pośrednich wewnątrz odgałęzień na ślepo.", isCorrect: false }
-        ]
-    },
-    {
-        id: 357,
-        category: "Statystyki Pozycyjne: Drzewo OS z Cormena",
-        text: "Oprócz operacji przypisywania wielkości `size`, z drzew OS można swobodnie usunąć strukturę trzymającą tablice powiązań za pomocą samej własności o utrzymywaniu na poziomie korzeniowych złączeń.",
-        options: [
-            { text: "Faktycznie, wszystkie procedury OS z wyznaczeniem rzędu w $O(\\log n)$ bazują i utrzymują się wyłącznie na wstawieniu w standardowe węzły (np. drzewa RB) tylko i wyłącznie tej samej, stałej, zaledwie jednej dodatkowej liczby atrybutu powiększania 'size'.", isCorrect: true },
-            { text: "Nieprawda; by OS utrzymywało pozycje pod każdą wstawkę muszą doliczać i wymuszać w tablicy pamięci operacyjnej zapisu dla całej listy tablicowej i poszczególnego wariantu każdego klucza ze wszystkimi wartościami dla nich w locie pod rank.", isCorrect: false },
-            { text: "Rozbudowa do Drzew Poszukiwań wymaga trójwymiarowych punktów i ich referencji przy rotacji z powodu zmiany skali i poziomu szukanych kluczy ułożonych poziomo.", isCorrect: false },
-            { text: "Atrybut rozmiaru (size) zastępuje w drzewach OS atrybut wskaźników do węzła po prawicy wektora równego w skali drzew poszukiwań i unika alokacji dla wszystkich pni na wyciągnięciach z gałęzi.", isCorrect: false }
-        ]
-    },
-    {
-        id: 358,
-        category: "Algorytmy Sortowania: Warianty optymalne",
-        text: "Analizując stabilność złożoności w implementacjach programistycznych Merge Sort'a, do jakich zabiegów i optymalizacji dla podtablic decydują się uciekać autorzy?",
-        options: [
-            { text: "Do wyłączenia z używania kosztownych operacyjnie kroków rekurencji Merga w okolicach najmniejszych stadiów problemu, zastępując go i przekazując pod zadania w małych grupach (rzędu mniejszych niż $n < 43$ czy podobne) dla Sortowania przez Wstawianie (Insertion Sort), wygrywających ze względu na zminimalizowanie stałego i niewidzialnego we wzorze narzutu.", isCorrect: true },
-            { text: "Poprzez wywoływania i sorty dla tablic wejściowych by w procedurze Hoarea ominęły one pesymistyczne scenariusze przez Quickselect do wylosowania małych wielokrotności skoków i na końcu włożenie ich dla Heapsorta od tyłu.", isCorrect: false },
-            { text: "Dzięki zamianie całej operacji Sort na podrzut na stos w celach kompensacji w pamięci dla odziedziczenia mniejszych i szybszych do porównania klastrów o minimalnym zniekształceniu na zewnątrz bez jakiegokolwiek przeliczania.", isCorrect: false },
-            { text: "Nie ma w nich zabiegów ucinających, Sortowanie i algorytm Merge używa od lat tej samej metody w 100 procentach pozbawionej innych algorytmów z powrotem.", isCorrect: false }
-        ]
-    },
-    {
-        id: 359,
-        category: "Grafy: DFS (Lasy)",
-        text: "Co wynika i oznacza pojęcie Drzew Rozpinających z DFS po określeniu lasów na drzewach odłączonych od siebie pod kątem węzłów z pominięciem kolorów dla G(V, E)?",
-        options: [
-            { text: "Las DFS tworzony jest ze wszystkich krawędzi które prowadziły ze źródeł odwiedzanych do i podczas odkywania zupełnie nowych (białych) wektorów/wierzchołków grafu. Pozostałe odcinane są ze struktur głównych dla grafu DFS i zostawiając jedynie czyste wchodzące z tych właśnie do poszukiwań dają mu wygląd wolny od jakichkolwiek uwięzień w pętle na krawędzi.", isCorrect: true },
-            { text: "Las i skrajne krawędzie tworzone są ze złożenia do zera węzłów i z zarysowania pętli z ominięciami tylko na punktach i szczytach odnajdując wszystkie z pętlami cyklicznymi dając skrajnie poprzeczne węzły a usuwając pozycje z pierwszych gałęzi na wejściach drzew bez odnogi do tyłu i zwrotu.", isCorrect: false },
-            { text: "Należą tu wyłącznie wierzchołki i wektory posiadające stopnie z wchodzącymi krawędziami większymi dla potęg od wartości logarytmicznej w podanym drzewie macierzy kwadratowych ograniczając i uciskając cały graf.", isCorrect: false },
-            { text: "Z uwagi na procedury DFS graf i las to nie drzewa a uporządkowany pod względem topologicznym układ ułożony w jednym wektorze szeregowym pod wejściem i wyjściem dla pętli głównej i jednoczesnym zerowaniu wyjść.", isCorrect: false }
-        ]
-    },
-    {
-        id: 360,
-        category: "Algorytmy Tekstowe: Metoda Naiwna z Modulo",
-        text: "Mimo wolniejszej teoretycznie metody Rabin-Karp do zadeklarowanego działania z użyciem arytmetyki modulernej pod kątem wielkich zestawień (duży wzór wejściowy z tekstem powiększającym logarytm bitowy i błędy z cyklami przepełnień na Intach na maszynach sprzętowych) decyduje się na obcięcie go dzielnikiem z modulo ($q$). Do czego ma prowadzić taka decyzja odnośnie złożoności?",
-        options: [
-            { text: "Zabezpiecza przed błędem z przekroczenia i przepełnienia wielkich liczb i wartości pod rejestrem ale wymusza omijanie fałszywych trafień (spurious hits) co pociąga szansę (i narzuca bezwzględny koszt na sprawdzenie) na pesymistyczny w skrajności scenariusz o wzroście działania w czasie kwadratowym $O(m \\cdot (n-m+1))$ na sprawdzanie nietrafień mimo zgadzającej się liczby pod wycinkami reszty.", isCorrect: true },
-            { text: "Narzuca zredukowanie czasu wykonywania pętli we wzorze o cały ułamek dla wielkości długości uciętego elementu ale podnosi ułamki błędnie dopasowując reszty co doprowadza w 100% czasu pod zyskanie stabilnego w każdym przypadku wyniku w $\\Theta(1)$ ale dla błędu z prawdopodobieństwem odrzutu w 99% sprawdzając rzut monety i fałszywie.", isCorrect: false },
-            { text: "Rozdziela to tekst i okna pod wejściem na tablicę KMP a następnie pomija tablicę dla zyskania wyniku i skrócenia zapisu okna pod przeskoki Boyera wyłączając i modyfikując tablicę.", isCorrect: false },
-            { text: "Zapobiega sprawdzaniu liter na tekście a ujemne modula odcinają i negują cykle ujemnych okien z dopasowaniami przycinając je pod zera pozycję i od nowa wyliczając hash na całej liście skrótów ze słownika i tablic listowych LZW ze znakiem końca linii EOF.", isCorrect: false }
-        ]
-    },
-
-    {
-        id: 281,
+        id: 166,
         category: "Drzewa AVL",
         text: "Jaki jest główny warunek (niezmiennik), który musi spełniać drzewo AVL, aby uchodzić za zbalansowane?",
         options: [
@@ -3232,7 +1836,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 282,
+        id: 167,
         category: "Drzewa AVL",
         text: "Jakie wartości może przyjmować współczynnik wyważenia (Balance Factor) w poprawnym drzewie AVL?",
         options: [
@@ -3243,7 +1847,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 283,
+        id: 168,
         category: "Drzewa AVL",
         text: "Z jaką asymptotyczną złożonością czasową wykonują się operacje Search, Insert i Delete w drzewie AVL?",
         options: [
@@ -3254,7 +1858,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 284,
+        id: 169,
         category: "Drzewa AVL",
         text: "Jeśli dodany węzeł zaburzył balans drzewa AVL i spowodował przeciążenie lewego dziecka z jego lewej strony (współczynnik balansu korzenia $> 1$, a lewego dziecka $> 0$), jaką rotację należy wykonać?",
         options: [
@@ -3266,7 +1870,7 @@ const questionDatabase = [
     },
 
     {
-        id: 285,
+        id: 170,
         category: "Sortowanie przez wstawianie",
         text: "Kiedy Sortowanie przez Wstawianie (Insertion Sort) osiąga swój najlepszy czas działania równy $\\Omega(n)$?",
         options: [
@@ -3277,7 +1881,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 286,
+        id: 171,
         category: "Dziel i Zwyciężaj",
         text: "Które z poniższych algorytmów opierają się bezpośrednio na strategii 'Dziel i Zwyciężaj'?",
         options: [
@@ -3288,7 +1892,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 287,
+        id: 172,
         category: "Merge Sort",
         text: "Jaka jest złożoność pamięciowa algorytmu Merge Sort i z czego ona wynika?",
         options: [
@@ -3299,7 +1903,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 288,
+        id: 173,
         category: "Twierdzenie o rekurencji uniwersalnej",
         text: "Aby rozwiązać równanie $T(n) = aT(n/b) + f(n)$ za pomocą Twierdzenia o Rekurencji Uniwersalnej (Master Theorem), jakie warunki muszą spełniać stałe $a$ i $b$?",
         options: [
@@ -3311,7 +1915,7 @@ const questionDatabase = [
     },
 
     {
-        id: 289,
+        id: 174,
         category: "Struktury Danych: Kopiec",
         text: "Co oznacza własność kopca typu MAX (Max-Heap property) dla dowolnego węzła $i$ z pominięciem korzenia?",
         options: [
@@ -3322,7 +1926,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 290,
+        id: 175,
         category: "Algorytmy Kopcowe",
         text: "Z jaką złożonością czasową działa procedura przywracania własności kopca w dół, czyli `Max-Heapify`?",
         options: [
@@ -3333,7 +1937,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 291,
+        id: 176,
         category: "Heapsort",
         text: "Czy algorytm Heapsort (Sortowanie przez kopcowanie) jest stabilny oraz czy sortuje w miejscu?",
         options: [
@@ -3345,7 +1949,7 @@ const questionDatabase = [
     },
 
     {
-        id: 292,
+        id: 177,
         category: "Quicksort",
         text: "Jaki jest pesymistyczny czas działania algorytmu Quicksort i kiedy on najczęściej występuje (w wariancie bez randomizacji)?",
         options: [
@@ -3356,7 +1960,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 293,
+        id: 178,
         category: "Sortowanie w czasie liniowym",
         text: "Co jest kluczowym warunkiem, aby użyć algorytmu Counting Sort (Sortowanie przez zliczanie)?",
         options: [
@@ -3367,7 +1971,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 294,
+        id: 179,
         category: "Sortowanie pozycyjne",
         text: "Jak działa algorytm Radix Sort?",
         options: [
@@ -3379,7 +1983,7 @@ const questionDatabase = [
     },
 
     {
-        id: 295,
+        id: 180,
         category: "Struktury Danych: Stos",
         text: "Z jakimi złożonościami czasowymi (w najlepszej implementacji) działają operacje PUSH oraz POP na stosie?",
         options: [
@@ -3390,7 +1994,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 296,
+        id: 181,
         category: "Struktury Danych: Kolejka",
         text: "Jaką strategię obsługi elementów realizuje struktura Kolejki (Queue)?",
         options: [
@@ -3402,7 +2006,7 @@ const questionDatabase = [
     },
 
     {
-        id: 297,
+        id: 182,
         category: "Drzewa BST",
         text: "Z jaką operacją kojarzy się poszukiwanie minimalnego elementu w drzewie BST?",
         options: [
@@ -3413,7 +2017,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 298,
+        id: 183,
         category: "Drzewa Czerwono-Czarne",
         text: "Która z poniższych zasad dotyczy bezpośrednio tzw. czarnej wysokości (black-height) w drzewach RB?",
         options: [
@@ -3425,7 +2029,7 @@ const questionDatabase = [
     },
 
     {
-        id: 299,
+        id: 184,
         category: "Tablice Haszujące",
         text: "Czym jest metoda łańcuchowa (chaining) w kontekście rozwiązywania kolizji?",
         options: [
@@ -3436,7 +2040,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 300,
+        id: 185,
         category: "Skip Lists",
         text: "Jakie jest główne przeznaczenie List Przeskakiwania (Skip Lists)?",
         options: [
@@ -3448,7 +2052,7 @@ const questionDatabase = [
     },
 
     {
-        id: 301,
+        id: 186,
         category: "Statystyki Pozycyjne",
         text: "Co oznacza termin 'mediana' w ujęciu algorytmu znalezienia $i$-tej statystyki pozycyjnej dla zbioru $n$-elementowego?",
         options: [
@@ -3459,7 +2063,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 302,
+        id: 187,
         category: "Drzewa Przedziałowe",
         text: "Kiedy mówimy, że dwa przedziały (interwały) $i$ oraz $i'$ się przecinają (nakładają)?",
         options: [
@@ -3471,7 +2075,7 @@ const questionDatabase = [
     },
 
     {
-        id: 303,
+        id: 188,
         category: "Reprezentacja Grafów",
         text: "Która z metod reprezentacji grafu zajmuje pamięć rzędu $\\Theta(V^2)$ i jest idealna do sprawdzania w czasie stałym $O(1)$, czy pomiędzy danymi dwoma wierzchołkami istnieje krawędź?",
         options: [
@@ -3482,7 +2086,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 304,
+        id: 189,
         category: "Przeszukiwanie Wszerz (BFS)",
         text: "Jaką rolę pełni zabarwienie wierzchołków na CZARNO w algorytmie BFS?",
         options: [
@@ -3493,7 +2097,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 305,
+        id: 190,
         category: "Skierowany Graf Acykliczny (DAG)",
         text: "Jaka relacja panuje w grafie DAG między krawędziami a algorytmem DFS?",
         options: [
@@ -3505,7 +2109,7 @@ const questionDatabase = [
     },
 
     {
-        id: 306,
+        id: 191,
         category: "Algorytm Prima",
         text: "W jaki sposób algorytm Prima znajduje Minimalne Drzewo Rozpinające (MST)?",
         options: [
@@ -3516,7 +2120,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 307,
+        id: 192,
         category: "Algorytm Dijkstry",
         text: "Dlaczego algorytm Dijkstry nie może być stosowany na grafach z ujemnymi wagami krawędzi?",
         options: [
@@ -3527,7 +2131,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 308,
+        id: 193,
         category: "Algorytm Bellmana-Forda",
         text: "Z jaką złożonością czasową działa algorytm Bellmana-Forda wyznaczający najkrótsze ścieżki z jednego źródła?",
         options: [
@@ -3538,7 +2142,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 309,
+        id: 194,
         category: "Algorytm Floyda-Warshalla",
         text: "Dla jakiego problemu projektowany jest algorytm Floyda-Warshalla?",
         options: [
@@ -3549,7 +2153,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 310,
+        id: 195,
         category: "Koszt Zamortyzowany",
         text: "Jak definiowany jest 'koszt zamortyzowany' operacji na strukturze danych?",
         options: [
@@ -3561,7 +2165,7 @@ const questionDatabase = [
     },
 
     {
-        id: 311,
+        id: 196,
         category: "Sieci Przepływowe",
         text: "Co oznacza termin 'przepustowość krawędzi' (capacity) $c(u,v)$ w sieci przepływowej?",
         options: [
@@ -3572,7 +2176,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 312,
+        id: 197,
         category: "Sieci Przepływowe: Przekrój",
         text: "W jaki sposób definiowana jest wartość przepływu całego grafu w oparciu o Twierdzenie Max-Flow Min-Cut?",
         options: [
@@ -3583,7 +2187,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 313,
+        id: 198,
         category: "Algorytmy Tekstowe: Naiwny",
         text: "Jaka jest pesymistyczna złożoność czasowa naiwnego algorytmu wyszukiwania wzorca o długości $m$ w tekście o długości $n$?",
         options: [
@@ -3594,7 +2198,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 314,
+        id: 199,
         category: "Algorytmy Tekstowe: KMP",
         text: "Co eliminuje algorytm Knutha-Morrisa-Pratta w porównaniu z algorytmem naiwnym?",
         options: [
@@ -3606,7 +2210,7 @@ const questionDatabase = [
     },
 
     {
-        id: 315,
+        id: 200,
         category: "Kompresja: Huffman",
         text: "Jakie struktury kodów generuje algorytm kodowania Huffmana?",
         options: [
@@ -3617,7 +2221,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 316,
+        id: 201,
         category: "Algorytmy Równoległe",
         text: "Czym jest PRAM w teorii algorytmów równoległych?",
         options: [
@@ -3628,18 +2232,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 317,
-        category: "Algorytmy Geometryczne",
-        text: "Do jakiej klasy problemów zalicza się algorytm Grahama?",
-        options: [
-            { text: "Do problemu znajdowania otoczki wypukłej (Convex Hull) w 2D.", isCorrect: true },
-            { text: "Do detekcji cykli w grafach Eulerowskich.", isCorrect: false },
-            { text: "Do szukania najkrótszej drogi robota na siatce z przeszkodami.", isCorrect: false },
-            { text: "Wyłącznie do zliczania pól powierzchni kół.", isCorrect: false }
-        ]
-    },
-    {
-        id: 318,
+        id: 202,
         category: "Drzewa AVL",
         text: "Kiedy dochodzi do przypadku LL (Left-Left) podczas analizy balansu w drzewie AVL?",
         options: [
@@ -3650,7 +2243,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 319,
+        id: 203,
         category: "Kopce",
         text: "Ile czasu zajmuje odczytanie największej wartości z kolejki priorytetowej opartej na Max-Heap (bez jej usuwania)?",
         options: [
@@ -3661,7 +2254,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 320,
+        id: 204,
         category: "Wprowadzenie",
         text: "Co oznacza efektywność (złożoność) czasowa algorytmu rzędu $\\Theta(n)$?",
         options: [
@@ -3673,7 +2266,7 @@ const questionDatabase = [
     },
 
     {
-        id: 361,
+        id: 205,
         category: "Złożoność i Notacje Asymptotyczne",
         text: "Które z poniższych definicji poprawnie opisują notacje asymptotyczne?",
         options: [
@@ -3684,7 +2277,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 362,
+        id: 206,
         category: "Wprowadzenie: Dowód indukcyjny",
         text: "Z jakich elementów składa się poprawny dowód niezmiennika pętli (loop invariant)?",
         options: [
@@ -3695,7 +2288,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 363,
+        id: 207,
         category: "Algorytmy Sortowania: Wstawianie i Scalanie",
         text: "Które z poniższych twierdzeń o Sortowaniu przez Wstawianie (Insertion Sort) i Scalanie (Merge Sort) są prawdziwe?",
         options: [
@@ -3706,7 +2299,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 364,
+        id: 208,
         category: "Struktury Danych: Kopce",
         text: "Które własności definiują poprawny kopiec binarny typu Max (Max-Heap)?",
         options: [
@@ -3717,7 +2310,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 365,
+        id: 209,
         category: "Struktury Danych: Liniowe",
         text: "Jakie właściwości i czasy operacji charakteryzują strukturę Stosu (Stack) i Kolejki (Queue)?",
         options: [
@@ -3728,7 +2321,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 366,
+        id: 210,
         category: "Algorytmy Sortowania: Quicksort",
         text: "Co charakteryzuje algorytm Quicksort według przedstawionych na wykładzie pseudokodów?",
         options: [
@@ -3739,7 +2332,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 367,
+        id: 211,
         category: "Drzewa BST i RB",
         text: "Które operacje w zbalansowanym drzewie Czerwono-Czarnym (RB) wykonują się w czasie pesymistycznym $O(\\log n)$?",
         options: [
@@ -3750,7 +2343,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 368,
+        id: 212,
         category: "Tablice Haszujące",
         text: "Które metody są poprawnymi technikami rozwiązywania kolizji w tablicach haszujących?",
         options: [
@@ -3761,7 +2354,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 369,
+        id: 213,
         category: "Algorytmy Grafowe: BFS i DFS",
         text: "Które z poniższych twierdzeń o przeszukiwaniu grafów G(V, E) są prawdziwe?",
         options: [
@@ -3772,7 +2365,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 370,
+        id: 214,
         category: "Algorytmy Grafowe: MST",
         text: "Co jest prawdą na temat Minimalnych Drzew Rozpinających (MST) i algorytmów je wyznaczających?",
         options: [
@@ -3783,7 +2376,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 371,
+        id: 215,
         category: "Algorytmy Grafowe: Najkrótsze Ścieżki",
         text: "Wskaż poprawne zastosowania i cechy algorytmów najkrótszych ścieżek z jednego źródła.",
         options: [
@@ -3794,7 +2387,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 372,
+        id: 216,
         category: "Analiza Zamortyzowana",
         text: "W jakich technikach analizy zamortyzowanej przypisuje się niektórym operacjom sztuczne ładunki kosztów (kredyty) w celu pokrycia drogich operacji w przyszłości?",
         options: [
@@ -3805,7 +2398,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 373,
+        id: 217,
         category: "Sieci Przepływowe",
         text: "Które z pojęć wiążą się bezpośrednio z sieciami przepływowymi i algorytmem Forda-Fulkersona?",
         options: [
@@ -3816,7 +2409,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 374,
+        id: 218,
         category: "Algorytmy Tekstowe",
         text: "Które algorytmy wyszukiwania wzorca w tekście opierają się na wcześniejszym przetwarzaniu wzorca (preprocessing)?",
         options: [
@@ -3827,7 +2420,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 375,
+        id: 219,
         category: "Kompresja",
         text: "Które właściwości opisują algorytm kodowania Huffmana?",
         options: [
@@ -3838,7 +2431,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 376,
+        id: 220,
         category: "Algorytmy Równoległe",
         text: "Zgodnie z taksonomią Flynna, co reprezentuje model MIMD?",
         options: [
@@ -3849,18 +2442,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 377,
-        category: "Algorytmy Geometryczne",
-        text: "W jakich problemach geometrycznych wykorzystuje się iloczyn wektorowy (Cross Product) punktów?",
-        options: [
-            { text: "Przy określaniu skrętu (lewo/prawo) sekwencji trzech punktów.", isCorrect: true },
-            { text: "W algorytmie Grahama do znajdowania otoczki wypukłej.", isCorrect: true },
-            { text: "Przy sprawdzaniu czy dwa odcinki na płaszczyźnie się przecinają.", isCorrect: true },
-            { text: "Do wyliczania dokładnej odległości w algorytmie najbliższej pary punktów.", isCorrect: false }
-        ]
-    },
-    {
-        id: 378,
+        id: 221,
         category: "Statystyki Pozycyjne",
         text: "Algorytm \"Magicznych Piątek\" służy do:",
         options: [
@@ -3871,7 +2453,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 379,
+        id: 222,
         category: "Drzewa Przedziałowe",
         text: "Jakie operacje wspierają dynamiczne drzewa przedziałowe (Interval Trees) oparte o drzewa RB?",
         options: [
@@ -3882,7 +2464,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 380,
+        id: 223,
         category: "Sortowanie Liniowe",
         text: "Co ogranicza algorytmy sortowania w czasie liniowym (Counting Sort, Radix Sort, Bucket Sort)?",
         options: [
@@ -3893,7 +2475,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 381,
+        id: 224,
         category: "Złożoność Obliczeniowa",
         text: "Rozważ algorytm, który składa się z 3 zagnieżdżonych pętli 'for' od 1 do $n$. W najgłębszej pętli wykonuje operację w czasie $O(\\log n)$. Jaka jest asymptotyczna złożoność algorytmu?",
         options: [
@@ -3904,7 +2486,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 382,
+        id: 225,
         category: "Drzewa BST",
         text: "Z jakich pod-operacji składa się zarys procedury usuwania węzła mającego dwoje dzieci z drzewa BST?",
         options: [
@@ -3915,7 +2497,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 383,
+        id: 226,
         category: "Listy Przeskakiwania",
         text: "Które zdania rzetelnie opisują strukturę Skip List (Listy z przeskokami)?",
         options: [
@@ -3926,7 +2508,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 384,
+        id: 227,
         category: "Tablice Haszujące",
         text: "Co jest prawdą na temat haszowania przez mnożenie?",
         options: [
@@ -3937,7 +2519,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 385,
+        id: 228,
         category: "Algorytmy Grafowe",
         text: "W jakiej formie matematycznej można przedstawić graf do analizy algorytmicznej?",
         options: [
@@ -3948,7 +2530,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 386,
+        id: 229,
         category: "Algorytmy Grafowe: Krawędzie",
         text: "Zgodnie z klasyfikacją DFS, które rodzaje krawędzi tworzą cykl w grafie skierowanym?",
         options: [
@@ -3959,7 +2541,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 387,
+        id: 230,
         category: "Najkrótsze ścieżki",
         text: "Który algorytm używa struktury d-kopca (lub kopca binarnego/Fibonacciego) jako trzonu optymalizacyjnego?",
         options: [
@@ -3970,7 +2552,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 388,
+        id: 231,
         category: "Najkrótsze ścieżki",
         text: "Co oznacza operacja 'Relaksacji' krawędzi $(u, v)$ z wagą $w$?",
         options: [
@@ -3981,7 +2563,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 389,
+        id: 232,
         category: "Złożoność: O(1) Amortyzowane",
         text: "Które z podanych struktur wykonują podane operacje w średnim czasie amortyzowanym $O(1)$?",
         options: [
@@ -3992,7 +2574,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 390,
+        id: 233,
         category: "Sieci Przepływowe",
         text: "W sieci residualnej $G_f$ w algorytmie Forda-Fulkersona przepustowość krawędzi powrotnej $c_f(v, u)$ dla krawędzi grafu $(u, v)$ wynosi:",
         options: [
@@ -4003,7 +2585,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 391,
+        id: 234,
         category: "Algorytmy Tekstowe",
         text: "Który algorytm opiera się na sumie algebraicznej (haszu) okna ślizgającego się po tekście?",
         options: [
@@ -4014,7 +2596,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 392,
+        id: 235,
         category: "Algorytmy Tekstowe",
         text: "Na czym polega zasada działania Automatu Skończenie Stanowego do wyszukiwania wzorców?",
         options: [
@@ -4025,7 +2607,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 393,
+        id: 236,
         category: "Kompresja Danych",
         text: "W drzewie kodowania Huffmana, na czym polega metoda zachłanna wyboru?",
         options: [
@@ -4036,7 +2618,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 394,
+        id: 237,
         category: "Algorytmy Równoległe",
         text: "Model architektury wieloprocesorowej PRAM dzieli się na kategorie ze względu na konflikty dostępu do współdzielonej pamięci. Wskaż poprawne:",
         options: [
@@ -4047,7 +2629,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 395,
+        id: 238,
         category: "Algorytmy Równoległe",
         text: "Które algorytmy można zrównoleglić używając modelu PRAM?",
         options: [
@@ -4058,7 +2640,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 396,
+        id: 239,
         category: "Algorytmy Geometryczne",
         text: "Złożoność algorytmu Grahama znajdowania otoczki wypukłej to:",
         options: [
@@ -4069,7 +2651,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 397,
+        id: 240,
         category: "Wprowadzenie do algorytmów",
         text: "Co oznacza, że algorytm sortowania wykonuje się w miejscu (in-place)?",
         options: [
@@ -4080,7 +2662,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 398,
+        id: 241,
         category: "Sortowanie Kopcowe",
         text: "Jaki węzeł jest rodzicem dla węzła o indeksie 7 w reprezentacji tablicowej kopca (indeksowanej od 1)?",
         options: [
@@ -4091,7 +2673,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 399,
+        id: 242,
         category: "Zbiory Dynamiczne",
         text: "Jakie są podstawowe operacje w dynamicznym zbiorze (słowniku)?",
         options: [
@@ -4102,7 +2684,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 400,
+        id: 243,
         category: "Grafy: Reprezentacje",
         text: "Gdzie preferuje się użycie list sąsiedztwa nad macierzą sąsiedztwa w algorytmice?",
         options: [
@@ -4113,7 +2695,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 401,
+        id: 244,
         category: "Pseudokod: Quicksort",
         text: "W klasycznej wersji Quicksort (na podziale Lomuto z ostatnim elementem jako pivot), jakie są wartości indeksów dla wywołań rekurencyjnych, jeżeli punkt podziału zwrócił wartość $q$?",
         options: [
@@ -4124,7 +2706,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 402,
+        id: 245,
         category: "Pseudokod: Quicksort (Hoare)",
         text: "Jeśli jako mechanizmu partycjonującego w Quicksort użyjemy pseudokodu Hoare'a, to wywołania rekurencyjne muszą wyglądać inaczej. Jak?",
         options: [
@@ -4135,7 +2717,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 403,
+        id: 246,
         category: "Pseudokod: Merge Sort",
         text: "Co charakteryzuje instrukcję `mid = floor((left + right) / 2)` w pseudokodzie sortowania przez scalanie (Merge Sort)?",
         options: [
@@ -4146,7 +2728,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 404,
+        id: 247,
         category: "Twierdzenie o Rekurencji Uniwersalnej",
         text: "Dla algorytmu opisanego równaniem $T(n) = 4T(n/2) + n^2$, które oszacowanie jest poprawne, zgodnie z którym przypadkiem Master Theorem?",
         options: [
@@ -4157,7 +2739,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 405,
+        id: 248,
         category: "Kopce: Build-Heap",
         text: "Jaki jest precyzyjnie rozpisany powód z sumarycznego kosztu amortyzacji, że `Build-Heap` wykonuje się w zaledwie $O(n)$?",
         options: [
@@ -4168,7 +2750,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 406,
+        id: 249,
         category: "Kolejki Priorytetowe: Extract-Max",
         text: "Kiedy wykonamy operację `Heap-Extract-Max` z poprawnie zbudowanego kopca, który element z tablicy $A$ zostaje fizycznie skopiowany do indeksu korzenia ($A[1]$) przez algorytm i z jakiego powodu?",
         options: [
@@ -4179,7 +2761,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 407,
+        id: 250,
         category: "Sortowanie w Czasie Liniowym: Counting Sort",
         text: "Jeśli sortowane elementy należą do przedziału $1 \\dots k$, gdzie $k = O(n^3)$, jaka będzie złożoność czasowa procedury Counting Sort w notacji $O$?",
         options: [
@@ -4190,7 +2772,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 408,
+        id: 251,
         category: "Sortowanie w Czasie Liniowym: Radix Sort",
         text: "Jeżeli mamy do posortowania tablicę wejściową za pomocą algorytmu Radix Sort. Cyfry po których odbywają się iteracje wyliczane są ze stałą bazą $b$. Czego użyjemy w głównej pętli algorytmu, żeby zrealizować wymagania stabilności dla przejścia przez dane?",
         options: [
@@ -4201,7 +2783,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 409,
+        id: 252,
         category: "Listy: Wstawianie",
         text: "Co w pseudokodzie dodawania nowego węzła przed głowę podwójnie wiązanej listy `List-Insert(L, x)` robi linia `x.next = L.head` oraz `L.head.prev = x`?",
         options: [
@@ -4212,7 +2794,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 410,
+        id: 253,
         category: "Drzewa BST: Przypadki Skrajne",
         text: "Gdy dla drzewa BST o wysokości rzędu $O(n)$ wykonamy sekwencyjnie i w odpowiedniej konfiguracji kluczy serię $m$ operacji Insert. Jak kształtuje się koszt wszystkich wyszukiwań i wstawień łącznie?",
         options: [
@@ -4223,7 +2805,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 411,
+        id: 254,
         category: "Drzewa Czerwono-Czarne (RB): Insert",
         text: "W analizie wstawiania do drzew Czerwono-Czarnych `RB-Insert` istnieje faza 'naprawcza' w pętli. Który z Przypadków naprawczych w RB powoduje przemieszczenie koloru CZERWONEGO w górę drzewa, ryzykując pojawienie się problemu z powrotem o poziom wyżej, lecz NIE wykonując przy tym ani jednej fizycznej rotacji?",
         options: [
@@ -4234,7 +2816,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 412,
+        id: 255,
         category: "Listy Przeskakiwania: Skip Lists",
         text: "Pseudokod operacji wyszukiwania na liście Skip-List (Search) w głównej pętli schodzi od poziomu najwyższego `list.level` w dół do poziomu 1. Co następuje w pętli wewnątrz dla danego poziomu $i$?",
         options: [
@@ -4245,7 +2827,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 413,
+        id: 256,
         category: "Haszowanie Otwarte: Pseudokod Delete",
         text: "Dla poprawnego funkcjonowania operacji `HASH-DELETE` i braku unieruchamiania pętli dla szukanej ścieżki (Search) za użyciem skrótów, w algorytmach rozwiązanych poprzez Adresowanie Otwarte element z tablicy usunięty jest jak?",
         options: [
@@ -4256,7 +2838,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 414,
+        id: 257,
         category: "Haszowanie Z Łańcuchowaniem",
         text: "Dlaczego użycie funkcji w Haszowaniu z Łańcuchowaniem (Chained Hash) w średnim, w pełni wylosowanym układzie dla m rozmiarów ma złożoność wyszukiwań średnich jako stałą $\\Theta(1+\\alpha)$?",
         options: [
@@ -4267,7 +2849,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 415,
+        id: 258,
         category: "Statystyki Pozycyjne: Randomized Select",
         text: "W jaki sposób procedura podziału i sprawdzenia (`Randomized-Select(A, p, r, i)`) oszacowuje i określa rekurencyjnie pozycję sprawdzanego i szukanego przedziału `$i$-tego elementu` w ujętej podtablicy?",
         options: [
@@ -4278,7 +2860,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 416,
+        id: 259,
         category: "Dynamiczne Statystyki Pozycyjne: OS-Tree",
         text: "Jak zdefiniowana jest metoda OS-Select(x, i) we wzorcowym kodzie wyszukiwania dla $i$-tej struktury u wierzchołków Czerwono-Czarnych z wdrożonym atrybutem wielkości `$size$`?",
         options: [
@@ -4289,7 +2871,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 417,
+        id: 260,
         category: "Drzewa Przedziałowe: Pseudokod",
         text: "Gdy w pseudokodzie operacji zapytań u `Interval-Search(T, i)` przejdziemy poprawnie przed obniżeniem się po lewej na gałąź przy rozdzielającym warunku co następuje dla opcji odrzuconej z weryfikacją by poszła do $Right(x)$?",
         options: [
@@ -4300,7 +2882,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 418,
+        id: 261,
         category: "Grafy Reprezentacja: DFS",
         text: "W jaki formalny sposób odbywa się określenie znacznika ukończenia dla algorytmu `DFS-Visit(u)` nadzorującego czasy $d[u]$ oraz $f[u]$ i zmieniający kolory dla grafów wejściowych w Cormenie?",
         options: [
@@ -4311,7 +2893,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 419,
+        id: 262,
         category: "Grafy: Algorytm Bellmana-Forda",
         text: "Czego wynikiem jest instrukcja `if d[v] > d[u] + w(u, v) return FALSE` w ostatniej, sprawdzającej za ewentualnymi zmianami, pętli pseudo-kodu operacji algorytmu Bellmana-Forda na najkrótszych wejściach dróg w relaksacji?",
         options: [
@@ -4322,7 +2904,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 420,
+        id: 263,
         category: "Grafy: Dijkstry Kruczki Złożoności",
         text: "Jaki jest precyzyjny warunek obniżenia z czasowej gęstości w procedurze Dijkstry przy założeniach że $E \\ll V^2$ z listami sąsiedztw do implementacji w strukturze o minimalnym wyjęciu Fibonacciego w grafach?",
         options: [
@@ -4333,7 +2915,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 421,
+        id: 264,
         category: "Grafy: Kruskal na Union-Find",
         text: "Co wynika i staje się w ciele metody operacyjnej Kruskala w chwili gdy zbiór dwóch końców dla testowanej drogi z rzutu najmniejszych kosztów na Find-Set ujawni zgodność wejść na równy indeks (`Find-Set(u) == Find-Set(v)`)?",
         options: [
@@ -4344,7 +2926,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 422,
+        id: 265,
         category: "Grafy: Warshall-Floyd",
         text: "Zapis potrójnej iteracyjnej tablicy z użyciem mechaniki dynamicznej dla programu algorytmu Floyda-Warshalla wyłuskuje uwarunkowanie wyliczeń dróg pośrednich za każdym razem dla trasy na skrótach w indeksie `k`. Jak wygląda wewnętrzna pętla tego przypisania dla minimalnej odległości od `i` do `j` w `D`?",
         options: [
@@ -4355,7 +2937,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 423,
+        id: 266,
         category: "Sieci Przepływowe: Algorytm",
         text: "Pojemność (wartość krawędzi) rezydualna ścieżki powiększającej do punktu ujęcia $p$ definiuje o ile można zmienić aktualny ułamek przypływu dla grafu residualnego w ciele wewnątrz while algorytmu. Jak owa ścieżka i wartość jest wybierana na węzłach?",
         options: [
@@ -4366,7 +2948,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 424,
+        id: 267,
         category: "Maksymalne Skrzyżowania (Bipartite)",
         text: "Redukcja, adaptacja i implementacja zagadnienia dróg powiązania dla Maksymalnego Skojarzenia Grafów Dwudzielnych w oparciu o wejściowe kody przepływu polega na procedurze modyfikującej wyliczenia z użyciem Edmondsa Karpa w tym, że:",
         options: [
@@ -4377,7 +2959,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 425,
+        id: 268,
         category: "Algorytmy Tekstowe: Wzorzec Rabin-Karp",
         text: "Z jakich równań wielomianowych i pętli pozycjonującej przesuwa okno pod wektorem $s+1$ funkcja pętli zdejmująca ze środka stary człon `t_s` w algorytmie Rabina-Karpa przed wykonaniem ułamkowego modulo?",
         options: [
@@ -4388,7 +2970,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 426,
+        id: 269,
         category: "Algorytmy Tekstowe: Wzorzec Zły Znak Boyera Moore'a",
         text: "Jeżeli na algorytm Boyera-Moore'a, i pod heurystykę tablic Złego Znaku uderzy niedopasowanie między sprawdzanymi ciągami gdzie litera wejściowa dla bazy z testu i tekstu pod spodem ułożonego z `T` nie pojawia się ani razu we wnętrzu i składni całego słowa we wzorcu. Jak reaguje i postępuje algorytm po ucięciu?",
         options: [
@@ -4399,7 +2981,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 427,
+        id: 270,
         category: "Algorytmy Równoległe (PRAM): Szukanie Max w O(1)",
         text: "Ciekawy sposób i paradoksalny rzut z wielkiego narzutu sprzętowego procesorów do znalezienia maksymalnej dla zbioru wielkości dla struktury w stałym czasie dających wynik $\\Theta(1)$ operuje w trybie dla modelu CRCW. Jakie składowe dla matrycy logicznej w tym podanym wyżej modelu umożliwiają taką realizację z zignorowaniem kwadratu ilości bitów?",
         options: [
@@ -4410,40 +2992,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 428,
-        category: "Algorytmy Geometryczne: Otoczki wektorowe",
-        text: "Przy wejściu na pętle by wyłowić i określić ułożenie z lewej przed wpisaniem na wektor przez Grahama zdejmującą i analizującą punkty na kątach, czym dokładnie na wektorach dla macierzy posługuje się miara wewnątrz wektorów?",
-        options: [
-            { text: "Korzysta do policzenia miary punktu z determinanty podanej wzorem skrętu równej wartości krzyżowego z wierzchołków dla określenia wielkości dającej dodatnią skrzywioną trajektorię odczytaną na wierzchołkach: z iloczynu $(x_2-x_1)(y_3-y_1) - (x_3-x_1)(y_2-y_1)$ determinując zakręt pod ułożenie z ominiętym trygonometrem z funkcji.", isCorrect: true },
-            { text: "Oblicza funkcje kąta sinus pod boki trójkąta od punktów ominiętymi na wymiarze kwadratowym i rzucając pętlę na wektor i wyrzuceniem wartości skrajnie obróconej do 0.", isCorrect: false },
-            { text: "Zakłada sprawdzenia punktów równe rzutowi do połówki boku na długości wektora by wykreślić je do kwadratu bazy.", isCorrect: false },
-            { text: "Wylicza rzut promienia kątowego i obraca w pętlach o ułamek $180$ dla macierzy wektora kwadratowego we współrzędnych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 429,
-        category: "Algorytmy Geometryczne: Liniowe Przecięcia Zamiatania",
-        text: "Status wektora dla pod kątami prostej z Zamiatania dla Miotły w problemach płaszczyzny Sweep Line dla wykrycia przecięć odcinków przechowywany i ustrukturyzowany jest na podbudowie Drzewa RB z pewnymi modyfikacjami dla czasu i zapisu w pionie dla rzutów:",
-        options: [
-            { text: "Status przechwytuje obiekty i podtrzymuje sekwencyjne ułożenie przeciętych krawędzi, i sortuje w pionie na moment postawionej linii dla ostatecznego drzewa ujętego wokół $O(\\log n)$ rzucając wynik we wspólnym dla rzutów w przód pod zapytania z sąsiadami u spodu i węzłami obok wektora Miotły przy $X$.", isCorrect: true },
-            { text: "Stanowi on kolejną oddzielną kolejkę pod wyrzuceniem z czasowych barier przy zapytaniu i przejeździe Miotły.", isCorrect: false },
-            { text: "Dopasowuje i usuwa węzły wyrzucając całe pod-zbiory na wektor ze stosu bez zapisywania w tablicach wyliczonych z u.", isCorrect: false },
-            { text: "Sortuje elementy za listą w ułamkach przed pętlą dla znalezienia podziału bez z użyciem Drzew z wagi i obrotem Y.", isCorrect: false }
-        ]
-    },
-    {
-        id: 430,
-        category: "Analiza Algorytmów: Amortyzowane (Stos Multipop)",
-        text: "Wyliczenie analityczne i potencjały matematyczne przy stosie wyjętych hurtowo przez instrukcje Multipop bazują dla długu i zadośćuczynienia na ułożeniu jakich argumentacji i wag?",
-        options: [
-            { text: "Na wykorzystaniu kredytów doliczanych (i płaconych nadmiarowo np. jako stawka $2$ zamiast $1$) na bieżąco podczas wpisania pod wierzch węzłów w poleceniach Push. Przy ściągnięciu ułamek na wstawce zostaje uwolniony i nadpłacony fundusz dla multipop wyjętego dla wielkich pętli gwarantuje amortyzowane opłacenie z limitem dając stałą średnią $\\Theta(1)$ pod ostatecznie wykonane zadania wyrzucania k elementów po operacji zebranych opłat ułożonych przed wierzchołkami stosu.", isCorrect: true },
-            { text: "Z uwagi na wektory puste pomija się koszty Multipop zostawiając stałą wagę wywołania dla funkcji stosu o wartości $\\infty$.", isCorrect: false },
-            { text: "Potencjał stosu wymusza zapętlenie do stałej ilości na 5 w wejściowych blokach ucięć bez wpisania wartości za pobranie z wektora.", isCorrect: false },
-            { text: "Dla operacji Pop ujęcie amortyzacji oparte z tablic haszujących zakłada że pętla wykona się najwolniej i da podniesienie $\\Omega(n)$ jako wynik w modelu rzutu wektora.", isCorrect: false }
-        ]
-    },
-    {
-        id: 431,
+        id: 271,
         category: "Wprowadzenie",
         text: "Co to jest algorytm zgodnie z definicją z wykładów?",
         options: [
@@ -4454,7 +3003,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 432,
+        id: 272,
         category: "Złożoność Obliczeniowa",
         text: "Jakie są dwa główne kryteria oceny dobrego algorytmu?",
         options: [
@@ -4465,7 +3014,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 433,
+        id: 273,
         category: "Złożoność Obliczeniowa",
         text: "Czym jest złożoność pamięciowa algorytmu?",
         options: [
@@ -4476,7 +3025,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 434,
+        id: 274,
         category: "Notacje Asymptotyczne",
         text: "Co oznacza zapis $f(n) = O(g(n))$?",
         options: [
@@ -4487,7 +3036,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 435,
+        id: 275,
         category: "Notacje Asymptotyczne",
         text: "Co oznacza zapis $f(n) = \\Omega(g(n))$?",
         options: [
@@ -4500,7 +3049,7 @@ const questionDatabase = [
 
     // --- SORTOWANIA OPARTE NA PORÓWNANIACH ---
     {
-        id: 436,
+        id: 276,
         category: "Sortowanie przez wstawianie",
         text: "Jaka jest złożoność czasowa sortowania przez wstawianie (Insertion Sort) w optymistycznym przypadku?",
         options: [
@@ -4511,7 +3060,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 437,
+        id: 277,
         category: "Sortowanie przez wstawianie",
         text: "Czy algorytm Insertion Sort sortuje w miejscu (in-place)?",
         options: [
@@ -4522,7 +3071,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 438,
+        id: 278,
         category: "Merge Sort",
         text: "Jaka jest główna technika (strategia) wykorzystywana w sortowaniu przez scalanie (Merge Sort)?",
         options: [
@@ -4533,7 +3082,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 439,
+        id: 279,
         category: "Merge Sort",
         text: "Jaka jest złożoność pamięciowa algorytmu Merge Sort?",
         options: [
@@ -4544,7 +3093,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 440,
+        id: 280,
         category: "Quicksort",
         text: "Jakie jest najgorsze (pesymistyczne) ograniczenie czasowe dla algorytmu Quicksort?",
         options: [
@@ -4555,7 +3104,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 441,
+        id: 281,
         category: "Quicksort",
         text: "Które zdanie najlepiej opisuje działanie procedury Partition w Quicksort?",
         options: [
@@ -4566,7 +3115,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 442,
+        id: 282,
         category: "Teoria Sortowań",
         text: "Jakie jest dolne ograniczenie złożoności dla wszystkich algorytmów sortowania opartych na porównaniach?",
         options: [
@@ -4579,7 +3128,7 @@ const questionDatabase = [
 
     // --- SORTOWANIE W CZASIE LINIOWYM ---
     {
-        id: 443,
+        id: 283,
         category: "Counting Sort",
         text: "Jaka jest złożoność czasowa sortowania przez zliczanie (Counting Sort) przy tablicy $n$-elementowej o wartościach z zakresu $0$ do $k$?",
         options: [
@@ -4590,7 +3139,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 444,
+        id: 284,
         category: "Radix Sort",
         text: "Z jakiego algorytmu pomocniczego (jako podprocedury) zazwyczaj korzysta sortowanie pozycyjne (Radix Sort)?",
         options: [
@@ -4601,7 +3150,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 445,
+        id: 285,
         category: "Bucket Sort",
         text: "Dla jakich danych wejściowych algorytm Bucket Sort działa najszybciej (osiąga średni czas $O(n)$)?",
         options: [
@@ -4614,7 +3163,7 @@ const questionDatabase = [
 
     // --- STRUKTURY LINIOWE: STOS, KOLEJKA, LISTA ---
     {
-        id: 446,
+        id: 286,
         category: "Zbiory Dynamiczne: Stos",
         text: "Jaka jest złożoność operacji Push i Pop w prawidłowo zaimplementowanym stosie (Stack)?",
         options: [
@@ -4625,7 +3174,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 447,
+        id: 287,
         category: "Zbiory Dynamiczne: Kolejka",
         text: "Czym charakteryzuje się problem 'underflow' (niedomiaru) w kolejce lub stosie?",
         options: [
@@ -4636,7 +3185,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 448,
+        id: 288,
         category: "Listy Dowiązane",
         text: "Jaka jest pesymistyczna złożoność wyszukiwania konkretnej wartości w jednokierunkowej liście wiązanej?",
         options: [
@@ -4649,7 +3198,7 @@ const questionDatabase = [
 
     // --- KOPCE I KOLEJKI PRIORYTETOWE ---
     {
-        id: 449,
+        id: 289,
         category: "Kopce: Reprezentacja",
         text: "Jeśli kopiec binarny jest reprezentowany przez tablicę indeksowaną od 1, to gdzie znajduje się prawy potomek węzła o indeksie $i$?",
         options: [
@@ -4660,7 +3209,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 450,
+        id: 290,
         category: "Kolejki Priorytetowe",
         text: "Które z wymienionych operacji są typowe dla Kolejki Priorytetowej typu Max?",
         options: [
@@ -4671,7 +3220,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 451,
+        id: 291,
         category: "Kolejki Priorytetowe",
         text: "Jaki jest czas działania operacji `Extract-Max` w oparciu o standardowy kopiec binarny?",
         options: [
@@ -4684,7 +3233,7 @@ const questionDatabase = [
 
     // --- DRZEWA BST I RB ---
     {
-        id: 452,
+        id: 292,
         category: "Drzewa BST",
         text: "Jaka właściwość definiuje Binarne Drzewo Poszukiwań (BST)?",
         options: [
@@ -4695,7 +3244,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 453,
+        id: 293,
         category: "Drzewa BST",
         text: "Z jaką złożonością działają operacje Wyszukiwania, Wstawiania i Usuwania w BST w najgorszym (pesymistycznym) przypadku?",
         options: [
@@ -4706,7 +3255,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 454,
+        id: 294,
         category: "Drzewa Czerwono-Czarne (RB)",
         text: "Jaki kolor musi mieć nowy liść $NIL$ dodawany na dno drzewa RB?",
         options: [
@@ -4717,7 +3266,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 455,
+        id: 295,
         category: "Drzewa Czerwono-Czarne (RB)",
         text: "Czym jest 'Czarna Wysokość' (Black-Height) węzła $x$ w drzewie RB?",
         options: [
@@ -4730,7 +3279,7 @@ const questionDatabase = [
 
     // --- HASZOWANIE ---
     {
-        id: 456,
+        id: 296,
         category: "Tablice Haszujące",
         text: "Na czym polega adresowanie bezpośrednie (Direct Addressing)?",
         options: [
@@ -4741,7 +3290,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 457,
+        id: 297,
         category: "Tablice Haszujące",
         text: "Co charakteryzuje adresowanie otwarte w tablicach haszujących?",
         options: [
@@ -4752,7 +3301,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 458,
+        id: 298,
         category: "Tablice Haszujące",
         text: "Jakie sondowanie (probing) generuje problem 'pierwotnego grupowania' (primary clustering)?",
         options: [
@@ -4763,7 +3312,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 459,
+        id: 299,
         category: "Haszowanie",
         text: "Czym jest 'współczynnik wypełnienia' (load factor) $\\alpha$ dla tablicy haszującej o rozmiarze $m$ przechowującej $n$ elementów?",
         options: [
@@ -4776,7 +3325,7 @@ const questionDatabase = [
 
     // --- SKIP LISTY I STATYSTYKI ---
     {
-        id: 460,
+        id: 300,
         category: "Skip Lists",
         text: "Jakie operacje wspiera Skip List w oczekiwanym czasie $O(\\log n)$?",
         options: [
@@ -4787,7 +3336,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 461,
+        id: 301,
         category: "Statystyki Pozycyjne",
         text: "Która statystyka pozycyjna zbioru odpowiada Minimum, a która Maksimum?",
         options: [
@@ -4798,7 +3347,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 462,
+        id: 302,
         category: "Dynamiczne Statystyki Pozycyjne",
         text: "Jakie dodatkowe pole przechowuje węzeł w drzewie statystyk pozycyjnych (OS-Tree)?",
         options: [
@@ -4811,7 +3360,7 @@ const questionDatabase = [
 
     // --- DRZEWA PRZEDZIAŁOWE ---
     {
-        id: 463,
+        id: 303,
         category: "Drzewa Przedziałowe",
         text: "Co służy jako główny klucz sortowania węzłów w Drzewie Przedziałowym (Interval Tree)?",
         options: [
@@ -4822,7 +3371,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 464,
+        id: 304,
         category: "Drzewa Przedziałowe",
         text: "Co przechowuje dodatkowy atrybut `max` w węźle Drzewa Przedziałowego?",
         options: [
@@ -4835,7 +3384,7 @@ const questionDatabase = [
 
     // --- GRAFY: WPROWADZENIE ---
     {
-        id: 465,
+        id: 305,
         category: "Grafy: Reprezentacja",
         text: "W jakich przypadkach reprezentacja grafu jako Macierz Sąsiedztwa (Adjacency Matrix) jest najbardziej opłacalna?",
         options: [
@@ -4846,7 +3395,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 466,
+        id: 306,
         category: "Grafy: BFS",
         text: "Czego wynikiem jest działanie algorytmu Przeszukiwania Wszerz (BFS) ze źródła $s$?",
         options: [
@@ -4857,7 +3406,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 467,
+        id: 307,
         category: "Grafy: DFS",
         text: "Jakie struktury lub koncepcje czasowe przypisuje algorytm DFS (Przeszukiwanie w Głąb) każdemu odwiedzonemu wierzchołkowi?",
         options: [
@@ -4868,7 +3417,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 468,
+        id: 308,
         category: "Grafy: Sortowanie Topologiczne",
         text: "Na jakim typie grafów można przeprowadzić Sortowanie Topologiczne?",
         options: [
@@ -4879,7 +3428,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 469,
+        id: 309,
         category: "Grafy: Sortowanie Topologiczne",
         text: "Jaki krok wykonuje się po przeprowadzeniu DFS, by uzyskać porządek topologiczny?",
         options: [
@@ -4892,7 +3441,7 @@ const questionDatabase = [
 
     // --- GRAFY: MST ---
     {
-        id: 470,
+        id: 310,
         category: "Minimalne Drzewo Rozpinające (MST)",
         text: "Co to jest Minimalne Drzewo Rozpinające (MST) dla spójnego grafu ważonego?",
         options: [
@@ -4903,7 +3452,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 471,
+        id: 311,
         category: "MST: Algorytm Prima",
         text: "Jakie struktury danych stosuje się do optymalnej implementacji algorytmu Prima?",
         options: [
@@ -4914,7 +3463,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 472,
+        id: 312,
         category: "MST: Algorytm Kruskala",
         text: "Jak działa algorytm Kruskala?",
         options: [
@@ -4925,7 +3474,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 473,
+        id: 313,
         category: "Struktury Zbiorów Rozłącznych (Disjoint Sets)",
         text: "Które z poniższych są dwiema kluczowymi heurystykami przyspieszającymi operacje na zbiorach rozłącznych (np. w algorytmie Kruskala)?",
         options: [
@@ -4938,7 +3487,7 @@ const questionDatabase = [
 
     // --- GRAFY: NAJKRÓTSZE ŚCIEŻKI ---
     {
-        id: 474,
+        id: 314,
         category: "Najkrótsze Ścieżki: Relaksacja",
         text: "Jaka jest rola operacji Relaksacji (Relax) krawędzi $(u,v)$?",
         options: [
@@ -4949,7 +3498,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 475,
+        id: 315,
         category: "Algorytm Dijkstry",
         text: "Złożoność algorytmu Dijkstry na zwykłym kopcu binarnym wynosi:",
         options: [
@@ -4960,7 +3509,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 476,
+        id: 316,
         category: "Algorytm Bellmana-Forda",
         text: "Dlaczego algorytm Bellmana-Forda potrafi wykryć ujemne cykle osiągalne ze źródła?",
         options: [
@@ -4971,7 +3520,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 477,
+        id: 317,
         category: "Najkrótsze Ścieżki w DAG",
         text: "Jaki jest czas działania algorytmu wyznaczającego najkrótsze ścieżki z jednego źródła dla grafu DAG?",
         options: [
@@ -4982,7 +3531,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 478,
+        id: 318,
         category: "Algorytm Floyda-Warshalla",
         text: "Jakie techniki algorytmiczne stosuje algorytm Floyda-Warshalla?",
         options: [
@@ -4995,7 +3544,7 @@ const questionDatabase = [
 
     // --- KOSZT ZAMORTYZOWANY ---
     {
-        id: 479,
+        id: 319,
         category: "Analiza Kosztu Zamortyzowanego",
         text: "Na czym polega Metoda Księgowania (Accounting Method)?",
         options: [
@@ -5006,7 +3555,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 480,
+        id: 320,
         category: "Analiza Kosztu Zamortyzowanego",
         text: "Na czym polega Metoda Kosztu Sumarycznego (Aggregate Method)?",
         options: [
@@ -5017,7 +3566,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 481,
+        id: 321,
         category: "Analiza Kosztu Zamortyzowanego",
         text: "Czym jest metoda potencjału w analizie zamortyzowanej?",
         options: [
@@ -5030,7 +3579,7 @@ const questionDatabase = [
 
     // --- SIECI PRZEPŁYWOWE ---
     {
-        id: 482,
+        id: 322,
         category: "Sieci Przepływowe",
         text: "Jakie ograniczenie (poza przepustowością $f(u,v) \\le c(u,v)$) musi spełniać prawidłowy przepływ w każdym wierzchołku wewnętrznym (oprócz źródła $s$ i ujścia $t$)?",
         options: [
@@ -5041,7 +3590,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 483,
+        id: 323,
         category: "Algorytm Forda-Fulkersona",
         text: "Co to jest ścieżka powiększająca (Augmenting Path)?",
         options: [
@@ -5052,7 +3601,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 484,
+        id: 324,
         category: "Sieci Przepływowe",
         text: "Na czym polega Twierdzenie Max-Flow Min-Cut?",
         options: [
@@ -5063,7 +3612,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 485,
+        id: 325,
         category: "Algorytm Edmondsa-Karpa",
         text: "Co charakteryzuje algorytm Edmondsa-Karpa wyznaczający maksymalny przepływ?",
         options: [
@@ -5074,7 +3623,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 486,
+        id: 326,
         category: "Skojarzenia w Grafach",
         text: "Jakie twierdzenie powiązuje rozmiar maksymalnego skojarzenia w grafach dwudzielnych z innymi strukturami?",
         options: [
@@ -5087,7 +3636,7 @@ const questionDatabase = [
 
     // --- ALGORYTMY TEKSTOWE ---
     {
-        id: 487,
+        id: 327,
         category: "Algorytmy Tekstowe: Wstęp",
         text: "W problemie wyszukiwania wzorca w tekście mamy wzorzec o długości $m$ i tekst o długości $n$. Czym jest przesunięcie okna (shift)?",
         options: [
@@ -5098,7 +3647,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 488,
+        id: 328,
         category: "Algorytmy Tekstowe: Rabin-Karp",
         text: "Jakie główne zagrożenie optymalizacyjne kryje się w metodzie Rabina-Karpa pomimo stałego $O(1)$ czasu aktualizacji hasza?",
         options: [
@@ -5109,7 +3658,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 489,
+        id: 329,
         category: "Algorytmy Tekstowe: KMP",
         text: "Złożoność czasowa wyszukiwania samego wzorca w tekście przez KMP (bez czasu tworzenia tablicy pi) to:",
         options: [
@@ -5120,7 +3669,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 490,
+        id: 330,
         category: "Algorytmy Tekstowe: Boyera-Moore",
         text: "W jakich typach problemów z tekstem algorytm Boyera-Moore'a sprawdza się najlepiej, dając czas bliski $O(n/m)$?",
         options: [
@@ -5133,7 +3682,7 @@ const questionDatabase = [
 
     // --- KOMPRESJA I ENTROPIA ---
     {
-        id: 491,
+        id: 331,
         category: "Teoria Informacji",
         text: "Jakie zastosowanie i własności ma miara Entropii opisana przez Shannona na wykładach z kompresji?",
         options: [
@@ -5144,7 +3693,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 492,
+        id: 332,
         category: "Kodowanie Huffmana",
         text: "Ile dzieci posiada nowo stworzony węzeł wewnętrzny (internal node) $z$, który podczas działania pętli algorytmu zostaje wyciągnięty jako połączenie $x$ i $y$ z kolejki?",
         options: [
@@ -5155,7 +3704,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 493,
+        id: 333,
         category: "Kompresja",
         text: "Czym charakteryzuje się algorytm kompresji LZW (Lempel-Ziv-Welch) w porównaniu do Huffmana?",
         options: [
@@ -5168,7 +3717,7 @@ const questionDatabase = [
 
     // --- ALGORYTMY RÓWNOLEGŁE I GEOMETRIA ---
     {
-        id: 494,
+        id: 334,
         category: "Architektury Równoległe",
         text: "Czym jest maszyna (architektura) klasy SISD według Taksonomii Flynna?",
         options: [
@@ -5179,7 +3728,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 495,
+        id: 335,
         category: "Architektury Równoległe",
         text: "Z czym wiąże się model EREW w układach PRAM?",
         options: [
@@ -5189,43 +3738,9 @@ const questionDatabase = [
             { text: "Z podziałem procesorów na 0 i 1 gdzie tylko 0 mogą wpisywać dane w RAM.", isCorrect: false }
         ]
     },
-    {
-        id: 496,
-        category: "Algorytmy Geometryczne",
-        text: "Co robi algorytm Grahama?",
-        options: [
-            { text: "Służy on do wyznaczania Otoczki Wypukłej (Convex Hull) z zestawu wejściowych punktów w ujęciu dwuwymiarowym.", isCorrect: true },
-            { text: "Jest stosowany do wyszukiwania przecięć pomiędzy prostymi za pomocą Miotły.", isCorrect: false },
-            { text: "Oblicza entropię układu z wykorzystaniem dróg eulera.", isCorrect: false },
-            { text: "Sortuje on w czasie liniowym wektory na płaszczyźnie używając metody 'Dziel i Wepchnij'.", isCorrect: false }
-        ]
-    },
-    {
-        id: 497,
-        category: "Algorytmy Geometryczne: Otoczki",
-        text: "Co przechowuje stos w głównym działaniu dla wyznaczania Otoczki algorytmem Grahama?",
-        options: [
-            { text: "Trzyma on w sobie wierzchołki, które tworzą zarys budowanej otoczki dla już przeanalizowanych elementów, w razie zakrętu 'w prawo' element ze szczytu jest usuwany ze stosu (POP).", isCorrect: true },
-            { text: "Trzyma współczynniki z modułu BFS w celu powiększenia krawędzi wektora.", isCorrect: false },
-            { text: "Przechowuje kody prefiksowe dla punktów i ułatwia szybkie wstawianie na AVL.", isCorrect: false },
-            { text: "Pobiera z wejścia ułamki punktów leżących obok Miotły na Y.", isCorrect: false }
-        ]
-    },
-    {
-        id: 498,
-        category: "Algorytmy Geometryczne",
-        text: "Z jakim typem złożoności (optymalnie) przebiega algorytm na znalezienie Najmniej Odległej Pary Punktów (Closest Pair) z wykorzystaniem metody 'Dziel i Zwyciężaj'?",
-        options: [
-            { text: "Złożoność to $O(n \\log n)$, pozyskana z podziału płaszczyzny i analizy na brzegach (w limitowanych pasach okna $2\\delta$).", isCorrect: true },
-            { text: "Działa on zawsze i wyłącznie w ułamkowym czasie $\\Theta(\\log n)$.", isCorrect: false },
-            { text: "Jest to zadanie obciążające procesor w stopniu pesymistycznie-minimalnym $O(n^3)$.", isCorrect: false },
-            { text: "Wymusza złożoność $O(n)$ przez wykorzystanie sortowania Liniowego dla osi zmiennoprzecinkowych.", isCorrect: false }
-        ]
-    },
-
     // --- REKURENCJA I KOSZTY - DODATKOWE ---
     {
-        id: 499,
+        id: 336,
         category: "Twierdzenie o Rekurencji Uniwersalnej",
         text: "Czy równanie $T(n) = 2T(n/2) + n \\log n$ rozwiązuje się standardowym wzorem Master Theorem (dla trzech podstawowych przypadków)?",
         options: [
@@ -5236,7 +3751,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 500,
+        id: 337,
         category: "Analiza Zamortyzowana",
         text: "Jaki jest pesymistyczny (absolutny) koszt pojedynczego wywołania procedury MULTIPOP(S, k) wyciągającej maksymalnie k lub całą resztę elementów z normalnego stosu?",
         options: [
@@ -5249,7 +3764,7 @@ const questionDatabase = [
 
     // --- ALGORYTMY GRAFOWE I BST (DRUGA RUNDA) ---
     {
-        id: 501,
+        id: 338,
         category: "Drzewa BST",
         text: "Ile czasu zajmuje przejście (odwiedzenie) w drzewie Binarnego Drzewa Poszukiwań zawierającym $n$ elementów z użyciem funkcji INORDER, żeby wypisać liczby z posortowaniem?",
         options: [
@@ -5260,7 +3775,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 502,
+        id: 339,
         category: "Kopce",
         text: "Gdzie we wbudowanym i uzupełnionym w 100% poprawnie kopcu Max-Heap znajdują się elementy, które stanowią zbiór liści (poziom najgłębszy u spodu)?",
         options: [
@@ -5271,7 +3786,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 503,
+        id: 340,
         category: "Tablice Haszujące",
         text: "Metoda Haszowania ze współczynnikiem załatwienia ułamków, tzw. Haszowanie przez Metodę Dzielenia (Division Method). Jaka funkcja determinuje położenie węzła z kluczem k pod wymiar $m$?",
         options: [
@@ -5282,7 +3797,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 504,
+        id: 341,
         category: "Sortowania",
         text: "Kiedy (przy jakich ułożeniach elementów w tabeli wejściowej) w klasycznym Sortowaniu Bąbelkowym można otrzymać najlepszy czas $O(n)$ (zakładając użycie flagi zatrzymującej po przejściu bez jakichkolwiek swapek)?",
         options: [
@@ -5293,7 +3808,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 505,
+        id: 342,
         category: "Grafy: Algorytm Bellmana-Forda",
         text: "W pseudo kodzie z prezentacji, co wywoływane jest i aktualizowane na mapie dla zmiennej powrotów w słowniku `parent[v]` przy przejściu pomyślnie kroku dla relaksacji?",
         options: [
@@ -5304,7 +3819,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 506,
+        id: 343,
         category: "Sortowania",
         text: "Co oznacza, że algorytm sortowania 'Sortowanie Przez Wstawianie' jest sortowaniem algorytmicznym ADAPTACYJNYM?",
         options: [
@@ -5315,7 +3830,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 507,
+        id: 344,
         category: "Drzewa RB",
         text: "Co narzuca i ustala na Drzewach Red-Black (Czerwono Czarnych) zasada powiązania węzłów z kolorem CZERWONYM?",
         options: [
@@ -5326,7 +3841,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 508,
+        id: 345,
         category: "Kopce i Kolejki Priorytetowe",
         text: "Jaki jest całkowity cel operacji podniesienia wartości wagowej (Increase-Key) w tablicowej kolejce opartej o wierzchołek u góry z Max?",
         options: [
@@ -5337,7 +3852,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 509,
+        id: 346,
         category: "Grafy: Cykl Ujemny",
         text: "Który algorytm znajdowania najkrótszych ścieżek z jednego korzenia w ostateczności po zdiagnozowaniu powrotu ujemnego cyklu wywoła pętlę i zwraca wartość zwrotną w bool 'FALSE' blokującą ujęcie nieosiągalnych wejść na wagach?",
         options: [
@@ -5348,7 +3863,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 510,
+        id: 347,
         category: "Grafy: Cykle i Sortowanie Topologiczne",
         text: "Co jeśli przy procedurze do Sortowania Topologicznego natrafimy w uderzeniu po strukturze DFS dla wyjść na krawędź sklasyfikowaną pod pojęcie powrotu (Back-edge)?",
         options: [
@@ -5359,7 +3874,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 511,
+        id: 348,
         category: "Statystyki Pozycyjne: Węzły OS",
         text: "Czym skutkuje przyłączenie rzutu wektora dla rozmiaru i węzła we właściwości wbudowanej na pole 'size' na wejściu rotacji z Drzew OS z pozycyjnymi?",
         options: [
@@ -5370,7 +3885,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 512,
+        id: 349,
         category: "Haszowanie Otwarte: Adresy Kwadratowe",
         text: "Dlaczego sondowanie kwadratowe (Quadratic Probing) przy adresowaniu w ujęciach u tablic otwartych podpada jako zjawisko krytykowane?",
         options: [
@@ -5381,7 +3896,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 513,
+        id: 350,
         category: "Grafy: Skojarzenia Dwudzielne w Grafach",
         text: "Jaka zasada panuje w przerobionej sieci na Przepływ przy węzłach u grafu dwudzielnego łącząc na Max Matching z problemem s do t?",
         options: [
@@ -5392,7 +3907,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 514,
+        id: 351,
         category: "Algorytmy Tekstowe: Boyer-Moore na wprost",
         text: "Jak pętla wywołań w iteracji Boyera Moore odnosi z przeskokiem u Złych Znaków (Bad Character) na indeksie z tyłu okna tekstowego?",
         options: [
@@ -5403,7 +3918,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 515,
+        id: 352,
         category: "Grafy: Algorytm Kruskala",
         text: "W pseudo kodzie z Kruskala używana tablica wyjść dla operacji `SORT(G.E)` co do zasady wymusza wektor dający ujęcie na węźle dla czasu działania:",
         options: [
@@ -5414,7 +3929,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 516,
+        id: 353,
         category: "Struktury Danych: Przerwania dla Błędów w Tablicach",
         text: "Na tablicowych reprezentacjach do stosów ujęcie granicznego błędu Over-flow podczas procedury i rozkazu Push(S, x) dające zablokowanie rzutu występuje gdy:",
         options: [
@@ -5425,7 +3940,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 517,
+        id: 354,
         category: "Grafy: A*",
         text: "Algorytm A* to w zamyśle przerobienie i rozbudowa Dijkstry z wzięciem i dorzuceniem na tablice priorytetów u dołu przy `f(v)` elementarnej funkcji. Co w A* określa litera h przy f=g+h?",
         options: [
@@ -5436,7 +3951,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 518,
+        id: 355,
         category: "Teoria Równoległości",
         text: "Maszyna PRAM jako skrót do modelowania u algorytmów z grafiki obliczeniowej dająca dostęp za u wektory od asynchronicznej wejściowej ściany oznacza w języku:",
         options: [
@@ -5447,7 +3962,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 519,
+        id: 356,
         category: "Haszowanie Otwarte i Zamortyzowane",
         text: "Kiedy operacja z na wektory Adresowania na Listach Łańcuchowych i węzłach do ujęć zyskuje ułamkowe na haszowaniu wejściowym w $\\Theta(1)$?",
         options: [
@@ -5458,7 +3973,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 520,
+        id: 357,
         category: "Wyszukiwanie Zrandomizowane",
         text: "Rozwiązanie rzutu z problemem Randomized Partition w wektorach Selekcji za 1 użyciem na macierz od sortów u Quickselect daje oczekiwaną odpowiedź i rozwiązanie po ułamku na skali w:",
         options: [
@@ -5469,7 +3984,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 521,
+        id: 358,
         category: "Drzewo RB i Cormen",
         text: "Ujęcie i wysokość na najkrótszej z możliwych ścieżek od roota u wezłów Czerwono Czarnych we wpisie z dołu, pod liście u NIL-i, w stosunku z ujęciami najdłuższego rzutu daje zależności ujęte:",
         options: [
@@ -5480,7 +3995,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 522,
+        id: 359,
         category: "Grafy: BFS",
         text: "Wywołanie u algorytmu wejść i wektorów u BFS z kolejki dające w wierzchołkach `discovered` ustala status koloru węzła odwiedzonego podczas pętli dając od i w:",
         options: [
@@ -5491,7 +4006,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 523,
+        id: 360,
         category: "Minimalne Rozpinające: Prima a Dijkstry",
         text: "Czym u podstaw wyboru wagi minimalnej dla Kolejki Rzutu Priorytetowego z góry różni się węzeł `key` na wstawkach wewnątrz dla relaksacji i zmniejszeń u Prima względem rzutowania dla dróg u Dijkstry?",
         options: [
@@ -5502,18 +4017,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 524,
-        category: "Geometryczne: Zamiatanie",
-        text: "Zamiatanie z okna Sweep w lewej u linii przerywającej wektory sprawdza wyznaczając punkty w incydentach skrajnych z $O(n \\log n)$. Wykrywanie testu to ułożenie dla podrzędnych punktów sprawdzając co po włączeniu w wektory z miotły?",
-        options: [
-            { text: "Miotła i stan operacyjny na zdarzeniu po dodaniu odcinka od razu wykonuje z testowaniem ewentualne przecięcia pod podanym ze swoim aktualnym bezpośrednim sąsiadem górnym u Y na wektorach oraz z dolnym. Na usunięciu po X z testem powołuje sprawdzenie obydwu po sąsiedzku zwolnionych po rzucie węzłów (górnego z dolnym na złączeniu w linii).", isCorrect: true },
-            { text: "Sprawdza dla osi OY połączone ścieżki i powroty z tablicą w DFS na cyklu.", isCorrect: false },
-            { text: "Rozdziela na $O(n^2)$ i puszcza Naiwne przeszukiwanie dla całego pnia w lewej gałęzi okna.", isCorrect: false },
-            { text: "Zamiatanie usuwa po punkcie i nie łączy i nie sprawdza z niczym zostawiając błędy ułamkowe po $\\delta$.", isCorrect: false }
-        ]
-    },
-    {
-        id: 525,
+        id: 361,
         category: "Kompilacja i Potęga Drzew: BST vs AVL vs RB",
         text: "Najszybsza gwarantowana odpowiedź i wyszukanie dla drzew ze wstawką dla n wejść wektorowych posortowanych z góry pod 1..n z tablicy z uciętymi wektorami uzyskamy przez:",
         options: [
@@ -5524,7 +4028,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 526,
+        id: 362,
         category: "Skróty Textowe",
         text: "Sposób by zbudować Prefix od tablic pi po przejściu z automatu to wejścia w pętli wywołujące i porównujące wartości u KMP na przedrostkach by:",
         options: [
@@ -5535,7 +4039,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 527,
+        id: 363,
         category: "Algorytmy Obliczeń Równoległych: Prefix Sum",
         text: "Złożenie i użycie do ujęć wyliczania Prefiksów o sumie rzutów (Prefix Sum / Skan Prefixowy) z wejściem na 1 operacji i wyjść ze zbiorów rzutowanych na drzewa pozwala na PRAM obniżyć wektory do złożoności rzutu w:",
         options: [
@@ -5546,7 +4050,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 528,
+        id: 364,
         category: "Grafy: Reprezentacje",
         text: "Pamięć Macierzy dla wektorów z i incydentami $O(V^2)$ mimo swego wadliwego ułożenia i bycia niefaworyzowaną do rzadkich po wektorze sieci daje główną a zarazem uciętą ze stałą barierą zaletę przy:",
         options: [
@@ -5557,7 +4061,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 529,
+        id: 365,
         category: "Statystyki Pozycyjne: Rand Partition vs Magiczne",
         text: "Różnica w obciążeniu algorytmów z Randomized Quicksort od Magicznych Piątek a wyboru leży z bazy by na rzut wektora do pivota przy:",
         options: [
@@ -5568,7 +4072,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 530,
+        id: 366,
         category: "Kopce Fibonacciego i Dijkstra",
         text: "Użycie bardzo wymyślnego i ujętego od struktury rzutu kopca z wejścia za Fibonaccim pod algorytm z Dijkstry optymalizuje potężnie czas w gęstych grafach bo:",
         options: [
@@ -5579,7 +4083,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 531,
+        id: 367,
         category: "Grafy: Reprezentacja",
         text: "Dlaczego dla algorytmów takich jak BFS czy DFS, reprezentacja grafu za pomocą list sąsiedztwa jest przeważnie lepsza niż macierz sąsiedztwa?",
         options: [
@@ -5590,7 +4094,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 532,
+        id: 368,
         category: "Grafy: Sortowanie Topologiczne",
         text: "Dlaczego Sortowanie Topologiczne opiera się na algorytmie DFS, a nie BFS?",
         options: [
@@ -5601,7 +4105,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 533,
+        id: 369,
         category: "Grafy: Najkrótsze Ścieżki",
         text: "W jaki sposób algorytm Dijkstry korzysta z własności optymalnej podstruktury?",
         options: [
@@ -5612,7 +4116,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 534,
+        id: 370,
         category: "Grafy: Floyd-Warshall",
         text: "W jaki sposób algorytm Floyda-Warshalla sygnalizuje obecność cyklu o ujemnej wadze?",
         options: [
@@ -5623,7 +4127,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 535,
+        id: 371,
         category: "Grafy: Bellman-Ford",
         text: "Dlaczego główna pętla relaksacji w algorytmie Bellmana-Forda wykonuje się dokładnie $|V|-1$ razy?",
         options: [
@@ -5634,7 +4138,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 536,
+        id: 372,
         category: "Grafy: Kruskal",
         text: "Który z kroków w algorytmie Kruskala determinuje jego asymptotyczną złożoność czasową?",
         options: [
@@ -5645,7 +4149,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 537,
+        id: 373,
         category: "Grafy: Algorytm Prima",
         text: "Jaka jest początkowa wartość kluczy (`key[v]`) przypisywana węzłom w kolejce priorytetowej w algorytmie Prima?",
         options: [
@@ -5656,7 +4160,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 538,
+        id: 374,
         category: "Zbiory Rozłączne (Union-Find)",
         text: "Na czym polega heurystyka łączenia według rangi (Union by rank) w strukturach zbiorów rozłącznych?",
         options: [
@@ -5667,7 +4171,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 539,
+        id: 375,
         category: "Zbiory Rozłączne (Union-Find)",
         text: "Na czym polega heurystyka kompresji ścieżki (Path compression) w strukturze zbiorów rozłącznych?",
         options: [
@@ -5678,7 +4182,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 540,
+        id: 376,
         category: "Sieci Przepływowe: Ford-Fulkerson",
         text: "W jaki sposób wyznaczana jest wartość, o którą możemy powiększyć przepływ wzdłuż znalezionej ścieżki powiększającej $p$?",
         options: [
@@ -5689,7 +4193,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 541,
+        id: 377,
         category: "Sieci Przepływowe: Przekrój",
         text: "Zgodnie z Twierdzeniem o Maksymalnym Przepływie i Minimalnym Przekroju, kiedy algorytm Forda-Fulkersona kończy swoje działanie?",
         options: [
@@ -5700,7 +4204,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 542,
+        id: 378,
         category: "Grafy Dwudzielne",
         text: "W jaki sposób sprowadzamy problem maksymalnego skojarzenia w grafie dwudzielnym do problemu maksymalnego przepływu?",
         options: [
@@ -5711,7 +4215,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 543,
+        id: 379,
         category: "Algorytmy Tekstowe: Rabin-Karp",
         text: "W algorytmie Rabina-Karpa używana jest reguła Hornera. Jaki jest jej cel?",
         options: [
@@ -5722,7 +4226,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 544,
+        id: 380,
         category: "Algorytmy Tekstowe: KMP",
         text: "Podczas obliczania funkcji prefiksowej (tablicy $\\pi$) w algorytmie KMP, pętla `while` czasami wykonuje się wiele razy, redukując zmienną $k = \\pi[k]$. Dlaczego całkowity czas tej procedury to i tak $\\Theta(m)$?",
         options: [
@@ -5733,7 +4237,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 545,
+        id: 381,
         category: "Algorytmy Tekstowe: Boyer-Moore",
         text: "W algorytmie Boyera-Moore'a, o ile pozycji należy przesunąć wzorzec po wykryciu niezgodności?",
         options: [
@@ -5744,7 +4248,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 546,
+        id: 382,
         category: "Kodowanie Huffmana",
         text: "Ile razy w głównej pętli algorytmu Huffmana (dla alfabetu o $n$ symbolach) wykonywana jest operacja `Extract-Min` z kolejki priorytetowej?",
         options: [
@@ -5755,7 +4259,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 547,
+        id: 383,
         category: "Kompresja: LZW",
         text: "Na jakiej zasadzie dekompresor w algorytmie LZW odbudowuje słownik kodów, mimo że nie otrzymuje go w pliku z danymi?",
         options: [
@@ -5766,7 +4270,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 548,
+        id: 384,
         category: "Algorytmy Równoległe",
         text: "W modelu PRAM dla operacji prefiksowej (Prefix Sum) na tablicy o wielkości $n$, jaka jest minimalna głębokość drzewa wyliczeń (czas) przy wystarczającej liczbie procesorów?",
         options: [
@@ -5777,51 +4281,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 549,
-        category: "Geometria Obliczeniowa: Iloczyn Wektorowy",
-        text: "Mając trzy punkty $p_1, p_2, p_3$, jeśli iloczyn wektorowy wektorów $\\vec{p_1 p_2}$ i $\\vec{p_1 p_3}$ wynosi dokładnie zero, to oznacza to, że:",
-        options: [
-            { text: "Wszystkie trzy punkty są współliniowe (leżą na jednej prostej).", isCorrect: true },
-            { text: "Wektory te tworzą kąt prosty (90 stopni).", isCorrect: false },
-            { text: "Punkty te tworzą skrajnie lewy zakręt.", isCorrect: false },
-            { text: "Punkt $p_3$ na pewno jest środkiem ciężkości (centroidem) odcinka.", isCorrect: false }
-        ]
-    },
-    {
-        id: 550,
-        category: "Geometria Obliczeniowa: Algorytm Grahama",
-        text: "Po znalezieniu najniżej położonego punktu $P_0$, algorytm Grahama sortuje pozostałe punkty. Jakie jest kryterium tego sortowania?",
-        options: [
-            { text: "Sortuje je rosnąco według kąta biegunowego (polar angle), jaki tworzą z punktem $P_0$ względem poziomej osi OX.", isCorrect: true },
-            { text: "Sortuje je rosnąco według ich odległości Euklidesowej od $P_0$.", isCorrect: false },
-            { text: "Sortuje je malejąco po współrzędnej Y.", isCorrect: false },
-            { text: "Sortuje je wyłącznie według wyznacznika krzyżowego z pętli.", isCorrect: false }
-        ]
-    },
-    {
-        id: 551,
-        category: "Geometria Obliczeniowa: Zamiatanie (Sweep Line)",
-        text: "Czym jest 'kolejka zdarzeń' (event queue) w algorytmie poszukiwania przecięć odcinków na płaszczyźnie?",
-        options: [
-            { text: "Jest to kolejka priorytetowa przechowująca współrzędne X punktów końcowych wszystkich odcinków. Sortuje zdarzenia (moment przesunięcia miotły) od lewej do prawej.", isCorrect: true },
-            { text: "Jest to drzewo czerwono-czarne utrzymujące odcinki posortowane według ich bieżącej współrzędnej Y.", isCorrect: false },
-            { text: "Struktura LIFO przetrzymująca ignorowane punkty brzegowe.", isCorrect: false },
-            { text: "Tablica przechowująca informacje o przecinających się figurach 3D.", isCorrect: false }
-        ]
-    },
-    {
-        id: 552,
-        category: "Geometria Obliczeniowa: Najbliższa Para Punktów",
-        text: "W algorytmie Dziel i Zwyciężaj szukającym najbliższej pary punktów, po znalezieniu minimalnego dystansu $\\delta$ w lewej i prawej połówce, w pasie granicznym o szerokości $2\\delta$ punkty trzeba sprawdzić tylko ze stałą liczbą innych punktów. Jaką?",
-        options: [
-            { text: "Maksymalnie 7 (bądź 8 w niektórych analizach) punktów dla danego punktu.", isCorrect: true },
-            { text: "Wszystkimi pozostałymi $n-1$ punktami.", isCorrect: false },
-            { text: "Tylko z jednym najbliższym sąsiadem z drzewa BST.", isCorrect: false },
-            { text: "Ograniczenie to wynosi dokładnie $\\log n$ punktów.", isCorrect: false }
-        ]
-    },
-    {
-        id: 553,
+        id: 385,
         category: "Master Theorem: Przypadek 1",
         text: "Jeżeli mamy równanie rekurencyjne $T(n) = 8T(n/2) + n$, to złożoność asymptotyczna wynosi:",
         options: [
@@ -5832,7 +4292,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 554,
+        id: 386,
         category: "Master Theorem: Przypadek 3",
         text: "W przypadku 3 Twierdzenia o Rekurencji Uniwersalnej (gdy $f(n)$ dominuje rosnąc znacznie szybciej niż $n^{\\log_b a}$), musi zostać spełniony tzw. warunek regularności. Jak on brzmi?",
         options: [
@@ -5843,7 +4303,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 555,
+        id: 387,
         category: "Analiza Zamortyzowana: Metoda Potencjału",
         text: "Jeżeli po wykonaniu pewnej operacji $i$ różnica potencjału $\\Phi(D_i) - \\Phi(D_{i-1})$ jest dodatnia, co to oznacza dla tej operacji?",
         options: [
@@ -5854,7 +4314,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 556,
+        id: 388,
         category: "Struktury Danych: Tablice Dynamiczne",
         text: "Przy zmniejszaniu (zwalnianiu) rozmiaru tablicy dynamicznej, by uniknąć zjawiska 'trzepotania' (thrashingu - natychmiastowych ponownych alokacji po przeplocie Push/Pop), przy jakim współczynniku zapełnienia tablica jest zazwyczaj zmniejszana o połowę?",
         options: [
@@ -5865,7 +4325,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 557,
+        id: 389,
         category: "Sortowanie: Quicksort Hoare",
         text: "Gdzie w tablicy po jednokrotnym wykonaniu procedury `Hoare-Partition(A, p, r)` znajduje się wybrany element osiowy (pivot), jeśli oryginalnie był on np. na pozycji `A[p]`?",
         options: [
@@ -5876,7 +4336,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 558,
+        id: 390,
         category: "Sortowanie: Quicksort Lomuto",
         text: "W implementacji `Lomuto-Partition(A, p, r)`, pivot jest wybierany jako $x = A[r]$. Co gwarantuje pseudokod tuż po zakończeniu głównej pętli i przed instrukcją `return`?",
         options: [
@@ -5887,7 +4347,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 559,
+        id: 391,
         category: "Sortowanie: Merge Sort",
         text: "Dlaczego na końcu nowo alokowanych, lewych i prawych tablic pomocniczych w klasycznym pseudokodzie scalania `Merge(A, p, q, r)` z Cormena dodaje się wartość $\\infty$?",
         options: [
@@ -5898,7 +4358,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 560,
+        id: 392,
         category: "Sortowanie: Heap Sort",
         text: "Które z twierdzeń w pełni oddaje zaletę algorytmu Heapsort, wyróżniającą go na tle Merge Sorta i Quick Sorta w standardowych zastosowaniach ogólnych?",
         options: [
@@ -5909,7 +4369,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 561,
+        id: 393,
         category: "Kopce Binarne",
         text: "Mając indeks węzła $i = 13$ w kopcu binarnym indeksowanym od $1$, pod jakim indeksem znajduje się jego prawy brat?",
         options: [
@@ -5920,7 +4380,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 562,
+        id: 394,
         category: "Sortowanie Liniowe: Counting Sort",
         text: "Czym skutkuje brak pętli idącej 'od tyłu' tablicy `A` (`downto 1`) przy kopiowaniu wyników w Counting Sort i zastąpienie jej pętlą 'od przodu' (`to n`)?",
         options: [
@@ -5931,7 +4391,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 563,
+        id: 395,
         category: "Sortowanie Liniowe: Radix Sort",
         text: "Ile przebiegów $d$ musi wykonać sortowanie połówkowe/liczbowe (Radix Sort), jeśli tablica o rozmiarze $n$ ma 32-bitowe zmienne (np. int), a my używamy algorytmu sortowania po bajtach (8 bitów)?",
         options: [
@@ -5942,7 +4402,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 564,
+        id: 396,
         category: "Sortowanie Liniowe: Bucket Sort",
         text: "W standardowej implementacji z Cormena, co reprezentują elementy tablicy $B[0 \\dots n-1]$ po zainicjalizowaniu i włożeniu wartości do odpowiednich sekcji?",
         options: [
@@ -5953,7 +4413,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 565,
+        id: 397,
         category: "Drzewa BST",
         text: "Aby odnaleźć Nastepnika (Successor) w drzewie BST dla elementu, który POSIADA prawe poddrzewo, musimy:",
         options: [
@@ -5964,7 +4424,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 566,
+        id: 398,
         category: "Drzewa BST: Usuwanie",
         text: "Podczas operacji usuwania węzła $z$ z dwojgiem dzieci z drzewa BST, węzeł $y$ (zastępujący go) zostaje wybrany jako następnik. Co możemy zagwarantować o tym następniku?",
         options: [
@@ -5975,7 +4435,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 567,
+        id: 399,
         category: "Drzewa AVL: Złożone Rotacje",
         text: "Z jakich dokładnych manipulacji strukturą składa się podwójna rotacja Right-Left (RL) wywoływana, gdy prawe poddrzewo jest za wysokie, ale lewe dziecko prawego poddrzewa psuje zbalansowanie?",
         options: [
@@ -5986,7 +4446,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 568,
+        id: 400,
         category: "Drzewa AVL: Przeliczanie BF",
         text: "Jaki jest koszt czasowy wyliczenia wysokości węzła $height(v)$ dla węzła w drzewie AVL zaimplementowanym tak jak w poleconym kodzie, po dokonaniu rotacji?",
         options: [
@@ -5997,7 +4457,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 569,
+        id: 401,
         category: "Drzewa Czerwono-Czarne (RB)",
         text: "Z racji zasad w drzewie Red-Black, wysokość dowolnego poddrzewa (mierzona liczbą węzłów) wynosi maksymalnie $h \\le 2 \\log_2(n+1)$. Z jakiej dokładnej zasady z sylabusa to wynika?",
         options: [
@@ -6008,7 +4468,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 570,
+        id: 402,
         category: "Drzewa Czerwono-Czarne (RB)",
         text: "Gdy mamy węzeł czerwony w drzewie RB, to z definicji...",
         options: [
@@ -6019,7 +4479,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 571,
+        id: 403,
         category: "Statystyki Pozycyjne: OS-Tree",
         text: "Z jakiej własności strukturalnej we wskaźnikach OS-Tree korzystamy, aby móc iteracyjnie (bez pełnego drzewa przejść) dodawać rozmiary poddrzew w trakcie wyszukiwania elementu i zwracać jego pozycję rangową $r$?",
         options: [
@@ -6030,7 +4490,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 572,
+        id: 404,
         category: "Drzewa Przedziałowe (Interval Trees)",
         text: "Mając szukany przedział $i = [15, 20]$ oraz korzeń, z którym jest porównywany $x = [25, 30]$ wraz z wyliczonym `x.left.max = 22`. Jak zachowa się zapytanie z `Interval-Search(T, i)`?",
         options: [
@@ -6041,7 +4501,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 573,
+        id: 405,
         category: "Skip Lists",
         text: "Prawdopodobieństwo, z jakim nowo dołączany element awansuje na wyższy poziom (promocja głowy) w Listach Przeskakiwania określane jest często przez $p$. Jaki jest standardowy narzut pamięciowy wskaźników tej struktury?",
         options: [
@@ -6052,7 +4512,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 574,
+        id: 406,
         category: "Tablice Haszujące",
         text: "Uniwersalne haszowanie (Universal Hashing) z wykładu AiSD określa i charakteryzuje problem ułożenia klastrów. Czym cechuje się ta definicja uniwersalności by wymusić średni koszt O(1) z szukaniem na kolizji?",
         options: [
@@ -6063,7 +4523,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 575,
+        id: 407,
         category: "Haszowanie Otwarte: Adresowanie liniowe",
         text: "Czym objawia się Pierwotne Grupowanie (Primary Clustering) w tablicy mieszającej przy Adresowaniu Liniowym (Linear Probing)?",
         options: [
@@ -6074,7 +4534,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 576,
+        id: 408,
         category: "Haszowanie Otwarte: Double Hashing",
         text: "Kiedy Double Hashing wymusi zapętlenie bez dojścia na wolny slot tablicy przy adresacji otwartej mimo tego, że pozostawały gdzieś w niej wolne przestrzenie wektorów?",
         options: [
@@ -6085,7 +4545,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 577,
+        id: 409,
         category: "Grafy: Przeszukiwanie w głąb (DFS)",
         text: "Z grafu Skierowanego, oznaczanego wektorem G(V, E) odłączono krawędzie klasyfikując je. Z lematu wiemy, że graf z defincji pozostanie bez-cykliczny (Acykliczny DAG) dopóty, dopóki:",
         options: [
@@ -6096,7 +4556,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 578,
+        id: 410,
         category: "Grafy: Własności Drzewa Najkrótszych Ścieżek",
         text: "U wektorów wyciągających strukturę z BFS z połączonych krawędzi Drzewowych z $s$ w nieważonym wejściowym bloku w V. Własność i ułożenie z tablic rzutuje do:",
         options: [
@@ -6107,7 +4567,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 579,
+        id: 411,
         category: "Złożoność: Model Drzewa Decyzyjnego",
         text: "Przyjęto uściślając definicje, i ustalono bezwzględną z teorii informacji potęgę złożoności dolnej Sortowań na Porównaniach w rzutach rzędu Omega od nlogn. Baza liści dająca za podstawę drzewa by udowodnić model wymaga z silni:",
         options: [
@@ -6118,7 +4578,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 580,
+        id: 412,
         category: "Najkrótsze Ścieżki: Optymalna Podstruktura",
         text: "Wymóg i ujęcie pod problemy grafowe z wejścia o jednym źródle - na czym w ogóle opiera się struktura w 'optymalnej podstrukturze' wywołana by ratować graf i Dijkstra od ucięcia pętli?",
         options: [
@@ -6129,7 +4589,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 581,
+        id: 413,
         category: "Wstęp do Algorytmiki",
         text: "Co w analizie algorytmów oznacza pojęcie 'złożoność pesymistyczna'?",
         options: [
@@ -6140,18 +4600,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 582,
-        category: "Wstęp do Algorytmiki",
-        text: "Co oznacza popularny skrót 'AiSD' używany w toku studiów informatycznych?",
-        options: [
-            { text: "Algorytmy i Struktury Danych.", isCorrect: true },
-            { text: "Aplikacje i Systemy Dyskowe.", isCorrect: false },
-            { text: "Asymptotyczna i Średnia Długość.", isCorrect: false },
-            { text: "Analiza i Sumowanie Danych.", isCorrect: false }
-        ]
-    },
-    {
-        id: 583,
+        id: 414,
         category: "Złożoność Obliczeniowa",
         text: "Która z poniższych asymptotycznych złożoności czasowych jest NAJLEPSZA (rośnie najwolniej w miarę wzrostu rozmiaru wejścia)?",
         options: [
@@ -6162,7 +4611,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 584,
+        id: 415,
         category: "Złożoność Obliczeniowa",
         text: "Która z poniższych asymptotycznych złożoności czasowych jest NAJGORSZA (rośnie najszybciej)?",
         options: [
@@ -6173,7 +4622,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 585,
+        id: 416,
         category: "Złożoność Obliczeniowa",
         text: "Z czym wiąże się badanie 'złożoności pamięciowej' algorytmu?",
         options: [
@@ -6186,7 +4635,7 @@ const questionDatabase = [
 
     // --- PROSTE STRUKTURY LINIOWE ---
     {
-        id: 586,
+        id: 417,
         category: "Proste Struktury Danych",
         text: "Jak brzmi pełne rozwinięcie skrótu LIFO, opisującego działanie Stosu (Stack)?",
         options: [
@@ -6197,7 +4646,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 587,
+        id: 418,
         category: "Proste Struktury Danych",
         text: "Która z popularnych struktur danych opiera się na strategii FIFO (First In, First Out)?",
         options: [
@@ -6208,7 +4657,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 588,
+        id: 419,
         category: "Proste Struktury Danych: Tablica",
         text: "Jaka jest złożoność czasowa dostępu do $i$-tego elementu w standardowej, jednowymiarowej tablicy (jeśli znamy jej indeks)?",
         options: [
@@ -6219,7 +4668,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 589,
+        id: 420,
         category: "Proste Struktury Danych: Stos",
         text: "Jak w anglojęzycznej literaturze nazywają się dwie podstawowe operacje odkładania elementu na stos i zdejmowania go ze stosu?",
         options: [
@@ -6230,7 +4679,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 590,
+        id: 421,
         category: "Proste Struktury Danych: Listy",
         text: "Z czego zazwyczaj składa się pojedynczy 'węzeł' (node) w jednokierunkowej liście wiązanej?",
         options: [
@@ -6241,7 +4690,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 591,
+        id: 422,
         category: "Proste Struktury Danych: Listy",
         text: "Co różni listę dwukierunkową od listy jednokierunkowej?",
         options: [
@@ -6252,7 +4701,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 592,
+        id: 423,
         category: "Proste Struktury Danych",
         text: "Jak oznacza się zazwyczaj brak wskaźnika (np. koniec listy lub brak dziecka w drzewie) w pseudokodach i językach programowania?",
         options: [
@@ -6265,7 +4714,7 @@ const questionDatabase = [
 
     // --- PODSTAWY DRZEW ---
     {
-        id: 593,
+        id: 424,
         category: "Drzewa: Podstawy",
         text: "Jak nazywa się jedyny węzeł w drzewie, który nie posiada żadnego rodzica (znajduje się na samym szczycie struktury)?",
         options: [
@@ -6276,7 +4725,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 594,
+        id: 425,
         category: "Drzewa: Podstawy",
         text: "Jak zdefiniowany jest 'Liść' (Leaf) w terminologii drzew?",
         options: [
@@ -6287,7 +4736,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 595,
+        id: 426,
         category: "Drzewa: Podstawy",
         text: "Dlaczego drzewo nazywane jest drzewem 'binarnym'?",
         options: [
@@ -6298,7 +4747,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 596,
+        id: 427,
         category: "Drzewa: BST",
         text: "Jaka jest kluczowa różnica między zwykłym Drzewem Binarnym a Binarnym Drzewem Poszukiwań (BST)?",
         options: [
@@ -6309,7 +4758,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 597,
+        id: 428,
         category: "Drzewa: Przechodzenie",
         text: "Wymień trzy najpopularniejsze metody przechodzenia (traversal) i wypisywania węzłów w drzewie binarnym.",
         options: [
@@ -6320,7 +4769,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 598,
+        id: 429,
         category: "Drzewa: Wysokość i Głębokość",
         text: "Czym jest 'wysokość' całego drzewa?",
         options: [
@@ -6333,7 +4782,7 @@ const questionDatabase = [
 
     // --- PODSTAWY ALGORYTMÓW SORTUJĄCYCH ---
     {
-        id: 599,
+        id: 430,
         category: "Proste Sortowania",
         text: "Na czym polega najprostsza koncepcja algorytmu Sortowania Bąbelkowego (Bubble Sort)?",
         options: [
@@ -6344,7 +4793,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 600,
+        id: 431,
         category: "Proste Sortowania",
         text: "Co oznacza termin, że dany algorytm sortujący działa 'w miejscu' (in-place)?",
         options: [
@@ -6355,7 +4804,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 601,
+        id: 432,
         category: "Proste Sortowania",
         text: "Które z podanych sortowań nazywamy 'stabilnym'?",
         options: [
@@ -6366,7 +4815,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 602,
+        id: 433,
         category: "Algorytmy Sortowania: Dziel i Zwyciężaj",
         text: "Z jakich podstawowych 3 słów w teorii składa się zasada 'Dziel i Zwyciężaj' (Divide and Conquer)?",
         options: [
@@ -6377,7 +4826,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 603,
+        id: 434,
         category: "Algorytmy Sortowania",
         text: "Co to jest 'Pivot' (element osiowy)?",
         options: [
@@ -6388,7 +4837,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 604,
+        id: 435,
         category: "Algorytmy Wyszukiwania",
         text: "Podstawowy warunek brzegowy do działania Wyszukiwania Binarnego (Binary Search) to:",
         options: [
@@ -6399,7 +4848,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 605,
+        id: 436,
         category: "Algorytmy Wyszukiwania",
         text: "Jak długo w pesymistycznym przypadku szuka konkretnego elementu tzw. Wyszukiwanie Liniowe (Naiwne) w $n$-elementowej tablicy?",
         options: [
@@ -6412,7 +4861,7 @@ const questionDatabase = [
 
     // --- PODSTAWY GRAFÓW ---
     {
-        id: 606,
+        id: 437,
         category: "Podstawy Grafów",
         text: "Z jakich zbiorów matematycznych zbudowany jest graf $G = (V, E)$?",
         options: [
@@ -6423,7 +4872,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 607,
+        id: 438,
         category: "Podstawy Grafów",
         text: "Czym różni się Graf Skierowany od Grafu Nieskierowanego?",
         options: [
@@ -6434,7 +4883,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 608,
+        id: 439,
         category: "Podstawy Grafów",
         text: "Co określa termin 'Stopień Wierzchołka' (Degree) w grafie nieskierowanym?",
         options: [
@@ -6445,7 +4894,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 609,
+        id: 440,
         category: "Podstawy Grafów",
         text: "Co oznacza termin 'Waga Krawędzi' w grafach ważonych?",
         options: [
@@ -6456,7 +4905,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 610,
+        id: 441,
         category: "Podstawy Grafów",
         text: "Co to jest 'Cykl' w grafie?",
         options: [
@@ -6467,7 +4916,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 611,
+        id: 442,
         category: "Podstawy Grafów",
         text: "Graf określany mianem 'Grafu Spójnego' (Connected Graph) to taki, który:",
         options: [
@@ -6478,7 +4927,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 612,
+        id: 443,
         category: "Podstawy Grafów",
         text: "Który algorytm najprościej pozwala zbadać, czy do jakiegoś wierzchołka B da się w ogóle dotrzeć (jest osiągalny) ze startowego wierzchołka A?",
         options: [
@@ -6491,7 +4940,7 @@ const questionDatabase = [
 
     // --- PODSTAWY HASZOWANIA I STRUKTUR ZŁOŻONYCH ---
     {
-        id: 613,
+        id: 444,
         category: "Wstęp do Haszowania",
         text: "Czym charakteryzuje się 'Kolizja' w systemie Tablic Mieszających (Hash Tables)?",
         options: [
@@ -6502,7 +4951,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 614,
+        id: 445,
         category: "Wstęp do Haszowania",
         text: "Do czego służy i jaki ma podstawowy cel 'Funkcja Haszująca'?",
         options: [
@@ -6513,7 +4962,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 615,
+        id: 446,
         category: "Podstawy Kopców",
         text: "Kopiec to struktura, którą zazwyczaj ukazuje się w teorii jako narysowane wielkie drzewo binarne. Jaka inna bardzo powszechna i prosta konstrukcja odpowiada fizycznie za przechowywanie tego drzewa w pamięci w kodzie źródłowym?",
         options: [
@@ -6526,7 +4975,7 @@ const questionDatabase = [
 
     // --- REKURENCJA ---
     {
-        id: 616,
+        id: 447,
         category: "Podstawy: Rekurencja",
         text: "W programowaniu i algorytmach 'Rekurencją' lub 'Rekursją' nazywa się zjawisko:",
         options: [
@@ -6537,7 +4986,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 617,
+        id: 448,
         category: "Podstawy: Rekurencja",
         text: "Z jakiego fundamentalnego powodu z rekurencją i pętlami można w ogóle łatwo stworzyć zjawisko znane z błędu informatycznego jako 'Stack Overflow' (Przepełnienie Stosu)?",
         options: [
@@ -6550,7 +4999,7 @@ const questionDatabase = [
 
     // --- NAZEWNICTWO ANGLOJĘZYCZNE (PODSTAWOWE) ---
     {
-        id: 618,
+        id: 449,
         category: "Terminologia",
         text: "Do jakiego algorytmu i metody odnosi się najczęściej termin z książek anglojęzycznych 'Greedy Algorithm'?",
         options: [
@@ -6561,7 +5010,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 619,
+        id: 450,
         category: "Terminologia",
         text: "Gdy mowa o operacjach drzewiastych czy słownikowych, co definiuje kluczowe słowo 'Insert'?",
         options: [
@@ -6574,7 +5023,7 @@ const questionDatabase = [
 
     // --- UZUPEŁNIENIE BAZY ---
     {
-        id: 620,
+        id: 451,
         category: "Wstęp do Algorytmiki",
         text: "Kiedy można powiedzieć, że nowo napisany algorytm komputerowy jest absolutnie 'poprawny'?",
         options: [
@@ -6585,7 +5034,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 621,
+        id: 452,
         category: "Wstęp do Złożoności",
         text: "Czego wynikiem we wzorze na złożoności jest tzw. 'Czynnik Dominujący' na przykład w matematycznym równaniu na czas w ujęciu $T(n) = 3n^2 + 5n + 100$?",
         options: [
@@ -6596,7 +5045,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 622,
+        id: 453,
         category: "Wstęp do Algorytmiki",
         text: "Do weryfikacji i oszacowania działania u algorytmów bez wglądu na specyfikację i siłę szybkiej maszyny (procesora), używamy matematycznego skrótu by pominąć zmienne zewnętrzne dla maszyny. Jak się ten proces formalnie nazywa?",
         options: [
@@ -6607,7 +5056,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 623,
+        id: 454,
         category: "Podstawy Drzew",
         text: "Gdy w Drzewie Binarnym podpinamy na pozycje dzieci mniejsze układy z węzłów i gałęzi to układ odgałęzienia lewego poniżej wybranego wierzchołka nazywamy klasycznie dla form teorii:",
         options: [
@@ -6618,7 +5067,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 624,
+        id: 455,
         category: "Podstawy Algorytmiki",
         text: "Kiedy najczęściej decydujemy się użyć struktury reprezentującej Kolejkę do zadań nadzorujących elementy w tle dla pamięci na odkładaniu programu?",
         options: [
@@ -6629,7 +5078,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 625,
+        id: 456,
         category: "Złożoność Obliczeniowa",
         text: "Zapis z asymptoty $\\Theta(1)$ jest nazywany i ułożony w słowniku u algorytmiki czasem...",
         options: [
@@ -6640,7 +5089,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 626,
+        id: 457,
         category: "Wstęp",
         text: "Pojęcie zwane pseudokodem w algorytmice wykorzystuje się szeroko przed zapisaniem kodu do środowiska. Służy ono:",
         options: [
@@ -6651,7 +5100,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 627,
+        id: 458,
         category: "Podstawy Drzew",
         text: "Czym charakteryzuje się tak zwane Drzewo Pełne (Zupełne/Complete Binary Tree) u form od zarania drzew po kopcach z dwójką dzieci?",
         options: [
@@ -6662,7 +5111,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 628,
+        id: 459,
         category: "Podstawy Algorytmiki",
         text: "Na czym opiera się iteracyjne podejście układania kodu pod algorytmy po przeciwnej i równoległej szali od pojęć po algorytmikę z użyciem samej uciętej wejściem z rekurencji?",
         options: [
@@ -6673,7 +5122,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 629,
+        id: 460,
         category: "Wstęp do Algorytmiki",
         text: "Złożoność pamięciowa określona przez notacje o asymetrycznym rzucie z wynikiem $\\Theta(1)$ wskazuje na:",
         options: [
@@ -6684,7 +5133,7 @@ const questionDatabase = [
         ]
     },
     {
-        id: 630,
+        id: 461,
         category: "Podstawowe Metody Wyszukiwania",
         text: "Z czego wyłania się pod kątem matematycznym z wydajności potężna u wydajności wektorowa korzyść przy wyszukaniu pod Wyszukiwaniem Binarnym, deklasująca Wyszukiwanie naiwne od Liniowych z ułożeń od $O(n)$?",
         options: [
@@ -6692,6 +5141,3308 @@ const questionDatabase = [
             { text: "Z uwagi za korzystania do przeskakiwania dając potęgę rzędu Radix pod wyciągnięcie i po $O(1)$.", isCorrect: false },
             { text: "Ograniczając wyjście od z użyciem kopca dającego wynik na u z i rzucając pętlę na $O(n \\log n)$.", isCorrect: false },
             { text: "Wyciąga w wyjście u użyciu potężnej operacji po grafie wejściowym na szyny u węzłów BFS.", isCorrect: false }
+        ]
+    },
+    {
+        id: 462,
+        category: "Analiza zamortyzowana",
+        text: "Czym różni się metoda sumaryczna od metody księgowej w analizie zamortyzowanej?",
+        options: [
+            { text: "Sumaryczna liczy łączny koszt całej sekwencji i dzieli przez liczbę operacji; księgowa przypisuje każdej operacji indywidualny 'koszt zamortyzowany' z odkładaniem nadwyżki na przyszłość.", isCorrect: true },
+            { text: "Są to dokładnie te same metody pod różnymi nazwami.", isCorrect: false },
+            { text: "Sumaryczna dotyczy tylko struktur drzewiastych.", isCorrect: false },
+            { text: "Księgowa wymaga użycia funkcji potencjału $\\Phi$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 463,
+        category: "Analiza zamortyzowana",
+        text: "Na czym opiera się metoda potencjału w analizie zamortyzowanej?",
+        options: [
+            { text: "Przypisuje całej strukturze danych wartość $\\Phi$ reprezentującą zapas czasu, wykorzystywaną do rozliczenia kosztownych operacji.", isCorrect: true },
+            { text: "Sumuje rzeczywiste koszty wszystkich operacji bez żadnych wag.", isCorrect: false },
+            { text: "Dotyczy wyłącznie algorytmów rekurencyjnych.", isCorrect: false },
+            { text: "Wymaga znajomości rozkładu prawdopodobieństwa danych wejściowych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 464,
+        category: "Analiza zamortyzowana",
+        text: "Jaki jest zamortyzowany koszt inkrementacji $k$-bitowego licznika binarnego metodą księgową?",
+        options: [
+            { text: "$O(1)$ — płacimy z góry za zmianę bitu z 0 na 1, co pokrywa późniejszą zmianę z 1 na 0.", isCorrect: true },
+            { text: "$O(k)$ zawsze, niezależnie od metody analizy.", isCorrect: false },
+            { text: "$O(\\log k)$", isCorrect: false },
+            { text: "$O(2^k)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 465,
+        category: "Haszowanie: podstawy",
+        text: "Na czym polega adresowanie bezpośrednie (direct addressing)?",
+        options: [
+            { text: "Klucz jest bezpośrednio używany jako indeks tablicy, np. `A[k]`.", isCorrect: true },
+            { text: "Klucz jest najpierw haszowany, a potem szukane jest wolne miejsce.", isCorrect: false },
+            { text: "Wszystkie elementy trafiają do jednej listy wiązanej.", isCorrect: false },
+            { text: "Wymaga zastosowania dwóch niezależnych funkcji haszujących.", isCorrect: false }
+        ]
+    },
+    {
+        id: 466,
+        category: "Haszowanie: podstawy",
+        text: "Jaką cechę powinna mieć dobra funkcja haszująca?",
+        options: [
+            { text: "Powinna możliwie równomiernie rozpraszać klucze po całej tablicy.", isCorrect: true },
+            { text: "Powinna zawsze zwracać ten sam indeks dla różnych kluczy.", isCorrect: false },
+            { text: "Powinna być jak najbardziej skomplikowana obliczeniowo.", isCorrect: false },
+            { text: "Powinna zależeć wyłącznie od rozmiaru tablicy, nie od klucza.", isCorrect: false }
+        ]
+    },
+    {
+        id: 467,
+        category: "Haszowanie: perfect hashing",
+        text: "Czym charakteryzuje się doskonała funkcja haszująca (perfect hashing)?",
+        options: [
+            { text: "Nie generuje żadnych kolizji dla danego, ustalonego zbioru kluczy.", isCorrect: true },
+            { text: "Działa szybciej niż zwykłe haszowanie dzięki losowości.", isCorrect: false },
+            { text: "Wymaga tablicy o rozmiarze mniejszym niż liczba kluczy.", isCorrect: false },
+            { text: "Jest stosowana wyłącznie przy adresowaniu otwartym.", isCorrect: false }
+        ]
+    },
+    {
+        id: 468,
+        category: "Haszowanie: kolizje",
+        text: "Czym jest kolizja w tablicy haszującej?",
+        options: [
+            { text: "Sytuacją, gdy dwa różne klucze otrzymują ten sam indeks (hash).", isCorrect: true },
+            { text: "Próbą wstawienia elementu do pełnej tablicy.", isCorrect: false },
+            { text: "Błędem obliczenia rozmiaru tablicy.", isCorrect: false },
+            { text: "Usunięciem nieistniejącego elementu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 469,
+        category: "Haszowanie: chaining",
+        text: "Jak metoda łańcuchowa (chaining) rozwiązuje kolizje?",
+        options: [
+            { text: "Każda komórka tablicy przechowuje listę wiązaną wszystkich elementów zahaszowanych do tego indeksu.", isCorrect: true },
+            { text: "Szuka kolejnej wolnej komórki w tablicy.", isCorrect: false },
+            { text: "Nadpisuje istniejący element nowym.", isCorrect: false },
+            { text: "Powiększa tablicę natychmiast po kolizji.", isCorrect: false }
+        ]
+    },
+    {
+        id: 470,
+        category: "Haszowanie: adresowanie liniowe",
+        text: "Jak wygląda ciąg próbkowania przy adresowaniu liniowym (linear probing)?",
+        options: [
+            { text: "$h(k,i) = (h'(k) + i) \\bmod m$ — krok o +1 przy każdej kolejnej próbie.", isCorrect: true },
+            { text: "$h(k,i) = (h'(k) + i^2) \\bmod m$", isCorrect: false },
+            { text: "$h(k,i) = (h_1(k) + i \\cdot h_2(k)) \\bmod m$", isCorrect: false },
+            { text: "$h(k,i) = h'(k) \\bmod i$", isCorrect: false }
+        ]
+    },
+    {
+        id: 471,
+        category: "Haszowanie: adresowanie kwadratowe",
+        text: "Jak wygląda ciąg próbkowania przy adresowaniu kwadratowym (quadratic probing)?",
+        options: [
+            { text: "$h(k,i) = (h'(k) + c_1 i + c_2 i^2) \\bmod m$", isCorrect: true },
+            { text: "$h(k,i) = (h'(k) + i) \\bmod m$", isCorrect: false },
+            { text: "$h(k,i) = (h_1(k) + i \\cdot h_2(k)) \\bmod m$", isCorrect: false },
+            { text: "$h(k,i) = h'(k) \\cdot i \\bmod m$", isCorrect: false }
+        ]
+    },
+    {
+        id: 472,
+        category: "Haszowanie: podwójne haszowanie",
+        text: "Na czym polega podwójne haszowanie (double hashing)?",
+        options: [
+            { text: "Krok próbkowania wyznaczany jest przez drugą, niezależną funkcję haszującą $h_2(k)$.", isCorrect: true },
+            { text: "Element jest haszowany dwukrotnie tą samą funkcją.", isCorrect: false },
+            { text: "Wykorzystuje dwie tablice o tym samym rozmiarze.", isCorrect: false },
+            { text: "Jest odmianą metody łańcuchowej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 473,
+        category: "Haszowanie: clustering",
+        text: "Czym jest zjawisko clusteringu (grupowania) przy adresowaniu otwartym?",
+        options: [
+            { text: "Zbijaniem się zajętych komórek w długie ciągi, co wydłuża czas wyszukiwania.", isCorrect: true },
+            { text: "Równomiernym rozproszeniem kluczy po tablicy.", isCorrect: false },
+            { text: "Błędem przepełnienia tablicy.", isCorrect: false },
+            { text: "Zjawiskiem występującym wyłącznie w metodzie łańcuchowej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 474,
+        category: "Haszowanie: load factor",
+        text: "Jak definiuje się współczynnik wypełnienia (load factor) $\\alpha$ dla tablicy o rozmiarze $m$ z $n$ elementami?",
+        options: [
+            { text: "$\\alpha = n/m$", isCorrect: true },
+            { text: "$\\alpha = m/n$", isCorrect: false },
+            { text: "$\\alpha = n-m$", isCorrect: false },
+            { text: "$\\alpha = n \\cdot m$", isCorrect: false }
+        ]
+    },
+    {
+        id: 475,
+        category: "Haszowanie: złożoność",
+        text: "Jaka jest przeciętna i pesymistyczna złożoność wyszukiwania w tablicy haszującej z metodą łańcuchową?",
+        options: [
+            { text: "Średnio $O(1)$, pesymistycznie $O(n)$ (wszystkie klucze w jednym łańcuchu).", isCorrect: true },
+            { text: "Zawsze $O(1)$, niezależnie od danych.", isCorrect: false },
+            { text: "Średnio $O(\\log n)$, pesymistycznie $O(n)$.", isCorrect: false },
+            { text: "Zawsze $O(n)$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 476,
+        category: "Drzewa BST: usuwanie",
+        text: "Jak usuwa się węzeł, który posiada dwoje dzieci (przypadek 3)?",
+        options: [
+            { text: "Znajduje się jego następnika (lub poprzednika), podmienia z usuwanym węzłem, a następnie usuwa go z nowej pozycji.", isCorrect: true },
+            { text: "Usuwa się go bezpośrednio i podłącza oba poddrzewa do dziadka.", isCorrect: false },
+            { text: "Zgłasza się błąd — węzły z dwojgiem dzieci nie mogą być usuwane.", isCorrect: false },
+            { text: "Zamienia się cały korzeń drzewa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 477,
+        category: "Drzewa BST: usuwanie",
+        text: "Gdzie zawsze znajduje się następnik węzła (przy usuwaniu z dwojgiem dzieci)?",
+        options: [
+            { text: "Jest to minimum w prawym poddrzewie usuwanego węzła.", isCorrect: true },
+            { text: "Jest to maksimum w lewym poddrzewie.", isCorrect: false },
+            { text: "Jest to rodzic usuwanego węzła.", isCorrect: false },
+            { text: "Jest to korzeń całego drzewa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 478,
+        category: "Drzewa RB",
+        text: "Które z poniższych są własnościami drzewa czerwono-czarnego?",
+        options: [
+            { text: "Każdy węzeł jest czerwony lub czarny.", isCorrect: true },
+            { text: "Korzeń jest zawsze czarny.", isCorrect: true },
+            { text: "Czerwony węzeł nie może mieć czerwonego dziecka.", isCorrect: true },
+            { text: "Każde poddrzewo musi mieć tę samą wysokość.", isCorrect: false }
+        ]
+    },
+    {
+        id: 479,
+        category: "Drzewa RB",
+        text: "Ile maksymalnie rotacji wymaga operacja wstawienia do drzewa RB (nie licząc przemalowań)?",
+        options: [
+            { text: "Co najwyżej 2.", isCorrect: true },
+            { text: "$O(\\log n)$.", isCorrect: false },
+            { text: "Zawsze dokładnie 1.", isCorrect: false },
+            { text: "Zależy liniowo od liczby węzłów.", isCorrect: false }
+        ]
+    },
+    {
+        id: 480,
+        category: "Drzewa RB",
+        text: "Czym jest czarna wysokość (black-height) węzła w drzewie RB?",
+        options: [
+            { text: "Liczbą czarnych węzłów na ścieżce od tego węzła do dowolnego liścia NIL, bez liczenia samego węzła.", isCorrect: true },
+            { text: "Sumą wszystkich węzłów czarnych w drzewie.", isCorrect: false },
+            { text: "Różnicą liczby węzłów czerwonych i czarnych.", isCorrect: false },
+            { text: "Głębokością drzewa liczoną w bitach.", isCorrect: false }
+        ]
+    },
+    {
+        id: 481,
+        category: "Drzewa RB",
+        text: "Jaka jest gwarantowana wysokość drzewa RB z $n$ węzłami wewnętrznymi?",
+        options: [
+            { text: "Co najwyżej $2\\log_2(n+1)$.", isCorrect: true },
+            { text: "Dokładnie $\\log_2 n$.", isCorrect: false },
+            { text: "Co najwyżej $n$.", isCorrect: false },
+            { text: "Dokładnie $n-1$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 482,
+        category: "Drzewa przedziałowe",
+        text: "Co reprezentuje dodatkowy atrybut `max` w węźle drzewa przedziałowego?",
+        options: [
+            { text: "Największą wartość górnego krańca przedziału spośród wszystkich przedziałów w poddrzewie.", isCorrect: true },
+            { text: "Liczbę przedziałów w poddrzewie.", isCorrect: false },
+            { text: "Najmniejszy dolny kraniec przedziału w poddrzewie.", isCorrect: false },
+            { text: "Wysokość poddrzewa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 483,
+        category: "Drzewa przedziałowe",
+        text: "Co dzieje się z atrybutem `max` podczas rotacji w drzewie przedziałowym?",
+        options: [
+            { text: "Musi zostać przeliczony dla obu zaangażowanych w rotację węzłów — w czasie $O(1)$.", isCorrect: true },
+            { text: "Rotacje są zabronione w drzewach przedziałowych.", isCorrect: false },
+            { text: "Wymaga przeliczenia całego drzewa od nowa.", isCorrect: false },
+            { text: "Atrybut `max` nie zmienia się nigdy przy rotacji.", isCorrect: false }
+        ]
+    },
+    {
+        id: 484,
+        category: "Drzewa przedziałowe",
+        text: "Kiedy `Interval-Search(T, i)` przechodzi do prawego poddrzewa?",
+        options: [
+            { text: "Gdy lewe poddrzewo jest puste lub jego `max` jest mniejsze niż dolny kraniec szukanego przedziału `i.low`.", isCorrect: true },
+            { text: "Zawsze, niezależnie od wartości `max`.", isCorrect: false },
+            { text: "Gdy przedział `i` jest pusty.", isCorrect: false },
+            { text: "Gdy korzeń jest kolorem czerwonym.", isCorrect: false }
+        ]
+    },
+    {
+        id: 485,
+        category: "Statystyki pozycyjne (OST)",
+        text: "Co przechowuje dodatkowo każdy węzeł w drzewie statystyk pozycyjnych (OS-Tree)?",
+        options: [
+            { text: "Atrybut `size` — liczbę węzłów w poddrzewie, włączając sam węzeł.", isCorrect: true },
+            { text: "Atrybut `max` jak w drzewie przedziałowym.", isCorrect: false },
+            { text: "Atrybut `hash` dla szybszego dostępu.", isCorrect: false },
+            { text: "Atrybut `color` jak w RB-tree, niezależny od koloru węzła.", isCorrect: false }
+        ]
+    },
+    {
+        id: 486,
+        category: "Statystyki pozycyjne (OST)",
+        text: "Jaka jest złożoność operacji OS-Select w zbalansowanym drzewie OS-Tree?",
+        options: [
+            { text: "$O(\\log n)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(1)$", isCorrect: false },
+            { text: "$O(n \\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 487,
+        category: "Statystyki pozycyjne (OST)",
+        text: "Co się dzieje z atrybutem `size` podczas rotacji w drzewie OS-Tree?",
+        options: [
+            { text: "Musi zostać zaktualizowany dla dwóch węzłów biorących udział w rotacji, w czasie $O(1)$.", isCorrect: true },
+            { text: "Nie zmienia się nigdy podczas rotacji.", isCorrect: false },
+            { text: "Wymaga przejścia całego poddrzewa in-order.", isCorrect: false },
+            { text: "Jest liczony od nowa dla całego drzewa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 488,
+        category: "Algorytm magicznych piątek",
+        text: "Na czym polega algorytm 'magicznych piątek' (median of medians)?",
+        options: [
+            { text: "Dzieli dane na grupy po 5 elementów, znajduje medianę każdej grupy, a następnie rekurencyjnie wyznacza medianę z tych median jako pivot.", isCorrect: true },
+            { text: "Losuje pivot z pięciu losowych elementów.", isCorrect: false },
+            { text: "Sortuje dane w grupach po 5 elementów Insertion Sortem.", isCorrect: false },
+            { text: "Odrzuca 5 skrajnych elementów przed selekcją.", isCorrect: false }
+        ]
+    },
+    {
+        id: 489,
+        category: "Algorytm magicznych piątek",
+        text: "Jaki jest cel algorytmu median of medians w kontekście problemu selekcji?",
+        options: [
+            { text: "Gwarantuje pesymistyczny czas liniowy $O(n)$ w przeciwieństwie do Quickselect, który ma pesymistycznie $O(n^2)$.", isCorrect: true },
+            { text: "Przyspiesza sortowanie do $O(n)$.", isCorrect: false },
+            { text: "Redukuje pamięć potrzebną do selekcji do $O(1)$.", isCorrect: false },
+            { text: "Eliminuje potrzebę porównywania elementów.", isCorrect: false }
+        ]
+    },
+    {
+        id: 490,
+        category: "Skip listy",
+        text: "Jakim zastępstwem dla zbalansowanych drzew BST są Skip Listy?",
+        options: [
+            { text: "Probabilistycznym — opartym na listach wielopoziomowych z losowymi skokami, dającym oczekiwany czas $O(\\log n)$.", isCorrect: true },
+            { text: "Deterministycznym, gwarantującym zawsze $O(\\log n)$ w najgorszym przypadku.", isCorrect: false },
+            { text: "Wyłącznie do przechowywania liczb całkowitych.", isCorrect: false },
+            { text: "Strukturą wymagającą rotacji jak AVL.", isCorrect: false }
+        ]
+    },
+    {
+        id: 491,
+        category: "Drzewo Trie",
+        text: "Do czego służy drzewo Trie (drzewo przedrostkowe)?",
+        options: [
+            { text: "Do efektywnego przechowywania i wyszukiwania ciągów znaków (np. słów w słowniku) na podstawie wspólnych przedrostków.", isCorrect: true },
+            { text: "Do wyznaczania najkrótszych ścieżek w grafie.", isCorrect: false },
+            { text: "Do sortowania liczb w czasie liniowym.", isCorrect: false },
+            { text: "Do implementacji kolejki priorytetowej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 492,
+        category: "Drzewo Trie",
+        text: "Od czego zależy złożoność wyszukiwania słowa w drzewie Trie?",
+        options: [
+            { text: "Od długości szukanego słowa, a nie od liczby przechowywanych słów.", isCorrect: true },
+            { text: "Od logarytmu liczby wszystkich słów w słowniku.", isCorrect: false },
+            { text: "Zawsze wynosi $O(1)$.", isCorrect: false },
+            { text: "Od kwadratu długości słowa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 493,
+        category: "Drzewo Trie",
+        text: "Co reprezentuje każda krawędź w drzewie Trie?",
+        options: [
+            { text: "Pojedynczy znak (literę) alfabetu.", isCorrect: true },
+            { text: "Całe słowo.", isCorrect: false },
+            { text: "Wagę połączenia między węzłami.", isCorrect: false },
+            { text: "Indeks w tablicy haszującej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 494,
+        category: "Grafy: klasyfikacja krawędzi DFS",
+        text: "Jakie cztery typy krawędzi wyróżnia klasyfikacja DFS?",
+        options: [
+            { text: "Drzewowe, powrotne, w przód i poprzeczne.", isCorrect: true },
+            { text: "Dodatnie, ujemne, zerowe i nieskończone.", isCorrect: false },
+            { text: "Wejściowe, wyjściowe, cykliczne i acykliczne.", isCorrect: false },
+            { text: "Czarne, białe, szare i czerwone.", isCorrect: false }
+        ]
+    },
+    {
+        id: 495,
+        category: "Grafy: klasyfikacja krawędzi DFS",
+        text: "Jaka krawędź w grafie skierowanym świadczy o istnieniu cyklu?",
+        options: [
+            { text: "Krawędź powrotna (back edge).", isCorrect: true },
+            { text: "Krawędź drzewowa.", isCorrect: false },
+            { text: "Krawędź poprzeczna.", isCorrect: false },
+            { text: "Krawędź w przód.", isCorrect: false }
+        ]
+    },
+    {
+        id: 496,
+        category: "Sortowanie topologiczne",
+        text: "Jak wyznacza się porządek topologiczny wierzchołków na podstawie DFS?",
+        options: [
+            { text: "Odwrotna kolejność czasu zakończenia (reverse postorder).", isCorrect: true },
+            { text: "Rosnąca kolejność czasu odkrycia.", isCorrect: false },
+            { text: "Kolejność zgodna z BFS.", isCorrect: false },
+            { text: "Kolejność malejąca stopnia wierzchołka.", isCorrect: false }
+        ]
+    },
+    {
+        id: 497,
+        category: "Sortowanie topologiczne",
+        text: "Na jakim typie grafu wykonuje się sortowanie topologiczne?",
+        options: [
+            { text: "Na Skierowanym Grafie Acyklicznym (DAG).", isCorrect: true },
+            { text: "Na dowolnym grafie nieskierowanym.", isCorrect: false },
+            { text: "Na grafie z cyklami dodatnimi.", isCorrect: false },
+            { text: "Wyłącznie na drzewach binarnych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 498,
+        category: "Algorytm Dijkstry",
+        text: "Jakiego typu wag wymaga algorytm Dijkstry, by działał poprawnie?",
+        options: [
+            { text: "Wyłącznie nieujemnych.", isCorrect: true },
+            { text: "Dowolnych, w tym ujemnych, o ile nie ma ujemnych cykli.", isCorrect: false },
+            { text: "Wyłącznie całkowitoliczbowych.", isCorrect: false },
+            { text: "Dowolnych, nawet z ujemnymi cyklami.", isCorrect: false }
+        ]
+    },
+    {
+        id: 499,
+        category: "Algorytm Dijkstry",
+        text: "Jaka jest złożoność Dijkstry przy implementacji z kopcem Fibonacciego?",
+        options: [
+            { text: "$O(V \\log V + E)$", isCorrect: true },
+            { text: "$O(V^2)$ zawsze.", isCorrect: false },
+            { text: "$O(VE)$", isCorrect: false },
+            { text: "$O(E \\log E)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 500,
+        category: "Algorytm Forda-Bellmana",
+        text: "Ile razy relaksowane są wszystkie krawędzie w głównej pętli algorytmu Forda-Bellmana?",
+        options: [
+            { text: "$|V|-1$ razy.", isCorrect: true },
+            { text: "$|E|$ razy.", isCorrect: false },
+            { text: "$|V|$ razy.", isCorrect: false },
+            { text: "Dokładnie raz.", isCorrect: false }
+        ]
+    },
+    {
+        id: 501,
+        category: "Algorytm Forda-Bellmana",
+        text: "Jaka jest przewaga Forda-Bellmana nad Dijkstrą?",
+        options: [
+            { text: "Obsługuje ujemne wagi krawędzi (bez ujemnych cykli osiągalnych ze źródła).", isCorrect: true },
+            { text: "Ma niższą złożoność czasową.", isCorrect: false },
+            { text: "Nie wymaga inicjalizacji dystansów.", isCorrect: false },
+            { text: "Działa wyłącznie na grafach nieważonych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 502,
+        category: "Algorytm Warshalla-Floyda",
+        text: "Jaki problem rozwiązuje algorytm Warshalla-Floyda?",
+        options: [
+            { text: "Najkrótsze ścieżki między wszystkimi parami wierzchołków (APSP).", isCorrect: true },
+            { text: "Minimalne drzewo rozpinające.", isCorrect: false },
+            { text: "Maksymalny przepływ w sieci.", isCorrect: false },
+            { text: "Sortowanie topologiczne.", isCorrect: false }
+        ]
+    },
+    {
+        id: 503,
+        category: "Algorytm Warshalla-Floyda",
+        text: "Jaka jest złożoność czasowa Warshalla-Floyda?",
+        options: [
+            { text: "$\\Theta(V^3)$", isCorrect: true },
+            { text: "$\\Theta(V^2)$", isCorrect: false },
+            { text: "$\\Theta(V \\log V)$", isCorrect: false },
+            { text: "$\\Theta(E \\log V)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 504,
+        category: "Sieci przepływowe",
+        text: "Do czego służy algorytm Forda-Fulkersona?",
+        options: [
+            { text: "Do wyznaczania maksymalnego przepływu w sieci przepływowej.", isCorrect: true },
+            { text: "Do wyznaczania minimalnego drzewa rozpinającego.", isCorrect: false },
+            { text: "Do sortowania topologicznego DAG.", isCorrect: false },
+            { text: "Do wyznaczania najkrótszej ścieżki w grafie ujemnym.", isCorrect: false }
+        ]
+    },
+    {
+        id: 505,
+        category: "Grafy dwudzielne: maksymalne skojarzenie",
+        text: "Czym jest maksymalne skojarzenie (maximum matching) w grafie dwudzielnym?",
+        options: [
+            { text: "Możliwie największym zbiorem krawędzi, w którym żadne dwie nie dzielą wspólnego wierzchołka.", isCorrect: true },
+            { text: "Zbiorem wszystkich krawędzi grafu.", isCorrect: false },
+            { text: "Najkrótszą ścieżką łączącą oba podzbiory wierzchołków.", isCorrect: false },
+            { text: "Drzewem rozpinającym o minimalnej wadze.", isCorrect: false }
+        ]
+    },
+    {
+        id: 506,
+        category: "Grafy dwudzielne: skojarzenia i przepływ",
+        text: "Jak sprowadza się problem maksymalnego skojarzenia w grafie dwudzielnym do problemu maksymalnego przepływu?",
+        options: [
+            { text: "Dodaje się super-źródło połączone z lewym zbiorem wierzchołków i super-ujście połączone z prawym zbiorem, każda nowa krawędź o pojemności 1, a oryginalne krawędzie też dostają pojemność 1.", isCorrect: true },
+            { text: "Ustawia się wszystkie wagi krawędzi na $\\infty$.", isCorrect: false },
+            { text: "Usuwa się wszystkie krawędzie powrotne z grafu.", isCorrect: false },
+            { text: "Zamienia się graf dwudzielny na drzewo binarne.", isCorrect: false }
+        ]
+    },
+    {
+        id: 507,
+        category: "Grafy dwudzielne: skojarzenia i przepływ",
+        text: "Jaka jest zależność między rozmiarem maksymalnego skojarzenia a wartością maksymalnego przepływu w sprowadzonej sieci (super-źródło/super-ujście)?",
+        options: [
+            { text: "Rozmiar maksymalnego skojarzenia jest dokładnie równy wartości maksymalnego przepływu w tej sieci.", isCorrect: true },
+            { text: "Skojarzenie jest zawsze dwa razy większe niż przepływ.", isCorrect: false },
+            { text: "Nie ma między nimi żadnej zależności.", isCorrect: false },
+            { text: "Skojarzenie jest zawsze mniejsze niż przepływ o 1.", isCorrect: false }
+        ]
+    },
+    {
+        id: 508,
+        category: "Grafy dwudzielne: minimalne pokrycie wierzchołkowe",
+        text: "Czym jest minimalne pokrycie wierzchołkowe (minimum vertex cover) grafu?",
+        options: [
+            { text: "Najmniejszym zbiorem wierzchołków, takim że każda krawędź grafu ma co najmniej jeden koniec w tym zbiorze.", isCorrect: true },
+            { text: "Największym zbiorem wierzchołków niepołączonych żadną krawędzią.", isCorrect: false },
+            { text: "Zbiorem wszystkich wierzchołków o stopniu większym niż 1.", isCorrect: false },
+            { text: "Zbiorem krawędzi tworzących drzewo rozpinające.", isCorrect: false }
+        ]
+    },
+    {
+        id: 509,
+        category: "Grafy dwudzielne: Twierdzenie Königa",
+        text: "Co mówi Twierdzenie Königa dla grafów dwudzielnych?",
+        options: [
+            { text: "Rozmiar maksymalnego skojarzenia jest równy rozmiarowi minimalnego pokrycia wierzchołkowego.", isCorrect: true },
+            { text: "Każdy graf dwudzielny posiada cykl Hamiltona.", isCorrect: false },
+            { text: "Minimalne pokrycie wierzchołkowe jest zawsze większe niż maksymalne skojarzenie.", isCorrect: false },
+            { text: "Dotyczy wyłącznie grafów acyklicznych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 510,
+        category: "Algorytmy tekstowe: podstawy",
+        text: "Jaka jest złożoność naiwnego algorytmu wyszukiwania wzorca o długości $m$ w tekście o długości $n$?",
+        options: [
+            { text: "$O((n-m+1)\\cdot m)$", isCorrect: true },
+            { text: "$O(n+m)$", isCorrect: false },
+            { text: "$O(n \\log m)$", isCorrect: false },
+            { text: "$O(m^2)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 511,
+        category: "Algorytmy tekstowe: podstawy",
+        text: "Który algorytm wyszukiwania wzorca opiera się na porównywaniu skrótów (hashy) fragmentów tekstu?",
+        options: [
+            { text: "Algorytm Rabina-Karpa.", isCorrect: true },
+            { text: "Algorytm KMP.", isCorrect: false },
+            { text: "Algorytm naiwny.", isCorrect: false },
+            { text: "Algorytm Boyera-Moore'a.", isCorrect: false }
+        ]
+    },
+    {
+        id: 512,
+        category: "Algorytmy tekstowe: podstawy",
+        text: "Który z algorytmów wyszukiwania wzorca wymaga wcześniejszego przetworzenia (preprocessingu) samego wzorca?",
+        options: [
+            { text: "KMP.", isCorrect: true },
+            { text: "Algorytm naiwny.", isCorrect: false },
+            { text: "Żaden z wymienionych.", isCorrect: false },
+            { text: "Wyszukiwanie binarne w tekście.", isCorrect: false }
+        ]
+    },
+    {
+        id: 513,
+        category: "Kompresja: Huffman",
+        text: "Czy kod Huffmana jest kodem o stałej czy zmiennej długości?",
+        options: [
+            { text: "Zmiennej — częstsze symbole otrzymują krótsze kody.", isCorrect: true },
+            { text: "Stałej — wszystkie symbole mają tyle samo bitów.", isCorrect: false },
+            { text: "Zależy od wielkości alfabetu.", isCorrect: false },
+            { text: "Zawsze dokładnie 8 bitów.", isCorrect: false }
+        ]
+    },
+    {
+        id: 514,
+        category: "Kompresja: Huffman",
+        text: "Jakiej struktury danych używa algorytm Huffmana do budowy drzewa kodowego?",
+        options: [
+            { text: "Kolejki priorytetowej (Min-Heap).", isCorrect: true },
+            { text: "Stosu.", isCorrect: false },
+            { text: "Drzewa BST.", isCorrect: false },
+            { text: "Tablicy haszującej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 515,
+        category: "Kompresja: LZW",
+        text: "Na czym polega główna idea kompresji LZW?",
+        options: [
+            { text: "Buduje słownik ciągów znaków w locie, bez potrzeby jego wcześniejszej znajomości.", isCorrect: true },
+            { text: "Wymaga dwukrotnego przejścia przez plik: policzenia częstości, a potem kodowania.", isCorrect: false },
+            { text: "Generuje zawsze optymalne drzewo binarne minimalizujące entropię.", isCorrect: false },
+            { text: "Działa wyłącznie na danych multimedialnych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 516,
+        category: "Kompresja: LZW",
+        text: "Czym inicjalizowany jest słownik na starcie kompresji LZW?",
+        options: [
+            { text: "Zestawem podstawowych, pojedynczych znaków alfabetu wejściowego.", isCorrect: true },
+            { text: "Pustym zbiorem — słownik buduje się od zera bez wpisów startowych.", isCorrect: false },
+            { text: "Wszystkimi możliwymi parami znaków.", isCorrect: false },
+            { text: "Drzewem Huffmana zbudowanym z pliku wejściowego.", isCorrect: false }
+        ]
+    },
+    {
+        id: 517,
+        category: "Taksonomia Flynna",
+        text: "Które modele wchodzą w skład taksonomii Flynna?",
+        options: [
+            { text: "SISD, SIMD, MISD, MIMD.", isCorrect: true },
+            { text: "EREW, CREW, CRCW.", isCorrect: false },
+            { text: "LIFO, FIFO, LRU.", isCorrect: false },
+            { text: "RAM, ROM, PRAM.", isCorrect: false }
+        ]
+    },
+    {
+        id: 518,
+        category: "Taksonomia Flynna",
+        text: "Co charakteryzuje architekturę SIMD?",
+        options: [
+            { text: "Jeden strumień instrukcji wykonywany równocześnie na wielu różnych danych — np. GPU.", isCorrect: true },
+            { text: "Wiele niezależnych strumieni instrukcji na różnych danych — klasyczny procesor wielordzeniowy.", isCorrect: false },
+            { text: "Jeden strumień instrukcji na jednych danych — klasyczny CPU.", isCorrect: false },
+            { text: "Wiele strumieni instrukcji na tych samych danych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 519,
+        category: "Taksonomia Flynna",
+        text: "Co charakteryzuje architekturę MIMD?",
+        options: [
+            { text: "Wiele niezależnych strumieni instrukcji operuje na różnych zbiorach danych — typowy współczesny procesor wielordzeniowy.", isCorrect: true },
+            { text: "Jeden strumień instrukcji na wielu danych.", isCorrect: false },
+            { text: "Wiele strumieni instrukcji na jednych danych — model teoretyczny, rzadko spotykany.", isCorrect: false },
+            { text: "Jeden strumień instrukcji na jednych danych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 520,
+        category: "Taksonomia Flynna",
+        text: "Który model taksonomii Flynna jest uznawany za rzadki, głównie teoretyczny?",
+        options: [
+            { text: "MISD (Multiple Instruction, Single Data).", isCorrect: true },
+            { text: "SISD.", isCorrect: false },
+            { text: "SIMD.", isCorrect: false },
+            { text: "MIMD.", isCorrect: false }
+        ]
+    },
+
+    // === BLOK 2 ===
+    {
+        id: 521,
+        category: "Modele PRAM",
+        text: "Co oznacza skrót PRAM?",
+        options: [
+            { text: "Parallel Random Access Machine — abstrakcyjny model komputera z wieloma procesorami dzielącymi wspólną pamięć.", isCorrect: true },
+            { text: "Program Random Access Memory.", isCorrect: false },
+            { text: "Parallel Recursive Algorithm Model.", isCorrect: false },
+            { text: "Process Ranking And Memory.", isCorrect: false }
+        ]
+    },
+    {
+        id: 522,
+        category: "Modele PRAM",
+        text: "Który model PRAM jest najbardziej restrykcyjny?",
+        options: [
+            { text: "EREW (Exclusive Read, Exclusive Write) — tylko jeden procesor może czytać i tylko jeden pisać do danej komórki naraz.", isCorrect: true },
+            { text: "CRCW (Concurrent Read, Concurrent Write).", isCorrect: false },
+            { text: "CREW (Concurrent Read, Exclusive Write).", isCorrect: false },
+            { text: "ERCW (Exclusive Read, Concurrent Write).", isCorrect: false }
+        ]
+    },
+    {
+        id: 523,
+        category: "Modele PRAM",
+        text: "Co charakteryzuje model CREW?",
+        options: [
+            { text: "Wiele procesorów może jednocześnie czytać z tej samej komórki, ale zapis wymaga wyłączności.", isCorrect: true },
+            { text: "Tylko jeden procesor może czytać, wielu może pisać.", isCorrect: false },
+            { text: "Zarówno czytanie, jak i pisanie muszą być wyłączne.", isCorrect: false },
+            { text: "Wielu procesorów może jednocześnie czytać i pisać bez ograniczeń.", isCorrect: false }
+        ]
+    },
+    {
+        id: 524,
+        category: "Modele PRAM",
+        text: "Który model PRAM jest najsilniejszy (najmniej restrykcyjny)?",
+        options: [
+            { text: "CRCW (Concurrent Read, Concurrent Write).", isCorrect: true },
+            { text: "EREW.", isCorrect: false },
+            { text: "CREW.", isCorrect: false },
+            { text: "ERCW.", isCorrect: false }
+        ]
+    },
+    {
+        id: 525,
+        category: "Modele PRAM: podtypy CRCW",
+        text: "Jak działa podtyp 'Common' w modelu CRCW?",
+        options: [
+            { text: "Wszyscy procesorzy próbujący zapisać do tej samej komórki muszą zapisać dokładnie tę samą wartość.", isCorrect: true },
+            { text: "Losowo wybierany procesor wygrywa dostęp do zapisu.", isCorrect: false },
+            { text: "Wygrywa procesor o najwyższym priorytecie.", isCorrect: false },
+            { text: "Zapis jest zawsze zabroniony przy konflikcie.", isCorrect: false }
+        ]
+    },
+    {
+        id: 526,
+        category: "Modele PRAM: podtypy CRCW",
+        text: "Jak działa podtyp 'Arbitrary' w modelu CRCW?",
+        options: [
+            { text: "Przy konflikcie zapisu losowo wybierany procesor wygrywa dostęp.", isCorrect: true },
+            { text: "Wszyscy muszą zapisać tę samą wartość.", isCorrect: false },
+            { text: "Wygrywa procesor o najwyższym priorytecie.", isCorrect: false },
+            { text: "Zapis jest zabroniony.", isCorrect: false }
+        ]
+    },
+    {
+        id: 527,
+        category: "Modele PRAM: podtypy CRCW",
+        text: "Jak działa podtyp 'Priority' w modelu CRCW?",
+        options: [
+            { text: "Przy konflikcie zapisu wygrywa procesor z najwyższym priorytetem.", isCorrect: true },
+            { text: "Wygrywa losowo wybrany procesor.", isCorrect: false },
+            { text: "Wszyscy muszą zapisać tę samą wartość.", isCorrect: false },
+            { text: "Żaden zapis się nie odbywa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 528,
+        category: "Powtórka: sortowanie",
+        text: "Który algorytm sortowania jednocześnie gwarantuje $O(n\\log n)$ w najgorszym przypadku i sortuje w miejscu ($O(1)$ pamięci)?",
+        options: [
+            { text: "Heapsort.", isCorrect: true },
+            { text: "Quicksort.", isCorrect: false },
+            { text: "Merge Sort.", isCorrect: false },
+            { text: "Counting Sort.", isCorrect: false }
+        ]
+    },
+    {
+        id: 529,
+        category: "Powtórka: sortowanie",
+        text: "Który algorytm sortowania jest jedynym spośród Quicksort/Merge Sort/Heapsort, który nie jest stabilny ani nie sortuje w miejscu jednocześnie?",
+        options: [
+            { text: "Merge Sort (stabilny, ale nie sortuje w miejscu).", isCorrect: true },
+            { text: "Heapsort.", isCorrect: false },
+            { text: "Quicksort.", isCorrect: false },
+            { text: "Żaden z nich nie ma takiej cechy.", isCorrect: false }
+        ]
+    },
+    {
+        id: 530,
+        category: "Powtórka: struktury danych",
+        text: "Która struktura danych gwarantuje $O(\\log n)$ dla wyszukiwania, wstawiania i usuwania w każdym przypadku?",
+        options: [
+            { text: "Drzewo czerwono-czarne.", isCorrect: true },
+            { text: "Zwykłe drzewo BST.", isCorrect: false },
+            { text: "Tablica haszująca z chainingiem.", isCorrect: false },
+            { text: "Lista jednokierunkowa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 531,
+        category: "Powtórka: grafy",
+        text: "Który algorytm najkrótszych ścieżek działa poprawnie z ujemnymi wagami, ale nie z ujemnymi cyklami osiągalnymi ze źródła?",
+        options: [
+            { text: "Algorytm Forda-Bellmana.", isCorrect: true },
+            { text: "Algorytm Dijkstry.", isCorrect: false },
+            { text: "BFS.", isCorrect: false },
+            { text: "Algorytm Prima.", isCorrect: false }
+        ]
+    },
+    {
+        id: 532,
+        category: "Powtórka: grafy",
+        text: "Który algorytm MST buduje jedno, ciągle rosnące drzewo, a nie las wielu drzew?",
+        options: [
+            { text: "Algorytm Prima.", isCorrect: true },
+            { text: "Algorytm Kruskala.", isCorrect: false },
+            { text: "Oba budują las.", isCorrect: false },
+            { text: "Żaden z nich nie tworzy drzewa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 533,
+        category: "Powtórka: haszowanie vs BST",
+        text: "Dlaczego tablica haszująca zwykle nie nadaje się do operacji takich jak znajdowanie minimum czy zakresowe wyszukiwanie posortowanych danych?",
+        options: [
+            { text: "Bo nie zachowuje żadnego uporządkowania kluczy — hashowanie celowo rozprasza je losowo.", isCorrect: true },
+            { text: "Bo działa wolniej niż BST dla każdej operacji.", isCorrect: false },
+            { text: "Bo wymaga więcej pamięci niż drzewo AVL.", isCorrect: false },
+            { text: "Bo nie obsługuje duplikatów kluczy.", isCorrect: false }
+        ]
+    },
+    {
+        id: 534,
+        category: "Powtórka: rekurencja",
+        text: "Jakie jest rozwiązanie $T(n) = T(n/2) + O(1)$ według Master Theorem?",
+        options: [
+            { text: "$\\Theta(\\log n)$", isCorrect: true },
+            { text: "$\\Theta(n)$", isCorrect: false },
+            { text: "$\\Theta(n \\log n)$", isCorrect: false },
+            { text: "$\\Theta(1)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 535,
+        category: "Powtórka: rekurencja",
+        text: "Do jakiego przypadku Master Theorem należy $T(n) = 2T(n/2) + 1$?",
+        options: [
+            { text: "Przypadek 1 — $f(n)$ jest zdominowane przez $n^{\\log_b a}$, dając $\\Theta(n)$.", isCorrect: true },
+            { text: "Przypadek 2 — daje $\\Theta(n \\log n)$.", isCorrect: false },
+            { text: "Przypadek 3 — daje $\\Theta(1)$.", isCorrect: false },
+            { text: "Nie da się zastosować Master Theorem.", isCorrect: false }
+        ]
+    },
+    {
+        id: 536,
+        category: "Powtórka: kolejki priorytetowe",
+        text: "Jaka jest złożoność operacji Insert w klasycznym kopcu binarnym?",
+        options: [
+            { text: "$O(\\log n)$", isCorrect: true },
+            { text: "$O(1)$", isCorrect: false },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(n \\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 537,
+        category: "Powtórka: statystyki pozycyjne",
+        text: "Jaka jest oczekiwana złożoność algorytmu Randomized Select (Quickselect) dla znalezienia $i$-tej statystyki?",
+        options: [
+            { text: "$O(n)$", isCorrect: true },
+            { text: "$O(n \\log n)$", isCorrect: false },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n^2)$ zawsze.", isCorrect: false }
+        ]
+    },
+    {
+        id: 538,
+        category: "Powtórka: grafy",
+        text: "Jaka struktura danych jest kluczowa w implementacji algorytmu Kruskala do wykrywania cykli?",
+        options: [
+            { text: "Struktura zbiorów rozłącznych (Union-Find).", isCorrect: true },
+            { text: "Kopiec binarny.", isCorrect: false },
+            { text: "Tablica haszująca.", isCorrect: false },
+            { text: "Drzewo przedziałowe.", isCorrect: false }
+        ]
+    },
+    {
+        id: 539,
+        category: "Powtórka: sieci przepływowe",
+        text: "Co mówi twierdzenie Max-Flow Min-Cut?",
+        options: [
+            { text: "Maksymalny przepływ w sieci jest równy przepustowości minimalnego przekroju.", isCorrect: true },
+            { text: "Maksymalny przepływ jest zawsze równy sumie wszystkich przepustowości.", isCorrect: false },
+            { text: "Minimalny przekrój zawiera zawsze dokładnie jedną krawędź.", isCorrect: false },
+            { text: "Dotyczy wyłącznie grafów acyklicznych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 540,
+        category: "Powtórka: kompresja",
+        text: "Jaki typ kodu generuje algorytm Huffmana — na czym polega jego 'prefiksowość'?",
+        options: [
+            { text: "Żadne słowo kodowe nie jest przedrostkiem innego, co pozwala jednoznacznie dekodować bez separatorów.", isCorrect: true },
+            { text: "Wszystkie kody mają tę samą długość.", isCorrect: false },
+            { text: "Kod jest zawsze binarnie symetryczny.", isCorrect: false },
+            { text: "Kody są sortowane alfabetycznie.", isCorrect: false }
+        ]
+    },
+    {
+        id: 541,
+        category: "Powtórka: teoria złożoności",
+        text: "Która z podanych złożoności jest najgorsza (rośnie najszybciej)?",
+        options: [
+            { text: "$O(n!)$", isCorrect: true },
+            { text: "$O(2^n)$", isCorrect: false },
+            { text: "$O(n^3)$", isCorrect: false },
+            { text: "$O(n \\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 542,
+        category: "Powtórka: struktury danych",
+        text: "Jaka jest złożoność dostępu do dowolnego elementu w tablicy dynamicznej (znając indeks)?",
+        options: [
+            { text: "$O(1)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "Zamortyzowane $O(\\log n)$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 543,
+        category: "Powtórka: drzewa",
+        text: "Dlaczego zwykłe drzewo BST może zdegenerować się do listy?",
+        options: [
+            { text: "Gdy elementy są wstawiane w kolejności już posortowanej, bez żadnego mechanizmu balansowania.", isCorrect: true },
+            { text: "Gdy liczba elementów jest parzysta.", isCorrect: false },
+            { text: "Nigdy — BST zawsze pozostaje zbalansowane z definicji.", isCorrect: false },
+            { text: "Tylko gdy korzeń ma wartość zero.", isCorrect: false }
+        ]
+    },
+    {
+        id: 544,
+        category: "Powtórka: haszowanie vs drzewa",
+        text: "Która struktura pozwala na szybsze (średnio) wyszukiwanie po kluczu: tablica haszująca czy zbalansowane drzewo BST?",
+        options: [
+            { text: "Tablica haszująca — średnio $O(1)$ vs $O(\\log n)$ w drzewie.", isCorrect: true },
+            { text: "Zbalansowane drzewo BST zawsze szybsze.", isCorrect: false },
+            { text: "Obie mają identyczną złożoność średnią.", isCorrect: false },
+            { text: "Zależy wyłącznie od rozmiaru klucza.", isCorrect: false }
+        ]
+    },
+    {
+        id: 545,
+        category: "Powtórka: algorytmy tekstowe",
+        text: "Który algorytm wyszukiwania wzorca porównuje znaki od prawej do lewej strony wzorca?",
+        options: [
+            { text: "Boyer-Moore.", isCorrect: true },
+            { text: "KMP.", isCorrect: false },
+            { text: "Naiwny.", isCorrect: false },
+            { text: "Rabin-Karp.", isCorrect: false }
+        ]
+    },
+    {
+        id: 546,
+        category: "Powtórka: grafy dwudzielne",
+        text: "Czy każdy graf posiada maksymalne skojarzenie równe minimalnemu pokryciu wierzchołkowemu?",
+        options: [
+            { text: "Nie — to twierdzenie (Königa) jest prawdziwe wyłącznie dla grafów dwudzielnych.", isCorrect: true },
+            { text: "Tak, dla dowolnego grafu.", isCorrect: false },
+            { text: "Tak, ale tylko dla grafów acyklicznych.", isCorrect: false },
+            { text: "Nie ma takiej zależności w żadnym typie grafu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 547,
+        category: "Powtórka: analiza zamortyzowana",
+        text: "Jaki jest zamortyzowany koszt wstawienia elementu do tablicy dynamicznej podwajającej rozmiar po zapełnieniu?",
+        options: [
+            { text: "$O(1)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n^2)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 548,
+        category: "Powtórka: architektury równoległe",
+        text: "Do jakiego modelu Flynna zalicza się klasyczny, jednordzeniowy procesor wykonujący jedną instrukcję na jednych danych?",
+        options: [
+            { text: "SISD.", isCorrect: true },
+            { text: "SIMD.", isCorrect: false },
+            { text: "MIMD.", isCorrect: false },
+            { text: "MISD.", isCorrect: false }
+        ]
+    },
+    {
+        id: 549,
+        category: "Powtórka: PRAM",
+        text: "Który model PRAM pozwala na jednoczesny zapis wielu procesorów do tej samej komórki, wymagając reguły rozstrzygania konfliktu?",
+        options: [
+            { text: "CRCW.", isCorrect: true },
+            { text: "EREW.", isCorrect: false },
+            { text: "CREW.", isCorrect: false },
+            { text: "Żaden z modeli PRAM nie na to pozwala.", isCorrect: false }
+        ]
+    },
+    {
+        id: 550,
+        category: "Powtórka: drzewa AVL vs RB",
+        text: "Które drzewo jest bardziej rygorystycznie (ściślej) zbalansowane: AVL czy czerwono-czarne?",
+        options: [
+            { text: "AVL.", isCorrect: true },
+            { text: "Czerwono-czarne.", isCorrect: false },
+            { text: "Oba identycznie.", isCorrect: false },
+            { text: "Żadne z nich nie gwarantuje balansu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 551,
+        category: "Powtórka: sieci przepływowe",
+        text: "Jak nazywa się ścieżka w grafie residualnym, wzdłuż której można zwiększyć przepływ?",
+        options: [
+            { text: "Ścieżka powiększająca (augmenting path).", isCorrect: true },
+            { text: "Ścieżka Eulera.", isCorrect: false },
+            { text: "Ścieżka Hamiltona.", isCorrect: false },
+            { text: "Ścieżka topologiczna.", isCorrect: false }
+        ]
+    },
+    {
+        id: 552,
+        category: "Powtórka: sortowanie",
+        text: "Który algorytm sortowania NIE opiera się na porównaniach elementów?",
+        options: [
+            { text: "Counting Sort.", isCorrect: true },
+            { text: "Quicksort.", isCorrect: false },
+            { text: "Merge Sort.", isCorrect: false },
+            { text: "Heapsort.", isCorrect: false }
+        ]
+    },
+    {
+        id: 553,
+        category: "Powtórka: struktury danych",
+        text: "Jaka jest złożoność wyszukiwania elementu w drzewie Trie o kluczu długości $L$?",
+        options: [
+            { text: "$O(L)$, niezależnie od liczby przechowywanych słów.", isCorrect: true },
+            { text: "$O(\\log n)$, gdzie $n$ to liczba słów w słowniku.", isCorrect: false },
+            { text: "$O(n)$, gdzie $n$ to liczba wszystkich słów.", isCorrect: false },
+            { text: "$O(1)$ zawsze.", isCorrect: false }
+        ]
+    },
+    {
+        id: 554,
+        category: "Powtórka: grafy",
+        text: "Który typ przeszukiwania grafu gwarantuje znalezienie najkrótszej ścieżki (liczba krawędzi) w grafie nieważonym?",
+        options: [
+            { text: "BFS.", isCorrect: true },
+            { text: "DFS.", isCorrect: false },
+            { text: "Oba dają identyczny wynik.", isCorrect: false },
+            { text: "Żadne z nich.", isCorrect: false }
+        ]
+    },
+    {
+        id: 555,
+        category: "Powtórka: kompresja",
+        text: "Który algorytm kompresji buduje słownik ciągów znaków w trakcie przetwarzania danych, bez znajomości ich z góry?",
+        options: [
+            { text: "LZW.", isCorrect: true },
+            { text: "Huffman.", isCorrect: false },
+            { text: "Counting Sort.", isCorrect: false },
+            { text: "Radix Sort.", isCorrect: false }
+        ]
+    },
+    {
+        id: 556,
+        category: "Powtórka: statystyki pozycyjne",
+        text: "Jaki algorytm gwarantuje pesymistyczny czas liniowy $O(n)$ przy wyznaczaniu $i$-tej statystyki pozycyjnej?",
+        options: [
+            { text: "Algorytm median of medians (magicznych piątek).", isCorrect: true },
+            { text: "Zwykły Quickselect bez modyfikacji.", isCorrect: false },
+            { text: "Sortowanie Heapsortem i odczyt elementu.", isCorrect: false },
+            { text: "BFS na drzewie BST.", isCorrect: false }
+        ]
+    },
+    {
+        id: 557,
+        category: "Powtórka: haszowanie",
+        text: "Który typ rozwiązywania kolizji może cierpieć na zjawisko wtórnego grupowania (secondary clustering)?",
+        options: [
+            { text: "Adresowanie kwadratowe.", isCorrect: true },
+            { text: "Metoda łańcuchowa.", isCorrect: false },
+            { text: "Adresowanie bezpośrednie.", isCorrect: false },
+            { text: "Perfect hashing.", isCorrect: false }
+        ]
+    },
+    {
+        id: 558,
+        category: "Powtórka: grafy",
+        text: "Ile krawędzi ma drzewo rozpinające grafu o $V$ wierzchołkach?",
+        options: [
+            { text: "$V-1$", isCorrect: true },
+            { text: "$V$", isCorrect: false },
+            { text: "$V+1$", isCorrect: false },
+            { text: "$V(V-1)/2$", isCorrect: false }
+        ]
+    },
+    {
+        id: 559,
+        category: "Powtórka: architektury równoległe",
+        text: "Czy model MISD (Multiple Instruction, Single Data) jest powszechnie stosowany w praktyce?",
+        options: [
+            { text: "Nie — jest modelem głównie teoretycznym, rzadko spotykanym w rzeczywistych systemach.", isCorrect: true },
+            { text: "Tak — to podstawa działania każdego GPU.", isCorrect: false },
+            { text: "Tak — to podstawa działania każdego CPU wielordzeniowego.", isCorrect: false },
+            { text: "Jest tak samo powszechny jak SIMD.", isCorrect: false }
+        ]
+    },
+    {
+        id: 560,
+        category: "Powtórka: drzewa przedziałowe i OST",
+        text: "Co łączy drzewo przedziałowe (Interval Tree) i drzewo statystyk pozycyjnych (OS-Tree)?",
+        options: [
+            { text: "Obie struktury rozszerzają zwykłe drzewo BST/RB o dodatkowy atrybut aktualizowany w czasie $O(1)$ przy rotacjach.", isCorrect: true },
+            { text: "Obie wymagają tablicy haszującej do działania.", isCorrect: false },
+            { text: "Obie działają wyłącznie na liczbach całkowitych dodatnich.", isCorrect: false },
+            { text: "Żadna z nich nie wspiera operacji wstawiania.", isCorrect: false }
+        ]
+    },
+
+    // === CIĄG DALSZY BAZY (ID 132-201, stają się 799-868) ===
+    {
+        id: 561,
+        category: "Pseudokod: Merge Sort",
+        text: "W procedurze `Merge(A, left, mid, right)` z wykładu, ile tablic pomocniczych jest tworzonych i jaki mają rozmiar względem podziału?",
+        options: [
+            { text: "Jedna tablica `B` o rozmiarze `right - left + 1`, do której trafiają scalone elementy.", isCorrect: true },
+            { text: "Dwie tablice o rozmiarze `n` każda.", isCorrect: false },
+            { text: "Tablica `B` o rozmiarze stałym równym 2.", isCorrect: false },
+            { text: "Żadna tablica pomocnicza nie jest tworzona.", isCorrect: false }
+        ]
+    },
+    {
+        id: 562,
+        category: "Pseudokod: Merge Sort",
+        text: "Jaki jest warunek zakończenia rekurencji w `MergeSort(A, left, right)` z wykładu?",
+        options: [
+            { text: "Wykonuje się dopóki `left < right`.", isCorrect: true },
+            { text: "Wykonuje się dopóki `left <= right`.", isCorrect: false },
+            { text: "Wykonuje się dopóki `left == right`.", isCorrect: false },
+            { text: "Wykonuje się dopóki `right == 0`.", isCorrect: false }
+        ]
+    },
+    {
+        id: 563,
+        category: "Pseudokod: Merge Sort",
+        text: "Jak wyznaczany jest środek tablicy `mid` w `MergeSort`?",
+        options: [
+            { text: "`mid = floor((left + right) / 2)`", isCorrect: true },
+            { text: "`mid = (right - left) / 2`", isCorrect: false },
+            { text: "`mid = left * right / 2`", isCorrect: false },
+            { text: "`mid` jest losowane.", isCorrect: false }
+        ]
+    },
+    {
+        id: 564,
+        category: "Pseudokod: Heap Sort",
+        text: "Co robi pętla główna w `Heapsort(A)` na każdej iteracji (od `length(A)` w dół do 2)?",
+        options: [
+            { text: "Zamienia `A[1]` z `A[i]`, zmniejsza `heap_size` o 1 i wywołuje `Heapify(A,1)`.", isCorrect: true },
+            { text: "Wywołuje `BuildHeap` od nowa.", isCorrect: false },
+            { text: "Usuwa element `A[i]` z tablicy.", isCorrect: false },
+            { text: "Sortuje podtablicę `Insertion Sortem`.", isCorrect: false }
+        ]
+    },
+    {
+        id: 565,
+        category: "Pseudokod: Heap Sort",
+        text: "Dlaczego pętla w `Heapsort` schodzi do 2, a nie do 1?",
+        options: [
+            { text: "Gdy zostaje 1 element w kopcu, jest on już na swojej ostatecznej, posortowanej pozycji.", isCorrect: true },
+            { text: "Bo indeks 1 jest zarezerwowany na wartownika.", isCorrect: false },
+            { text: "Bo `Heapify(A,1)` zgłasza błąd dla `heap_size=1`.", isCorrect: false },
+            { text: "To błąd w pseudokodzie — powinna schodzić do 1.", isCorrect: false }
+        ]
+    },
+    {
+        id: 566,
+        category: "Pseudokod: Heapify",
+        text: "W procedurze `Heapify(A, i)`, jaki warunek decyduje, że `largest` zostaje ustawione na `l` (lewe dziecko)?",
+        options: [
+            { text: "`l <= heap_size(A)` oraz `A[l] > A[i]`", isCorrect: true },
+            { text: "`l < heap_size(A)` oraz `A[l] < A[i]`", isCorrect: false },
+            { text: "`l >= heap_size(A)`", isCorrect: false },
+            { text: "Zawsze, niezależnie od porównania.", isCorrect: false }
+        ]
+    },
+    {
+        id: 567,
+        category: "Pseudokod: BuildHeap",
+        text: "W jakim zakresie iteruje pętla w `BuildHeap(A)` z wykładu?",
+        options: [
+            { text: "Od `floor(length[A]/2)` w dół do 1.", isCorrect: true },
+            { text: "Od 1 do `length[A]`.", isCorrect: false },
+            { text: "Od `length[A]` w dół do 1.", isCorrect: false },
+            { text: "Od 1 do `floor(length[A]/2)`.", isCorrect: false }
+        ]
+    },
+    {
+        id: 568,
+        category: "Pseudokod: Quicksort",
+        text: "Jakie są początkowe wartości wskaźników `i` oraz `j` w procedurze `Partition` wg schematu Hoare'a z wykładu (dla `A[p..r]`)?",
+        options: [
+            { text: "`i = p - 1`, `j = r + 1`", isCorrect: true },
+            { text: "`i = p`, `j = r`", isCorrect: false },
+            { text: "`i = 0`, `j = length(A)`", isCorrect: false },
+            { text: "`i = p + 1`, `j = r - 1`", isCorrect: false }
+        ]
+    },
+    {
+        id: 569,
+        category: "Pseudokod: Quicksort",
+        text: "Jak wybierany jest pivot `x` w procedurze `Partition` z wykładu?",
+        options: [
+            { text: "`x = A[p]` — pierwszy element przedziału.", isCorrect: true },
+            { text: "`x = A[r]` — ostatni element przedziału.", isCorrect: false },
+            { text: "`x` jest losowany.", isCorrect: false },
+            { text: "`x` to mediana trzech elementów.", isCorrect: false }
+        ]
+    },
+    {
+        id: 570,
+        category: "Pseudokod: Quicksort",
+        text: "Co zwraca `Partition` z wykładu i jak są wywoływane rekurencje w `Quicksort(A, p, r)`?",
+        options: [
+            { text: "Zwraca `j`; wywołania to `Quicksort(A, p, q-1)` i `Quicksort(A, q+1, r)`.", isCorrect: true },
+            { text: "Zwraca zawsze `p`; wywołania to `Quicksort(A, p, q)` i `Quicksort(A, q, r)`.", isCorrect: false },
+            { text: "Zwraca sumę indeksów `i+j`.", isCorrect: false },
+            { text: "Nic nie zwraca — modyfikuje tablicę globalnie.", isCorrect: false }
+        ]
+    },
+    {
+        id: 571,
+        category: "Pseudokod: Counting Sort",
+        text: "W `CountingSort(A, B, k)` z wykładu, co robi pętla `for i=2 to k: C[i] = C[i] + C[i-1]`?",
+        options: [
+            { text: "Oblicza sumy prefiksowe — liczbę elementów mniejszych lub równych danej wartości.", isCorrect: true },
+            { text: "Zeruje tablicę `C`.", isCorrect: false },
+            { text: "Sortuje tablicę `C` rosnąco.", isCorrect: false },
+            { text: "Kopiuje `A` do `B`.", isCorrect: false }
+        ]
+    },
+    {
+        id: 572,
+        category: "Pseudokod: Counting Sort",
+        text: "Dlaczego ostatnia pętla przepisująca wynik do `B` w Counting Sort iteruje `for j=n downto 1`?",
+        options: [
+            { text: "Aby zachować stabilność sortowania (elementy o równych kluczach zachowują kolejność).", isCorrect: true },
+            { text: "Aby zresetować tablicę `C` przy okazji.", isCorrect: false },
+            { text: "Bo algorytm sortuje malejąco.", isCorrect: false },
+            { text: "To nieistotny szczegół implementacyjny.", isCorrect: false }
+        ]
+    },
+    {
+        id: 573,
+        category: "Pseudokod: Radix Sort",
+        text: "Jak wygląda główna pętla `RadixSort(A, d)` z wykładu?",
+        options: [
+            { text: "`for i=1 to d: StableSort(A) on digit i` — sortuje kolejno po każdej cyfrze stabilnym sortowaniem.", isCorrect: true },
+            { text: "`for i=d to 1: QuickSort(A)`", isCorrect: false },
+            { text: "Jednorazowe wywołanie `BuildHeap(A)`.", isCorrect: false },
+            { text: "`for i=1 to n: Insert(A[i])`", isCorrect: false }
+        ]
+    },
+    {
+        id: 574,
+        category: "Pseudokod: Radix Sort",
+        text: "Zakładając, że `StableSort` to Counting Sort o złożoności $O(n+k)$, jaka jest łączna złożoność Radix Sort dla $d$ cyfr?",
+        options: [
+            { text: "$T(n) = d \\cdot O(n+k)$, co przy $k=O(n)$ upraszcza się do $O(n)$.", isCorrect: true },
+            { text: "$T(n) = O(n^2)$ niezależnie od $d$.", isCorrect: false },
+            { text: "$T(n) = O(d \\log n)$", isCorrect: false },
+            { text: "$T(n) = O(n \\log n)$ zawsze.", isCorrect: false }
+        ]
+    },
+    {
+        id: 575,
+        category: "Pseudokod: Bucket Sort",
+        text: "Do jakiego kubełka trafia element `A[i]` w `Bucket-Sort(A,n)` z wykładu?",
+        options: [
+            { text: "Do listy `B[floor(n * A[i])]`.", isCorrect: true },
+            { text: "Do listy `B[A[i] mod n]`.", isCorrect: false },
+            { text: "Do listy `B[ceil(A[i]/n)]`.", isCorrect: false },
+            { text: "Zależy losowo od wartości `A[i]`.", isCorrect: false }
+        ]
+    },
+    {
+        id: 576,
+        category: "Pseudokod: Bucket Sort",
+        text: "Jakim algorytmem sortowana jest zawartość pojedynczego kubełka w pseudokodzie Bucket Sort?",
+        options: [
+            { text: "Sortowaniem przez wstawianie (Insertion Sort).", isCorrect: true },
+            { text: "Quicksortem.", isCorrect: false },
+            { text: "Heapsortem.", isCorrect: false },
+            { text: "Rekurencyjnie tym samym Bucket Sortem.", isCorrect: false }
+        ]
+    },
+    {
+        id: 577,
+        category: "Pseudokod: Sortowanie topologiczne",
+        text: "Jak działa `Topological-Sort()` z wykładu?",
+        options: [
+            { text: "Uruchamia DFS; gdy wierzchołek staje się czarny (zakończony), wypisuje go — porządek topologiczny to wypisanie odwrotne.", isCorrect: true },
+            { text: "Uruchamia BFS i wypisuje wierzchołki w kolejności odwiedzin.", isCorrect: false },
+            { text: "Sortuje wierzchołki po stopniu wejściowym Heapsortem.", isCorrect: false },
+            { text: "Relaksuje krawędzie jak w Bellmanie-Fordzie.", isCorrect: false }
+        ]
+    },
+    {
+        id: 578,
+        category: "Pseudokod: Sortowanie topologiczne",
+        text: "Jaki jest czas działania sortowania topologicznego i na czym opiera się dowód poprawności z wykładu?",
+        options: [
+            { text: "$O(V+E)$; dowód opiera się na tym, że dla krawędzi $(u,v)$ zachodzi $u.f > v.f$.", isCorrect: true },
+            { text: "$O(V \\log V)$; dowód opiera się na własności kopca.", isCorrect: false },
+            { text: "$O(V^2)$; dowód opiera się na macierzy sąsiedztwa.", isCorrect: false },
+            { text: "$O(E \\log V)$; dowód opiera się na Union-Find.", isCorrect: false }
+        ]
+    },
+    {
+        id: 579,
+        category: "Pseudokod: Listy",
+        text: "W `ListInsert(L, x)` z wykładu, co dzieje się z `head[L]` po wstawieniu `x` na początek listy?",
+        options: [
+            { text: "`head[L] = x` (nowy element staje się nową głową listy).", isCorrect: true },
+            { text: "`head[L]` pozostaje bez zmian.", isCorrect: false },
+            { text: "`head[L] = NIL`", isCorrect: false },
+            { text: "`head[L] = next[x]`", isCorrect: false }
+        ]
+    },
+    {
+        id: 580,
+        category: "Pseudokod: Listy",
+        text: "W `ListDelete(L, x)`, co się dzieje, gdy `prev[x] == NIL` (czyli `x` jest głową listy)?",
+        options: [
+            { text: "Aktualizowana jest bezpośrednio `head[L] = next[x]`.", isCorrect: true },
+            { text: "Zgłaszany jest błąd — nie można usunąć głowy.", isCorrect: false },
+            { text: "Lista jest przebudowywana od nowa.", isCorrect: false },
+            { text: "Nic się nie dzieje, `x` zostaje na liście.", isCorrect: false }
+        ]
+    },
+    {
+        id: 581,
+        category: "Pseudokod: Kolejka",
+        text: "W tablicowej implementacji kolejki cyklicznej (`Enqueue`), co się dzieje, gdy `tail[Q] == length[Q]`?",
+        options: [
+            { text: "`tail[Q]` zostaje ustawiony z powrotem na 1.", isCorrect: true },
+            { text: "Zgłaszany jest błąd przepełnienia.", isCorrect: false },
+            { text: "Tablica jest dynamicznie powiększana.", isCorrect: false },
+            { text: "`head[Q]` jest przesuwany do przodu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 582,
+        category: "Pseudokod: HeapInsert",
+        text: "Jaki warunek sprawdza pętla `while` w `HeapInsert(A, key)`, aby przesunąć nowy element w górę kopca?",
+        options: [
+            { text: "`i > 1 AND A[Parent(i)] < key`", isCorrect: true },
+            { text: "`i < heap_size AND A[Left(i)] > key`", isCorrect: false },
+            { text: "`A[Parent(i)] > key`", isCorrect: false },
+            { text: "`i == 1`", isCorrect: false }
+        ]
+    },
+    {
+        id: 583,
+        category: "Pseudokod: HeapExtractMax",
+        text: "Jaki jest pierwszy krok w `HeapExtractMax(A)` po zapamiętaniu `max = A[1]`?",
+        options: [
+            { text: "Ostatni element `A[heap_size[A]]` trafia na miejsce korzenia `A[1]`, po czym `heap_size` maleje o 1.", isCorrect: true },
+            { text: "Wywoływane jest `BuildHeap` od nowa.", isCorrect: false },
+            { text: "Prawe dziecko korzenia zajmuje jego miejsce.", isCorrect: false },
+            { text: "Zwracany jest błąd, jeśli `heap_size < 1`, bez dalszych kroków.", isCorrect: false }
+        ]
+    },
+    {
+        id: 584,
+        category: "Pseudokod: BST TreeSearch",
+        text: "Jaka jest złożoność rekurencyjnego `TreeSearch(x, k)` z wykładu?",
+        options: [
+            { text: "$O(h)$, gdzie $h$ to wysokość drzewa.", isCorrect: true },
+            { text: "$O(\\log n)$ zawsze, niezależnie od struktury drzewa.", isCorrect: false },
+            { text: "$O(n)$ zawsze.", isCorrect: false },
+            { text: "$O(1)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 585,
+        category: "Pseudokod: BST TreeInsert",
+        text: "W `TreeInsert(x, k)`, kiedy nowy element trafia rekurencyjnie do lewego poddrzewa?",
+        options: [
+            { text: "Gdy `k < key[x]`.", isCorrect: true },
+            { text: "Gdy `k > key[x]`.", isCorrect: false },
+            { text: "Gdy `left[x] == NULL`.", isCorrect: false },
+            { text: "Zawsze przy pierwszym wywołaniu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 586,
+        category: "Pseudokod: BST usuwanie",
+        text: "Zgodnie z zarysem algorytmu usuwania z drzewa BST, co robimy gdy węzeł `x` posiada dwoje dzieci?",
+        options: [
+            { text: "Zamieniamy `x` z jego bezpośrednim następnikiem (lub poprzednikiem), a następnie usuwamy według przypadku 1 lub 2 na nowej pozycji.", isCorrect: true },
+            { text: "Usuwamy `x` bezpośrednio i podłączamy oba poddrzewa do rodzica.", isCorrect: false },
+            { text: "Zgłaszamy błąd — nie można usuwać węzła z dwojgiem dzieci.", isCorrect: false },
+            { text: "Zamieniamy `x` z korzeniem całego drzewa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 587,
+        category: "Pseudokod: AVL wstawianie",
+        text: "Jak zbudowana jest metoda `put()` z wykładu wstawiająca do drzewa AVL?",
+        options: [
+            { text: "Standardowe wstawianie jak w BST, zakończone wywołaniem `balance(x)` na powrocie z rekurencji.", isCorrect: true },
+            { text: "Wstawianie wyłącznie na dno drzewa bez rebalansowania.", isCorrect: false },
+            { text: "Wstawianie z natychmiastową rotacją przed porównaniem kluczy.", isCorrect: false },
+            { text: "Iteracyjne wstawianie z użyciem stosu pomocniczego.", isCorrect: false }
+        ]
+    },
+    {
+        id: 588,
+        category: "Pseudokod: AVL balanceFactor",
+        text: "Jak liczony jest `balanceFactor(x)` w kodzie z wykładu?",
+        options: [
+            { text: "`height(x.left) - height(x.right)`", isCorrect: true },
+            { text: "`height(x.left) + height(x.right)`", isCorrect: false },
+            { text: "`max(height(x.left), height(x.right))`", isCorrect: false },
+            { text: "`height(x.right) - height(x.left)`", isCorrect: false }
+        ]
+    },
+    {
+        id: 589,
+        category: "Pseudokod: AVL rotacje",
+        text: "W metodzie `balance(x)` z wykładu, jaki warunek wywołuje rotację w prawo na `x`?",
+        options: [
+            { text: "`balanceFactor(x) < -1`", isCorrect: true },
+            { text: "`balanceFactor(x) > 1`", isCorrect: false },
+            { text: "`balanceFactor(x) == 0`", isCorrect: false },
+            { text: "`height(x) > 1`", isCorrect: false }
+        ]
+    },
+    {
+        id: 590,
+        category: "Pseudokod: AVL rotateLeft",
+        text: "W `rotateLeft(x)` z wykładu, co dokładnie dzieje się z węzłem `y = x.right` i jego lewym poddrzewem?",
+        options: [
+            { text: "`y` staje się nowym korzeniem, a `y.left` zostaje podpięte jako `x.right`.", isCorrect: true },
+            { text: "`y` staje się liściem, a `x` przejmuje jego miejsce jako korzeń.", isCorrect: false },
+            { text: "`y.left` jest usuwane z drzewa.", isCorrect: false },
+            { text: "Rotacja nie zmienia relacji `y` względem `x`.", isCorrect: false }
+        ]
+    },
+    {
+        id: 591,
+        category: "Pseudokod: AVL usuwanie",
+        text: "Jak zbudowana jest metoda `delete()` z wykładu dla drzewa AVL?",
+        options: [
+            { text: "Usuwanie jak w zwykłym BST, zakończone wywołaniem `balance(x)` przy powrocie z rekurencji.", isCorrect: true },
+            { text: "Usuwanie wyłącznie liści — węzły wewnętrzne nie mogą być usuwane.", isCorrect: false },
+            { text: "Zamiana drzewa na tablicę i ponowna budowa.", isCorrect: false },
+            { text: "Usuwanie bez żadnego rebalansowania.", isCorrect: false }
+        ]
+    },
+    {
+        id: 592,
+        category: "Pseudokod: RB rbInsert",
+        text: "Jaki jest pierwszy krok w `rbInsert(x)` z wykładu, zaraz po standardowym `treeInsert(x)`?",
+        options: [
+            { text: "Nowy węzeł `x` otrzymuje kolor czerwony (`x->color = RED`).", isCorrect: true },
+            { text: "Wykonywana jest natychmiastowa rotacja.", isCorrect: false },
+            { text: "Węzeł `x` otrzymuje kolor czarny.", isCorrect: false },
+            { text: "Cała ścieżka do korzenia jest przemalowywana.", isCorrect: false }
+        ]
+    },
+    {
+        id: 593,
+        category: "Pseudokod: RB rbInsert",
+        text: "Jaki warunek uruchamia pętlę naprawczą `while` w `rbInsert(x)`?",
+        options: [
+            { text: "`x != root` oraz `x->p->color == RED` (rodzic wstawionego węzła jest czerwony).", isCorrect: true },
+            { text: "`x` jest liściem NIL.", isCorrect: false },
+            { text: "Dziadek `x` jest czerwony.", isCorrect: false },
+            { text: "Zawsze, niezależnie od kolorów.", isCorrect: false }
+        ]
+    },
+    {
+        id: 594,
+        category: "Pseudokod: Skip Lists",
+        text: "W `Search(list, searchKey)` z wykładu, jak przebiega główna pętla po poziomach?",
+        options: [
+            { text: "`for i = list.level downto 1` — schodzimy z najwyższego poziomu w dół.", isCorrect: true },
+            { text: "`for i = 1 to list.level` — wspinamy się od najniższego poziomu w górę.", isCorrect: false },
+            { text: "Poziom jest losowany na starcie wyszukiwania.", isCorrect: false },
+            { text: "Przeszukiwany jest tylko poziom najniższy.", isCorrect: false }
+        ]
+    },
+    {
+        id: 595,
+        category: "Pseudokod: Skip Lists",
+        text: "Do czego służy tablica `update[1..MaxLevel]` w procedurze `Insert` skip listy?",
+        options: [
+            { text: "Przechowuje na każdym poziomie ostatni węzeł przed miejscem wstawienia, by zaktualizować jego wskaźniki `forward`.", isCorrect: true },
+            { text: "Przechowuje historię losowań poziomów wszystkich węzłów.", isCorrect: false },
+            { text: "Buforuje usunięte elementy przed zwolnieniem pamięci.", isCorrect: false },
+            { text: "Zlicza liczbę odwiedzin każdego poziomu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 596,
+        category: "Pseudokod: Hash-Insert",
+        text: "Jaki warunek kończy pętlę `do...while` w `HASH-INSERT(T, k)` przy adresowaniu otwartym?",
+        options: [
+            { text: "`T[j] == NIL` (znaleziono wolne miejsce) lub `i == m` (przeszukano całą tablicę).", isCorrect: true },
+            { text: "`j == 0`", isCorrect: false },
+            { text: "`T[j] == k`", isCorrect: false },
+            { text: "Pętla nigdy się nie kończy.", isCorrect: false }
+        ]
+    },
+    {
+        id: 597,
+        category: "Pseudokod: Hash-Search",
+        text: "Jak wygląda pętla przeszukująca w `HASH-SEARCH(T, k)` przy adresowaniu otwartym?",
+        options: [
+            { text: "Iteruje po kolejnych próbach `j = h(k,i)`, aż znajdzie `T[j]=k` lub natrafi na `T[j]=NIL`, lub `i=m`.", isCorrect: true },
+            { text: "Przeszukuje całą tablicę liniowo od indeksu 0.", isCorrect: false },
+            { text: "Zawsze zwraca pierwszy niepusty slot.", isCorrect: false },
+            { text: "Wywołuje rekurencyjnie samą siebie dla każdej kolizji.", isCorrect: false }
+        ]
+    },
+    {
+        id: 598,
+        category: "Pseudokod: MINIMUM",
+        text: "Jaka jest złożoność iteracyjnej procedury `MINIMUM(A)` z wykładu i dlaczego uznaje się ją za optymalną?",
+        options: [
+            { text: "$O(n-1)$ porównań — to optymalny czas, bo trzeba porównać każdy element poza pierwszym.", isCorrect: true },
+            { text: "$O(\\log n)$ dzięki użyciu `Partition`.", isCorrect: false },
+            { text: "$O(1)$, jeśli tablica jest posortowana.", isCorrect: false },
+            { text: "$O(n \\log n)$, bo wymaga wstępnego sortowania.", isCorrect: false }
+        ]
+    },
+    {
+        id: 599,
+        category: "Pseudokod: OS-Select",
+        text: "Na jakiej podstawie `OS-Select(x, i)` decyduje, że zwraca właśnie węzeł `x`?",
+        options: [
+            { text: "Gdy ranga węzła `r = x->left->size + 1` jest równa szukanemu `i`.", isCorrect: true },
+            { text: "Gdy `x` jest liściem.", isCorrect: false },
+            { text: "Gdy `i` jest większe niż `r`.", isCorrect: false },
+            { text: "Gdy `x->left` jest puste.", isCorrect: false }
+        ]
+    },
+    {
+        id: 600,
+        category: "Pseudokod: OS-Select",
+        text: "Co robi `OS-Select(x, i)`, gdy `i < r`?",
+        options: [
+            { text: "Rekurencyjnie wywołuje `OS-Select(x->left, i)`.", isCorrect: true },
+            { text: "Rekurencyjnie wywołuje `OS-Select(x->right, i-r)`.", isCorrect: false },
+            { text: "Zwraca `x` natychmiast.", isCorrect: false },
+            { text: "Zgłasza błąd zakresu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 601,
+        category: "Pseudokod: BFS",
+        text: "Jaka jest kolejność kroków w `BFS(G, s)` z wykładu tuż po zdjęciu wierzchołka `u` z kolejki `Q`?",
+        options: [
+            { text: "Dla każdego sąsiada `v`: jeśli biały, koloruje na szary, ustawia `d`, `p` i wstawia do kolejki, a na końcu `u` staje się czarny.", isCorrect: true },
+            { text: "`u` jest od razu usuwany z grafu.", isCorrect: false },
+            { text: "Wywoływana jest relaksacja krawędzi jak w Dijkstrze.", isCorrect: false },
+            { text: "Sąsiedzi `u` są sortowane wg wagi.", isCorrect: false }
+        ]
+    },
+    {
+        id: 602,
+        category: "Pseudokod: DFS",
+        text: "Co robi `DFS(G)` przed uruchomieniem `DFS_Visit` dla każdego białego wierzchołka?",
+        options: [
+            { text: "Inicjalizuje wszystkie wierzchołki na kolor biały i zeruje globalny licznik czasu.", isCorrect: true },
+            { text: "Sortuje wierzchołki wg stopnia.", isCorrect: false },
+            { text: "Buduje kolejkę priorytetową.", isCorrect: false },
+            { text: "Oblicza macierz sąsiedztwa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 603,
+        category: "Pseudokod: DFS_Visit",
+        text: "Jakie dwa znaczniki czasowe ustawia `DFS_Visit(u)` — na starcie i na końcu procedury?",
+        options: [
+            { text: "`u->d = time` na starcie (po pokolorowaniu na żółto/szaro) i `u->f = time` na końcu (po pokolorowaniu na czarno).", isCorrect: true },
+            { text: "Tylko `u->f`, `u->d` nie jest używane.", isCorrect: false },
+            { text: "`u->key` i `u->parent`.", isCorrect: false },
+            { text: "Czas nie jest w ogóle zapisywany w tej wersji pseudokodu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 604,
+        category: "Pseudokod: MST-Prim",
+        text: "Jakie wartości `key[v]` są ustawiane na starcie `MST-Prim(G,w,r)` dla wszystkich wierzchołków oprócz korzenia `r`?",
+        options: [
+            { text: "$\\infty$", isCorrect: true },
+            { text: "$0$", isCorrect: false },
+            { text: "$-1$", isCorrect: false },
+            { text: "Waga najbliższej krawędzi wychodzącej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 605,
+        category: "Pseudokod: MST-Prim",
+        text: "Co robi pętla wewnętrzna `MST-Prim` dla każdego sąsiada `v` wyciągniętego wierzchołka `u`?",
+        options: [
+            { text: "Jeśli `v` jest w `Q` i `w(u,v) < key[v]`, aktualizuje `p[v]=u` oraz `key[v]=w(u,v)`.", isCorrect: true },
+            { text: "Zawsze dodaje krawędź `(u,v)` do drzewa MST.", isCorrect: false },
+            { text: "Usuwa `v` z grafu.", isCorrect: false },
+            { text: "Sortuje sąsiadów rosnąco wg wagi.", isCorrect: false }
+        ]
+    },
+    {
+        id: 606,
+        category: "Pseudokod: Kruskal",
+        text: "Jaka jest kolejność kroków w `Kruskal()` z wykładu?",
+        options: [
+            { text: "`MakeSet` dla każdego wierzchołka → posortowanie krawędzi rosnąco → dla każdej krawędzi sprawdzenie `FindSet(u)≠FindSet(v)` i `Union`.", isCorrect: true },
+            { text: "Sortowanie wierzchołków → BFS → dodanie wszystkich krawędzi.", isCorrect: false },
+            { text: "Budowa kolejki priorytetowej wierzchołków → relaksacja.", isCorrect: false },
+            { text: "Sortowanie krawędzi malejąco → usuwanie najdroższych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 607,
+        category: "Pseudokod: Relax",
+        text: "Jak zdefiniowana jest procedura `Relax(u,v,w)` z wykładu?",
+        options: [
+            { text: "`if d[v] > d[u]+w then d[v] = d[u]+w`", isCorrect: true },
+            { text: "`d[v] = min(d[u], d[v]) + w` zawsze.", isCorrect: false },
+            { text: "`if d[v] < d[u]+w then d[v] = d[u]+w`", isCorrect: false },
+            { text: "`d[v] = w(u,v)` bezwarunkowo.", isCorrect: false }
+        ]
+    },
+    {
+        id: 608,
+        category: "Pseudokod: Bellman-Ford",
+        text: "Co robi `BellmanFord()` po zakończeniu głównej pętli relaksacji ($|V|-1$ razy)?",
+        options: [
+            { text: "Dla każdej krawędzi sprawdza `d[v] > d[u]+w(u,v)` — jeśli prawda, zwraca „no solution” (ujemny cykl).", isCorrect: true },
+            { text: "Buduje drzewo MST z relaksowanych krawędzi.", isCorrect: false },
+            { text: "Sortuje wierzchołki topologicznie.", isCorrect: false },
+            { text: "Kończy działanie bez dodatkowej weryfikacji.", isCorrect: false }
+        ]
+    },
+    {
+        id: 609,
+        category: "Pseudokod: Dijkstra",
+        text: "Jaka jest kolejność operacji w głównej pętli `Dijkstra(G)` z wykładu?",
+        options: [
+            { text: "`ExtractMin(Q)` → dodanie `u` do `S` → relaksacja wszystkich krawędzi wychodzących z `u`.", isCorrect: true },
+            { text: "Relaksacja wszystkich krawędzi grafu → `ExtractMin`.", isCorrect: false },
+            { text: "Sortowanie wierzchołków wg `d[v]` → BFS.", isCorrect: false },
+            { text: "`Union` i `FindSet` na wierzchołkach.", isCorrect: false }
+        ]
+    },
+    {
+        id: 610,
+        category: "Pseudokod: Floyd-Warshall",
+        text: "Jak zdefiniowana jest rekurencja w potrójnej pętli `FLOYD_WARSHALL(W)`?",
+        options: [
+            { text: "`D_k[i][j] = min(D_k[i][j], D_k[i][k] + D_k[k][j])`", isCorrect: true },
+            { text: "`D_k[i][j] = D_k[i][k] * D_k[k][j]`", isCorrect: false },
+            { text: "`D_k[i][j] = max(D_k[i][j], W[i][j])`", isCorrect: false },
+            { text: "`D_k[i][j] = D_{k-1}[i][j] + 1`", isCorrect: false }
+        ]
+    },
+    {
+        id: 611,
+        category: "Pseudokod: Floyd-Warshall",
+        text: "Co reprezentuje ciąg macierzy $D_0, D_1, ..., D_k$ generowany przez Floyda-Warshalla?",
+        options: [
+            { text: "Zbieżny ciąg macierzy dążący do macierzy najkrótszych ścieżek.", isCorrect: true },
+            { text: "Kolejne kroki sortowania topologicznego.", isCorrect: false },
+            { text: "Macierze przepływów residualnych.", isCorrect: false },
+            { text: "Historię rotacji drzewa AVL.", isCorrect: false }
+        ]
+    },
+    {
+        id: 612,
+        category: "Pseudokod: Ford-Fulkerson",
+        text: "Jak obliczana jest przepustowość ścieżki `c_f(p)` w `FORD-FULKERSON(G,s,t)`?",
+        options: [
+            { text: "Jako minimum przepustowości residualnych wszystkich krawędzi na ścieżce `p`.", isCorrect: true },
+            { text: "Jako suma przepustowości wszystkich krawędzi na ścieżce.", isCorrect: false },
+            { text: "Jako przepustowość pierwszej krawędzi wychodzącej ze źródła.", isCorrect: false },
+            { text: "Jako średnia arytmetyczna przepustowości krawędzi.", isCorrect: false }
+        ]
+    },
+    {
+        id: 613,
+        category: "Pseudokod: Ford-Fulkerson",
+        text: "Co oznacza \"warunek skośnej symetrii\" `f[v,u] = -f[u,v]` z pseudokodu Forda-Fulkersona?",
+        options: [
+            { text: "Przepływ na krawędzi powrotnej jest zanegowaną wartością przepływu na krawędzi w przód.", isCorrect: true },
+            { text: "Przepustowości obu kierunków muszą być sobie równe.", isCorrect: false },
+            { text: "Waga krawędzi musi być zawsze ujemna.", isCorrect: false },
+            { text: "Dotyczy wyłącznie krawędzi wychodzących ze źródła.", isCorrect: false }
+        ]
+    },
+    {
+        id: 614,
+        category: "Pseudokod: Rabin-Karp",
+        text: "W `Rabin-Karp-Matcher` z wykładu, co dzieje się gdy `p == t_s` (hashe się zgadzają)?",
+        options: [
+            { text: "Wykonywane jest dokładne porównanie `P[1..m] = T[s+1..s+m]`, by potwierdzić trafienie i uniknąć fałszywego dopasowania.", isCorrect: true },
+            { text: "Od razu drukowany jest indeks jako pewne trafienie.", isCorrect: false },
+            { text: "Zmieniana jest wartość modułu `q`.", isCorrect: false },
+            { text: "Algorytm kończy działanie.", isCorrect: false }
+        ]
+    },
+    {
+        id: 615,
+        category: "Pseudokod: Rabin-Karp",
+        text: "Jak wyliczana jest kolejna suma kontrolna `t_{s+1}` z aktualnej `t_s` w Rabinie-Karpie?",
+        options: [
+            { text: "Odejmuje się wpływ znaku wypadającego z okna (`h = d^{m-1} mod q`), a dodaje nowy znak — wszystko modulo `q`.", isCorrect: true },
+            { text: "Cały skrót jest liczony od nowa dla każdego przesunięcia.", isCorrect: false },
+            { text: "Wykonywana jest operacja bitowego przesunięcia (shift).", isCorrect: false },
+            { text: "`t_{s+1}` jest zawsze równe `t_s`.", isCorrect: false }
+        ]
+    },
+    {
+        id: 616,
+        category: "Pseudokod: KMP",
+        text: "Jak reaguje `KMP-Matcher` na niedopasowanie znaku podczas głównej pętli dopasowującej?",
+        options: [
+            { text: "Cofa wskaźnik zgodności do `q = π[q]`, bez cofania wskaźnika w tekście.", isCorrect: true },
+            { text: "Cofa się do początku wzorca i zaczyna od nowa.", isCorrect: false },
+            { text: "Przesuwa okno tekstu o długość wzorca `m`.", isCorrect: false },
+            { text: "Oblicza nowy hash tekstu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 617,
+        category: "Pseudokod: KMP – Compute-Prefix-Function",
+        text: "Jaka jest złożoność `Compute-Prefix-Function(P)` i dlaczego, mimo pętli `while` wewnątrz `for`?",
+        options: [
+            { text: "$\\Theta(m)$ — z analizy zamortyzowanej: `k` rośnie łącznie o co najwyżej `m` w całej pętli `for`.", isCorrect: true },
+            { text: "$\\Theta(m^2)$ — pętla `while` w każdym kroku sprawdza cały dotychczasowy wzorzec od zera.", isCorrect: false },
+            { text: "$\\Theta(m \\log m)$ — z powodu użycia struktury kopca.", isCorrect: false },
+            { text: "$\\Theta(|\\Sigma| \\cdot m)$ — sprawdza cały alfabet dla każdej litery.", isCorrect: false }
+        ]
+    },
+    {
+        id: 618,
+        category: "Pseudokod: Boyer-Moore",
+        text: "Z jakich dwóch przesunięć (heurystyk) korzysta `Boyer-Moore-Matcher` z wykładu przy wyborze skoku?",
+        options: [
+            { text: "Wybiera większe z przesunięć: „bo zły znak” oraz „dobry sufiks”.", isCorrect: true },
+            { text: "Zawsze przesuwa się o jedną pozycję jak w algorytmie naiwnym.", isCorrect: false },
+            { text: "Korzysta wyłącznie z tablicy prefiksowej `π`.", isCorrect: false },
+            { text: "Korzysta z rolling hash jak Rabin-Karp.", isCorrect: false }
+        ]
+    },
+    {
+        id: 619,
+        category: "Pseudokod: Huffman",
+        text: "Ile razy wykonuje się główna pętla `for` w `HUFFMAN(C)` dla alfabetu o $n$ symbolach?",
+        options: [
+            { text: "$n-1$ razy.", isCorrect: true },
+            { text: "$n$ razy.", isCorrect: false },
+            { text: "$\\log_2 n$ razy.", isCorrect: false },
+            { text: "$2n$ razy.", isCorrect: false }
+        ]
+    },
+    {
+        id: 620,
+        category: "Pseudokod: Huffman",
+        text: "Co dzieje się w każdej iteracji pętli `HUFFMAN(C)` z nowym węzłem `z`?",
+        options: [
+            { text: "Pobiera dwa najrzadsze węzły z kolejki, tworzy z nich `z` o wadze `f[z]=f[left]+f[right]` i wstawia `z` z powrotem do kolejki.", isCorrect: true },
+            { text: "Usuwa najczęstszy węzeł z kolejki i dzieli go na dwa.", isCorrect: false },
+            { text: "Sortuje cały alfabet malejąco wg częstości.", isCorrect: false },
+            { text: "Tworzy bezpośrednio kod binarny bez budowy drzewa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 621,
+        category: "Sylabus: podstawy",
+        text: "Który wariant Partition (Lomuto czy Hoare) gwarantuje, że pivot trafia na swoją ostateczną, posortowaną pozycję?",
+        options: [
+            { text: "Lomuto.", isCorrect: true },
+            { text: "Hoare.", isCorrect: false },
+            { text: "Oba jednakowo.", isCorrect: false },
+            { text: "Żaden z nich.", isCorrect: false }
+        ]
+    },
+    {
+        id: 622,
+        category: "Sylabus: sortowanie",
+        text: "Który z poniższych algorytmów sortowania NIE opiera się na porównaniach elementów?",
+        options: [
+            { text: "Counting Sort.", isCorrect: true },
+            { text: "Quicksort.", isCorrect: false },
+            { text: "Merge Sort.", isCorrect: false },
+            { text: "Heapsort.", isCorrect: false }
+        ]
+    },
+    {
+        id: 623,
+        category: "Sylabus: kopce",
+        text: "Czy kopiec binarny (Max-Heap) jest przykładem drzewa BST?",
+        options: [
+            { text: "Nie — kopiec nie spełnia własności BST (porządku lewo/prawo), tylko własność rodzic-dziecko.", isCorrect: true },
+            { text: "Tak, kopiec to szczególny przypadek BST.", isCorrect: false },
+            { text: "Tak, ale tylko Min-Heap.", isCorrect: false },
+            { text: "To zależy od implementacji tablicowej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 624,
+        category: "Sylabus: drzewa",
+        text: "Które drzewo gwarantuje ściślejsze (mniejsze) ograniczenie wysokości: AVL czy czerwono-czarne?",
+        options: [
+            { text: "AVL — jest bardziej rygorystycznie zbalansowane.", isCorrect: true },
+            { text: "Czerwono-czarne.", isCorrect: false },
+            { text: "Oba mają identyczne ograniczenie wysokości.", isCorrect: false },
+            { text: "Żadne nie gwarantuje $O(\\log n)$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 625,
+        category: "Sylabus: haszowanie",
+        text: "Która metoda rozwiązywania kolizji nie wymaga dodatkowej pamięci poza samą tablicą?",
+        options: [
+            { text: "Adresowanie otwarte.", isCorrect: true },
+            { text: "Metoda łańcuchowa.", isCorrect: false },
+            { text: "Obie wymagają dodatkowej pamięci w tym samym stopniu.", isCorrect: false },
+            { text: "Żadna z nich.", isCorrect: false }
+        ]
+    },
+    {
+        id: 626,
+        category: "Sylabus: grafy",
+        text: "Który algorytm wyznaczania MST działa lepiej dla grafów gęstych: Prim czy Kruskal?",
+        options: [
+            { text: "Prim (z odpowiednią implementacją kolejki priorytetowej).", isCorrect: true },
+            { text: "Kruskal.", isCorrect: false },
+            { text: "Oba mają identyczną złożoność niezależnie od gęstości.", isCorrect: false },
+            { text: "Żaden nie nadaje się do grafów gęstych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 627,
+        category: "Sylabus: grafy",
+        text: "Czy algorytm Dijkstry zadziała poprawnie na grafie z pojedynczą ujemną krawędzią, jeśli reszta wag jest dodatnia?",
+        options: [
+            { text: "Nie — obecność nawet jednej ujemnej wagi może dać błędny wynik.", isCorrect: true },
+            { text: "Tak, dopóki nie ma ujemnych cykli.", isCorrect: false },
+            { text: "Tak, jeśli graf jest acykliczny.", isCorrect: false },
+            { text: "Tak, jeśli źródło nie sąsiaduje z tą krawędzią.", isCorrect: false }
+        ]
+    },
+    {
+        id: 628,
+        category: "Sylabus: sieci przepływowe",
+        text: "Co jest wymagane, aby algorytm Forda-Fulkersona się zatrzymał (przy wagach całkowitoliczbowych)?",
+        options: [
+            { text: "Brak ścieżki powiększającej w sieci residualnej.", isCorrect: true },
+            { text: "Osiągnięcie z góry ustalonej liczby iteracji.", isCorrect: false },
+            { text: "Wyzerowanie wszystkich przepustowości.", isCorrect: false },
+            { text: "Znalezienie cyklu w sieci residualnej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 629,
+        category: "Sylabus: tekstowe",
+        text: "Który z algorytmów wyszukiwania wzorca wymaga wstępnego przetworzenia (preprocessing) samego wzorca?",
+        options: [
+            { text: "KMP.", isCorrect: true },
+            { text: "Algorytm naiwny.", isCorrect: false },
+            { text: "Żaden z wymienionych.", isCorrect: false },
+            { text: "Tylko wyszukiwanie binarne w tekście.", isCorrect: false }
+        ]
+    },
+    {
+        id: 630,
+        category: "Sylabus: kompresja",
+        text: "Czy kod Huffmana jest kodem o stałej czy zmiennej długości?",
+        options: [
+            { text: "Zmiennej długości — częstsze symbole dostają krótsze kody.", isCorrect: true },
+            { text: "Stałej długości — wszystkie symbole mają tyle samo bitów.", isCorrect: false },
+            { text: "Zależy od rozmiaru alfabetu.", isCorrect: false },
+            { text: "Zawsze dokładnie 8 bitów na symbol.", isCorrect: false }
+        ]
+    },
+
+    // === START OF ORIGINAL ID 1-131 (Now 869-999) ===
+    {
+        id: 631,
+        category: "Złożoność obliczeniowa",
+        text: "Co oznacza notacja $O(g(n))$?",
+        options: [
+            { text: "Asymptotyczne ograniczenie górne (pesymistyczny czas działania).", isCorrect: true },
+            { text: "Asymptotyczne ograniczenie dolne.", isCorrect: false },
+            { text: "Dokładny, średni czas działania algorytmu.", isCorrect: false },
+            { text: "Złożoność pamięciową algorytmu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 632,
+        category: "Złożoność obliczeniowa",
+        text: "Co oznacza notacja $\\Omega(g(n))$?",
+        options: [
+            { text: "Asymptotyczne ograniczenie dolne (optymistyczny czas działania).", isCorrect: true },
+            { text: "Asymptotyczne ograniczenie górne.", isCorrect: false },
+            { text: "Złożoność pamięciową.", isCorrect: false },
+            { text: "Zawsze czas stały.", isCorrect: false }
+        ]
+    },
+    {
+        id: 633,
+        category: "Złożoność obliczeniowa",
+        text: "Która z podanych złożoności rośnie najwolniej?",
+        options: [
+            { text: "$O(\\log n)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(n^2)$", isCorrect: false },
+            { text: "$O(2^n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 634,
+        category: "Złożoność obliczeniowa",
+        text: "Jak poprawnie uporządkować rosnąco złożoności $n\\log n,\\ n^2,\\ n^3,\\ 2^n$?",
+        options: [
+            { text: "$n\\log n \\le n^2 \\le n^3 \\le 2^n$", isCorrect: true },
+            { text: "$n\\log n \\le n^3 \\le n^2 \\le 2^n$", isCorrect: false },
+            { text: "$2^n \\le n^3 \\le n^2 \\le n\\log n$", isCorrect: false },
+            { text: "$n^2 \\le n\\log n \\le n^3 \\le 2^n$", isCorrect: false }
+        ]
+    },
+    {
+        id: 635,
+        category: "Analiza rekurencji",
+        text: "Jakie jest rozwiązanie $T(n) = 2T(n/2) + n$ według twierdzenia o rekurencji uniwersalnej?",
+        options: [
+            { text: "$\\Theta(n \\log n)$", isCorrect: true },
+            { text: "$\\Theta(n^2)$", isCorrect: false },
+            { text: "$\\Theta(n)$", isCorrect: false },
+            { text: "$\\Theta(\\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 636,
+        category: "Analiza rekurencji",
+        text: "Dla równania $T(n)=aT(n/b)+f(n)$, jakie warunki muszą spełniać stałe $a$ i $b$, by stosować Master Theorem?",
+        options: [
+            { text: "$a \\ge 1$", isCorrect: true },
+            { text: "$b > 1$", isCorrect: true },
+            { text: "$a = 0$", isCorrect: false },
+            { text: "$b < 1$", isCorrect: false }
+        ]
+    },
+    {
+        id: 637,
+        category: "Analiza zamortyzowana",
+        text: "Co dokładnie bada analiza zamortyzowana?",
+        options: [
+            { text: "Średni koszt operacji w najgorszym (pesymistycznym) ciągu operacji.", isCorrect: true },
+            { text: "Oczekiwany czas dla losowych danych wejściowych.", isCorrect: false },
+            { text: "Czas najdroższej pojedynczej operacji w programie.", isCorrect: false },
+            { text: "Złożoność pamięciową algorytmu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 638,
+        category: "Analiza zamortyzowana",
+        text: "Jaki jest zamortyzowany koszt wstawienia elementu na koniec tablicy dynamicznej, która podwaja swój rozmiar po zapełnieniu?",
+        options: [
+            { text: "$O(1)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n \\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 639,
+        category: "Analiza zamortyzowana",
+        text: "Które z poniższych są technikami analizy zamortyzowanej?",
+        options: [
+            { text: "Metoda kosztu sumarycznego (aggregate method).", isCorrect: true },
+            { text: "Metoda księgowania (accounting method).", isCorrect: true },
+            { text: "Metoda potencjału (potential method).", isCorrect: true },
+            { text: "Metoda Monte Carlo.", isCorrect: false }
+        ]
+    },
+    {
+        id: 640,
+        category: "Wstęp do algorytmiki",
+        text: "Co to jest algorytm?",
+        options: [
+            { text: "Skończony ciąg jasno zdefiniowanych czynności prowadzących do rozwiązania problemu.", isCorrect: true },
+            { text: "Dowolny program napisany w języku wysokiego poziomu.", isCorrect: false },
+            { text: "Struktura danych przechowująca wynik obliczeń.", isCorrect: false },
+            { text: "Zbiór testów jednostkowych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 641,
+        category: "Sortowanie: Insertion Sort",
+        text: "Jaka jest złożoność sortowania przez wstawianie w najgorszym przypadku?",
+        options: [
+            { text: "$O(n^2)$", isCorrect: true },
+            { text: "$O(n \\log n)$", isCorrect: false },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(1)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 642,
+        category: "Sortowanie: Insertion Sort",
+        text: "Kiedy Insertion Sort osiąga swój najlepszy czas $O(n)$?",
+        options: [
+            { text: "Gdy tablica wejściowa jest już posortowana rosnąco.", isCorrect: true },
+            { text: "Gdy tablica jest posortowana malejąco.", isCorrect: false },
+            { text: "Gdy dane są w pełni losowe.", isCorrect: false },
+            { text: "Nigdy — najlepszy przypadek to zawsze $O(n^2)$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 643,
+        category: "Sortowanie: Merge Sort",
+        text: "Jaka jest złożoność czasowa Merge Sort niezależnie od danych wejściowych?",
+        options: [
+            { text: "$\\Theta(n \\log n)$", isCorrect: true },
+            { text: "$\\Theta(n)$", isCorrect: false },
+            { text: "$\\Theta(n^2)$", isCorrect: false },
+            { text: "Zależna od danych: od $O(n)$ do $O(n^2)$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 644,
+        category: "Sortowanie: Merge Sort",
+        text: "Jaka jest złożoność pamięciowa Merge Sort?",
+        options: [
+            { text: "$O(n)$ — potrzebne są tablice pomocnicze przy scalaniu.", isCorrect: true },
+            { text: "$O(1)$ — sortuje w miejscu.", isCorrect: false },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n^2)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 645,
+        category: "Sortowanie: Merge Sort",
+        text: "Czy Merge Sort jest algorytmem stabilnym?",
+        options: [
+            { text: "Tak.", isCorrect: true },
+            { text: "Nie.", isCorrect: false }
+        ]
+    },
+    {
+        id: 646,
+        category: "Sortowanie: Quicksort",
+        text: "Jaki jest pesymistyczny czas działania Quicksort i kiedy zwykle występuje?",
+        options: [
+            { text: "$O(n^2)$, np. gdy tablica jest już posortowana, a pivot to skrajny element.", isCorrect: true },
+            { text: "$O(n \\log n)$ dla każdego wejścia.", isCorrect: false },
+            { text: "$O(n)$ dla danych posortowanych.", isCorrect: false },
+            { text: "$O(n!)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 647,
+        category: "Sortowanie: Quicksort",
+        text: "Co zwraca procedura Partition w Quicksort?",
+        options: [
+            { text: "Indeks, względem którego tablica została podzielona.", isCorrect: true },
+            { text: "Wartość elementu osiowego (pivot).", isCorrect: false },
+            { text: "Rozmiar lewej podtablicy.", isCorrect: false },
+            { text: "Wskaźnik na nową tablicę pomocniczą.", isCorrect: false }
+        ]
+    },
+    {
+        id: 648,
+        category: "Sortowanie: Quicksort",
+        text: "Dlaczego zrandomizowany Quicksort (losowy wybór pivota) chroni przed złośliwymi danymi wejściowymi?",
+        options: [
+            { text: "Bo wymusza oczekiwany czas $O(n\\log n)$ niezależnie od układu danych wejściowych.", isCorrect: true },
+            { text: "Bo obniża pesymistyczny czas do $O(n\\log n)$.", isCorrect: false },
+            { text: "Bo gwarantuje idealny podział tablicy na połowy w każdym kroku.", isCorrect: false },
+            { text: "Bo eliminuje potrzebę rekurencji.", isCorrect: false }
+        ]
+    },
+    {
+        id: 649,
+        category: "Sortowanie: Heap Sort",
+        text: "Które zalety jednocześnie posiada Heapsort (w odróżnieniu od Quicksort i Merge Sort)?",
+        options: [
+            { text: "Gwarantowany czas $O(n\\log n)$ w najgorszym przypadku.", isCorrect: true },
+            { text: "Sortowanie w miejscu ($O(1)$ dodatkowej pamięci).", isCorrect: true },
+            { text: "Stabilność sortowania.", isCorrect: false },
+            { text: "Czas liniowy $O(n)$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 650,
+        category: "Sortowanie: Heap Sort",
+        text: "Czy Heapsort jest algorytmem stabilnym?",
+        options: [
+            { text: "Nie.", isCorrect: true },
+            { text: "Tak.", isCorrect: false }
+        ]
+    },
+    {
+        id: 651,
+        category: "Teoria sortowań",
+        text: "Jakie jest dolne ograniczenie złożoności dla algorytmów sortujących opartych na porównaniach?",
+        options: [
+            { text: "$\\Omega(n \\log n)$", isCorrect: true },
+            { text: "$\\Omega(n)$", isCorrect: false },
+            { text: "$\\Omega(n^2)$", isCorrect: false },
+            { text: "$\\Omega(1)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 652,
+        category: "Teoria sortowań",
+        text: "Dlaczego drzewo decyzyjne dla sortowania $n$ elementów przez porównania musi mieć co najmniej $n!$ liści?",
+        options: [
+            { text: "Bo istnieje $n!$ permutacji danych wejściowych, a algorytm musi umieć zwrócić każdą jako wynik.", isCorrect: true },
+            { text: "Bo każdy poziom drzewa generuje $n!$ nowych gałęzi.", isCorrect: false },
+            { text: "Bo tyle wynosi liczba możliwych pivotów w Quicksorcie.", isCorrect: false },
+            { text: "Bo tyle wynosi maksymalna wysokość kopca.", isCorrect: false }
+        ]
+    },
+    {
+        id: 653,
+        category: "Sortowanie liniowe: Counting Sort",
+        text: "Jaka jest złożoność Counting Sort dla $n$ elementów z zakresu $0..k$?",
+        options: [
+            { text: "$\\Theta(n+k)$", isCorrect: true },
+            { text: "$\\Theta(n \\log n)$", isCorrect: false },
+            { text: "$\\Theta(n^2)$", isCorrect: false },
+            { text: "$\\Theta(k \\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 654,
+        category: "Sortowanie liniowe: Counting Sort",
+        text: "Jaki warunek muszą spełniać dane wejściowe, aby zastosować Counting Sort?",
+        options: [
+            { text: "Muszą być liczbami całkowitymi z ustalonego, ograniczonego zakresu.", isCorrect: true },
+            { text: "Muszą pochodzić z rozkładu jednostajnego.", isCorrect: false },
+            { text: "Muszą być posortowane wstępnie.", isCorrect: false },
+            { text: "Muszą być liczbami zmiennoprzecinkowymi.", isCorrect: false }
+        ]
+    },
+    {
+        id: 655,
+        category: "Sortowanie liniowe: Radix Sort",
+        text: "Z jakiego stabilnego algorytmu pomocniczego zwykle korzysta Radix Sort?",
+        options: [
+            { text: "Counting Sort.", isCorrect: true },
+            { text: "Quicksort.", isCorrect: false },
+            { text: "Heapsort.", isCorrect: false },
+            { text: "Bubble Sort.", isCorrect: false }
+        ]
+    },
+    {
+        id: 656,
+        category: "Sortowanie liniowe: Radix Sort",
+        text: "W jakiej kolejności Radix Sort zwykle przetwarza cyfry liczb, by zagwarantować poprawność?",
+        options: [
+            { text: "Od najmniej znaczącej (LSB) do najbardziej znaczącej (MSB).", isCorrect: true },
+            { text: "Od najbardziej znaczącej do najmniej znaczącej.", isCorrect: false },
+            { text: "Losowo.", isCorrect: false },
+            { text: "Kolejność nie ma znaczenia.", isCorrect: false }
+        ]
+    },
+    {
+        id: 657,
+        category: "Sortowanie liniowe: Bucket Sort",
+        text: "Dla jakich danych Bucket Sort działa najlepiej, osiągając średni czas $O(n)$?",
+        options: [
+            { text: "Dla danych z rozkładu jednostajnego na przedziale $[0,1)$.", isCorrect: true },
+            { text: "Dla danych posortowanych malejąco.", isCorrect: false },
+            { text: "Dla dużych liczb całkowitych.", isCorrect: false },
+            { text: "Wyłącznie dla ciągów tekstowych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 658,
+        category: "Sortowanie liniowe: Bucket Sort",
+        text: "Jakim algorytmem domyślnie sortuje się zawartość pojedynczego kubełka w Bucket Sort?",
+        options: [
+            { text: "Sortowaniem przez wstawianie (Insertion Sort).", isCorrect: true },
+            { text: "Quicksortem.", isCorrect: false },
+            { text: "Heapsortem.", isCorrect: false },
+            { text: "Bubble Sortem.", isCorrect: false }
+        ]
+    },
+    {
+        id: 659,
+        category: "Struktury liniowe",
+        text: "Jaką strategię obsługi elementów realizuje Stos (Stack)?",
+        options: [
+            { text: "LIFO — Last In, First Out.", isCorrect: true },
+            { text: "FIFO — First In, First Out.", isCorrect: false },
+            { text: "Priorytetową wg wagi klucza.", isCorrect: false },
+            { text: "Losową.", isCorrect: false }
+        ]
+    },
+    {
+        id: 660,
+        category: "Struktury liniowe",
+        text: "Jaką strategię obsługi elementów realizuje Kolejka (Queue)?",
+        options: [
+            { text: "FIFO — First In, First Out.", isCorrect: true },
+            { text: "LIFO — Last In, First Out.", isCorrect: false },
+            { text: "Priorytetową wg wagi klucza.", isCorrect: false },
+            { text: "Losową.", isCorrect: false }
+        ]
+    },
+    {
+        id: 661,
+        category: "Struktury liniowe",
+        text: "Jaka jest złożoność operacji Push i Pop na prawidłowo zaimplementowanym stosie?",
+        options: [
+            { text: "$O(1)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n^2)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 662,
+        category: "Struktury liniowe",
+        text: "Jaka jest pesymistyczna złożoność wyszukiwania wartości w jednokierunkowej liście wiązanej?",
+        options: [
+            { text: "$O(n)$", isCorrect: true },
+            { text: "$O(1)$", isCorrect: false },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n \\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 663,
+        category: "Struktury liniowe",
+        text: "Czym różni się lista dwukierunkowa od jednokierunkowej?",
+        options: [
+            { text: "Każdy węzeł ma dodatkowo wskaźnik na element poprzedni.", isCorrect: true },
+            { text: "Nie używa wskaźników, tylko tablicy.", isCorrect: false },
+            { text: "Można ją odczytywać wyłącznie od końca.", isCorrect: false },
+            { text: "Nie posiada głowy listy.", isCorrect: false }
+        ]
+    },
+    {
+        id: 664,
+        category: "Kopce",
+        text: "Jaka jest podstawowa własność kopca typu Max dla węzła $i$ (poza korzeniem)?",
+        options: [
+            { text: "$A[Parent(i)] \\ge A[i]$", isCorrect: true },
+            { text: "$A[Parent(i)] \\le A[i]$", isCorrect: false },
+            { text: "$A[Left(i)] > A[Right(i)]$", isCorrect: false },
+            { text: "Wysokość lewego i prawego poddrzewa jest równa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 665,
+        category: "Kopce",
+        text: "Z jaką złożonością działa Build-Max-Heap dla $n$ elementów (metoda oddolna)?",
+        options: [
+            { text: "$O(n)$", isCorrect: true },
+            { text: "$O(n \\log n)$", isCorrect: false },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n^2)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 666,
+        category: "Kopce",
+        text: "Z jaką złożonością działa Max-Heapify?",
+        options: [
+            { text: "$O(\\log n)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(1)$", isCorrect: false },
+            { text: "$O(n \\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 667,
+        category: "Kopce",
+        text: "Ile czasu zajmuje odczytanie (bez usuwania) największej wartości z Max-Heap?",
+        options: [
+            { text: "$O(1)$", isCorrect: true },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(n \\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 668,
+        category: "Kopce",
+        text: "Jaki jest zamortyzowany koszt operacji Decrease-Key w kopcu Fibonacciego?",
+        options: [
+            { text: "$O(1)$", isCorrect: true },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(n\\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 669,
+        category: "Kopce",
+        text: "W tablicowej reprezentacji kopca (indeksowanie od 1), gdzie znajduje się lewe dziecko węzła $i$?",
+        options: [
+            { text: "Pod indeksem $2i$.", isCorrect: true },
+            { text: "Pod indeksem $2i+1$.", isCorrect: false },
+            { text: "Pod indeksem $i/2$.", isCorrect: false },
+            { text: "Pod indeksem $i+1$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 670,
+        category: "Drzewa BST",
+        text: "Jaka jest podstawowa własność Binarnego Drzewa Poszukiwań?",
+        options: [
+            { text: "Dla każdego węzła $x$: klucze lewego poddrzewa $\\le x$, klucze prawego poddrzewa $\\ge x$.", isCorrect: true },
+            { text: "Drzewo musi być zawsze idealnie zbalansowane.", isCorrect: false },
+            { text: "Węzły nie mogą mieć dwojga dzieci.", isCorrect: false },
+            { text: "Korzeń zawsze przechowuje minimum.", isCorrect: false }
+        ]
+    },
+    {
+        id: 671,
+        category: "Drzewa BST",
+        text: "W jakiej kolejności przegląd inorder odwiedza węzły w BST?",
+        options: [
+            { text: "W kolejności rosnącej wartości kluczy.", isCorrect: true },
+            { text: "Korzeń, lewe poddrzewo, prawe poddrzewo.", isCorrect: false },
+            { text: "Od liści w kierunku korzenia.", isCorrect: false },
+            { text: "Losowo.", isCorrect: false }
+        ]
+    },
+    {
+        id: 672,
+        category: "Drzewa BST",
+        text: "Jaka jest pesymistyczna wysokość BST zbudowanego z $n$ węzłów?",
+        options: [
+            { text: "$O(n)$ — może zdegenerować się do listy.", isCorrect: true },
+            { text: "$O(\\log n)$ zawsze.", isCorrect: false },
+            { text: "$O(1)$", isCorrect: false },
+            { text: "$O(n\\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 673,
+        category: "Drzewa BST",
+        text: "Kiedy dochodzi do degeneracji BST do postaci listy?",
+        options: [
+            { text: "Gdy elementy są wstawiane w kolejności już posortowanej.", isCorrect: true },
+            { text: "Gdy elementy są wstawiane w kolejności losowej.", isCorrect: false },
+            { text: "Nigdy — BST zawsze pozostaje zbalansowane.", isCorrect: false },
+            { text: "Tylko gdy liczba elementów jest parzysta.", isCorrect: false }
+        ]
+    },
+    {
+        id: 674,
+        category: "Drzewa AVL",
+        text: "Jaki jest główny niezmiennik drzewa AVL?",
+        options: [
+            { text: "Różnica wysokości lewego i prawego poddrzewa dla każdego węzła wynosi co najwyżej 1.", isCorrect: true },
+            { text: "Każdy węzeł ma dokładnie dwoje dzieci.", isCorrect: false },
+            { text: "Wysokość drzewa musi być dokładnie $\\log_2 n$.", isCorrect: false },
+            { text: "Korzeń zawsze ma współczynnik balansu równy 2.", isCorrect: false }
+        ]
+    },
+    {
+        id: 675,
+        category: "Drzewa AVL",
+        text: "Jakie wartości może przyjmować współczynnik balansu w poprawnym drzewie AVL?",
+        options: [
+            { text: "$-1$", isCorrect: true },
+            { text: "$0$", isCorrect: true },
+            { text: "$1$", isCorrect: true },
+            { text: "$2$", isCorrect: false }
+        ]
+    },
+    {
+        id: 676,
+        category: "Drzewa AVL",
+        text: "Z jaką złożonością wykonują się Search, Insert i Delete w drzewie AVL?",
+        options: [
+            { text: "Zawsze $\\Theta(\\log n)$.", isCorrect: true },
+            { text: "Zawsze $\\Theta(1)$.", isCorrect: false },
+            { text: "Średnio $\\Theta(\\log n)$, pesymistycznie $O(n)$.", isCorrect: false },
+            { text: "Zamortyzowanym $O(1)$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 677,
+        category: "Drzewa AVL",
+        text: "Jaka rotacja naprawia drzewo AVL, gdy zaburzenie balansu wystąpiło w lewym poddrzewie lewego dziecka (przypadek LL)?",
+        options: [
+            { text: "Pojedyncza rotacja w prawo.", isCorrect: true },
+            { text: "Pojedyncza rotacja w lewo.", isCorrect: false },
+            { text: "Podwójna rotacja Left-Right.", isCorrect: false },
+            { text: "Podwójna rotacja Right-Left.", isCorrect: false }
+        ]
+    },
+    {
+        id: 678,
+        category: "Drzewa Czerwono-Czarne",
+        text: "Jakiego koloru musi być korzeń oraz liście NIL w drzewie czerwono-czarnym?",
+        options: [
+            { text: "Czarnego.", isCorrect: true },
+            { text: "Czerwonego.", isCorrect: false },
+            { text: "Korzeń czerwony, liście czarne.", isCorrect: false },
+            { text: "Zależy od wysokości drzewa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 679,
+        category: "Drzewa Czerwono-Czarne",
+        text: "Jaka zasada dotyczy sąsiedztwa węzłów czerwonych w drzewie RB?",
+        options: [
+            { text: "Czerwony węzeł nie może mieć czerwonego rodzica ani czerwonego dziecka.", isCorrect: true },
+            { text: "Czerwony węzeł musi mieć zawsze dwoje czerwonych dzieci.", isCorrect: false },
+            { text: "Liczba czerwonych węzłów musi być parzysta.", isCorrect: false },
+            { text: "Nie ma żadnej takiej zasady.", isCorrect: false }
+        ]
+    },
+    {
+        id: 680,
+        category: "Drzewa Czerwono-Czarne",
+        text: "Jaki kolor otrzymuje nowo wstawiany węzeł w drzewie czerwono-czarnym?",
+        options: [
+            { text: "Czerwony.", isCorrect: true },
+            { text: "Czarny.", isCorrect: false },
+            { text: "Zależny od koloru rodzica.", isCorrect: false },
+            { text: "Losowy.", isCorrect: false }
+        ]
+    },
+    {
+        id: 681,
+        category: "Drzewa Czerwono-Czarne",
+        text: "Z jaką złożonością pesymistyczną działają wyszukiwanie, wstawianie i usuwanie w zbalansowanym drzewie RB?",
+        options: [
+            { text: "$O(\\log n)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(1)$", isCorrect: false },
+            { text: "$O(n\\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 682,
+        category: "Drzewa: porównanie",
+        text: "Dlaczego warto użyć drzewa AVL lub RB zamiast zwykłego BST?",
+        options: [
+            { text: "Bo gwarantują wysokość $O(\\log n)$ nawet dla posortowanych danych wejściowych.", isCorrect: true },
+            { text: "Bo zużywają mniej pamięci niż BST.", isCorrect: false },
+            { text: "Bo nie wymagają operacji porównania kluczy.", isCorrect: false },
+            { text: "Bo działają wyłącznie na liczbach całkowitych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 683,
+        category: "Tablice haszujące",
+        text: "Czym jest kolizja w tablicy mieszającej?",
+        options: [
+            { text: "Sytuacją, gdy dwa różne klucze hashują się do tego samego indeksu.", isCorrect: true },
+            { text: "Próbą usunięcia nieistniejącego elementu.", isCorrect: false },
+            { text: "Przekroczeniem maksymalnego rozmiaru tablicy.", isCorrect: false },
+            { text: "Zapętleniem się funkcji haszującej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 684,
+        category: "Tablice haszujące",
+        text: "Na czym polega metoda łańcuchowa (chaining) rozwiązywania kolizji?",
+        options: [
+            { text: "Elementy trafiające do tego samego slotu przechowywane są na liście wiązanej.", isCorrect: true },
+            { text: "Szuka się kolejnej wolnej komórki w tablicy.", isCorrect: false },
+            { text: "Nowy element zastępuje stary.", isCorrect: false },
+            { text: "Tablica jest natychmiast powiększana.", isCorrect: false }
+        ]
+    },
+    {
+        id: 685,
+        category: "Tablice haszujące",
+        text: "Czym jest adresowanie otwarte (open addressing)?",
+        options: [
+            { text: "Metodą rozwiązywania kolizji polegającą na szukaniu kolejnego wolnego miejsca w samej tablicy.", isCorrect: true },
+            { text: "Metodą przechowywania elementów w listach wiązanych poza tablicą.", isCorrect: false },
+            { text: "Sposobem alokacji tablicy w pamięci dynamicznej.", isCorrect: false },
+            { text: "Metodą szyfrowania kluczy.", isCorrect: false }
+        ]
+    },
+    {
+        id: 686,
+        category: "Tablice haszujące",
+        text: "Co to jest współczynnik wypełnienia (load factor) $\\alpha$ dla tablicy o rozmiarze $m$ z $n$ elementami?",
+        options: [
+            { text: "$\\alpha = n/m$", isCorrect: true },
+            { text: "$\\alpha = m/n$", isCorrect: false },
+            { text: "$\\alpha = n \\bmod m$", isCorrect: false },
+            { text: "$\\alpha = m-n$", isCorrect: false }
+        ]
+    },
+    {
+        id: 687,
+        category: "Tablice haszujące",
+        text: "Co to jest primary clustering (pierwotne grupowanie) przy sondowaniu liniowym?",
+        options: [
+            { text: "Zjawisko tworzenia się długich ciągów zajętych komórek, wydłużające średni czas wyszukiwania.", isCorrect: true },
+            { text: "Konieczność alokacji zewnętrznych list wiązanych.", isCorrect: false },
+            { text: "Niemożność usunięcia elementu z tablicy.", isCorrect: false },
+            { text: "Konieczność użycia dwóch funkcji haszujących.", isCorrect: false }
+        ]
+    },
+    {
+        id: 688,
+        category: "Tablice haszujące",
+        text: "Jaki jest średni czas wyszukiwania przy zastosowaniu doskonałej funkcji haszującej (perfect hashing)?",
+        options: [
+            { text: "$O(1)$ nawet w najgorszym przypadku.", isCorrect: true },
+            { text: "$O(\\log n)$ w najgorszym przypadku.", isCorrect: false },
+            { text: "Średnio $O(1)$, pesymistycznie $O(n)$.", isCorrect: false },
+            { text: "Zawsze $O(n)$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 689,
+        category: "Skip Lists",
+        text: "Jakie jest główne przeznaczenie List Przeskakiwania (Skip Lists)?",
+        options: [
+            { text: "Probabilistyczna alternatywa dla zbalansowanych drzew BST z oczekiwanym czasem $O(\\log n)$.", isCorrect: true },
+            { text: "Wyznaczanie cykli w grafach.", isCorrect: false },
+            { text: "Stabilne sortowanie w czasie liniowym.", isCorrect: false },
+            { text: "Rozwiązywanie kolizji w tablicach haszujących.", isCorrect: false }
+        ]
+    },
+    {
+        id: 690,
+        category: "Skip Lists",
+        text: "Skąd pochodzi wysokość (liczba wskaźników) nowo wstawianego węzła w Skip List?",
+        options: [
+            { text: "Jest losowana (np. rzutem monetą / funkcją pseudolosową).", isCorrect: true },
+            { text: "Jest zawsze równa maksymalnemu poziomowi listy.", isCorrect: false },
+            { text: "Zależy od wartości klucza.", isCorrect: false },
+            { text: "Jest pobierana z poziomu poprzedniego węzła.", isCorrect: false }
+        ]
+    },
+    {
+        id: 691,
+        category: "Statystyki pozycyjne",
+        text: "Czym jest $i$-ta statystyka pozycyjna zbioru $n$-elementowego?",
+        options: [
+            { text: "Elementem, który zająłby $i$-tą pozycję w posortowanym ciągu.", isCorrect: true },
+            { text: "Różnicą maksimum i minimum zbioru.", isCorrect: false },
+            { text: "Wartością najczęściej występującą w zbiorze.", isCorrect: false },
+            { text: "Sumą $i$ pierwszych elementów.", isCorrect: false }
+        ]
+    },
+    {
+        id: 692,
+        category: "Statystyki pozycyjne",
+        text: "Za pomocą jakiego algorytmu można znaleźć $i$-tą statystykę pozycyjną w oczekiwanym czasie liniowym?",
+        options: [
+            { text: "Randomized Select (Quickselect).", isCorrect: true },
+            { text: "Algorytmu Prima.", isCorrect: false },
+            { text: "Kopca binarnego z $i$-krotnym Extract-Min.", isCorrect: false },
+            { text: "Standardowego Merge Sorta.", isCorrect: false }
+        ]
+    },
+    {
+        id: 693,
+        category: "Statystyki pozycyjne",
+        text: "Jakiego algorytmu używa się do znalezienia statystyki pozycyjnej w gwarantowanym czasie liniowym $O(n)$ w najgorszym przypadku?",
+        options: [
+            { text: "Algorytmu \"Magicznych Piątek\" (median of medians).", isCorrect: true },
+            { text: "Randomized Select bez modyfikacji.", isCorrect: false },
+            { text: "Zwykłego Quicksorta.", isCorrect: false },
+            { text: "Heapsorta.", isCorrect: false }
+        ]
+    },
+    {
+        id: 694,
+        category: "Drzewa przedziałowe",
+        text: "Jaki dodatkowy atrybut przechowuje węzeł w drzewie przedziałowym (Interval Tree), by wyszukiwanie przecięć działało w $O(\\log n)$?",
+        options: [
+            { text: "`max` — maksymalny prawy koniec przedziału w poddrzewie.", isCorrect: true },
+            { text: "`size` — liczba elementów w poddrzewie.", isCorrect: false },
+            { text: "`color` — kolor jak w drzewie RB.", isCorrect: false },
+            { text: "Tablicę wszystkich pokrywających się przedziałów.", isCorrect: false }
+        ]
+    },
+    {
+        id: 695,
+        category: "Grafy: podstawy",
+        text: "Z jakich zbiorów zbudowany jest graf $G=(V,E)$?",
+        options: [
+            { text: "Ze zbioru wierzchołków $V$ i zbioru krawędzi $E$.", isCorrect: true },
+            { text: "Ze zbioru wektorów i macierzy.", isCorrect: false },
+            { text: "Ze zbioru liści i korzeni.", isCorrect: false },
+            { text: "Ze zbioru operacji i zmiennych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 696,
+        category: "Grafy: reprezentacja",
+        text: "Kiedy warto użyć macierzy sąsiedztwa zamiast listy sąsiedztwa?",
+        options: [
+            { text: "Dla grafów gęstych i gdy potrzebne jest szybkie ($O(1)$) sprawdzenie istnienia krawędzi.", isCorrect: true },
+            { text: "Dla grafów rzadkich, by oszczędzić pamięć.", isCorrect: false },
+            { text: "Zawsze — macierz sąsiedztwa jest lepsza w każdym przypadku.", isCorrect: false },
+            { text: "Tylko dla grafów nieskierowanych bez wag.", isCorrect: false }
+        ]
+    },
+    {
+        id: 697,
+        category: "Grafy: reprezentacja",
+        text: "Jaka jest złożoność pamięciowa listy sąsiedztwa dla grafu z $V$ wierzchołkami i $E$ krawędziami?",
+        options: [
+            { text: "$\\Theta(V+E)$", isCorrect: true },
+            { text: "$\\Theta(V^2)$", isCorrect: false },
+            { text: "$\\Theta(E^2)$", isCorrect: false },
+            { text: "$\\Theta(1)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 698,
+        category: "Grafy: BFS",
+        text: "Do czego służy algorytm BFS (przeszukiwanie wszerz)?",
+        options: [
+            { text: "Do znajdowania najkrótszych ścieżek (liczba krawędzi) od źródła w grafie nieważonym.", isCorrect: true },
+            { text: "Do sortowania topologicznego grafu DAG.", isCorrect: false },
+            { text: "Do znajdowania minimalnego drzewa rozpinającego.", isCorrect: false },
+            { text: "Do wykrywania cykli o ujemnej wadze.", isCorrect: false }
+        ]
+    },
+    {
+        id: 699,
+        category: "Grafy: BFS",
+        text: "Jaka struktura danych jest kluczowa w implementacji BFS?",
+        options: [
+            { text: "Kolejka (Queue, FIFO).", isCorrect: true },
+            { text: "Stos (Stack, LIFO).", isCorrect: false },
+            { text: "Kopiec Fibonacciego.", isCorrect: false },
+            { text: "Tablica haszująca.", isCorrect: false }
+        ]
+    },
+    {
+        id: 700,
+        category: "Grafy: BFS",
+        text: "Jaka jest złożoność BFS dla reprezentacji listą sąsiedztwa?",
+        options: [
+            { text: "$\\Theta(V+E)$", isCorrect: true },
+            { text: "$\\Theta(V^2)$", isCorrect: false },
+            { text: "$\\Theta(V \\log V)$", isCorrect: false },
+            { text: "$\\Theta(E \\log V)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 701,
+        category: "Grafy: DFS",
+        text: "Do czego wykorzystuje się algorytm DFS (przeszukiwanie w głąb)?",
+        options: [
+            { text: "Do sortowania topologicznego w grafach DAG.", isCorrect: true },
+            { text: "Do wykrywania cykli w grafie.", isCorrect: true },
+            { text: "Do znajdowania silnie spójnych składowych.", isCorrect: true },
+            { text: "Do znajdowania najkrótszej ścieżki w grafach ważonych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 702,
+        category: "Grafy: DFS",
+        text: "Jakie dwa znaczniki czasowe przypisuje DFS każdemu wierzchołkowi?",
+        options: [
+            { text: "Czas odkrycia $d[v]$ i czas zakończenia $f[v]$.", isCorrect: true },
+            { text: "Dystans od źródła i priorytet w kolejce.", isCorrect: false },
+            { text: "Stopień wejściowy i wyjściowy.", isCorrect: false },
+            { text: "Wagę krawędzi wchodzącej i wychodzącej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 703,
+        category: "Grafy: DFS",
+        text: "Jaka krawędź $(u,v)$ w DFS wskazuje na obecność cyklu w grafie skierowanym?",
+        options: [
+            { text: "Krawędź powrotna (back edge), gdy $v$ jest przodkiem $u$ i ma kolor szary.", isCorrect: true },
+            { text: "Krawędź w przód (forward edge).", isCorrect: false },
+            { text: "Krawędź poprzeczna (cross edge).", isCorrect: false },
+            { text: "Krawędź drzewowa (tree edge).", isCorrect: false }
+        ]
+    },
+    {
+        id: 704,
+        category: "Grafy: sortowanie topologiczne",
+        text: "Na jakim typie grafu można wykonać sortowanie topologiczne?",
+        options: [
+            { text: "Tylko na Skierowanym Grafie Acyklicznym (DAG).", isCorrect: true },
+            { text: "Na dowolnym grafie nieskierowanym.", isCorrect: false },
+            { text: "Tylko na grafie zawierającym cykle.", isCorrect: false },
+            { text: "Na dowolnym drzewie binarnym.", isCorrect: false }
+        ]
+    },
+    {
+        id: 705,
+        category: "Grafy: sortowanie topologiczne",
+        text: "Jak wyznacza się porządek topologiczny na podstawie DFS?",
+        options: [
+            { text: "Wierzchołki odkłada się na początek listy w momencie zakończenia ich przetwarzania (czas $f[v]$).", isCorrect: true },
+            { text: "Sortuje się je rosnąco po czasie odkrycia $d[v]$.", isCorrect: false },
+            { text: "Wybiera się wierzchołki o najmniejszym stopniu wejściowym metodą BFS.", isCorrect: false },
+            { text: "Sortuje się je według wag krawędzi wychodzących.", isCorrect: false }
+        ]
+    },
+    {
+        id: 706,
+        category: "Minimalne Drzewo Rozpinające",
+        text: "Czym jest Minimalne Drzewo Rozpinające (MST) dla spójnego grafu ważonego?",
+        options: [
+            { text: "Podzbiorem krawędzi bez cykli łączącym wszystkie wierzchołki o minimalnej sumie wag.", isCorrect: true },
+            { text: "Drzewem najkrótszych ścieżek od zadanego korzenia.", isCorrect: false },
+            { text: "Grafem po usunięciu wszystkich ujemnych krawędzi.", isCorrect: false },
+            { text: "Podgrafem zawierającym tylko jeden cykl.", isCorrect: false }
+        ]
+    },
+    {
+        id: 707,
+        category: "Minimalne Drzewo Rozpinające",
+        text: "Ile krawędzi zawiera drzewo rozpinające grafu o $V$ wierzchołkach?",
+        options: [
+            { text: "$V-1$", isCorrect: true },
+            { text: "$V$", isCorrect: false },
+            { text: "$V+1$", isCorrect: false },
+            { text: "$V(V-1)/2$", isCorrect: false }
+        ]
+    },
+    {
+        id: 708,
+        category: "MST: Algorytm Kruskala",
+        text: "Jak działa algorytm Kruskala?",
+        options: [
+            { text: "Sortuje krawędzie rosnąco wg wag i dodaje je zachłannie, o ile nie tworzą cyklu.", isCorrect: true },
+            { text: "Wybiera wierzchołek startowy i dołącza najtańsze krawędzie z niego wychodzące.", isCorrect: false },
+            { text: "Relaksuje wszystkie krawędzie tak jak Bellman-Ford.", isCorrect: false },
+            { text: "Szuka minimalnego przekroju w sieci przepływowej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 709,
+        category: "MST: Algorytm Kruskala",
+        text: "Jakiej struktury danych używa Kruskal do sprawdzania, czy dodanie krawędzi utworzy cykl?",
+        options: [
+            { text: "Struktury zbiorów rozłącznych (Union-Find).", isCorrect: true },
+            { text: "Kopca binarnego.", isCorrect: false },
+            { text: "Drzewa przedziałowego.", isCorrect: false },
+            { text: "Tablicy haszującej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 710,
+        category: "MST: Algorytm Prima",
+        text: "Jak działa algorytm Prima?",
+        options: [
+            { text: "Startuje z dowolnego wierzchołka i zachłannie dołącza najtańszą krawędź łączącą drzewo z nowym wierzchołkiem.", isCorrect: true },
+            { text: "Sortuje wszystkie krawędzie i dodaje je bez tworzenia cykli.", isCorrect: false },
+            { text: "Relaksuje krawędzie $|V|-1$ razy.", isCorrect: false },
+            { text: "Wymaga ujemnych wag krawędzi.", isCorrect: false }
+        ]
+    },
+    {
+        id: 711,
+        category: "MST: Algorytm Prima",
+        text: "Do jakiego algorytmu (strukturalnie) podobny jest algorytm Prima?",
+        options: [
+            { text: "Do algorytmu Dijkstry.", isCorrect: true },
+            { text: "Do algorytmu Kruskala.", isCorrect: false },
+            { text: "Do algorytmu Bellmana-Forda.", isCorrect: false },
+            { text: "Do algorytmu Floyda-Warshalla.", isCorrect: false }
+        ]
+    },
+    {
+        id: 712,
+        category: "MST: Zbiory rozłączne",
+        text: "Które heurystyki przyspieszają operacje na strukturze zbiorów rozłącznych?",
+        options: [
+            { text: "Łączenie według rangi (Union by rank).", isCorrect: true },
+            { text: "Kompresja ścieżki (Path compression).", isCorrect: true },
+            { text: "Haszowanie dwukrotne.", isCorrect: false },
+            { text: "Sondowanie kwadratowe.", isCorrect: false }
+        ]
+    },
+    {
+        id: 713,
+        category: "Najkrótsze ścieżki: Relaksacja",
+        text: "Na czym polega operacja relaksacji krawędzi $(u,v)$?",
+        options: [
+            { text: "Sprawdza, czy dystans do $v$ można skrócić przez $u$, i jeśli tak — aktualizuje $d[v]$.", isCorrect: true },
+            { text: "Usuwa krawędź z grafu.", isCorrect: false },
+            { text: "Zamienia wagę krawędzi na wartość ujemną.", isCorrect: false },
+            { text: "Dodaje krawędź do drzewa MST.", isCorrect: false }
+        ]
+    },
+    {
+        id: 714,
+        category: "Algorytm Dijkstry",
+        text: "Jakich wag krawędzi wymaga algorytm Dijkstry, by działać poprawnie?",
+        options: [
+            { text: "Wyłącznie wag nieujemnych.", isCorrect: true },
+            { text: "Dowolnych wag, byle nie było ujemnych cykli.", isCorrect: false },
+            { text: "Wyłącznie wag całkowitych.", isCorrect: false },
+            { text: "Dowolnych wag, w tym ujemnych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 715,
+        category: "Algorytm Dijkstry",
+        text: "Dlaczego Dijkstra nie działa poprawnie na grafach z ujemnymi wagami?",
+        options: [
+            { text: "Bo po zdjęciu wierzchołka z kolejki priorytetowej algorytm uznaje jego dystans za ostateczny, co ujemna krawędź mogłaby podważyć.", isCorrect: true },
+            { text: "Bo kolejki priorytetowe nie mogą przechowywać ujemnych kluczy.", isCorrect: false },
+            { text: "Bo powoduje to dzielenie przez zero.", isCorrect: false },
+            { text: "Bo Dijkstra działa tylko na grafach nieskierowanych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 716,
+        category: "Algorytm Dijkstry",
+        text: "Jaka jest złożoność Dijkstry z użyciem kopca binarnego?",
+        options: [
+            { text: "$O((V+E)\\log V)$", isCorrect: true },
+            { text: "$O(V^2)$ zawsze niezależnie od implementacji.", isCorrect: false },
+            { text: "$O(V \\cdot E)$", isCorrect: false },
+            { text: "$O(E)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 717,
+        category: "Algorytm Bellmana-Forda",
+        text: "Ile iteracji relaksacji wszystkich krawędzi wykonuje główna pętla algorytmu Bellmana-Forda?",
+        options: [
+            { text: "$|V|-1$", isCorrect: true },
+            { text: "$|E|$", isCorrect: false },
+            { text: "$|V|$", isCorrect: false },
+            { text: "$|V|+|E|$", isCorrect: false }
+        ]
+    },
+    {
+        id: 718,
+        category: "Algorytm Bellmana-Forda",
+        text: "Jak Bellman-Ford wykrywa cykl o ujemnej wadze osiągalny ze źródła?",
+        options: [
+            { text: "Wykonuje dodatkowy przebieg relaksacji — jeśli jakikolwiek dystans wciąż maleje, istnieje ujemny cykl.", isCorrect: true },
+            { text: "Sprawdza, czy suma wszystkich wag jest ujemna.", isCorrect: false },
+            { text: "Zlicza liczbę krawędzi ujemnych w grafie.", isCorrect: false },
+            { text: "Nie potrafi wykryć ujemnych cykli.", isCorrect: false }
+        ]
+    },
+    {
+        id: 719,
+        category: "Algorytm Bellmana-Forda",
+        text: "Jaka jest przewaga Bellmana-Forda nad Dijkstrą?",
+        options: [
+            { text: "Obsługuje grafy z ujemnymi wagami krawędzi (bez ujemnych cykli osiągalnych).", isCorrect: true },
+            { text: "Ma niższą złożoność czasową.", isCorrect: false },
+            { text: "Nie wymaga inicjalizacji dystansów.", isCorrect: false },
+            { text: "Działa wyłącznie na grafach nieważonych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 720,
+        category: "Algorytm Floyda-Warshalla",
+        text: "Jaki problem rozwiązuje algorytm Floyda-Warshalla?",
+        options: [
+            { text: "Najkrótsze ścieżki między wszystkimi parami wierzchołków.", isCorrect: true },
+            { text: "Minimalne drzewo rozpinające.", isCorrect: false },
+            { text: "Maksymalny przepływ w sieci.", isCorrect: false },
+            { text: "Sortowanie topologiczne grafu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 721,
+        category: "Algorytm Floyda-Warshalla",
+        text: "Jaka jest złożoność czasowa Floyda-Warshalla?",
+        options: [
+            { text: "$\\Theta(V^3)$", isCorrect: true },
+            { text: "$\\Theta(V^2)$", isCorrect: false },
+            { text: "$\\Theta(V \\log V)$", isCorrect: false },
+            { text: "$\\Theta(E \\log V)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 722,
+        category: "Najkrótsze ścieżki w DAG",
+        text: "Jaki jest pierwszy krok przy wyznaczaniu najkrótszych ścieżek w grafie DAG?",
+        options: [
+            { text: "Posortowanie wierzchołków topologicznie.", isCorrect: true },
+            { text: "Zbudowanie kopca Fibonacciego.", isCorrect: false },
+            { text: "Zamiana wszystkich wag na wartości dodatnie.", isCorrect: false },
+            { text: "Uruchomienie BFS w celu sprawdzenia acykliczności.", isCorrect: false }
+        ]
+    },
+    {
+        id: 723,
+        category: "Najkrótsze ścieżki w DAG",
+        text: "Jaka jest złożoność czasowa wyznaczania najkrótszych ścieżek z jednego źródła w grafie DAG?",
+        options: [
+            { text: "$\\Theta(V+E)$", isCorrect: true },
+            { text: "$\\Theta(V^2)$", isCorrect: false },
+            { text: "$\\Theta(E \\log V)$", isCorrect: false },
+            { text: "$\\Theta(V^3)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 724,
+        category: "Sieci przepływowe",
+        text: "Co oznacza przepustowość krawędzi $c(u,v)$ w sieci przepływowej?",
+        options: [
+            { text: "Maksymalną wartość przepływu, jaka może być przesłana z $u$ do $v$.", isCorrect: true },
+            { text: "Minimalny wymagany przepływ na krawędzi.", isCorrect: false },
+            { text: "Odległość między wierzchołkami $u$ i $v$.", isCorrect: false },
+            { text: "Liczbę ścieżek między $u$ i $v$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 725,
+        category: "Sieci przepływowe",
+        text: "Czym jest ścieżka powiększająca (augmenting path)?",
+        options: [
+            { text: "Ścieżką ze źródła $s$ do ujścia $t$ w grafie residualnym, wzdłuż której można zwiększyć przepływ.", isCorrect: true },
+            { text: "Najkrótszą ścieżką w grafie DAG.", isCorrect: false },
+            { text: "Ścieżką w drzewie MST o najmniejszym koszcie.", isCorrect: false },
+            { text: "Cyklem Eulera w sieci.", isCorrect: false }
+        ]
+    },
+    {
+        id: 726,
+        category: "Sieci przepływowe",
+        text: "Do czego służy algorytm Forda-Fulkersona?",
+        options: [
+            { text: "Do znajdowania maksymalnego przepływu w sieci przepływowej.", isCorrect: true },
+            { text: "Do znajdowania najkrótszej ścieżki w sieci o ujemnych wagach.", isCorrect: false },
+            { text: "Do budowy minimalnego drzewa rozpinającego.", isCorrect: false },
+            { text: "Do sprawdzania, czy graf jest dwudzielny.", isCorrect: false }
+        ]
+    },
+    {
+        id: 727,
+        category: "Sieci przepływowe",
+        text: "Na czym polega Twierdzenie Max-Flow Min-Cut?",
+        options: [
+            { text: "Wartość maksymalnego przepływu jest równa pojemności minimalnego przekroju w sieci.", isCorrect: true },
+            { text: "Maksymalny przepływ jest zawsze równy sumie wag wszystkich krawędzi.", isCorrect: false },
+            { text: "Minimalny przekrój zawsze zawiera dokładnie jedną krawędź.", isCorrect: false },
+            { text: "Dotyczy wyłącznie grafów acyklicznych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 728,
+        category: "Sieci przepływowe",
+        text: "Czym różni się Edmonds-Karp od klasycznego Forda-Fulkersona?",
+        options: [
+            { text: "Do szukania ścieżek powiększających używa BFS (najkrótsza ścieżka), co gwarantuje złożoność wielomianową.", isCorrect: true },
+            { text: "Używa Dijkstry z kopcem Fibonacciego.", isCorrect: false },
+            { text: "Sortuje krawędzie malejąco przed każdą iteracją.", isCorrect: false },
+            { text: "Wprowadza losowe wagi krawędzi.", isCorrect: false }
+        ]
+    },
+    {
+        id: 729,
+        category: "Skojarzenia w grafach dwudzielnych",
+        text: "Jak sprowadza się problem maksymalnego skojarzenia w grafie dwudzielnym do problemu przepływu?",
+        options: [
+            { text: "Dodaje się super-źródło połączone z lewym zbiorem i super-ujście połączone z prawym zbiorem, każde krawędzią o pojemności 1.", isCorrect: true },
+            { text: "Ustawia się wszystkie wagi krawędzi na $\\infty$.", isCorrect: false },
+            { text: "Usuwa się wszystkie krawędzie powrotne.", isCorrect: false },
+            { text: "Łączy się wszystkie wierzchołki w jeden cykl.", isCorrect: false }
+        ]
+    },
+    {
+        id: 730,
+        category: "Algorytmy tekstowe: naiwny",
+        text: "Jaka jest pesymistyczna złożoność naiwnego algorytmu wyszukiwania wzorca o długości $m$ w tekście o długości $n$?",
+        options: [
+            { text: "$O((n-m+1)\\cdot m)$", isCorrect: true },
+            { text: "$O(n+m)$", isCorrect: false },
+            { text: "$O(n \\log m)$", isCorrect: false },
+            { text: "$O(n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 731,
+        category: "Algorytmy tekstowe: Rabin-Karp",
+        text: "Na czym opiera się algorytm Rabina-Karpa?",
+        options: [
+            { text: "Na porównywaniu skrótów (hashy) okna tekstu ze skrótem wzorca, przy użyciu rolling hash.", isCorrect: true },
+            { text: "Na budowie automatu skończonego dla wzorca.", isCorrect: false },
+            { text: "Na przesuwaniu wzorca od prawej do lewej strony.", isCorrect: false },
+            { text: "Na budowie drzewa przedziałowego dla tekstu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 732,
+        category: "Algorytmy tekstowe: Rabin-Karp",
+        text: "Czym jest fałszywe trafienie (spurious hit) w Rabinie-Karpie?",
+        options: [
+            { text: "Sytuacją, gdy hashe się zgadzają, ale rzeczywiste ciągi znaków są różne.", isCorrect: true },
+            { text: "Błędem obliczenia funkcji modulo.", isCorrect: false },
+            { text: "Sytuacją, gdy wzorzec nie zostaje odnaleziony wcale.", isCorrect: false },
+            { text: "Przepełnieniem bufora tekstu.", isCorrect: false }
+        ]
+    },
+    {
+        id: 733,
+        category: "Algorytmy tekstowe: KMP",
+        text: "Co eliminuje algorytm KMP w porównaniu do wyszukiwania naiwnego?",
+        options: [
+            { text: "Konieczność cofania wskaźnika w przeglądanym tekście.", isCorrect: true },
+            { text: "Konieczność znajomości wzorca przed uruchomieniem.", isCorrect: false },
+            { text: "Potrzebę porównywania jakichkolwiek znaków.", isCorrect: false },
+            { text: "Wrażliwość na wielkość liter.", isCorrect: false }
+        ]
+    },
+    {
+        id: 734,
+        category: "Algorytmy tekstowe: KMP",
+        text: "Co przechowuje tablica $\\pi[q]$ (funkcja prefiksowa) w algorytmie KMP?",
+        options: [
+            { text: "Długość najdłuższego właściwego prefiksu wzorca, będącego jednocześnie jego sufiksem do pozycji $q$.", isCorrect: true },
+            { text: "Indeks, o który przesuwane jest okno tekstu.", isCorrect: false },
+            { text: "Liczbę powtórzeń danego znaku we wzorcu.", isCorrect: false },
+            { text: "Pozycję ostatniego wystąpienia znaku w alfabecie.", isCorrect: false }
+        ]
+    },
+    {
+        id: 735,
+        category: "Algorytmy tekstowe: KMP",
+        text: "Jaka jest złożoność czasowa samego wyszukiwania (bez budowy tablicy $\\pi$) w algorytmie KMP?",
+        options: [
+            { text: "$\\Theta(n)$", isCorrect: true },
+            { text: "$\\Theta(nm)$", isCorrect: false },
+            { text: "$\\Theta(n \\log m)$", isCorrect: false },
+            { text: "$\\Theta(m^2)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 736,
+        category: "Algorytmy tekstowe: Boyer-Moore",
+        text: "Z jakich heurystyk korzysta algorytm Boyera-Moore'a?",
+        options: [
+            { text: "Heurystyki złego znaku (bad character).", isCorrect: true },
+            { text: "Heurystyki dobrego sufiksu (good suffix).", isCorrect: true },
+            { text: "Tablicy prefikso-sufiksowej $\\pi$.", isCorrect: false },
+            { text: "Rolling hash.", isCorrect: false }
+        ]
+    },
+    {
+        id: 737,
+        category: "Algorytmy tekstowe: Boyer-Moore",
+        text: "W jakim kierunku Boyer-Moore porównuje znaki wzorca z tekstem?",
+        options: [
+            { text: "Od prawej do lewej strony wzorca.", isCorrect: true },
+            { text: "Od lewej do prawej strony wzorca.", isCorrect: false },
+            { text: "Od środka wzorca w obie strony.", isCorrect: false },
+            { text: "Kolejność jest losowa.", isCorrect: false }
+        ]
+    },
+    {
+        id: 738,
+        category: "Kompresja: Huffman",
+        text: "Jakie kody generuje algorytm Huffmana?",
+        options: [
+            { text: "Kody prefiksowe — żadne słowo kodowe nie jest przedrostkiem innego.", isCorrect: true },
+            { text: "Kody o stałej długości.", isCorrect: false },
+            { text: "Kody słownikowe jak w LZW.", isCorrect: false },
+            { text: "Kody wymagające dwukrotnego przejścia przez plik.", isCorrect: false }
+        ]
+    },
+    {
+        id: 739,
+        category: "Kompresja: Huffman",
+        text: "Jakiej struktury danych używa algorytm Huffmana do budowy drzewa kodowego?",
+        options: [
+            { text: "Kolejki priorytetowej (Min-Heap).", isCorrect: true },
+            { text: "Stosu.", isCorrect: false },
+            { text: "Drzewa BST.", isCorrect: false },
+            { text: "Tablicy haszującej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 740,
+        category: "Kompresja: Huffman",
+        text: "Jak w optymalnym kodzie Huffmana wygląda kod dla znaku występującego bardzo często?",
+        options: [
+            { text: "Otrzymuje krótki kod bitowy.", isCorrect: true },
+            { text: "Otrzymuje długi kod bitowy.", isCorrect: false },
+            { text: "Ma taką samą długość kodu jak wszystkie inne znaki.", isCorrect: false },
+            { text: "Nie jest w ogóle kodowany.", isCorrect: false }
+        ]
+    },
+    {
+        id: 741,
+        category: "Kompresja: LZW",
+        text: "Na czym polega główna idea kompresji LZW?",
+        options: [
+            { text: "Buduje słownik ciągów znaków w locie, bez potrzeby jego wcześniejszej znajomości.", isCorrect: true },
+            { text: "Wymaga dwukrotnego przejścia przez plik: policzenia częstości, a potem kodowania.", isCorrect: false },
+            { text: "Generuje zawsze optymalne drzewo binarne minimalizujące entropię.", isCorrect: false },
+            { text: "Działa wyłącznie na danych multimedialnych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 742,
+        category: "Kompresja: teoria informacji",
+        text: "Co określa entropia Shannona w kontekście kompresji tekstu?",
+        options: [
+            { text: "Teoretyczną dolną granicę średniej liczby bitów potrzebnych do zakodowania jednego symbolu.", isCorrect: true },
+            { text: "Dokładny rozmiar skompresowanego pliku w bajtach.", isCorrect: false },
+            { text: "Liczbę węzłów w drzewie Huffmana.", isCorrect: false },
+            { text: "Współczynnik kompresji obrazów rastrowych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 743,
+        category: "Algorytmy zrandomizowane",
+        text: "Jaki rodzaj czasu działania bada się najczęściej dla algorytmów zrandomizowanych?",
+        options: [
+            { text: "Oczekiwany (expected) czas działania.", isCorrect: true },
+            { text: "Czas amortyzowany.", isCorrect: false },
+            { text: "Dokładny czas pesymistyczny.", isCorrect: false },
+            { text: "Czas optymistyczny.", isCorrect: false }
+        ]
+    },
+    {
+        id: 744,
+        category: "Algorytmy zrandomizowane",
+        text: "W jakim celu stosuje się randomizację w algorytmach takich jak Randomized Quicksort?",
+        options: [
+            { text: "Aby uniezależnić zachowanie algorytmu od konkretnego, np. pesymistycznego, ułożenia danych wejściowych.", isCorrect: true },
+            { text: "Aby zagwarantować zawsze optymalny czas wykonania.", isCorrect: false },
+            { text: "Aby zmniejszyć złożoność pamięciową do zera.", isCorrect: false },
+            { text: "Aby pominąć etap porównywania elementów.", isCorrect: false }
+        ]
+    },
+    {
+        id: 745,
+        category: "Architektury równoległe",
+        text: "Co charakteryzuje architekturę SIMD w taksonomii Flynna?",
+        options: [
+            { text: "Jeden strumień instrukcji jest wykonywany równocześnie na wielu różnych danych.", isCorrect: true },
+            { text: "Wiele procesorów wykonuje różne instrukcje na tych samych danych.", isCorrect: false },
+            { text: "Jeden procesor wykonuje jedną instrukcję na jednych danych.", isCorrect: false },
+            { text: "Wiele niezależnych strumieni instrukcji operuje na różnych danych.", isCorrect: false }
+        ]
+    },
+    {
+        id: 746,
+        category: "Architektury równoległe",
+        text: "Co oznacza skrót PRAM?",
+        options: [
+            { text: "Parallel Random Access Machine — abstrakcyjny model komputera z wieloma procesorami dzielącymi wspólną pamięć.", isCorrect: true },
+            { text: "Program Random Access Memory.", isCorrect: false },
+            { text: "Parallel Recursive Algorithm Model.", isCorrect: false },
+            { text: "Process Ranking And Memory.", isCorrect: false }
+        ]
+    },
+    {
+        id: 747,
+        category: "Podstawy",
+        text: "Czym różni się algorytm stabilny od niestabilnego przy sortowaniu?",
+        options: [
+            { text: "Stabilny zachowuje względną kolejność elementów o równych kluczach.", isCorrect: true },
+            { text: "Stabilny działa szybciej niż niestabilny.", isCorrect: false },
+            { text: "Stabilny zawsze sortuje w miejscu.", isCorrect: false },
+            { text: "Niestabilny zawsze ma złożoność $O(n^2)$.", isCorrect: false }
+        ]
+    },
+    {
+        id: 748,
+        category: "Podstawy",
+        text: "Co oznacza, że algorytm sortuje \"w miejscu\" (in-place)?",
+        options: [
+            { text: "Wymaga tylko stałej ilości dodatkowej pamięci ($O(1)$).", isCorrect: true },
+            { text: "Nigdy nie zamienia elementów miejscami.", isCorrect: false },
+            { text: "Działa wyłącznie na tablicach jednoelementowych.", isCorrect: false },
+            { text: "Wymaga dokładnie takiej samej pamięci jak rozmiar danych wejściowych razy 2.", isCorrect: false }
+        ]
+    },
+    {
+        id: 749,
+        category: "Podstawy",
+        text: "Jaka jest złożoność dostępu do $i$-tego elementu w zwykłej tablicy (znając indeks)?",
+        options: [
+            { text: "$O(1)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(\\log n)$", isCorrect: false },
+            { text: "$O(n^2)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 750,
+        category: "Podstawy",
+        text: "Który z algorytmów NIE jest algorytmem sortowania?",
+        options: [
+            { text: "Dijkstra.", isCorrect: true },
+            { text: "Quicksort.", isCorrect: false },
+            { text: "Merge Sort.", isCorrect: false },
+            { text: "Heapsort.", isCorrect: false }
+        ]
+    },
+    {
+        id: 751,
+        category: "Podstawy",
+        text: "Ile wynosi $\\log_2 1024$?",
+        options: [
+            { text: "10", isCorrect: true },
+            { text: "8", isCorrect: false },
+            { text: "16", isCorrect: false },
+            { text: "1024", isCorrect: false }
+        ]
+    },
+    {
+        id: 752,
+        category: "Podstawy",
+        text: "Czym jest korzeń w strukturze drzewa?",
+        options: [
+            { text: "Jedynym węzłem, który nie ma rodzica.", isCorrect: true },
+            { text: "Węzłem bez dzieci.", isCorrect: false },
+            { text: "Dowolnym węzłem wewnętrznym.", isCorrect: false },
+            { text: "Węzłem o największej wartości.", isCorrect: false }
+        ]
+    },
+    {
+        id: 753,
+        category: "Podstawy",
+        text: "Czym jest liść w strukturze drzewa?",
+        options: [
+            { text: "Węzłem, który nie posiada żadnych dzieci.", isCorrect: true },
+            { text: "Węzłem znajdującym się bezpośrednio pod korzeniem.", isCorrect: false },
+            { text: "Węzłem o najmniejszej wartości w drzewie.", isCorrect: false },
+            { text: "Węzłem z dokładnie jednym dzieckiem.", isCorrect: false }
+        ]
+    },
+    {
+        id: 754,
+        category: "Podstawy",
+        text: "Ile maksymalnie dzieci może mieć węzeł w drzewie binarnym?",
+        options: [
+            { text: "2", isCorrect: true },
+            { text: "1", isCorrect: false },
+            { text: "3", isCorrect: false },
+            { text: "Dowolnie wiele.", isCorrect: false }
+        ]
+    },
+    {
+        id: 755,
+        category: "Podstawy",
+        text: "Czym jest rekurencja?",
+        options: [
+            { text: "Sytuacją, w której funkcja wywołuje samą siebie.", isCorrect: true },
+            { text: "Powtarzaniem pętli `for` bez warunku stopu.", isCorrect: false },
+            { text: "Wykonywaniem programu wielowątkowo.", isCorrect: false },
+            { text: "Zapisem danych na dysku.", isCorrect: false }
+        ]
+    },
+    {
+        id: 756,
+        category: "Podstawy",
+        text: "Co gwarantuje, że algorytm rekurencyjny się zakończy?",
+        options: [
+            { text: "Istnienie przypadku bazowego (warunku stopu).", isCorrect: true },
+            { text: "Użycie pętli `while`.", isCorrect: false },
+            { text: "Sortowanie danych wejściowych.", isCorrect: false },
+            { text: "Zastosowanie tablicy haszującej.", isCorrect: false }
+        ]
+    },
+    {
+        id: 757,
+        category: "Podstawy",
+        text: "Który typ złożoności jest najgorszy (rośnie najszybciej)?",
+        options: [
+            { text: "$O(n!)$", isCorrect: true },
+            { text: "$O(2^n)$", isCorrect: false },
+            { text: "$O(n^3)$", isCorrect: false },
+            { text: "$O(n \\log n)$", isCorrect: false }
+        ]
+    },
+    {
+        id: 758,
+        category: "Podstawy",
+        text: "Jaką strategię reprezentuje podejście \"dziel i zwyciężaj\"?",
+        options: [
+            { text: "Podział problemu na mniejsze podproblemy, rozwiązanie ich rekurencyjnie i połączenie wyników.", isCorrect: true },
+            { text: "Zachłanne podejmowanie lokalnie najlepszej decyzji na każdym kroku.", isCorrect: false },
+            { text: "Zapamiętywanie wyników podproblemów w tablicy.", isCorrect: false },
+            { text: "Losowe przeszukiwanie przestrzeni rozwiązań.", isCorrect: false }
+        ]
+    },
+    {
+        id: 759,
+        category: "Podstawy",
+        text: "Które algorytmy opierają się na strategii \"dziel i zwyciężaj\"?",
+        options: [
+            { text: "Merge Sort.", isCorrect: true },
+            { text: "Quicksort.", isCorrect: true },
+            { text: "Wyszukiwanie binarne.", isCorrect: true },
+            { text: "Bubble Sort.", isCorrect: false }
+        ]
+    },
+    {
+        id: 760,
+        category: "Podstawy",
+        text: "Jaki jest podstawowy warunek stosowania wyszukiwania binarnego?",
+        options: [
+            { text: "Tablica musi być posortowana.", isCorrect: true },
+            { text: "Tablica musi mieć nieparzystą liczbę elementów.", isCorrect: false },
+            { text: "Szukana wartość musi być liczbą całkowitą.", isCorrect: false },
+            { text: "Tablica nie może zawierać duplikatów.", isCorrect: false }
+        ]
+    },
+    {
+        id: 761,
+        category: "Podstawy",
+        text: "Jaka jest złożoność wyszukiwania binarnego?",
+        options: [
+            { text: "$O(\\log n)$", isCorrect: true },
+            { text: "$O(n)$", isCorrect: false },
+            { text: "$O(1)$", isCorrect: false },
+            { text: "$O(n \\log n)$", isCorrect: false }
         ]
     }
     ];
