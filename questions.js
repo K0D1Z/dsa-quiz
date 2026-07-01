@@ -4723,28 +4723,6 @@ const questionDatabase = [
         ]
     },
     {
-        id: 453,
-        category: "Modele PRAM: podtypy CRCW",
-        text: "Jak działa podtyp 'Arbitrary' w modelu CRCW?",
-        options: [
-            { text: "Przy konflikcie zapisu losowo wybierany procesor wygrywa dostęp.", isCorrect: true },
-            { text: "Wszyscy muszą zapisać tę samą wartość.", isCorrect: false },
-            { text: "Wygrywa procesor o najwyższym priorytecie.", isCorrect: false },
-            { text: "Zapis jest zabroniony.", isCorrect: false }
-        ]
-    },
-    {
-        id: 454,
-        category: "Modele PRAM: podtypy CRCW",
-        text: "Jak działa podtyp 'Priority' w modelu CRCW?",
-        options: [
-            { text: "Przy konflikcie zapisu wygrywa procesor z najwyższym priorytetem.", isCorrect: true },
-            { text: "Wygrywa losowo wybrany procesor.", isCorrect: false },
-            { text: "Wszyscy muszą zapisać tę samą wartość.", isCorrect: false },
-            { text: "Żaden zapis się nie odbywa.", isCorrect: false }
-        ]
-    },
-    {
         id: 455,
         category: "Powtórka: sortowanie",
         text: "Który algorytm sortowania jednocześnie gwarantuje $O(n\\log n)$ w najgorszym przypadku i sortuje w miejscu ($O(1)$ pamięci)?",
