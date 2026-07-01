@@ -343,7 +343,7 @@ const STORAGE_KEY = 'aisd_quiz_progress_v1';
 
 function defaultState() {
   return {
-    study: { pageIndex: 0, totalScore: 0, wrongIndices: [], finished: false },
+    study: { pageIndex: 0, totalScore: 0, wrongIndices: [], finished: false, shuffledIndices: null },
     exam: {
       active: false, finished: false, questionIndices: [], answers: {},
       startTs: null, endTs: null, wrongIndices: [], lastScore: null
@@ -556,16 +556,22 @@ const STUDY_PAGE_SIZE = 20;
 function studyTotalPages() { return Math.ceil(questionDatabase.length / STUDY_PAGE_SIZE); }
 
 function currentStudyIndices() {
+  const order = appState.study.shuffledIndices || questionDatabase.map((_, i) => i);
   const start = appState.study.pageIndex * STUDY_PAGE_SIZE;
-  const end = Math.min(start + STUDY_PAGE_SIZE, questionDatabase.length);
+  const end = Math.min(start + STUDY_PAGE_SIZE, order.length);
   const out = [];
-  for (let i = start; i < end; i++) out.push(i);
+  for (let i = start; i < end; i++) out.push(order[i]);
   return out;
 }
 
 function startStudyMode(fresh) {
   if (!ensureDatabase()) return;
-  if (fresh) appState.study = defaultState().study;
+  if (fresh) {
+    appState.study = defaultState().study;
+    appState.study.shuffledIndices = shuffleArray(
+      questionDatabase.map((_, i) => i)
+    );
+  }
   saveState();
   showScreen('study-screen');
   renderStudyPage();
